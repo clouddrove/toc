@@ -39,7 +39,7 @@ func fetchAllUserMigrations() ([]*github.Repository) {
 func main() {
 	var buffer bytes.Buffer
 	migrations := fetchAllUserMigrations()
-	buffer.WriteString("# Table of Contents for All Clouddrove Packages and Tools\n\n")
+	buffer.WriteString("# TOC of All Clouddrove Packages and Tools\n\n")
 	buffer.WriteString("This repo is a useful way to discover all [Clouddrove](https://clouddrove.com) developed and maintained repositories. It is mainly designed for clients of Clouddrove.\n\n")
 	var terraform_packages = "" 
 	var ansible_packages = "" 
@@ -49,13 +49,28 @@ func main() {
 	var tool_num = 1 
 	for _, m := range migrations {
 		if(strings.HasPrefix(m.GetName(), "terraform-")){
-			terraform_packages = terraform_packages + strconv.Itoa(terraform_num) + ". **["+m.GetName()+"]("+m.GetHTMLURL()+"):** "+m.GetDescription()+"\n"
+			terraform_packages = terraform_packages + strconv.Itoa(terraform_num) + ". **["+m.GetName()+"]("+m.GetHTMLURL()+")"
+			if(m.GetDescription() != ""){
+				terraform_packages = terraform_packages + ":** "+m.GetDescription()+"\n"
+			} else{
+				terraform_packages = terraform_packages + "**\n"
+			}
 			terraform_num = terraform_num + 1
 		} else if(strings.HasPrefix(m.GetName(), "ansible-")){
-			ansible_packages = ansible_packages + strconv.Itoa(ansible_num) + ". **["+m.GetName()+"]("+m.GetHTMLURL()+"):** "+m.GetDescription()+"\n"
+			ansible_packages = ansible_packages + strconv.Itoa(ansible_num) + ". **["+m.GetName()+"]("+m.GetHTMLURL()+")"
+			if(m.GetDescription() != ""){
+				ansible_packages = ansible_packages + ":** "+m.GetDescription()+"\n"
+			} else{
+				ansible_packages = ansible_packages + "**\n"
+			}
 			ansible_num = ansible_num + 1
 		} else if(m.GetName() == "genie" || m.GetName() == "aladdin" || m.GetName() == "slack-ssh-notifier"){
-			tool_packages = tool_packages + strconv.Itoa(tool_num) + ". **["+m.GetName()+"]("+m.GetHTMLURL()+"):** "+m.GetDescription()+"\n"
+			tool_packages = tool_packages + strconv.Itoa(tool_num) + ". **["+m.GetName()+"]("+m.GetHTMLURL()+")"
+			if(m.GetDescription() != ""){
+				tool_packages = tool_packages + ":** "+m.GetDescription()+"\n"
+			} else{
+				tool_packages = tool_packages + "**\n"
+			}
 			tool_num = tool_num + 1
 		}
 	}
