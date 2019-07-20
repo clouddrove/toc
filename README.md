@@ -1,6 +1,6 @@
 # TOC of All CloudDrove Packages and Tools
 
-This repo is a useful way to discover all [CloudDrove](https://clouddrove.com) developed and maintained repositories. It is mainly designed for clients of Clouddrove.
+This repo is a useful way to discover all [CloudDrove](https://clouddrove.com) developed and maintained repositories. It is mainly designed for clients of CloudDrove.
 
 ## Terraform Packages
 
