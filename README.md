@@ -4,7 +4,7 @@ This repo is a useful way to discover all [CloudDrove](https://clouddrove.com) d
 
 ## Terraform Packages
 
-These are the Terraform packages which currently Clouddrove have
+These are the Terraform packages which currently CloudDrove have
 
 1. **[terraform-github-users](https://github.com/clouddrove/terraform-github-users)**
 2. **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc):** Terraform module to create autoscaling ,workers,eks-clusters.
