@@ -54,7 +54,7 @@ These are the Terraform packages which currently CloudDrove have
 
 ## Ansible Packages
 
-These are the Ansible packages which currently Clouddrove have
+These are the Ansible packages which currently CloudDrove have
 
 1. **[ansible-commands](https://github.com/clouddrove/ansible-commands):** Ansible Commands
 2. **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker):** Ansible Role - Docker
@@ -76,9 +76,9 @@ These are the Ansible packages which currently Clouddrove have
 18. **[ansible-modules](https://github.com/clouddrove/ansible-modules):** Repo contains all ansible modules 
 19. **[ansible-role-docker-superset](https://github.com/clouddrove/ansible-role-docker-superset)**
 
-## Clouddrove Internal Tools
+## CloudDrove Internal Tools
 
-These are some internal tools which currently Clouddrove have
+These are some internal tools which currently CloudDrove have
 
 1. **[genie](https://github.com/clouddrove/genie)**
 2. **[aladdin](https://github.com/clouddrove/aladdin)**
