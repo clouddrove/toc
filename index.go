@@ -14,7 +14,7 @@ import (
 func fetchAllUserMigrations() ([]*github.Repository) {
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: "875bc57877f615dd985481c9ffe7f1148b7ee14e"},
+		&oauth2.Token{AccessToken: "875bc57877f615dd9854dfrgth81c9ffe7f1148b7ee14e"},
 	)
 	tc := oauth2.NewClient(ctx, ts)
 	client := github.NewClient(tc)
