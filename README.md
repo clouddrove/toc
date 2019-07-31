@@ -56,7 +56,7 @@ CloudDrove offers the below terraform modules:
 
 ## Ansible Packages
 
-These are the Ansible packages which currently Clouddrove have
+CloudDrove offers the below ansible roles:
 
 1. **[ansible-commands](https://github.com/clouddrove/ansible-commands):** This repository is used to understand how to use ansible commands.
 2. **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker):** This ansible role installs docker at Debian.
@@ -84,7 +84,7 @@ These are the Ansible packages which currently Clouddrove have
 
 ## Docker Packages
 
-These are the Docker packages which currently CloudDrove have
+CloudDrove offers the below docker packages:
 
 1. **[docker-elasticsearch](https://github.com/clouddrove/docker-elasticsearch)**: This repository is used to dockerize elasticsearch.
 2. **[docker-terraform](https://github.com/clouddrove/docker-terraform):** Running terraform using docker for better CI/CD
@@ -92,7 +92,7 @@ These are the Docker packages which currently CloudDrove have
 
 ## Clouddrove Internal Tools
 
-These are some internal tools which currently Clouddrove have
+CloudDrove offers the below internal tools:
 
 1. **[genie](https://github.com/clouddrove/genie):** This repository is a collection of Makefiles to facilitate some task easily like dynamic readme, terraform and git related.
 2. **[aladdin](https://github.com/clouddrove/aladdin):** This repository is a collection of packages which can be installed directly by a single command on Debian(Linux) and Darwin(Mac) bases.
