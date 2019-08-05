@@ -80,9 +80,9 @@ CloudDrove offers the below ansible roles:
 
 CloudDrove offers the below docker packages:
 
-1. **[docker-elasticsearch](https://github.com/clouddrove/docker-elasticsearch)**: This repository is used to dockerize elasticsearch.
-2. **[docker-terraform](https://github.com/clouddrove/docker-terraform):** Running terraform using docker for better CI/CD
-3. **[docker-pritunl](https://github.com/clouddrove/docker-pritunl):** Virtualize your private networks across datacenters
+1. **[docker-elasticsearch](https://github.com/clouddrove/docker-elasticsearch)**
+2. **[docker-terraform](https://github.com/clouddrove/docker-terraform)**
+3. **[docker-pritunl](https://github.com/clouddrove/docker-pritunl)**
 
 ## Clouddrove Internal Tools
 
