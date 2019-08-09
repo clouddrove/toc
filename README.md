@@ -6,13 +6,13 @@ This repo is a useful way to discover all [CloudDrove](https://clouddrove.com) d
 
 CloudDrove offers the below terraform modules:
 
-1. **[terraform-github-users](https://github.com/clouddrove/terraform-github-users):** Terraform module to manage github users 
+1. **[terraform-github-users](https://github.com/clouddrove/terraform-github-users):** Terraform module to manage github users.
 2. **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc):** Terraform module to create VPC resource on AWS.
 3. **[terraform-aws-acm](https://github.com/clouddrove/terraform-aws-acm):** This terraform module is used for requesting or importing SSL/TLS certificate with validation.
 4. **[terraform-aws-keypair](https://github.com/clouddrove/terraform-aws-keypair):** Terraform module for generating or importing an SSH public key file into AWS.
 5. **[terraform-aws-production-access-role](https://github.com/clouddrove/terraform-aws-production-access-role):** This terraform module is used for creating an IAM Role which can give permission to another AWS account for accessing it's inventory.
 6. **[terraform-aws-cross-account-role](https://github.com/clouddrove/terraform-aws-cross-account-role):** This terraform module is used to create an IAM Role to access another AWS account inventory.
-7. **[terraform-aws-public-subnet](https://github.com/clouddrove/terraform-aws-public-subnet):** Terraform module for public subnets provisioning
+7. **[terraform-aws-public-subnet](https://github.com/clouddrove/terraform-aws-public-subnet):** Terraform module for public subnets provisioning.
 8. **[terraform-labels](https://github.com/clouddrove/terraform-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 9. **[terraform-aws-ecr](https://github.com/clouddrove/terraform-aws-ecr):** This terraform module is used to create ECR on AWS for store docker images.
 10. **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3):** Terraform module to create default S3 bucket with logging and encryption type specific features.
@@ -25,7 +25,7 @@ CloudDrove offers the below terraform modules:
 17. **[terraform-aws-aurora](https://github.com/clouddrove/terraform-aws-aurora):** Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL.
 18. **[terraform-aws-elasticache-redis](https://github.com/clouddrove/terraform-aws-elasticache-redis):** This terraform module creates Elasticache standalone server for Redis on AWS.
 19. **[terraform-aws-elasticache-redis-cluster](https://github.com/clouddrove/terraform-aws-elasticache-redis-cluster):** This terraform module creates Elasticache multiple replica for Redis on AWS.
-20. **[terraform-digitalocean](https://github.com/clouddrove/terraform-digitalocean):** Terraform module to manage Digital Ocean Account 
+20. **[terraform-digitalocean](https://github.com/clouddrove/terraform-digitalocean):** Terraform module to manage Digital Ocean Account.
 21. **[terraform-digitalocean-k8s](https://github.com/clouddrove/terraform-digitalocean-k8s):** A terraform module for managing and creating a Kubernetes cluster on digital ocean.
 22. **[terraform-aws-ses](https://github.com/clouddrove/terraform-aws-ses):** Terraform module to create an SES Identity with SES IAM user on AWS.
 23. **[terraform-aws-vpn](https://github.com/clouddrove/terraform-aws-vpn):** Terraform module is used to create VPN resource on AWS for network connectivity.
@@ -35,7 +35,7 @@ CloudDrove offers the below terraform modules:
 27. **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet):** Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
 28. **[terraform-aws-sns](https://github.com/clouddrove/terraform-aws-sns):** Terraform module is used to setup SNS service to manage notifications on application.
 29. **[terraform-aws-bastion](https://github.com/clouddrove/terraform-aws-bastion):** Terraform module to deploy bastion host on AWS.
-30. **[terraform-aws-eks](https://github.com/clouddrove/terraform-aws-eks):** Terraform module for provisioning an EKS cluster
+30. **[terraform-aws-eks](https://github.com/clouddrove/terraform-aws-eks):** Terraform module for provisioning an EKS cluster.
 31. **[terraform-aws-eks-workers](https://github.com/clouddrove/terraform-aws-eks-workers):** Terraform module to provision an AWS AutoScaling Group, IAM Role, and Security Group for EKS Workers.
 32. **[terraform-aws-autoscaling](https://github.com/clouddrove/terraform-aws-autoscaling):** Terraform module to provision Auto Scaling Group and Launch Template on AWS.
 33. **[terraform-aws-kms](https://github.com/clouddrove/terraform-aws-kms):** This terraform module creates a KMS Customer Master Key (CMK) and its alias.
@@ -49,7 +49,7 @@ CloudDrove offers the below terraform modules:
 41. **[terraform-aws-cloudwatch-alarms](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms):** Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 42. **[terraform-aws-elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk):** Terraform module to deploy Elastic Beanstalk resource on AWS.
 43. **[terraform-aws-iam](https://github.com/clouddrove/terraform-aws-iam):** Terraform module to create IAM role resource on AWS.
-44. **[terraform-aws-baseline](https://github.com/clouddrove/terraform-aws-baseline):** Internal repo for testing terraform modules 
+44. **[terraform-aws-baseline](https://github.com/clouddrove/terraform-aws-baseline):** Internal repo for testing terraform modules.
 
 ## Ansible Packages
 
@@ -59,7 +59,7 @@ CloudDrove offers the below ansible roles:
 2. **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker):** This ansible role installs docker at Debian.
 3. **[ansible-role-common](https://github.com/clouddrove/ansible-role-common):** This ansible role installs common packages for Debian.
 4. **[ansible-role-redis](https://github.com/clouddrove/ansible-role-redis):** This ansible role is used to install Redis server on Debian.
-5. **[ansible-role-keys](https://github.com/clouddrove/ansible-role-keys):** Ansible role to manage keys
+5. **[ansible-role-keys](https://github.com/clouddrove/ansible-role-keys):** Ansible role to manage keys.
 6. **[ansible-role-php](https://github.com/clouddrove/ansible-role-php):** This ansible role is used to install PHP server on Debian.
 7. **[ansible-role-jenkins-agent](https://github.com/clouddrove/ansible-role-jenkins-agent):** This ansible role is used to install Jenkins Agent on Debian.
 8. **[ansible-role-docker-php](https://github.com/clouddrove/ansible-role-docker-php):** This ansible ro used to install PHP with docker on Debian.
@@ -68,14 +68,14 @@ CloudDrove offers the below ansible roles:
 11. **[ansible-role-docker-mysql](https://github.com/clouddrove/ansible-role-docker-mysql):** This ansible role is used for formation of MySQL server with docker on Debian.
 12. **[ansible-role-mongo-cluster](https://github.com/clouddrove/ansible-role-mongo-cluster):** This ansible role is used to setup Mongo cluster on Debian.
 13. **[ansible-role-docker-mongo-cluster](https://github.com/clouddrove/ansible-role-docker-mongo-cluster):** This ansible role is used to setup Mongo cluster with docker on Debian.
-14. **[ansible-role-solr](https://github.com/clouddrove/ansible-role-solr):** Ansible role to run setup solr  using docker 
+14. **[ansible-role-solr](https://github.com/clouddrove/ansible-role-solr):** Ansible role to run setup solr  using docker.
 15. **[ansible-role-logz-io](https://github.com/clouddrove/ansible-role-logz-io):** This ansible role is used to install logz.io tool dependency on Debian.
 16. **[ansible-role-nginx](https://github.com/clouddrove/ansible-role-nginx):** This ansible role is used to setup Redis server with docker on Debian.
 17. **[ansible-role-mount-efs](https://github.com/clouddrove/ansible-role-mount-efs):** This ansible role is used for installing & Mounting AWS EFS on Debian.
 18. **[ansible-role-user](https://github.com/clouddrove/ansible-role-user):** This ansible role is used to create users on server.
 19. **[ansible-role-redash](https://github.com/clouddrove/ansible-role-redash):** This ansible role is used for the installation of Redash tool on Debian.
 20. **[ansible-modules](https://github.com/clouddrove/ansible-modules):** This repo contains all ansible modules.
-21. **[ansible-role-gitlab-runner](https://github.com/clouddrove/ansible-role-gitlab-runner):** ansible role is used for installing gitlab runner
+21. **[ansible-role-gitlab-runner](https://github.com/clouddrove/ansible-role-gitlab-runner):** ansible role is used for installing gitlab runner.
 22. **[ansible-role-docker-superset](https://github.com/clouddrove/ansible-role-docker-superset):** This ansible role is used for installing Superset tool with docker on Debian.
 23. **[ansible-role-docker-metabase](https://github.com/clouddrove/ansible-role-docker-metabase):** This ansible role is used for installing Metabase tool with docker on Debian.
 
@@ -83,8 +83,8 @@ CloudDrove offers the below ansible roles:
 
 CloudDrove offers the below docker packages:
 
-1. **[docker-terraform](https://github.com/clouddrove/docker-terraform):** Running terraform using docker for better CI/CD
-2. **[docker-pritunl](https://github.com/clouddrove/docker-pritunl):** Virtualize your private networks across datacenters
+1. **[docker-terraform](https://github.com/clouddrove/docker-terraform):** Running terraform using docker for better CI/CD.
+2. **[docker-pritunl](https://github.com/clouddrove/docker-pritunl):** Virtualize your private networks across datacenters.
 
 ## CloudDrove Internal Tools
 
