@@ -5,13 +5,13 @@
 CloudDrove offers the below terraform modules:
 
 1. **[terraform-github-users](https://github.com/clouddrove/terraform-github-users):** Terraform module to manage github users.
-2. **[terraform-aws-vpc-old](https://github.com/clouddrove/terraform-aws-vpc-old):** Terraform module to create VPC resource on AWS.
+2. **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc):** Terraform module to create VPC resource on AWS.
 3. **[terraform-aws-acm](https://github.com/clouddrove/terraform-aws-acm):** This terraform module is used for requesting or importing SSL/TLS certificate with validation.
 4. **[terraform-aws-production-access-role](https://github.com/clouddrove/terraform-aws-production-access-role):** This terraform module is used for creating an IAM Role which can give permission to another AWS account for accessing it's inventory.
 5. **[terraform-aws-cross-account-role](https://github.com/clouddrove/terraform-aws-cross-account-role):** This terraform module is used to create an IAM Role to access another AWS account inventory.
 6. **[terraform-aws-public-subnet](https://github.com/clouddrove/terraform-aws-public-subnet):** Terraform module for public subnets provisioning.
 7. **[terraform-aws-ecr](https://github.com/clouddrove/terraform-aws-ecr):** This terraform module is used to create ECR on AWS for store docker images.
-8. **[terraform-aws-s3-old](https://github.com/clouddrove/terraform-aws-s3-old):** Terraform module to create default S3 bucket with logging and encryption type specific features.
+8. **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3):** Terraform module to create default S3 bucket with logging and encryption type specific features.
 9. **[terraform-aws-vpc-peering](https://github.com/clouddrove/terraform-aws-vpc-peering):** Terraform module to connect two VPC's on AWS.
 10. **[terraform-aws-ebs-volume](https://github.com/clouddrove/terraform-aws-ebs-volume):** Terraform module to get EBS volume resource on AWS.
 11. **[terraform-aws-cloudtrail](https://github.com/clouddrove/terraform-aws-cloudtrail):** Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
@@ -26,7 +26,7 @@ CloudDrove offers the below terraform modules:
 20. **[terraform-aws-cloudfront-cdn](https://github.com/clouddrove/terraform-aws-cloudfront-cdn):** Terraform module provisions CloudFront CDN resource on AWS.
 21. **[terraform-aws-logging](https://github.com/clouddrove/terraform-aws-logging):** Terraform module to enable logging on AWS.
 22. **[terraform-aws-nuke](https://github.com/clouddrove/terraform-aws-nuke):** This module is used to cleanup the AWS account inventory.
-23. **[terraform-aws-subnet-old](https://github.com/clouddrove/terraform-aws-subnet-old):** Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
+23. **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet):** Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
 24. **[terraform-aws-sns](https://github.com/clouddrove/terraform-aws-sns):** Terraform module is used to setup SNS service to manage notifications on application.
 25. **[terraform-aws-bastion](https://github.com/clouddrove/terraform-aws-bastion):** Terraform module to deploy bastion host on AWS.
 26. **[terraform-aws-eks](https://github.com/clouddrove/terraform-aws-eks):** Terraform module for provisioning an EKS cluster.
@@ -40,17 +40,15 @@ CloudDrove offers the below terraform modules:
 34. **[terraform-aws-consul](https://github.com/clouddrove/terraform-aws-consul):** Terraform module to create Consul server cluster on EC2.
 35. **[terraform-aws-sqs](https://github.com/clouddrove/terraform-aws-sqs):** Terraform module to create SQS resource on AWS for managing queue.
 36. **[terraform-aws-efs](https://github.com/clouddrove/terraform-aws-efs):** Terraform module to create or deploy EFS on AWS.
-37. **[terraform-aws-cloudwatch-alarms-old](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms-old):** Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
+37. **[terraform-aws-cloudwatch-alarms](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms):** Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 38. **[terraform-aws-elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk):** Terraform module to deploy Elastic Beanstalk resource on AWS.
 39. **[terraform-aws-iam](https://github.com/clouddrove/terraform-aws-iam):** Terraform module to create IAM role resource on AWS.
 40. **[terraform-aws-baseline](https://github.com/clouddrove/terraform-aws-baseline):** Internal repo for testing terraform modules.
 41. **[terraform-labels](https://github.com/clouddrove/terraform-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 42. **[terraform-aws-ec2](https://github.com/clouddrove/terraform-aws-ec2):** Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
-43. **[terraform-aws-keypair](https://github.com/clouddrove/terraform-aws-keypair):** Terraform module for generating or importing an SSH public key file into AWS.
+43. **[terraform-aws-keypair](https://github.com/clouddrove/terraform-aws-keypair):** Terraform module for importing an SSH public key file into AWS.
 44. **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet):** Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
 45. **[terraform-aws-alb](https://github.com/clouddrove/terraform-aws-alb):** This terraform module is used to create ALB on AWS.
-46. **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc)**
-47. **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3)**
 
 ## Ansible Packages
 
@@ -69,9 +67,9 @@ CloudDrove offers the below ansible roles:
 11. **[ansible-role-docker-mysql](https://github.com/clouddrove/ansible-role-docker-mysql):** This ansible role is used for formation of MySQL server with docker on Debian.
 12. **[ansible-role-mongo-cluster](https://github.com/clouddrove/ansible-role-mongo-cluster):** This ansible role is used to setup Mongo cluster on Debian.
 13. **[ansible-role-docker-mongo-cluster](https://github.com/clouddrove/ansible-role-docker-mongo-cluster):** This ansible role is used to setup Mongo cluster with docker on Debian.
-14. **[ansible-role-solr](https://github.com/clouddrove/ansible-role-solr):** Ansible role to run setup solr  using docker.
+14. **[ansible-role-solr](https://github.com/clouddrove/ansible-role-solr):** Ansible role to run setup solr using docker.
 15. **[ansible-role-logz-io](https://github.com/clouddrove/ansible-role-logz-io):** This ansible role is used to install logz.io tool dependency on Debian.
-16. **[ansible-role-nginx](https://github.com/clouddrove/ansible-role-nginx):** This ansible role is used to setup Redis server with docker on Debian.
+16. **[ansible-role-nginx](https://github.com/clouddrove/ansible-role-nginx):** This ansible role is used to setup Nginx server with docker on Debian.
 17. **[ansible-role-mount-efs](https://github.com/clouddrove/ansible-role-mount-efs):** This ansible role is used for installing & Mounting AWS EFS on Debian.
 18. **[ansible-role-user](https://github.com/clouddrove/ansible-role-user):** This ansible role is used to create users on server.
 19. **[ansible-role-redash](https://github.com/clouddrove/ansible-role-redash):** This ansible role is used for the installation of Redash tool on Debian.
@@ -99,7 +97,7 @@ CloudDrove offers the below internal tools:
 
 If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/clouddrove/toc/issues), or feel free to drop us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
 
-If you have found it worth your time, go ahead and give us a * on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)!
+If you have found it worth your time, go ahead and give us a ★ on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)!
 
 ## About us
 
