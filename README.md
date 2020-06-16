@@ -85,7 +85,7 @@ CloudDrove offers the below terraform modules:
 79. **[terraform-azure-labels](https://github.com/clouddrove/terraform-azure-labels):** Terraform module for Azure labels.
 80. **[terraform-azure-subnet](https://github.com/clouddrove/terraform-azure-subnet):** Terraform module for Azure subnet.
 81. **[terraform-azure-security-group](https://github.com/clouddrove/terraform-azure-security-group):** Terraform module for Azure security group.
-82. **[terraform-aws-iam-access-analyzer](https://github.com/clouddrove/terraform-aws-iam-access-analyzer)**
+82. **[terraform-aws-iam-access-analyzer](https://github.com/clouddrove/terraform-aws-iam-access-analyzer):** Terraform module to create IAM Access Analyzer on AWS for monitoring policies.
 83. **[terraform-azure-virtual-machine](https://github.com/clouddrove/terraform-azure-virtual-machine):** Terraform module for Azure virtual machine.
 84. **[terraform-cloud](https://github.com/clouddrove/terraform-cloud):** Terraform Cloud is an application that helps teams use Terraform together
 85. **[terraform-aws-rabbitmq](https://github.com/clouddrove/terraform-aws-rabbitmq):** This terraform module is used to create RabbitMQ on AWS.
