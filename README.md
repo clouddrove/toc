@@ -50,47 +50,44 @@ CloudDrove offers the below terraform modules:
 44. **[terraform-aws-route53](https://github.com/clouddrove/terraform-aws-route53):** Terraform module to create Route53 resource on AWS for zone and record set. 
 45. **[terraform-aws-api-gateway](https://github.com/clouddrove/terraform-aws-api-gateway):** Terraform module to create Route53 resource on AWS for create api gateway with it's basic elements.
 46. **[terraform-aws-elasticsearch](https://github.com/clouddrove/terraform-aws-elasticsearch):** Terraform module to create an Elasticsearch resource on AWS. 
-47. **[terraform-aws-cognito](https://github.com/clouddrove/terraform-aws-cognito)**
-48. **[terraform-aws-iam-user](https://github.com/clouddrove/terraform-aws-iam-user):** Terraform module to create Iam user resource on AWS.
-49. **[terraform-aws-route53-record](https://github.com/clouddrove/terraform-aws-route53-record):** Terraform module to create Route53 table record set resource on AWS. 
-50. **[terraform-aws-snapshot](https://github.com/clouddrove/terraform-aws-snapshot):** Terraform module to create Lambda resource on AWS for create and delete snapshot backups through lambda function.
-51. **[terraform-aws-cloudwatch-event-rule](https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule):** Terraform module to create cloudwatch event rule on AWS.
-52. **[terraform-lambda-api-gateway](https://github.com/clouddrove/terraform-lambda-api-gateway):** Provides an HTTP Method Integration for an API Gateway Integration.
-53. **[terraform-aws-cloudtrail-slack-notification](https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification):** Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS. 
-54. **[terraform-aws-lambda-proxy-api-gateway](https://github.com/clouddrove/terraform-aws-lambda-proxy-api-gateway):** Terraform module to create Api Gateway resource on AWS for trigger lambda function.
-55. **[terraform-aws-route53-resolver](https://github.com/clouddrove/terraform-aws-route53-resolver):** Terraform module to create Route53 table record set resource on AWS.
-56. **[terraform-aws-iam-baseline](https://github.com/clouddrove/terraform-aws-iam-baseline):** Terraform Module Create default IAM roles for managing AWS account.
-57. **[terraform-aws-cloudtrail-baseline](https://github.com/clouddrove/terraform-aws-cloudtrail-baseline):** Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
-58. **[terraform-aws-alarm](https://github.com/clouddrove/terraform-aws-alarm):** Terraform module to create an Cloudwatch Alarm.
-59. **[terraform-aws-config-baseline](https://github.com/clouddrove/terraform-aws-config-baseline):** Terraform module to create an AWS Config resource on AWS with S3, IAM user, Recoder and Roles.
-60. **[terraform-aws-secure-baseline](https://github.com/clouddrove/terraform-aws-secure-baseline):** Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline.
-61. **[terraform-aws-workspace](https://github.com/clouddrove/terraform-aws-workspace)**
-62. **[terraform-aws-config](https://github.com/clouddrove/terraform-aws-config):** Provides an AWS Config Rule.
-63. **[terraform-aws-snapshot-baseline](https://github.com/clouddrove/terraform-aws-snapshot-baseline):** Terraform module to create Lambda resource on AWS for creating backup and clear Snapshots and AMIs of instances in AWS.
-64. **[terraform-digitalocean-ssh-key](https://github.com/clouddrove/terraform-digitalocean-ssh-key):** Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
-65. **[terraform-digitalocean-labels](https://github.com/clouddrove/terraform-digitalocean-labels):**   This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
-66. **[terraform-digitalocean-vpc](https://github.com/clouddrove/terraform-digitalocean-vpc):**  VPCs are virtual networks containing resources that can communicate with each other in full isolation, using private IP addresses
-67. **[terraform-digitalocean-droplet](https://github.com/clouddrove/terraform-digitalocean-droplet):** Provides a DigitalOcean Droplet resource. This can be used to create, modify, and delete Droplets.
-68. **[terraform-digitalocean-firewall](https://github.com/clouddrove/terraform-digitalocean-firewall):** Provides a DigitalOcean Cloud Firewall resource. This can be used to create, modify, and delete Firewalls.
-69. **[terraform-digitalocean-certificate](https://github.com/clouddrove/terraform-digitalocean-certificate):** Provides a DigitalOcean Certificate resource that allows you to manage certificates.
-70. **[terraform-aws-guardduty](https://github.com/clouddrove/terraform-aws-guardduty):** Provides a resource to manage a GuardDuty member. To accept invitations in member accounts.
-71. **[terraform-aws-aurora-serverless](https://github.com/clouddrove/terraform-aws-aurora-serverless):** Manages a RDS Aurora Cluster. 
-72. **[terraform-aws-teevity](https://github.com/clouddrove/terraform-aws-teevity):** This terraform module is used for create needed resources like Iam user, S3 and others which used to connect AWS account with Teevity tool to monitor our bills.
-73. **[terraform-aws-ecs](https://github.com/clouddrove/terraform-aws-ecs):** Terraform module to create ECS on AWS.
-74. **[terraform-aws-nlb](https://github.com/clouddrove/terraform-aws-nlb)**
-75. **[terraform-aws-inspector](https://github.com/clouddrove/terraform-aws-inspector):** Terraform module to create Inspector on AWS for monitoring instances.
-76. **[terraform-digitalocean-cdn](https://github.com/clouddrove/terraform-digitalocean-cdn):** Provides a DigitalOcean CDN Endpoint resource for use with Spaces.
-77. **[terraform-azure-virtual-network](https://github.com/clouddrove/terraform-azure-virtual-network):** This is Terraform Azure Virutal Network module.
-78. **[terraform-azure-resource-group](https://github.com/clouddrove/terraform-azure-resource-group):** Terraform module for Azure resource group.
-79. **[terraform-azure-labels](https://github.com/clouddrove/terraform-azure-labels):** Terraform module for Azure labels.
-80. **[terraform-azure-subnet](https://github.com/clouddrove/terraform-azure-subnet):** Terraform module for Azure subnet.
-81. **[terraform-azure-security-group](https://github.com/clouddrove/terraform-azure-security-group):** Terraform module for Azure security group.
-82. **[terraform-aws-iam-access-analyzer](https://github.com/clouddrove/terraform-aws-iam-access-analyzer):** Terraform module to create IAM Access Analyzer on AWS for monitoring policies.
-83. **[terraform-azure-virtual-machine](https://github.com/clouddrove/terraform-azure-virtual-machine):** Terraform module for Azure virtual machine.
-84. **[terraform-cloud](https://github.com/clouddrove/terraform-cloud):** Terraform Cloud is an application that helps teams use Terraform together
-85. **[terraform-aws-rabbitmq](https://github.com/clouddrove/terraform-aws-rabbitmq):** This terraform module is used to create RabbitMQ on AWS.
-86. **[terraform-aws-alb-multi-targetgroup](https://github.com/clouddrove/terraform-aws-alb-multi-targetgroup):** Provides a Target Group resource for use with Load Balancer resources.
-87. **[terraform-aws-waf-regional](https://github.com/clouddrove/terraform-aws-waf-regional):** This is terraform repository for AWS WAF (Web Application Firewall) Regional.
+47. **[terraform-aws-iam-user](https://github.com/clouddrove/terraform-aws-iam-user):** Terraform module to create Iam user resource on AWS.
+48. **[terraform-aws-route53-record](https://github.com/clouddrove/terraform-aws-route53-record):** Terraform module to create Route53 table record set resource on AWS. 
+49. **[terraform-aws-snapshot](https://github.com/clouddrove/terraform-aws-snapshot):** Terraform module to create Lambda resource on AWS for create and delete snapshot backups through lambda function.
+50. **[terraform-aws-cloudwatch-event-rule](https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule):** Terraform module to create cloudwatch event rule on AWS.
+51. **[terraform-lambda-api-gateway](https://github.com/clouddrove/terraform-lambda-api-gateway):** Provides an HTTP Method Integration for an API Gateway Integration.
+52. **[terraform-aws-cloudtrail-slack-notification](https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification):** Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS. 
+53. **[terraform-aws-lambda-proxy-api-gateway](https://github.com/clouddrove/terraform-aws-lambda-proxy-api-gateway):** Terraform module to create Api Gateway resource on AWS for trigger lambda function.
+54. **[terraform-aws-route53-resolver](https://github.com/clouddrove/terraform-aws-route53-resolver):** Terraform module to create Route53 table record set resource on AWS.
+55. **[terraform-aws-iam-baseline](https://github.com/clouddrove/terraform-aws-iam-baseline):** Terraform Module Create default IAM roles for managing AWS account.
+56. **[terraform-aws-cloudtrail-baseline](https://github.com/clouddrove/terraform-aws-cloudtrail-baseline):** Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
+57. **[terraform-aws-alarm](https://github.com/clouddrove/terraform-aws-alarm):** Terraform module to create an Cloudwatch Alarm.
+58. **[terraform-aws-config-baseline](https://github.com/clouddrove/terraform-aws-config-baseline):** Terraform module to create an AWS Config resource on AWS with S3, IAM user, Recoder and Roles.
+59. **[terraform-aws-secure-baseline](https://github.com/clouddrove/terraform-aws-secure-baseline):** Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline.
+60. **[terraform-aws-config](https://github.com/clouddrove/terraform-aws-config):** Provides an AWS Config Rule.
+61. **[terraform-aws-snapshot-baseline](https://github.com/clouddrove/terraform-aws-snapshot-baseline):** Terraform module to create Lambda resource on AWS for creating backup and clear Snapshots and AMIs of instances in AWS.
+62. **[terraform-digitalocean-ssh-key](https://github.com/clouddrove/terraform-digitalocean-ssh-key):** Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
+63. **[terraform-digitalocean-labels](https://github.com/clouddrove/terraform-digitalocean-labels):**   This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
+64. **[terraform-digitalocean-vpc](https://github.com/clouddrove/terraform-digitalocean-vpc):**  VPCs are virtual networks containing resources that can communicate with each other in full isolation, using private IP addresses
+65. **[terraform-digitalocean-droplet](https://github.com/clouddrove/terraform-digitalocean-droplet):** Provides a DigitalOcean Droplet resource. This can be used to create, modify, and delete Droplets.
+66. **[terraform-digitalocean-firewall](https://github.com/clouddrove/terraform-digitalocean-firewall):** Provides a DigitalOcean Cloud Firewall resource. This can be used to create, modify, and delete Firewalls.
+67. **[terraform-digitalocean-certificate](https://github.com/clouddrove/terraform-digitalocean-certificate):** Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+68. **[terraform-aws-guardduty](https://github.com/clouddrove/terraform-aws-guardduty):** Provides a resource to manage a GuardDuty member. To accept invitations in member accounts.
+69. **[terraform-aws-aurora-serverless](https://github.com/clouddrove/terraform-aws-aurora-serverless):** Manages a RDS Aurora Cluster. 
+70. **[terraform-aws-teevity](https://github.com/clouddrove/terraform-aws-teevity):** This terraform module is used for create needed resources like Iam user, S3 and others which used to connect AWS account with Teevity tool to monitor our bills.
+71. **[terraform-aws-ecs](https://github.com/clouddrove/terraform-aws-ecs):** Terraform module to create ECS on AWS.
+72. **[terraform-aws-inspector](https://github.com/clouddrove/terraform-aws-inspector):** Terraform module to create Inspector on AWS for monitoring instances.
+73. **[terraform-digitalocean-cdn](https://github.com/clouddrove/terraform-digitalocean-cdn):** Provides a DigitalOcean CDN Endpoint resource for use with Spaces.
+74. **[terraform-azure-virtual-network](https://github.com/clouddrove/terraform-azure-virtual-network):** This is Terraform Azure Virutal Network module.
+75. **[terraform-azure-resource-group](https://github.com/clouddrove/terraform-azure-resource-group):** Terraform module for Azure resource group.
+76. **[terraform-azure-labels](https://github.com/clouddrove/terraform-azure-labels):** Terraform module for Azure labels.
+77. **[terraform-azure-subnet](https://github.com/clouddrove/terraform-azure-subnet):** Terraform module for Azure subnet.
+78. **[terraform-azure-security-group](https://github.com/clouddrove/terraform-azure-security-group):** Terraform module for Azure security group.
+79. **[terraform-aws-iam-access-analyzer](https://github.com/clouddrove/terraform-aws-iam-access-analyzer):** Terraform module to create IAM Access Analyzer on AWS for monitoring policies.
+80. **[terraform-azure-virtual-machine](https://github.com/clouddrove/terraform-azure-virtual-machine):** Terraform module for Azure virtual machine.
+81. **[terraform-cloud](https://github.com/clouddrove/terraform-cloud):** Terraform Cloud is an application that helps teams use Terraform together
+82. **[terraform-aws-rabbitmq](https://github.com/clouddrove/terraform-aws-rabbitmq):** This terraform module is used to create RabbitMQ on AWS.
+83. **[terraform-aws-alb-multi-targetgroup](https://github.com/clouddrove/terraform-aws-alb-multi-targetgroup):** Provides a Target Group resource for use with Load Balancer resources.
+84. **[terraform-aws-waf-regional](https://github.com/clouddrove/terraform-aws-waf-regional):** This is terraform repository for AWS WAF (Web Application Firewall) Regional.
 
 ## Ansible Packages
 
@@ -172,7 +169,7 @@ CloudDrove offers the below internal tools:
 
 If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/clouddrove/toc/issues), or feel free to drop us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
 
-If you have found it worth your time, go ahead and give us a * on [our GitHub](https://github.com/clouddrove/terraform-aws-toc)!
+If you have found it worth your time, go ahead and give us a * on [our GitHub](https://github.com/clouddrove/toc)!
 
 ## About us
 
