@@ -149,7 +149,7 @@ CloudDrove offers the below ansible roles:
 53. **[ansible-role-clamav](https://github.com/clouddrove/ansible-role-clamav):** This ansible role is used to install ansible-role-clamav
 54. **[ansible-role-os-hardning](https://github.com/clouddrove/ansible-role-os-hardning):** This ansible role is used to install ansible-role-os-hardning
 55. **[ansible-role-devops](https://github.com/clouddrove/ansible-role-devops):** This ansible role setup devops repo on jenkins.
-56. **[ansible-role-newrelic](https://github.com/clouddrove/ansible-role-newrelic)**
+56. **[ansible-role-newrelic](https://github.com/clouddrove/ansible-role-newrelic):** This ansible role is used to installansible-role-newrelic
 
 ## Docker Packages
 
