@@ -88,6 +88,7 @@ CloudDrove offers the below terraform modules:
 82. **[terraform-aws-rabbitmq](https://github.com/clouddrove/terraform-aws-rabbitmq):** This terraform module is used to create RabbitMQ on AWS.
 83. **[terraform-aws-alb-multi-targetgroup](https://github.com/clouddrove/terraform-aws-alb-multi-targetgroup):** Provides a Target Group resource for use with Load Balancer resources.
 84. **[terraform-aws-waf-regional](https://github.com/clouddrove/terraform-aws-waf-regional):** This is terraform repository for AWS WAF (Web Application Firewall) Regional.
+85. **[terraform-aws-slack-alerts](https://github.com/clouddrove/terraform-aws-slack-alerts):** Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things.
 
 ## Ansible Packages
 
@@ -148,6 +149,7 @@ CloudDrove offers the below ansible roles:
 53. **[ansible-role-clamav](https://github.com/clouddrove/ansible-role-clamav):** This ansible role is used to install ansible-role-clamav
 54. **[ansible-role-os-hardning](https://github.com/clouddrove/ansible-role-os-hardning):** This ansible role is used to install ansible-role-os-hardning
 55. **[ansible-role-devops](https://github.com/clouddrove/ansible-role-devops):** This ansible role setup devops repo on jenkins.
+56. **[ansible-role-newrelic](https://github.com/clouddrove/ansible-role-newrelic)**
 
 ## Docker Packages
 
