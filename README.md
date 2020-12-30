@@ -66,12 +66,10 @@ CloudDrove offers the below terraform modules:
 60. **[terraform-aws-waf-regional](https://github.com/clouddrove/terraform-aws-waf-regional):** This is terraform repository for AWS WAF (Web Application Firewall) Regional.
 61. **[terraform-aws-slack-alerts](https://github.com/clouddrove/terraform-aws-slack-alerts):** Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things.
 62. **[terraform-aws-lambda-site-monitor](https://github.com/clouddrove/terraform-aws-lambda-site-monitor):** Terraform module to create Lambda resource on AWS for monitor different websites.
-63. **[terraform-aws-mysql](https://github.com/clouddrove/terraform-aws-mysql):** terraform-aws-mysql
+63. **[terraform-aws-mysql](https://github.com/clouddrove/terraform-aws-mysql):** Terraform module to create a MySQL on AWS.
 64. **[terraform-aws-ec2-autoscaling](https://github.com/clouddrove/terraform-aws-ec2-autoscaling):** Terraform module will be created EC2 modulewith Autoscaling group.
-65. **[terraform-monitoring-prometheus](https://github.com/clouddrove/terraform-monitoring-prometheus)**
-66. **[terraform-aws-node-group](https://github.com/clouddrove/terraform-aws-node-group)**
-67. **[terraform-aws-lightsail](https://github.com/clouddrove/terraform-aws-lightsail):** Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
-68. **[terraform-eks-operator](https://github.com/clouddrove/terraform-eks-operator)**
+65. **[terraform-aws-node-group](https://github.com/clouddrove/terraform-aws-node-group):** This terraform module is used to create a node group for EKS.
+66. **[terraform-aws-lightsail](https://github.com/clouddrove/terraform-aws-lightsail):** Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
 
 ## Ansible Packages
 
@@ -131,25 +129,25 @@ CloudDrove offers the below ansible roles:
 52. **[ansible-role-os-hardning](https://github.com/clouddrove/ansible-role-os-hardning):** This ansible role is used to install ansible-role-os-hardning
 53. **[ansible-role-devops](https://github.com/clouddrove/ansible-role-devops):** This ansible role setup devops repo on jenkins.
 54. **[ansible-role-newrelic](https://github.com/clouddrove/ansible-role-newrelic):** This ansible role is used to installansible-role-newrelic
-55. **[ansible-role-docker-blackbox-node-exporter](https://github.com/clouddrove/ansible-role-docker-blackbox-node-exporter)**
-56. **[ansible-role-docker-datadog-agent](https://github.com/clouddrove/ansible-role-docker-datadog-agent)**
-57. **[ansible-role-docker-postgres](https://github.com/clouddrove/ansible-role-docker-postgres)**
+55. **[ansible-role-docker-blackbox-node-exporter](https://github.com/clouddrove/ansible-role-docker-blackbox-node-exporter):** This ansible role is used to setup Blackbox exporter with docker.
+56. **[ansible-role-docker-datadog-agent](https://github.com/clouddrove/ansible-role-docker-datadog-agent):** This ansible role is created to install the Datadog agent with docker to send statistics to Datadog.
+57. **[ansible-role-docker-postgres](https://github.com/clouddrove/ansible-role-docker-postgres):** This ansible role is used to set up PostgreSQL with docker.
 58. **[ansible-role-kuguard](https://github.com/clouddrove/ansible-role-kuguard)**
 59. **[ansible-role-gitlab-runner](https://github.com/clouddrove/ansible-role-gitlab-runner):** This ansible role install gitlab-runner on ubuntu.
 60. **[ansible-role-docker-gtmetrix-speed-test](https://github.com/clouddrove/ansible-role-docker-gtmetrix-speed-test):** This ansible role is used to setup gtmetrix speed test with docker on Debian.
-61. **[ansible-role-github-runner](https://github.com/clouddrove/ansible-role-github-runner)**
-62. **[ansible-role-monit](https://github.com/clouddrove/ansible-role-monit)**
-63. **[ansible-role-openvas](https://github.com/clouddrove/ansible-role-openvas)**
+61. **[ansible-role-github-runner](https://github.com/clouddrove/ansible-role-github-runner):** Ansible role is used to automate GitHub runner on the server.
+62. **[ansible-role-monit](https://github.com/clouddrove/ansible-role-monit):** This ansible role is used to install monit on linux
+63. **[ansible-role-openvas](https://github.com/clouddrove/ansible-role-openvas):** This ansible role is used to setup openvas on Debian.
 64. **[ansible-role-vsftpd](https://github.com/clouddrove/ansible-role-vsftpd):** Ansible role for Filezilla
 65. **[ansible-role-mysqltuner](https://github.com/clouddrove/ansible-role-mysqltuner):** Install and run mysqltuner
-66. **[ansible-role-kubernetes](https://github.com/clouddrove/ansible-role-kubernetes)**
+66. **[ansible-role-kubernetes](https://github.com/clouddrove/ansible-role-kubernetes):** This ansible role is used to set up Kubernetes on Linux.
 
 ## Docker Packages
 
 CloudDrove offers the below docker packages:
 
 1. **[docker-terraform](https://github.com/clouddrove/docker-terraform):** Running terraform using docker for better CI/CD.
-2. **[docker-images](https://github.com/clouddrove/docker-images)**
+2. **[docker-images](https://github.com/clouddrove/docker-images):** Docker images for use in CLoudDrove.
 
 ## CloudDrove Internal Tools
 
