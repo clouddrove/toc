@@ -18,7 +18,7 @@ CloudDrove offers the below terraform modules:
 12. **[terraform-aws-iam-role](https://github.com/clouddrove/terraform-aws-iam-role):** Terraform module to create Iam role resource on AWS.
 13. **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3):** Terraform module to create default S3 bucket with logging and encryption type specific features.
 14. **[terraform-aws-acm](https://github.com/clouddrove/terraform-aws-acm):** This terraform module is used for requesting or importing SSL/TLS certificate with validation.
-15. **[terraform-labels](https://github.com/clouddrove/terraform-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
+15. **[terraform-aws-labels](https://github.com/clouddrove/terraform-aws-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 16. **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc):** Terraform module to create VPC resource on AWS.
 17. **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet):** Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
 18. **[terraform-aws-keypair](https://github.com/clouddrove/terraform-aws-keypair):** Terraform module for generating or importing an SSH public key file into AWS.
@@ -70,6 +70,17 @@ CloudDrove offers the below terraform modules:
 64. **[terraform-aws-ec2-autoscaling](https://github.com/clouddrove/terraform-aws-ec2-autoscaling):** Terraform module will be created EC2 modulewith Autoscaling group.
 65. **[terraform-aws-node-group](https://github.com/clouddrove/terraform-aws-node-group):** This terraform module is used to create a node group for EKS.
 66. **[terraform-aws-lightsail](https://github.com/clouddrove/terraform-aws-lightsail):** Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
+67. **[terraform-aws-secrets-manager](https://github.com/clouddrove/terraform-aws-secrets-manager)**
+68. **[terraform-aws-cognito](https://github.com/clouddrove/terraform-aws-cognito):** Terraform module to create an Cognito resource on AWS.
+69. **[terraform-aws-workspace](https://github.com/clouddrove/terraform-aws-workspace)**
+70. **[terraform-aws-active-directory](https://github.com/clouddrove/terraform-aws-active-directory)**
+71. **[terraform-module](https://github.com/clouddrove/terraform-module)**
+72. **[terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture)**
+73. **[terraform-labels](https://github.com/clouddrove/terraform-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-aws-labels to implement a strict naming convention.
+74. **[terraform-aws-dynamodb](https://github.com/clouddrove/terraform-aws-dynamodb)**
+75. **[terraform-aws-client-vpn](https://github.com/clouddrove/terraform-aws-client-vpn)**
+76. **[terraform-aws-eventbridge](https://github.com/clouddrove/terraform-aws-eventbridge)**
+77. **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins)**
 
 ## Ansible Packages
 
@@ -141,6 +152,8 @@ CloudDrove offers the below ansible roles:
 64. **[ansible-role-vsftpd](https://github.com/clouddrove/ansible-role-vsftpd):** Ansible role for Filezilla
 65. **[ansible-role-mysqltuner](https://github.com/clouddrove/ansible-role-mysqltuner):** Install and run mysqltuner
 66. **[ansible-role-kubernetes](https://github.com/clouddrove/ansible-role-kubernetes):** This ansible role is used to set up Kubernetes on Linux.
+67. **[ansible-role-docker-redmine](https://github.com/clouddrove/ansible-role-docker-redmine)**
+68. **[ansible-module](https://github.com/clouddrove/ansible-module)**
 
 ## Docker Packages
 
