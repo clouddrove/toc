@@ -70,17 +70,17 @@ CloudDrove offers the below terraform modules:
 64. **[terraform-aws-ec2-autoscaling](https://github.com/clouddrove/terraform-aws-ec2-autoscaling):** Terraform module will be created EC2 modulewith Autoscaling group.
 65. **[terraform-aws-node-group](https://github.com/clouddrove/terraform-aws-node-group):** This terraform module is used to create a node group for EKS.
 66. **[terraform-aws-lightsail](https://github.com/clouddrove/terraform-aws-lightsail):** Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
-67. **[terraform-aws-secrets-manager](https://github.com/clouddrove/terraform-aws-secrets-manager)**
+67. **[terraform-aws-secrets-manager](https://github.com/clouddrove/terraform-aws-secrets-manager):** Terraform module to create Secret Manager resource on AWS for manage our secret variables.
 68. **[terraform-aws-cognito](https://github.com/clouddrove/terraform-aws-cognito):** Terraform module to create an Cognito resource on AWS.
-69. **[terraform-aws-workspace](https://github.com/clouddrove/terraform-aws-workspace)**
-70. **[terraform-aws-active-directory](https://github.com/clouddrove/terraform-aws-active-directory)**
-71. **[terraform-module](https://github.com/clouddrove/terraform-module)**
-72. **[terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture)**
+69. **[terraform-aws-workspace](https://github.com/clouddrove/terraform-aws-workspace):** Terraform module to create workspace resources on AWS for manage betterly.
+70. **[terraform-aws-active-directory](https://github.com/clouddrove/terraform-aws-active-directory):** Terraform module to create Active Directory on AWS.
+71. **[terraform-module](https://github.com/clouddrove/terraform-module):** Example template for terraform module to create modules for CloudDrove.
+72. **[terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture):** This repo is used as a sample refrence architecture to manage internal projects terraform.
 73. **[terraform-labels](https://github.com/clouddrove/terraform-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-aws-labels to implement a strict naming convention.
-74. **[terraform-aws-dynamodb](https://github.com/clouddrove/terraform-aws-dynamodb)**
-75. **[terraform-aws-client-vpn](https://github.com/clouddrove/terraform-aws-client-vpn)**
-76. **[terraform-aws-eventbridge](https://github.com/clouddrove/terraform-aws-eventbridge)**
-77. **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins)**
+74. **[terraform-aws-dynamodb](https://github.com/clouddrove/terraform-aws-dynamodb):** This terraform module is used for create dynamodb resources in AWS.
+75. **[terraform-aws-client-vpn](https://github.com/clouddrove/terraform-aws-client-vpn):** This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
+76. **[terraform-aws-eventbridge](https://github.com/clouddrove/terraform-aws-eventbridge):** Terraform module to create an Eventbridge resource on AWS.
+77. **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins):** Terraform module for deploy a serverless jenkins.
 
 ## Ansible Packages
 
@@ -152,8 +152,8 @@ CloudDrove offers the below ansible roles:
 64. **[ansible-role-vsftpd](https://github.com/clouddrove/ansible-role-vsftpd):** Ansible role for Filezilla
 65. **[ansible-role-mysqltuner](https://github.com/clouddrove/ansible-role-mysqltuner):** Install and run mysqltuner
 66. **[ansible-role-kubernetes](https://github.com/clouddrove/ansible-role-kubernetes):** This ansible role is used to set up Kubernetes on Linux.
-67. **[ansible-role-docker-redmine](https://github.com/clouddrove/ansible-role-docker-redmine)**
-68. **[ansible-module](https://github.com/clouddrove/ansible-module)**
+67. **[ansible-role-docker-redmine](https://github.com/clouddrove/ansible-role-docker-redmine):** This ansible role is used to set up Redmine with docker.
+68. **[ansible-module](https://github.com/clouddrove/ansible-module):** Example template for ansible role to create roles for CloudDrove.
 
 ## Docker Packages
 
