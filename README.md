@@ -62,69 +62,69 @@ CloudDrove offers the below terraform modules:
 56. **[terraform-labels](https://github.com/clouddrove/terraform-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-aws-labels to implement a strict naming convention.
 57. **[terraform-aws-dynamodb](https://github.com/clouddrove/terraform-aws-dynamodb):** This terraform module is used for create dynamodb resources in AWS.
 58. **[terraform-aws-client-vpn](https://github.com/clouddrove/terraform-aws-client-vpn):** This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
-59. **[terraform-aws-lifecycle-manager](https://github.com/clouddrove/terraform-aws-lifecycle-manager)**
+59. **[terraform-aws-lifecycle-manager](https://github.com/clouddrove/terraform-aws-lifecycle-manager):** This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots. 
 60. **[terraform-aws-eventbridge](https://github.com/clouddrove/terraform-aws-eventbridge):** Terraform module to create an Eventbridge resource on AWS.
 61. **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins):** Terraform module for deploy a serverless jenkins.
-62. **[terraform-digitalocean-spaces](https://github.com/clouddrove/terraform-digitalocean-spaces)**
-63. **[terraform-aws-backup](https://github.com/clouddrove/terraform-aws-backup)**
+62. **[terraform-digitalocean-spaces](https://github.com/clouddrove/terraform-digitalocean-spaces):** This Terraform module is used to create spaces in Digitalocean. spaces are virtual networks containing resources that can communicate with each other in full isolation, using private IP addresses.
+63. **[terraform-aws-backup](https://github.com/clouddrove/terraform-aws-backup):** This Terraform module is used to create backup resource on AWS. 
 64. **[terraform-module-template](https://github.com/clouddrove/terraform-module-template):** [DRAFT] terraform module template  for creating new modules
-65. **[terraform-aws-pritunl](https://github.com/clouddrove/terraform-aws-pritunl)**
-66. **[terraform-aws-waf](https://github.com/clouddrove/terraform-aws-waf)**
-67. **[terraform-aws-security-hub](https://github.com/clouddrove/terraform-aws-security-hub)**
+65. **[terraform-aws-pritunl](https://github.com/clouddrove/terraform-aws-pritunl):** Terraform module to create an pritunl resource on AWS with Elastic IP Addresses and Elastic Block Store 
+66. **[terraform-aws-waf](https://github.com/clouddrove/terraform-aws-waf):** This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
+67. **[terraform-aws-security-hub](https://github.com/clouddrove/terraform-aws-security-hub):** This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 68. **[terraform-aws-mfa](https://github.com/clouddrove/terraform-aws-mfa):** A terraform module to enable MFA for AWS groups and users 
-69. **[terraform-aws-macie](https://github.com/clouddrove/terraform-aws-macie)**
-70. **[terraform-aws-karpenter](https://github.com/clouddrove/terraform-aws-karpenter)**
+69. **[terraform-aws-macie](https://github.com/clouddrove/terraform-aws-macie):** This terraform module is used to Provide a resource to manage an AWS Macie Account. 
+70. **[terraform-aws-karpenter](https://github.com/clouddrove/terraform-aws-karpenter):** A Terraform module to create karpenter resource on AWS.
 71. **[terraform-azure-labels](https://github.com/clouddrove/terraform-azure-labels):** This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 72. **[terraform-azure-resource-group](https://github.com/clouddrove/terraform-azure-resource-group):** Terraform module for managing Azure resource groups.  Manage resource groups - Azure portal - Azure Resource ... A resource group is a container that holds related resources for an Azure solution. The resource group can include all the resources for the solution, or only those resources that you want to manage as a group
-73. **[terraform-azure-network-security-group](https://github.com/clouddrove/terraform-azure-network-security-group)**
+73. **[terraform-azure-network-security-group](https://github.com/clouddrove/terraform-azure-network-security-group):**  A Terraform module to create NETWORK SECURITY GROUP resource on AZURE. 
 74. **[terraform-aws-s3-multiaccount-replication](https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication):** This terraform module is used for s3 replication between multiple account
 75. **[terraform-aws-iam](https://github.com/clouddrove/terraform-aws-iam):** Terraform module which creates IAM resources on AWS
 76. **[terraform-aws-eks-lb-controller](https://github.com/clouddrove/terraform-aws-eks-lb-controller):** Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
 77. **[terraform-azure-networking](https://github.com/clouddrove/terraform-azure-networking)**
-78. **[terraform-azure-virtual-machine](https://github.com/clouddrove/terraform-azure-virtual-machine)**
+78. **[terraform-azure-virtual-machine](https://github.com/clouddrove/terraform-azure-virtual-machine):** Terraform module to create virtual machine resource on AZURE. 
 79. **[terraform-azure-subnet](https://github.com/clouddrove/terraform-azure-subnet):** This terraform module is designed to create Azure Subnet resources.  Virtual networks and virtual machines in Azure | Microsoft Learn A subnet is a range of IP addresses in the virtual network. You can divide a virtual network into multiple subnets for organization and security. Each NIC in a VM is connected to one subnet in one virtual network.
 80. **[terraform-azure-storage](https://github.com/clouddrove/terraform-azure-storage):** This terraform module is designed to create Azure Storage Account  resources. The Azure Storage platform is Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud.
-81. **[terraform-azure-bastion](https://github.com/clouddrove/terraform-azure-bastion)**
+81. **[terraform-azure-bastion](https://github.com/clouddrove/terraform-azure-bastion):**  Terraform module to create bastion resource on AZURE. Azure Bastion is a fully managed platform-as-a-service that enables secure and seamless remote access to virtual machines within an Azure virtual network (VNet).
 82. **[terraform-azure-log-analytics](https://github.com/clouddrove/terraform-azure-log-analytics):** This terraform module is designed to create Azure Log Analytics resources.  What is Azure Log Analytics Workspace? | Serverless360 An Azure Log Analytics Workspace is a logical storage unit in Azure where all log data generated by Azure Monitors are stored.
 83. **[terraform-azure-vnet-peering](https://github.com/clouddrove/terraform-azure-vnet-peering):** This terraform module is designed to create Azure Databricks resources. Virtual network peering enables you to seamlessly connect two or more Virtual Networks in Azure. The virtual networks appear as one for connectivity purposes.
-84. **[terraform-azure-dns](https://github.com/clouddrove/terraform-azure-dns)**
-85. **[terraform-aws-cost-billing-alarm](https://github.com/clouddrove/terraform-aws-cost-billing-alarm)**
+84. **[terraform-azure-dns](https://github.com/clouddrove/terraform-azure-dns):** Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
+85. **[terraform-aws-cost-billing-alarm](https://github.com/clouddrove/terraform-aws-cost-billing-alarm):** A Terraform module to create aws cost billing alarm resource on AWS with sns topic. 
 86. **[terraform-aws-autoscaling](https://github.com/clouddrove/terraform-aws-autoscaling):** Terraform module which creates Auto Scaling resources on AWS
 87. **[terraform-aws-documentdb](https://github.com/clouddrove/terraform-aws-documentdb):** terraform-aws-documentdb
-88. **[terraform-gcp-labels](https://github.com/clouddrove/terraform-gcp-labels)**
-89. **[terraform-gcp-storage](https://github.com/clouddrove/terraform-gcp-storage)**
-90. **[terraform-gcp-vpc](https://github.com/clouddrove/terraform-gcp-vpc)**
-91. **[terraform-gcp-Service-account](https://github.com/clouddrove/terraform-gcp-Service-account)**
-92. **[terraform-gcp-subnet](https://github.com/clouddrove/terraform-gcp-subnet)**
-93. **[terraform-gcp-kms](https://github.com/clouddrove/terraform-gcp-kms)**
+88. **[terraform-gcp-labels](https://github.com/clouddrove/terraform-gcp-labels):** This terraform module is used To add or manage labels for GCP resources.
+89. **[terraform-gcp-storage](https://github.com/clouddrove/terraform-gcp-storage):**  This module is used to enable users to interact with and manage storage resources in Google Cloud Platform 
+90. **[terraform-gcp-vpc](https://github.com/clouddrove/terraform-gcp-vpc):** This Terraform module is used to create VPC resource on GCP.
+91. **[terraform-gcp-Service-account](https://github.com/clouddrove/terraform-gcp-Service-account):** A Terraform module to create default Service-account with management of service-account
+92. **[terraform-gcp-subnet](https://github.com/clouddrove/terraform-gcp-subnet):** Terraform module to create subnet resource in gcp.
+93. **[terraform-gcp-kms](https://github.com/clouddrove/terraform-gcp-kms):** This terraform module is used to create a KMS Customer Master Key (CMK). 
 94. **[terraform-azure-nat-gateway](https://github.com/clouddrove/terraform-azure-nat-gateway):** This terraform module is designed to create Azure Databricks resources. Azure NAT Gateway is a fully managed and highly resilient Network Address Translation (NAT) service. Azure NAT Gateway simplifies outbound Internet connectivity for virtual networks.
-95. **[terraform-azure-key-vault](https://github.com/clouddrove/terraform-azure-key-vault)**
-96. **[terraform-gcp-firewall](https://github.com/clouddrove/terraform-gcp-firewall)**
-97. **[terraform-azure-mssql-db](https://github.com/clouddrove/terraform-azure-mssql-db)**
-98. **[terraform-aws-msk](https://github.com/clouddrove/terraform-aws-msk)**
-99. **[terraform-gcp-gke](https://github.com/clouddrove/terraform-gcp-gke)**
-100. **[terraform-azure-vnet](https://github.com/clouddrove/terraform-azure-vnet)**
+95. **[terraform-azure-key-vault](https://github.com/clouddrove/terraform-azure-key-vault):** Terraform module to create key-vault resource on AZURE. Azure Key Vault is a cloud service provided by Microsoft Azure that allows you to securely store and manage cryptographic keys, secrets, certificates, and other sensitive information. 
+96. **[terraform-gcp-firewall](https://github.com/clouddrove/terraform-gcp-firewall):** This terraform module is used to create firewall in GCP. 
+97. **[terraform-azure-mssql-db](https://github.com/clouddrove/terraform-azure-mssql-db):** Terraform module to create mssql-db resource on AZURE.
+98. **[terraform-aws-msk](https://github.com/clouddrove/terraform-aws-msk):** Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
+99. **[terraform-gcp-gke](https://github.com/clouddrove/terraform-gcp-gke):**   Terraform module to create gke resource in gcp.
+100. **[terraform-azure-vnet](https://github.com/clouddrove/terraform-azure-vnet):** Terraform module to create VIRTUAL-NETWORK resource on AZURE. 
 101. **[terraform-azure-vpn](https://github.com/clouddrove/terraform-azure-vpn):** This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 102. **[terraform-azure-service-bus](https://github.com/clouddrove/terraform-azure-service-bus):** This terraform module is designed to create Azure Service Bus resources.  Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
 103. **[terraform-azure-aks](https://github.com/clouddrove/terraform-azure-aks):** This terraform module is designed to create Azure kubernets service  resources.  Azure Kubernetes Service (AKS) offers the quickest way to start developing and deploying cloud-native apps in Azure, datacenters, or at the edge with built-in code-to-cloud pipelines and guardrails. 
-104. **[terraform-azure-acr](https://github.com/clouddrove/terraform-azure-acr)**
-105. **[terraform-azure-flexible-mysql](https://github.com/clouddrove/terraform-azure-flexible-mysql)**
-106. **[terraform-azure-defender](https://github.com/clouddrove/terraform-azure-defender)**
+104. **[terraform-azure-acr](https://github.com/clouddrove/terraform-azure-acr):** Terraform module to create acr resource on AZURE. Azure Container Registry (ACR) is a managed Docker container registry service. It allows you to store, manage, and deploy container images for your applications.
+105. **[terraform-azure-flexible-mysql](https://github.com/clouddrove/terraform-azure-flexible-mysql):** Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud. 
+106. **[terraform-azure-defender](https://github.com/clouddrove/terraform-azure-defender):** Terraform module to create DEFENDER resource on AZURE. 
 107. **[terraform-azure-load-balancer](https://github.com/clouddrove/terraform-azure-load-balancer):** This terraform module is designed to create Azure Load-balancer resources.  Load-balancing options - Azure Architecture Center ... Azure Load Balancer is a high-performance, ultra low-latency Layer 4 load-balancing service (inbound and outbound) for all UDP and TCP protocols.
 108. **[terraform-azure-service-principal](https://github.com/clouddrove/terraform-azure-service-principal):** This terraform module is designed to create Azure Service Principal resources. An Azure service principal is an identity created for use with applications, hosted services, and automated tools to access Azure resources. 
 109. **[terraform-azure-monitor-alerts](https://github.com/clouddrove/terraform-azure-monitor-alerts):** This terraform module is designed to create Azure Databricks resources. Overview of Azure Monitor alerts - Azure Monitor | Microsoft ... Alerts help you detect and address issues before users notice them by proactively notifying you when Azure Monitor data indicates there might be a problem with your infrastructure or application.  
 110. **[terraform-azure-databricks](https://github.com/clouddrove/terraform-azure-databricks):** This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
 111. **[terraform-azure-logic-app](https://github.com/clouddrove/terraform-azure-logic-app):** This terraform module is designed to create Azure Logic App resources.  Azure Logic Apps is a leading integration platform as a service (iPaaS) built on a containerized runtime. Deploy and run Logic Apps anywhere to increase scale and portability while automating business-critical workflows anywhere.
 112. **[terraform-azure-application-insights](https://github.com/clouddrove/terraform-azure-application-insights):** This terraform module is designed to create azure Application Insights resources . Application Insights is an extension of Azure Monitor and provides application performance monitoring (APM) features.
-113. **[terraform-aws-cloudwatch-dashboard](https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard)**
-114. **[terraform-azure-data-factory](https://github.com/clouddrove/terraform-azure-data-factory)**
+113. **[terraform-aws-cloudwatch-dashboard](https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard):** This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services. 
+114. **[terraform-azure-data-factory](https://github.com/clouddrove/terraform-azure-data-factory):** Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
 115. **[terraform-aws-cloudwatch-synthetics](https://github.com/clouddrove/terraform-aws-cloudwatch-synthetics):** CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
-116. **[terraform-azure-firewall](https://github.com/clouddrove/terraform-azure-firewall)**
+116. **[terraform-azure-firewall](https://github.com/clouddrove/terraform-azure-firewall):** This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
 117. **[terraform-azure-app-service](https://github.com/clouddrove/terraform-azure-app-service):** This terraform module is designed to create Azure Databricks resources.  Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
 118. **[terraform-azure-sentinel](https://github.com/clouddrove/terraform-azure-sentinel):** This terraform module is designed to create azure Sentinel resources.  Microsoft Sentinel natively incorporates proven Azure services, like Log Analytics and Logic Apps. Microsoft Sentinel enriches your investigation and detection with AI. It provides Microsoft's threat intelligence stream and enables you to bring your own threat intelligence
-119. **[terraform-aws-sftp-workflow](https://github.com/clouddrove/terraform-aws-sftp-workflow)**
+119. **[terraform-aws-sftp-workflow](https://github.com/clouddrove/terraform-aws-sftp-workflow):** This terraform module is used to create sftp on AWS for S3. AWS SFTP (Simple File Transfer Protocol) is a fully managed service that enables you to transfer files to and from Amazon S3 using the SFTP protocol
 120. **[terraform-azure-monitor](https://github.com/clouddrove/terraform-azure-monitor):** This terraform module is designed to create Azure Monitor Private Link Scope (AMPLS) resources.  Image result for ampls An Azure Monitor private link connects a private endpoint to a set of Azure Monitor resources to define the boundaries of your monitoring network.
-121. **[terraform-aws-amplify](https://github.com/clouddrove/terraform-aws-amplify)**
+121. **[terraform-aws-amplify](https://github.com/clouddrove/terraform-aws-amplify):** Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks. 
 
 ## Ansible Packages
 
