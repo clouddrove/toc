@@ -1,6 +1,6 @@
 <h1 align='center'>TOC of All CloudDrove Packages and Tools</h1><p align='center' style='font-size: 1.2rem;''> This repo is a useful way to discover all <a href='https://clouddrove.com'>CloudDrove</a> developed and maintained repositories. It is mainly designed for clients of CloudDrove. </p>	<p align='center'>	<a href='https://facebook.com/sharer/sharer.php?u=https://github.com/clouddrove/toc'>	  <img title='Share on Facebook' src='https://user-images.githubusercontent.com/50652676/62817743-4f64cb80-bb59-11e9-90c7-b057252ded50.png' />	</a>	<a href='https://www.linkedin.com/shareArticle?mini=true&title=TOC+of+All+CloudDrove+Packages+and+Tools&url=https://github.com/clouddrove/toc'>	  <img title='Share on LinkedIn' src='https://user-images.githubusercontent.com/50652676/62817742-4e339e80-bb59-11e9-87b9-a1f68cae1049.png' />	</a>	<a href='https://twitter.com/intent/tweet/?text=TOC+of+All+CloudDrove+Packages+and+Tools&url=https://github.com/clouddrove/toc'>	  <img title='Share on Twitter' src='https://user-images.githubusercontent.com/50652676/62817740-4c69db00-bb59-11e9-8a79-3580fbbf6d5c.png' />	</a>	</p>	<hr>
 
-## Terraform AWS Packages
+## Terraform AWS modules
 
 CloudDrove offers the below terraform AWS modules:
 
@@ -76,7 +76,7 @@ CloudDrove offers the below terraform AWS modules:
 70. **[terraform-aws-sftp-workflow](https://github.com/clouddrove/terraform-aws-sftp-workflow):** This terraform module is used to create sftp on AWS for S3. AWS SFTP (Simple File Transfer Protocol) is a fully managed service that enables you to transfer files to and from Amazon S3 using the SFTP protocol
 71. **[terraform-aws-amplify](https://github.com/clouddrove/terraform-aws-amplify):** Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks. 
 
-## Terraform AZURE Packages
+## Terraform AZURE modules
 
 CloudDrove offers the below terraform AZURE modules:
 
@@ -113,7 +113,7 @@ CloudDrove offers the below terraform AZURE modules:
 31. **[terraform-azure-sentinel](https://github.com/clouddrove/terraform-azure-sentinel):** This terraform module is designed to create azure Sentinel resources.  Microsoft Sentinel natively incorporates proven Azure services, like Log Analytics and Logic Apps. Microsoft Sentinel enriches your investigation and detection with AI. It provides Microsoft's threat intelligence stream and enables you to bring your own threat intelligence
 32. **[terraform-azure-monitor](https://github.com/clouddrove/terraform-azure-monitor):** This terraform module is designed to create Azure Monitor Private Link Scope (AMPLS) resources.  Image result for ampls An Azure Monitor private link connects a private endpoint to a set of Azure Monitor resources to define the boundaries of your monitoring network.
 
-## Terraform GCP Packages
+## Terraform GCP modules
 
 CloudDrove offers the below terraform GCP modules:
 
@@ -126,7 +126,7 @@ CloudDrove offers the below terraform GCP modules:
 7. **[terraform-gcp-firewall](https://github.com/clouddrove/terraform-gcp-firewall):** This terraform module is used to create firewall in GCP. 
 8. **[terraform-gcp-gke](https://github.com/clouddrove/terraform-gcp-gke):**   Terraform module to create gke resource in gcp.
 
-## Terraform DigitalOcean Packages
+## Terraform DigitalOcean modules
 
 CloudDrove offers the below terraform DigitalOcean modules:
 
