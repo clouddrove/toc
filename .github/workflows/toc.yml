@@ -1,11 +1,8 @@
 name: toc
 permissions: write-all
 on:
-  schedule:  
-    - cron: '0 0 * * *'   
-  push:
-    branches:
-      - internal_502
+  schedule:
+     - cron:  '45 22 * * *'
 
   workflow_dispatch:
 
