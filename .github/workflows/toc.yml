@@ -3,6 +3,10 @@ permissions: write-all
 on:
   schedule:  
     - cron: '0 0 * * *'   
+  push:
+    branches:
+      - internal_502
+
   workflow_dispatch:
 
 jobs:
