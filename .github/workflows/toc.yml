@@ -1,0 +1,16 @@
+name: toc
+permissions: write-all
+on:
+  schedule:  
+    - cron: '0 0 * * *'   
+  workflow_dispatch:
+
+jobs:
+  prod:
+    uses: clouddrove/github-shared-workflows/.github/workflows/toc.yml@internal_502     
+    with:  
+        modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
+        username: 'clouddrove.ci'
+        email: 'clouddrove.ci@clouddrove.com'
+    secrets:
+        github-token: ${{ secrets.GITHUB }}
