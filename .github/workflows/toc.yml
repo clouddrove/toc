@@ -8,7 +8,7 @@ on:
 
 jobs:
   prod:
-    uses: clouddrove/github-shared-workflows/.github/workflows/toc.yml@internal_502     
+    uses: clouddrove/github-shared-workflows/.github/workflows/toc.yml@master    
     with:  
         modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
         username: 'clouddrove.ci'
