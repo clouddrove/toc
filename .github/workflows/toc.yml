@@ -10,10 +10,11 @@ on:
 jobs:
   prod:
     uses: clouddrove/github-shared-workflows/.github/workflows/toc.yml@internal_502    
+    secrets: inherit
     with:  
         modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
         username: 'clouddrove.ci'
         email: 'clouddrove.ci@clouddrove.com'
-    secrets: inherit
+    
     # secrets:
     #     github-token: ${{ secrets.GITHUB }}
