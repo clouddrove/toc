@@ -23,10 +23,10 @@ jobs:
           email: 'clouddrove.ci@clouddrove.com'
           github_token: ${{ secrets.GITHUB }}
           
-      - name: 'push readme'
-        uses: 'clouddrove/github-actions@v9.0.2'
-        continue-on-error: true
-        with:
-          actions_subcommand: 'push'
-        env:
-          github_token: ${{ secrets.GITHUB }}
+      # - name: 'push readme'
+      #   uses: 'clouddrove/github-actions@v9.0.2'
+      #   continue-on-error: true
+      #   with:
+      #     actions_subcommand: 'push'
+      #   env:
+      #     github_token: ${{ secrets.GITHUB }}
