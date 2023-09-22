@@ -1,19 +1,32 @@
-name: toc
-permissions: write-all
+name: toc          
 on:
   schedule:
      - cron:  '45 22 * * *'
   push:
       branches:
-        - internal_502
+        - master
   workflow_dispatch:
-
 jobs:
-  prod:
-    uses: clouddrove/github-shared-workflows/.github/workflows/toc.yml@internal_502    
-    with:  
-        modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
-        username: 'clouddrove.ci'
-        email: 'clouddrove.ci@clouddrove.com'
-    secrets:
-        github-token: ${{ secrets.GITHUB }}
+  Toc:
+    name: 'toc update'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@master
+
+      - name: 'update toc'
+        uses: 'clouddrove/github-actions@master'
+        with:  
+          actions_subcommand: 'toc'
+          modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
+          username: 'clouddrove.ci'
+          email: 'clouddrove.ci@clouddrove.com'
+          github_token: ${{ secrets.GITHUB }}
+          
+      - name: 'push readme'
+        uses: 'clouddrove/github-actions@v9.0.2'
+        continue-on-error: true
+        with:
+          actions_subcommand: 'push'
+        env:
+          github_token: ${{ secrets.GITHUB }}
