@@ -1,10 +1,12 @@
-name: toc          
+---
+name: toc           
 on:
-  schedule:
-     - cron:  '45 22 * * *'
+  # Schedule:
+  #   - cron: '*/2 * * * *'
+
   push:
-      branches:
-        - internal_502
+    branches:
+      - master
   workflow_dispatch:
 jobs:
   Toc:
@@ -14,10 +16,11 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@master
 
-      - name: 'updating toc readme'
-        uses: 'clouddrove/github-actions@internal_502_3'
+      - name: 'create readme'
+        uses: 'clouddrove/github-actions@master'
         with:  
           actions_subcommand: 'toc'
+          # actions_subcommand: readme
           modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
           username: 'clouddrove.ci'
           email: 'clouddrove.ci@clouddrove.com'
@@ -30,5 +33,4 @@ jobs:
           actions_subcommand: 'push'
         env:
           github_token: ${{ secrets.GITHUB }}
-
-  
+...
