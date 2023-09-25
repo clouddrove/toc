@@ -20,7 +20,6 @@ jobs:
         uses: 'clouddrove/github-actions@master'
         with:  
           actions_subcommand: 'toc'
-          # actions_subcommand: readme
           modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
           username: 'clouddrove.ci'
           email: 'clouddrove.ci@clouddrove.com'
