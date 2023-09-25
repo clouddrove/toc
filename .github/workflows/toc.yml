@@ -12,16 +12,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      - name: create readme
-        uses: clouddrove/github-actions@master
+      - name: 'create readme'
+        uses: 'clouddrove/github-actions@master'
         with:  
           actions_subcommand: 'toc'
           modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
-        env:
           github_token: ${{ secrets.GITHUB }}
           
-      - name: push readme
-        uses: clouddrove/github-actions@v9.0.2
+      - name: 'push readme'
+        uses: 'clouddrove/github-actions@v9.0.2'
         continue-on-error: true
         with:
           actions_subcommand: 'push'
