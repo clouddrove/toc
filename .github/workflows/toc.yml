@@ -1,8 +1,8 @@
 ---
-name: toc           
+name: toc        
 on:
-  # Schedule:
-  #   - cron: '*/2 * * * *'
+  Schedule:
+    - cron: '45 22 * * MON'
 
   push:
     branches:
