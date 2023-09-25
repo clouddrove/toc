@@ -1,33 +1,29 @@
----
 name: toc        
 on:
-  Schedule:
+  schedule:
     - cron: '45 22 * * MON'
-
-  push:
-    branches:
-      - master
   workflow_dispatch:
+  
 jobs:
-  Toc:
+  toc:
     name: 'toc update'
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout'
-        uses: actions/checkout@master
-
-      - name: 'create readme'
-        uses: 'clouddrove/github-actions@master'
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: create readme
+        uses: clouddrove/github-actions@master
         with:  
           actions_subcommand: 'toc'
           modules: 'terraform-aws,terraform-azure,terraform-gcp,docker,ansible,tools'
-          github_token: ${{ secrets.GITHUB }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: 'push readme'
-        uses: 'clouddrove/github-actions@v9.0.2'
+      - name: push readme
+        uses: clouddrove/github-actions@v9.0.2
         continue-on-error: true
         with:
           actions_subcommand: 'push'
         env:
-          github_token: ${{ secrets.GITHUB }}
-...
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
