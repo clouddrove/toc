@@ -17,9 +17,9 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 9. | **[terraform-aws-efs](https://github.com/clouddrove/terraform-aws-efs)** | Terraform module to create or deploy EFS on AWS. | [2.0.0](https://github.com/clouddrove/terraform-aws-efs/releases) | 11 | 5 |  
 | 10. | **[terraform-aws-elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk)** | Terraform module to deploy Elastic Beanstalk resource on AWS. | [0.13.0](https://github.com/clouddrove/terraform-aws-elastic-beanstalk/releases) | | |  
 | 11. | **[terraform-aws-iam-role](https://github.com/clouddrove/terraform-aws-iam-role)** | Terraform module to create Iam role resource on AWS. | [1.3.1](https://github.com/clouddrove/terraform-aws-iam-role/releases) | 9 | 16 |  
-| 12. | **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3)** | Terraform module to create default S3 bucket with logging and encryption type specific features. | [2.0.0](https://github.com/clouddrove/terraform-aws-s3/releases) | 34 | 21 |  
+| 12. | **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3)** | Terraform module to create default S3 bucket with logging and encryption type specific features. | [2.0.0](https://github.com/clouddrove/terraform-aws-s3/releases) | 34 | 20 |  
 | 13. | **[terraform-aws-acm](https://github.com/clouddrove/terraform-aws-acm)** | This terraform module is used for requesting or importing SSL/TLS certificate with validation. | [1.4.1](https://github.com/clouddrove/terraform-aws-acm/releases) | 8 | 18 |  
-| 14. | **[terraform-aws-labels](https://github.com/clouddrove/terraform-aws-labels)** | This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention. | [1.3.0](https://github.com/clouddrove/terraform-aws-labels/releases) | 39 | 21 |  
+| 14. | **[terraform-aws-labels](https://github.com/clouddrove/terraform-aws-labels)** | This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention. | [1.3.0](https://github.com/clouddrove/terraform-aws-labels/releases) | 40 | 21 |  
 | 15. | **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc)** | Terraform module to create VPC resource on AWS. | [2.0.0](https://github.com/clouddrove/terraform-aws-vpc/releases) | 31 | 23 |  
 | 16. | **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet)** | Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log. | [2.0.1](https://github.com/clouddrove/terraform-aws-subnet/releases) | 38 | 18 |  
 | 17. | **[terraform-aws-keypair](https://github.com/clouddrove/terraform-aws-keypair)** | Terraform module for generating or importing an SSH public key file into AWS. | [1.3.1](https://github.com/clouddrove/terraform-aws-keypair/releases) | 10 | 13 |  
@@ -179,6 +179,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 11. | **[terraform-gcp-vm-template-instance](https://github.com/clouddrove/terraform-gcp-vm-template-instance)** | | | | |  
 | 12. | **[terraform-gcp-compute-instance](https://github.com/clouddrove/terraform-gcp-compute-instance)** | This terraform module used to create GCP Virtual machine (VM) hosted on Google's infrastructure. A compute instance is a fully managed cloud-based workstation optimized for your machine learning development environment. | | | |  
 | 13. | **[terraform-gcp-budget](https://github.com/clouddrove/terraform-gcp-budget)** | | | | |  
+| 14. | **[terraform-gcp-alerts-policy](https://github.com/clouddrove/terraform-gcp-alerts-policy)** | | | | |  
 
 ## Ansible Packages
 
