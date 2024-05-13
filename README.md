@@ -6,13 +6,13 @@ CloudDrove offers the below terraform AWS modules:
 
 Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 --- | --- | --- | --- |--- |--- |---
-| 1. | **[terraform-aws-cross-account-role](https://github.com/clouddrove/terraform-aws-cross-account-role)** | This terraform module is used to create an IAM Role to access another AWS account inventory. | [0.15.0](https://github.com/clouddrove/terraform-aws-cross-account-role/releases) | 12 | 19 |  
+| 1. | **[terraform-aws-cross-account-role](https://github.com/clouddrove/terraform-aws-cross-account-role)** | This terraform module is used to create an IAM Role to access another AWS account inventory. | [0.15.0](https://github.com/clouddrove/terraform-aws-cross-account-role/releases) | 13 | 19 |  
 | 2. | **[terraform-aws-ecr](https://github.com/clouddrove/terraform-aws-ecr)** | This terraform module is used to create ECR on AWS. | [1.3.2](https://github.com/clouddrove/terraform-aws-ecr/releases) | 25 | 20 |  
 | 3. | **[terraform-aws-elasticache](https://github.com/clouddrove/terraform-aws-elasticache)** | Terraform module to create Elasticache Cluster and replica for Redis and Memcache. | [2.0.1](https://github.com/clouddrove/terraform-aws-elasticache/releases) | 46 | 33 |  
 | 4. | **[terraform-aws-vpn](https://github.com/clouddrove/terraform-aws-vpn)** | Terraform module is used to create VPN resource on AWS for network connectivity. | [2.0.0](https://github.com/clouddrove/terraform-aws-vpn/releases) | 12 | 12 |  
 | 5. | **[terraform-aws-cloudfront](https://github.com/clouddrove/terraform-aws-cloudfront)** | Terraform module provisions CloudFront CDN resource on AWS. | [1.0.2](https://github.com/clouddrove/terraform-aws-cloudfront/releases) | 1 | 2 |  
 | 6. | **[terraform-aws-sns](https://github.com/clouddrove/terraform-aws-sns)** | Terraform module is used to setup SNS service to manage notifications on application. | [1.3.0](https://github.com/clouddrove/terraform-aws-sns/releases) | 19 | 14 |  
-| 7. | **[terraform-aws-eks](https://github.com/clouddrove/terraform-aws-eks)** | Terraform module will be created Autoscaling, Workers, EKS. | [1.4.0](https://github.com/clouddrove/terraform-aws-eks/releases) | 12 | 9 |  
+| 7. | **[terraform-aws-eks](https://github.com/clouddrove/terraform-aws-eks)** | Terraform module will be created Autoscaling, Workers, EKS. | [1.4.1](https://github.com/clouddrove/terraform-aws-eks/releases) | 13 | 9 |  
 | 8. | **[terraform-aws-transit-gateway](https://github.com/clouddrove/terraform-aws-transit-gateway)** | Terraform module to create Transit gateway resource on AWS. | [2.0.0](https://github.com/clouddrove/terraform-aws-transit-gateway/releases) | 3 | 1 |  
 | 9. | **[terraform-aws-efs](https://github.com/clouddrove/terraform-aws-efs)** | Terraform module to create or deploy EFS on AWS. | [2.0.0](https://github.com/clouddrove/terraform-aws-efs/releases) | 11 | 5 |  
 | 10. | **[terraform-aws-elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk)** | Terraform module to deploy Elastic Beanstalk resource on AWS. | [0.13.0](https://github.com/clouddrove/terraform-aws-elastic-beanstalk/releases) | | |  
@@ -37,7 +37,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 29. | **[terraform-aws-multi-account-peering](https://github.com/clouddrove/terraform-aws-multi-account-peering)** | Terraform module to connect two VPC’s from different AWS account. | [1.0.1](https://github.com/clouddrove/terraform-aws-multi-account-peering/releases) | 7 | 11 |  
 | 30. | **[terraform-aws-sftp](https://github.com/clouddrove/terraform-aws-sftp)** | This terraform module is used to create sftp on AWS for S3. | [1.3.3](https://github.com/clouddrove/terraform-aws-sftp/releases) | 34 | 28 |  
 | 31. | **[terraform-aws-route53](https://github.com/clouddrove/terraform-aws-route53)** | Terraform module to create Route53 resource on AWS for zone and record set.  | [1.0.2](https://github.com/clouddrove/terraform-aws-route53/releases) | 15 | 27 |  
-| 32. | **[terraform-aws-api-gateway](https://github.com/clouddrove/terraform-aws-api-gateway)** | Terraform module to create Route53 resource on AWS for create api gateway with it's basic elements. | [1.4.1](https://github.com/clouddrove/terraform-aws-api-gateway/releases) | 72 | 72 |  
+| 32. | **[terraform-aws-api-gateway](https://github.com/clouddrove/terraform-aws-api-gateway)** | Terraform module to create Route53 resource on AWS for create api gateway with it's basic elements. | [1.4.1](https://github.com/clouddrove/terraform-aws-api-gateway/releases) | 73 | 72 |  
 | 33. | **[terraform-aws-elasticsearch](https://github.com/clouddrove/terraform-aws-elasticsearch)** | Terraform module to create an Elasticsearch resource on AWS.  | [1.0.1](https://github.com/clouddrove/terraform-aws-elasticsearch/releases) | 13 | 17 |  
 | 34. | **[terraform-aws-iam-user](https://github.com/clouddrove/terraform-aws-iam-user)** | Terraform module to create Iam user resource on AWS. | [1.3.0](https://github.com/clouddrove/terraform-aws-iam-user/releases) | 8 | 17 |  
 | 35. | **[terraform-aws-route53-record](https://github.com/clouddrove/terraform-aws-route53-record)** | Terraform module to create Route53 table record set resource on AWS.  | [1.0.1](https://github.com/clouddrove/terraform-aws-route53-record/releases) | 10 | 14 |  
@@ -60,7 +60,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 52. | **[terraform-aws-waf-regional](https://github.com/clouddrove/terraform-aws-waf-regional)** | This is terraform repository for AWS WAF (Web Application Firewall) Regional. | | | |  
 | 53. | **[terraform-aws-slack-alerts](https://github.com/clouddrove/terraform-aws-slack-alerts)** | Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things. | [0.12.1](https://github.com/clouddrove/terraform-aws-slack-alerts/releases) | | |  
 | 54. | **[terraform-aws-lambda-site-monitor](https://github.com/clouddrove/terraform-aws-lambda-site-monitor)** | Terraform module to create Lambda resource on AWS for monitor different websites. | [1.0.1](https://github.com/clouddrove/terraform-aws-lambda-site-monitor/releases) | 4 | 4 |  
-| 55. | **[terraform-aws-mysql](https://github.com/clouddrove/terraform-aws-mysql)** | Terraform module to create a MySQL on AWS. | [1.3.1](https://github.com/clouddrove/terraform-aws-mysql/releases) | | 4 |  
+| 55. | **[terraform-aws-mysql](https://github.com/clouddrove/terraform-aws-mysql)** | Terraform module to create a MySQL on AWS. | [1.3.1](https://github.com/clouddrove/terraform-aws-mysql/releases) | | 5 |  
 | 56. | **[terraform-aws-ec2-autoscaling](https://github.com/clouddrove/terraform-aws-ec2-autoscaling)** | Terraform module will be created EC2 modulewith Autoscaling group. | [1.3.0](https://github.com/clouddrove/terraform-aws-ec2-autoscaling/releases) | 4 | 4 |  
 | 57. | **[terraform-aws-node-group](https://github.com/clouddrove/terraform-aws-node-group)** | This terraform module is used to create a node group for EKS. | [0.12.0](https://github.com/clouddrove/terraform-aws-node-group/releases) | | 1 |  
 | 58. | **[terraform-aws-lightsail](https://github.com/clouddrove/terraform-aws-lightsail)** | Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional). | [1.3.1](https://github.com/clouddrove/terraform-aws-lightsail/releases) | 16 | 13 |  
@@ -180,6 +180,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 12. | **[terraform-gcp-compute-instance](https://github.com/clouddrove/terraform-gcp-compute-instance)** | This terraform module used to create GCP Virtual machine (VM) hosted on Google's infrastructure. A compute instance is a fully managed cloud-based workstation optimized for your machine learning development environment. | | | |  
 | 13. | **[terraform-gcp-budget](https://github.com/clouddrove/terraform-gcp-budget)** | | | | |  
 | 14. | **[terraform-gcp-alerts-policy](https://github.com/clouddrove/terraform-gcp-alerts-policy)** | | | | |  
+| 15. | **[terraform-gcp-cloud-armor](https://github.com/clouddrove/terraform-gcp-cloud-armor)** | | | | |  
 
 ## Ansible Packages
 
@@ -195,7 +196,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 6. | **[ansible-role-php](https://github.com/clouddrove/ansible-role-php)** | This ansible role is used to install PHP server on Debian. | [1.0.3](https://github.com/clouddrove/ansible-role-php/releases) | 7 | 6 |  
 | 7. | **[ansible-role-jenkins-agent](https://github.com/clouddrove/ansible-role-jenkins-agent)** | This ansible role is used to install Jenkins Agent on Debian. | | | |  
 | 8. | **[ansible-role-docker-php](https://github.com/clouddrove/ansible-role-docker-php)** | This ansible ro used to install PHP with docker on linux. | [1.0.5](https://github.com/clouddrove/ansible-role-docker-php/releases) | 5 | 9 |  
-| 9. | **[ansible-role-docker-nginx](https://github.com/clouddrove/ansible-role-docker-nginx)** | This ansible role is used to install Nginx Server with docker on linux | [1.0.4](https://github.com/clouddrove/ansible-role-docker-nginx/releases) | 3 | 8 |  
+| 9. | **[ansible-role-docker-nginx](https://github.com/clouddrove/ansible-role-docker-nginx)** | This ansible role is used to install Nginx Server with docker on linux | [1.0.4](https://github.com/clouddrove/ansible-role-docker-nginx/releases) | 4 | 8 |  
 | 10. | **[ansible-role-docker-redis](https://github.com/clouddrove/ansible-role-docker-redis)** | This ansible role is used to setup Redis server with docker on Debian. | [1.0.4](https://github.com/clouddrove/ansible-role-docker-redis/releases) | 4 | 8 |  
 | 11. | **[ansible-role-docker-mysql](https://github.com/clouddrove/ansible-role-docker-mysql)** | This ansible role is used for formation of MySQL server with docker on Debian. | | | |  
 | 12. | **[ansible-role-mongo-cluster](https://github.com/clouddrove/ansible-role-mongo-cluster)** | This ansible role is used to setup Mongo cluster on Debian. | | | |  
@@ -258,6 +259,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 69. | **[ansible-role-docker-promtail](https://github.com/clouddrove/ansible-role-docker-promtail)** | | | | |  
 | 70. | **[ansible-role-sentry-selfhosted](https://github.com/clouddrove/ansible-role-sentry-selfhosted)** | | | | |  
 | 71. | **[ansible-role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp)** | | | | |  
+| 72. | **[ansible-role-wireguard](https://github.com/clouddrove/ansible-role-wireguard)** | This is the dynamic role to setup WireGuard VPN server in Ubuntu linux distribution. | | | |  
 
 ## Docker Packages
 
