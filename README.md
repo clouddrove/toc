@@ -30,7 +30,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 22. | **[terraform-aws-alb](https://github.com/clouddrove/terraform-aws-alb)** | This terraform module is used to create ALB on AWS. | [2.0.0](https://github.com/clouddrove/terraform-aws-alb/releases) | 17 | 21 |  
 | 23. | **[terraform-aws-kms](https://github.com/clouddrove/terraform-aws-kms)** | This terraform module creates a KMS Customer Master Key (CMK) and its alias. | [1.3.1](https://github.com/clouddrove/terraform-aws-kms/releases) | 21 | 18 |  
 | 24. | **[terraform-aws-aurora](https://github.com/clouddrove/terraform-aws-aurora)** | Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL. | [2.0.0](https://github.com/clouddrove/terraform-aws-aurora/releases) | 25 | 24 |  
-| 25. | **[terraform-aws-cloudwatch-alarms](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms)** | Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services. | [1.3.1](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms/releases) | 43 | 35 | [1](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms/issues) 
+| 25. | **[terraform-aws-cloudwatch-alarms](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms)** | Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services. | [1.3.1](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms/releases) | 43 | 36 | [1](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms/issues) 
 | 26. | **[terraform-aws-ses](https://github.com/clouddrove/terraform-aws-ses)** | Terraform module to create an SES Identity with SES IAM user on AWS. | [1.3.3](https://github.com/clouddrove/terraform-aws-ses/releases) | 21 | 28 | [1](https://github.com/clouddrove/terraform-aws-ses/issues) 
 | 27. | **[terraform-aws-sqs](https://github.com/clouddrove/terraform-aws-sqs)** | Terraform module to create SQS resource on AWS for managing queue. | [1.3.0](https://github.com/clouddrove/terraform-aws-sqs/releases) | 7 | 15 |  
 | 28. | **[terraform-aws-vpc-peering](https://github.com/clouddrove/terraform-aws-vpc-peering)** | Terraform module to connect two VPC's on AWS. | [1.3.0](https://github.com/clouddrove/terraform-aws-vpc-peering/releases) | 18 | 15 |  
@@ -42,7 +42,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 34. | **[terraform-aws-iam-user](https://github.com/clouddrove/terraform-aws-iam-user)** | Terraform module to create Iam user resource on AWS. | [1.3.0](https://github.com/clouddrove/terraform-aws-iam-user/releases) | 8 | 17 |  
 | 35. | **[terraform-aws-route53-record](https://github.com/clouddrove/terraform-aws-route53-record)** | Terraform module to create Route53 table record set resource on AWS.  | [1.0.1](https://github.com/clouddrove/terraform-aws-route53-record/releases) | 10 | 14 |  
 | 36. | **[terraform-aws-cloudwatch-event-rule](https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule)** | Terraform module to create cloudwatch event rule on AWS. | [1.0.1](https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule/releases) | 8 | 10 |  
-| 37. | **[terraform-aws-cloudtrail-slack-notification](https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification)** | Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.  | [1.0.1](https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification/releases) | 6 | 4 |  
+| 37. | **[terraform-aws-cloudtrail-slack-notification](https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification)** | Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.  | [1.0.1](https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification/releases) | 7 | 4 |  
 | 38. | **[terraform-aws-lambda-proxy-api-gateway](https://github.com/clouddrove/terraform-aws-lambda-proxy-api-gateway)** | Terraform module to create Api Gateway resource on AWS for trigger lambda function. | | | |  
 | 39. | **[terraform-aws-iam-baseline](https://github.com/clouddrove/terraform-aws-iam-baseline)** | Terraform Module Create default IAM roles for managing AWS account. | [1.0.1](https://github.com/clouddrove/terraform-aws-iam-baseline/releases) | | |  
 | 40. | **[terraform-aws-cloudtrail-baseline](https://github.com/clouddrove/terraform-aws-cloudtrail-baseline)** | Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key | [1.0.1](https://github.com/clouddrove/terraform-aws-cloudtrail-baseline/releases) | | |  
@@ -66,7 +66,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 58. | **[terraform-aws-lightsail](https://github.com/clouddrove/terraform-aws-lightsail)** | Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional). | [1.3.1](https://github.com/clouddrove/terraform-aws-lightsail/releases) | 16 | 13 |  
 | 59. | **[terraform-aws-secrets-manager](https://github.com/clouddrove/terraform-aws-secrets-manager)** | Terraform module to create Secret Manager resource on AWS for manage our secret variables. | [2.0.0](https://github.com/clouddrove/terraform-aws-secrets-manager/releases) | | 1 |  
 | 60. | **[terraform-aws-cognito](https://github.com/clouddrove/terraform-aws-cognito)** | Terraform module to create an Cognito resource on AWS. | [1.0.0](https://github.com/clouddrove/terraform-aws-cognito/releases) | 1 | 1 |  
-| 61. | **[terraform-aws-workspace](https://github.com/clouddrove/terraform-aws-workspace)** | Terraform module to create workspace resources on AWS for manage betterly. | [1.0.1](https://github.com/clouddrove/terraform-aws-workspace/releases) | | 3 |  
+| 61. | **[terraform-aws-workspace](https://github.com/clouddrove/terraform-aws-workspace)** | Terraform module to create workspace resources on AWS for manage betterly. | [1.0.1](https://github.com/clouddrove/terraform-aws-workspace/releases) | | 4 |  
 | 62. | **[terraform-aws-active-directory](https://github.com/clouddrove/terraform-aws-active-directory)** | Terraform module to create Active Directory on AWS. | [1.0.1](https://github.com/clouddrove/terraform-aws-active-directory/releases) | 1 | 3 |  
 | 63. | **[terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture)** | This repo is used as a sample refrence architecture to manage internal projects terraform. | | | 1 |  
 | 64. | **[terraform-aws-dynamodb](https://github.com/clouddrove/terraform-aws-dynamodb)** | This terraform module is used for create dynamodb resources in AWS. | [1.0.1](https://github.com/clouddrove/terraform-aws-dynamodb/releases) | 5 | 2 |  
@@ -111,6 +111,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 103. | **[terraform-aws-ssm](https://github.com/clouddrove/terraform-aws-ssm)** | Terraform module to create an SSM on AWS. | | | |  
 | 104. | **[terraform-aws-budget](https://github.com/clouddrove/terraform-aws-budget)** | | | | |  
 | 105. | **[terraform-aws-bootstrap](https://github.com/clouddrove/terraform-aws-bootstrap)** | | | | |  
+| 106. | **[terraform-aws-redshift](https://github.com/clouddrove/terraform-aws-redshift)** | This is for aws redshift clustner creation module. | | | |  
 
 ## Terraform AZURE modules
 
@@ -185,6 +186,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 17. | **[terraform-gcp-cloud-run](https://github.com/clouddrove/terraform-gcp-cloud-run)** | | | | |  
 | 18. | **[terraform-gcp-pubsub](https://github.com/clouddrove/terraform-gcp-pubsub)** | | | | |  
 | 19. | **[terraform-gcp-dns](https://github.com/clouddrove/terraform-gcp-dns)** | | | | |  
+| 20. | **[terraform-gcp-sql-db](https://github.com/clouddrove/terraform-gcp-sql-db)** | | | | |  
 
 ## Ansible Packages
 
