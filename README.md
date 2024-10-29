@@ -163,6 +163,8 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 40. | **[terraform-azure-landingzone](https://github.com/clouddrove/terraform-azure-landingzone)** | Azure landing zones Terraform module | [6.1.0](https://github.com/clouddrove/terraform-azure-landingzone/releases) | 1 | |  
 | 41. | **[terraform-azure-bootstrap](https://github.com/clouddrove/terraform-azure-bootstrap)** | | | | |  
 | 42. | **[terraform-azure-dummy](https://github.com/clouddrove/terraform-azure-dummy)** | | | | |  
+| 43. | **[terraform-azure-redis-cache](https://github.com/clouddrove/terraform-azure-redis-cache)** | | | | |  
+| 44. | **[terraform-azure-communication-services](https://github.com/clouddrove/terraform-azure-communication-services)** | | | | |  
 
 ## Terraform GCP modules
 
