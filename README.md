@@ -163,8 +163,9 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 40. | **[terraform-azure-landingzone](https://github.com/clouddrove/terraform-azure-landingzone)** | Azure landing zones Terraform module | [6.1.0](https://github.com/clouddrove/terraform-azure-landingzone/releases) | 1 | |  
 | 41. | **[terraform-azure-bootstrap](https://github.com/clouddrove/terraform-azure-bootstrap)** | | | | |  
 | 42. | **[terraform-azure-dummy](https://github.com/clouddrove/terraform-azure-dummy)** | | | | |  
-| 43. | **[terraform-azure-redis-cache](https://github.com/clouddrove/terraform-azure-redis-cache)** | | | | |  
+| 43. | **[terraform-azure-redis-cache](https://github.com/clouddrove/terraform-azure-redis-cache)** | These module create Resource for Azure redis cache. Azure Cache for Redis is a fully managed, in-memory cache that enables high-performance and scalable architectures. | | | |  
 | 44. | **[terraform-azure-communication-services](https://github.com/clouddrove/terraform-azure-communication-services)** | | | | |  
+| 45. | **[terraform-azure-bootstrap-test](https://github.com/clouddrove/terraform-azure-bootstrap-test)** | | | | |  
 
 ## Terraform GCP modules
 
