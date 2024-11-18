@@ -24,7 +24,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 16. | **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet)** | Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log. | [2.0.1](https://github.com/clouddrove/terraform-aws-subnet/releases) | 42 | 19 |  
 | 17. | **[terraform-aws-keypair](https://github.com/clouddrove/terraform-aws-keypair)** | Terraform module for generating or importing an SSH public key file into AWS. | [1.3.1](https://github.com/clouddrove/terraform-aws-keypair/releases) | 11 | 13 |  
 | 18. | **[terraform-aws-security-group](https://github.com/clouddrove/terraform-aws-security-group)** | This terraform module creates set of Security Group and Security Group Rules resources in various combinations. | [2.0.0](https://github.com/clouddrove/terraform-aws-security-group/releases) | 22 | 23 |  
-| 19. | **[terraform-aws-ec2](https://github.com/clouddrove/terraform-aws-ec2)** | Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store. | [2.0.3](https://github.com/clouddrove/terraform-aws-ec2/releases) | 53 | 37 |  
+| 19. | **[terraform-aws-ec2](https://github.com/clouddrove/terraform-aws-ec2)** | Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store. | [2.0.3](https://github.com/clouddrove/terraform-aws-ec2/releases) | 53 | 38 |  
 | 20. | **[terraform-aws-cloudtrail](https://github.com/clouddrove/terraform-aws-cloudtrail)** | Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs | [1.4.2](https://github.com/clouddrove/terraform-aws-cloudtrail/releases) | 10 | 20 |  
 | 21. | **[terraform-aws-lambda](https://github.com/clouddrove/terraform-aws-lambda)** |  Terraform module to create Lambda resource on AWS for create lambda function.  | [1.3.1](https://github.com/clouddrove/terraform-aws-lambda/releases) | 22 | 20 |  
 | 22. | **[terraform-aws-alb](https://github.com/clouddrove/terraform-aws-alb)** | This terraform module is used to create ALB on AWS. | [2.0.0](https://github.com/clouddrove/terraform-aws-alb/releases) | 17 | 21 |  
@@ -60,7 +60,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 52. | **[terraform-aws-waf-regional](https://github.com/clouddrove/terraform-aws-waf-regional)** | This is terraform repository for AWS WAF (Web Application Firewall) Regional. | | | |  
 | 53. | **[terraform-aws-slack-alerts](https://github.com/clouddrove/terraform-aws-slack-alerts)** | Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things. | [0.12.1](https://github.com/clouddrove/terraform-aws-slack-alerts/releases) | | |  
 | 54. | **[terraform-aws-lambda-site-monitor](https://github.com/clouddrove/terraform-aws-lambda-site-monitor)** | Terraform module to create Lambda resource on AWS for monitor different websites. | [1.0.1](https://github.com/clouddrove/terraform-aws-lambda-site-monitor/releases) | 4 | 4 |  
-| 55. | **[terraform-aws-mysql](https://github.com/clouddrove/terraform-aws-mysql)** | Terraform module to create a MySQL on AWS. | [1.3.1](https://github.com/clouddrove/terraform-aws-mysql/releases) | | 6 |  
+| 55. | **[terraform-aws-mysql](https://github.com/clouddrove/terraform-aws-mysql)** | Terraform module to create a MySQL on AWS. | [1.3.2](https://github.com/clouddrove/terraform-aws-mysql/releases) | | 6 |  
 | 56. | **[terraform-aws-ec2-autoscaling](https://github.com/clouddrove/terraform-aws-ec2-autoscaling)** | Terraform module will be created EC2 modulewith Autoscaling group. | [1.3.0](https://github.com/clouddrove/terraform-aws-ec2-autoscaling/releases) | 4 | 4 |  
 | 57. | **[terraform-aws-node-group](https://github.com/clouddrove/terraform-aws-node-group)** | This terraform module is used to create a node group for EKS. | [0.12.0](https://github.com/clouddrove/terraform-aws-node-group/releases) | | 1 |  
 | 58. | **[terraform-aws-lightsail](https://github.com/clouddrove/terraform-aws-lightsail)** | Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional). | [1.3.1](https://github.com/clouddrove/terraform-aws-lightsail/releases) | 18 | 13 |  
@@ -114,6 +114,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 106. | **[terraform-aws-redshift](https://github.com/clouddrove/terraform-aws-redshift)** | This is for aws redshift clustner creation module. | | | |  
 | 107. | **[terraform-aws-bedrock](https://github.com/clouddrove/terraform-aws-bedrock)** | Terraform module will be create AWS bedrock service | | | |  
 | 108. | **[terraform-aws-managed-control-tower](https://github.com/clouddrove/terraform-aws-managed-control-tower)** | | | | |  
+| 109. | **[terraform-aws-mq](https://github.com/clouddrove/terraform-aws-mq)** | | [0.0.1](https://github.com/clouddrove/terraform-aws-mq/releases) | | |  
 
 ## Terraform AZURE modules
 
@@ -166,6 +167,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 43. | **[terraform-azure-redis-cache](https://github.com/clouddrove/terraform-azure-redis-cache)** | These module create Resource for Azure redis cache. Azure Cache for Redis is a fully managed, in-memory cache that enables high-performance and scalable architectures. | | | |  
 | 44. | **[terraform-azure-communication-services](https://github.com/clouddrove/terraform-azure-communication-services)** | | | | |  
 | 45. | **[terraform-azure-bootstrap-test](https://github.com/clouddrove/terraform-azure-bootstrap-test)** | | | | |  
+| 46. | **[terraform-azure-function-app](https://github.com/clouddrove/terraform-azure-function-app)** | These module create Resource for Azure Function App. Azure Function App is a serverless compute service in Microsoft Azure that allows you to run small pieces of code (functions) without worrying about infrastructure management. It is designed to handle workloads that are triggered by specific events. | | | |  
 
 ## Terraform GCP modules
 
