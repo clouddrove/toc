@@ -70,10 +70,10 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 62. | **[terraform-aws-active-directory](https://github.com/clouddrove/terraform-aws-active-directory)** | Terraform module to create Active Directory on AWS. | [1.0.1](https://github.com/clouddrove/terraform-aws-active-directory/releases) | | 3 |  
 | 63. | **[terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture)** | This repo is used as a sample refrence architecture to manage internal projects terraform. | | | 1 |  
 | 64. | **[terraform-aws-dynamodb](https://github.com/clouddrove/terraform-aws-dynamodb)** | This terraform module is used for create dynamodb resources in AWS. | [1.0.1](https://github.com/clouddrove/terraform-aws-dynamodb/releases) | 5 | 2 |  
-| 65. | **[terraform-aws-client-vpn](https://github.com/clouddrove/terraform-aws-client-vpn)** | This terraform module is used for create AWS Client VPN service to manage internal AWS resources. | [1.0.9](https://github.com/clouddrove/terraform-aws-client-vpn/releases) | 8 | 8 |  
+| 65. | **[terraform-aws-client-vpn](https://github.com/clouddrove/terraform-aws-client-vpn)** | This terraform module is used for create AWS Client VPN service to manage internal AWS resources. | [1.0.9](https://github.com/clouddrove/terraform-aws-client-vpn/releases) | 8 | 9 |  
 | 66. | **[terraform-aws-lifecycle-manager](https://github.com/clouddrove/terraform-aws-lifecycle-manager)** | This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots.  | [1.0.1](https://github.com/clouddrove/terraform-aws-lifecycle-manager/releases) | 5 | 3 |  
 | 67. | **[terraform-aws-eventbridge](https://github.com/clouddrove/terraform-aws-eventbridge)** | Terraform module to create an Eventbridge resource on AWS. | [1.0.1](https://github.com/clouddrove/terraform-aws-eventbridge/releases) | | 2 |  
-| 68. | **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins)** | Terraform module for deploy a serverless jenkins. | | | 2 |  
+| 68. | **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins)** | Terraform module for deploy a serverless jenkins. | | | 3 |  
 | 69. | **[terraform-aws-alb-ingress](https://github.com/clouddrove/terraform-aws-alb-ingress)** | Terraform module to deploy alb ingress controller on EKS via helm. | [0.15.0](https://github.com/clouddrove/terraform-aws-alb-ingress/releases) | | |  
 | 70. | **[terraform-aws-backup](https://github.com/clouddrove/terraform-aws-backup)** | This Terraform module is used to create backup resource on AWS.  | [1.3.1](https://github.com/clouddrove/terraform-aws-backup/releases) | | |  
 | 71. | **[terraform-aws-gitlab-runner-old](https://github.com/clouddrove/terraform-aws-gitlab-runner-old)** | This terraform module created a launch template and autoscaling group service. These both can be used to setup gitlab-runner. | [1.0.1](https://github.com/clouddrove/terraform-aws-gitlab-runner-old/releases) | | |  
@@ -282,7 +282,7 @@ CloudDrove offers the below docker packages:
 
 Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 --- | --- | --- | --- |--- |--- |---
-| 1. | **[docker-terraform](https://github.com/clouddrove/docker-terraform)** | Running terraform using docker for better CI/CD. | | 19 | 15 |  
+| 1. | **[docker-terraform](https://github.com/clouddrove/docker-terraform)** | Running terraform using docker for better CI/CD. | | 19 | 16 |  
 | 2. | **[docker-images](https://github.com/clouddrove/docker-images)** | Docker images for use in CLoudDrove. | | | |  
 
 ## CloudDrove Internal Tools
