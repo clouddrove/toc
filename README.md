@@ -203,7 +203,7 @@ CloudDrove offers the below ansible roles:
 
 Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 --- | --- | --- | --- |--- |--- |---
-| 1. | **[ansible-commands](https://github.com/clouddrove/ansible-commands)** | This repository is used to understand how to use ansible commands. | | 28 | 18 |  
+| 1. | **[ansible-commands](https://github.com/clouddrove/ansible-commands)** | This repository is used to understand how to use ansible commands. | | 29 | 18 |  
 | 2. | **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker)** | his ansible role install docker at Debian and Centos. | [1.0.4](https://github.com/clouddrove/ansible-role-docker/releases) | 5 | 8 |  
 | 3. | **[ansible-role-common](https://github.com/clouddrove/ansible-role-common)** | This ansible role install common packages for Debian. | [1.0.7](https://github.com/clouddrove/ansible-role-common/releases) | 10 | 9 |  
 | 4. | **[ansible-role-redis](https://github.com/clouddrove/ansible-role-redis)** | This ansible role is used to install Redis server on Debian. | | | |  
