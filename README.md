@@ -23,7 +23,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 15. | **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc)** | Terraform module to create VPC resource on AWS. | [2.0.0](https://github.com/clouddrove/terraform-aws-vpc/releases) | 36 | 25 |  
 | 16. | **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet)** | Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log. | [2.0.1](https://github.com/clouddrove/terraform-aws-subnet/releases) | 42 | 19 |  
 | 17. | **[terraform-aws-keypair](https://github.com/clouddrove/terraform-aws-keypair)** | Terraform module for generating or importing an SSH public key file into AWS. | [1.3.1](https://github.com/clouddrove/terraform-aws-keypair/releases) | 11 | 13 |  
-| 18. | **[terraform-aws-security-group](https://github.com/clouddrove/terraform-aws-security-group)** | This terraform module creates set of Security Group and Security Group Rules resources in various combinations. | [2.0.0](https://github.com/clouddrove/terraform-aws-security-group/releases) | 22 | 23 |  
+| 18. | **[terraform-aws-security-group](https://github.com/clouddrove/terraform-aws-security-group)** | This terraform module creates set of Security Group and Security Group Rules resources in various combinations. | [2.0.0](https://github.com/clouddrove/terraform-aws-security-group/releases) | 22 | |  
 | 19. | **[terraform-aws-ec2](https://github.com/clouddrove/terraform-aws-ec2)** | Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store. | [2.0.3](https://github.com/clouddrove/terraform-aws-ec2/releases) | 53 | 39 |  
 | 20. | **[terraform-aws-cloudtrail](https://github.com/clouddrove/terraform-aws-cloudtrail)** | Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs | [1.4.2](https://github.com/clouddrove/terraform-aws-cloudtrail/releases) | 10 | 20 |  
 | 21. | **[terraform-aws-lambda](https://github.com/clouddrove/terraform-aws-lambda)** |  Terraform module to create Lambda resource on AWS for create lambda function.  | [1.3.1](https://github.com/clouddrove/terraform-aws-lambda/releases) | 22 | 20 |  
@@ -109,12 +109,12 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 101. | **[terraform-aws-athena](https://github.com/clouddrove/terraform-aws-athena)** | This module provides an easy way to set up Athena queries, The module can set up Athena database and table from an input S3 bucket and create-table SQL script. | [1.0.0](https://github.com/clouddrove/terraform-aws-athena/releases) | | |  
 | 102. | **[terraform-aws-control-tower](https://github.com/clouddrove/terraform-aws-control-tower)** | Terraform module to create Control tower baseline resources on AWS.  | [0.0.4](https://github.com/clouddrove/terraform-aws-control-tower/releases) | 1 | |  
 | 103. | **[terraform-aws-ssm](https://github.com/clouddrove/terraform-aws-ssm)** | Terraform module to create an SSM on AWS. | | | |  
-| 104. | **[terraform-aws-budget](https://github.com/clouddrove/terraform-aws-budget)** | | | | |  
+| 104. | **[terraform-aws-budget](https://github.com/clouddrove/terraform-aws-budget)** | Terraform module for configuring and managing AWS Budgets to monitor and control cloud spending. | | | |  
 | 105. | **[terraform-aws-bootstrap](https://github.com/clouddrove/terraform-aws-bootstrap)** | | | | |  
 | 106. | **[terraform-aws-redshift](https://github.com/clouddrove/terraform-aws-redshift)** | This is for aws redshift clustner creation module. | | | |  
 | 107. | **[terraform-aws-bedrock](https://github.com/clouddrove/terraform-aws-bedrock)** | Terraform module will be create AWS bedrock service | | | |  
 | 108. | **[terraform-aws-managed-control-tower](https://github.com/clouddrove/terraform-aws-managed-control-tower)** | | | | |  
-| 109. | **[terraform-aws-mq](https://github.com/clouddrove/terraform-aws-mq)** | | [0.0.2](https://github.com/clouddrove/terraform-aws-mq/releases) | | |  
+| 109. | **[terraform-aws-mq](https://github.com/clouddrove/terraform-aws-mq)** | Terraform module for provisioning an AmazonMQ broker instance. | [0.0.2](https://github.com/clouddrove/terraform-aws-mq/releases) | 1 | |  
 
 ## Terraform AZURE modules
 
@@ -185,21 +185,21 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 4. | **[terraform-gcp-service-account](https://github.com/clouddrove/terraform-gcp-service-account)** | A Terraform module to create default Service-account with management of service-account | [1.0.1](https://github.com/clouddrove/terraform-gcp-service-account/releases) | | 1 |  
 | 5. | **[terraform-gcp-subnet](https://github.com/clouddrove/terraform-gcp-subnet)** | Terraform module to create subnet resource in gcp. | [1.0.1](https://github.com/clouddrove/terraform-gcp-subnet/releases) | | 1 |  
 | 6. | **[terraform-gcp-kms](https://github.com/clouddrove/terraform-gcp-kms)** | This terraform module is used to create a KMS Customer Master Key (CMK).  | [1.0.0](https://github.com/clouddrove/terraform-gcp-kms/releases) | 2 | 1 |  
-| 7. | **[terraform-gcp-iam](https://github.com/clouddrove/terraform-gcp-iam)** | | | | |  
-| 8. | **[terraform-gcp-gcr](https://github.com/clouddrove/terraform-gcp-gcr)** | | | | |  
+| 7. | **[terraform-gcp-iam](https://github.com/clouddrove/terraform-gcp-iam)** | Terraform module to manage IAM roles and policies for GCP resources. | | | |  
+| 8. | **[terraform-gcp-gcr](https://github.com/clouddrove/terraform-gcp-gcr)** | Terraform module to create and manage Google Container Registry (GCR) repositories in GCP. | | | |  
 | 9. | **[terraform-gcp-firewall](https://github.com/clouddrove/terraform-gcp-firewall)** | This terraform module is used to create firewall in GCP.  | [1.0.0](https://github.com/clouddrove/terraform-gcp-firewall/releases) | | |  
 | 10. | **[terraform-gcp-gke](https://github.com/clouddrove/terraform-gcp-gke)** |   Terraform module to create gke resource in gcp. | [v0.0.3](https://github.com/clouddrove/terraform-gcp-gke/releases) | | |  
-| 11. | **[terraform-gcp-vm-template-instance](https://github.com/clouddrove/terraform-gcp-vm-template-instance)** | | | | |  
+| 11. | **[terraform-gcp-vm-template-instance](https://github.com/clouddrove/terraform-gcp-vm-template-instance)** | Terraform module to create and manage VM template instances in GCP. | | | |  
 | 12. | **[terraform-gcp-compute-instance](https://github.com/clouddrove/terraform-gcp-compute-instance)** | This terraform module used to create GCP Virtual machine (VM) hosted on Google's infrastructure. A compute instance is a fully managed cloud-based workstation optimized for your machine learning development environment. | | | |  
-| 13. | **[terraform-gcp-budget](https://github.com/clouddrove/terraform-gcp-budget)** | | | | |  
-| 14. | **[terraform-gcp-alerts-policy](https://github.com/clouddrove/terraform-gcp-alerts-policy)** | | | | |  
+| 13. | **[terraform-gcp-budget](https://github.com/clouddrove/terraform-gcp-budget)** | Terraform module to set up and manage GCP Budgets for cost control and monitoring. | | | |  
+| 14. | **[terraform-gcp-alerts-policy](https://github.com/clouddrove/terraform-gcp-alerts-policy)** | Terraform module to create and manage alerting policies in GCP using Stackdriver. | | | |  
 | 15. | **[terraform-gcp-cloud-armor](https://github.com/clouddrove/terraform-gcp-cloud-armor)** | | | | |  
 | 16. | **[terraform-gcp-load-balancer](https://github.com/clouddrove/terraform-gcp-load-balancer)** | | | | |  
-| 17. | **[terraform-gcp-cloud-run](https://github.com/clouddrove/terraform-gcp-cloud-run)** | | | | |  
-| 18. | **[terraform-gcp-pubsub](https://github.com/clouddrove/terraform-gcp-pubsub)** | | | | |  
-| 19. | **[terraform-gcp-dns](https://github.com/clouddrove/terraform-gcp-dns)** | | | | |  
-| 20. | **[terraform-gcp-sql-db](https://github.com/clouddrove/terraform-gcp-sql-db)** | | | | |  
-| 21. | **[terraform-gcp-scheduler](https://github.com/clouddrove/terraform-gcp-scheduler)** | | | | |  
+| 17. | **[terraform-gcp-cloud-run](https://github.com/clouddrove/terraform-gcp-cloud-run)** | Terraform module to provision and manage Cloud Run services in GCP. | | | |  
+| 18. | **[terraform-gcp-pubsub](https://github.com/clouddrove/terraform-gcp-pubsub)** | Terraform module to create and manage Google Pub/Sub topics and subscriptions in GCP. | | | |  
+| 19. | **[terraform-gcp-dns](https://github.com/clouddrove/terraform-gcp-dns)** | Terraform module to create and manage Cloud DNS records and zones in GCP. | | | |  
+| 20. | **[terraform-gcp-sql-db](https://github.com/clouddrove/terraform-gcp-sql-db)** | Terraform module to create and manage Cloud SQL instances in GCP. | | | |  
+| 21. | **[terraform-gcp-scheduler](https://github.com/clouddrove/terraform-gcp-scheduler)** | Terraform module to create and manage Cloud Scheduler jobs in GCP. | | | |  
 
 ## Ansible Packages
 
