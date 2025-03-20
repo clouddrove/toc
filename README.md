@@ -208,78 +208,78 @@ CloudDrove offers the below ansible roles:
 Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 --- | --- | --- | --- |--- |--- |---
 | 1. | **[ansible-commands](https://github.com/clouddrove/ansible-commands)** | This repository is used to understand how to use ansible commands. | | 29 | 18 |  
-| 2. | **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker)** | his ansible role install docker at Debian and Centos. | [1.0.4](https://github.com/clouddrove/ansible-role-docker/releases) | 5 | 8 |  
-| 3. | **[ansible-role-common](https://github.com/clouddrove/ansible-role-common)** | This ansible role install common packages for Debian. | [1.0.7](https://github.com/clouddrove/ansible-role-common/releases) | 10 | 9 |  
-| 4. | **[ansible-role-redis](https://github.com/clouddrove/ansible-role-redis)** | This ansible role is used to install Redis server on Debian. | | | |  
+| 2. | **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker)** | This ansible role installs Docker on Debian and CentOS. | [1.0.4](https://github.com/clouddrove/ansible-role-docker/releases) | 5 | 8 |  
+| 3. | **[ansible-role-common](https://github.com/clouddrove/ansible-role-common)** | This ansible role installs common packages for Debian. | [1.0.7](https://github.com/clouddrove/ansible-role-common/releases) | 10 | 9 |  
+| 4. | **[ansible-role-redis](https://github.com/clouddrove/ansible-role-redis)** | This ansible role installs Redis server on Debian. | | | |  
 | 5. | **[ansible-role-keys](https://github.com/clouddrove/ansible-role-keys)** | Ansible role to manage keys. | | | |  
-| 6. | **[ansible-role-php](https://github.com/clouddrove/ansible-role-php)** | This ansible role is used to install PHP server on Debian. | [1.0.3](https://github.com/clouddrove/ansible-role-php/releases) | 7 | 6 |  
-| 7. | **[ansible-role-jenkins-agent](https://github.com/clouddrove/ansible-role-jenkins-agent)** | This ansible role is used to install Jenkins Agent on Debian. | | | |  
-| 8. | **[ansible-role-docker-php](https://github.com/clouddrove/ansible-role-docker-php)** | This ansible ro used to install PHP with docker on linux. | [1.0.5](https://github.com/clouddrove/ansible-role-docker-php/releases) | 5 | 9 |  
-| 9. | **[ansible-role-docker-nginx](https://github.com/clouddrove/ansible-role-docker-nginx)** | This ansible role is used to install Nginx Server with docker on linux | [1.0.4](https://github.com/clouddrove/ansible-role-docker-nginx/releases) | 4 | 8 |  
-| 10. | **[ansible-role-docker-redis](https://github.com/clouddrove/ansible-role-docker-redis)** | This ansible role is used to setup Redis server with docker on Debian. | [1.0.4](https://github.com/clouddrove/ansible-role-docker-redis/releases) | 4 | 8 |  
-| 11. | **[ansible-role-docker-mysql](https://github.com/clouddrove/ansible-role-docker-mysql)** | This ansible role is used for formation of MySQL server with docker on Debian. | | | |  
-| 12. | **[ansible-role-mongo-cluster](https://github.com/clouddrove/ansible-role-mongo-cluster)** | This ansible role is used to setup Mongo cluster on Debian. | | | |  
-| 13. | **[ansible-role-docker-mongo-cluster](https://github.com/clouddrove/ansible-role-docker-mongo-cluster)** | This ansible role is used to setup Mongo cluster with docker on Debian. | [1.0.0](https://github.com/clouddrove/ansible-role-docker-mongo-cluster/releases) | | |  
-| 14. | **[ansible-role-solr](https://github.com/clouddrove/ansible-role-solr)** | Ansible role to run setup solr  using docker. | | | |  
-| 15. | **[ansible-role-logz-io](https://github.com/clouddrove/ansible-role-logz-io)** | This ansible role is used to install logz.io tool dependency on Debian. | | | |  
-| 16. | **[ansible-role-nginx](https://github.com/clouddrove/ansible-role-nginx)** | This ansible role is used to install Nginx Server on linux. | [1.0.4](https://github.com/clouddrove/ansible-role-nginx/releases) | 4 | 8 |  
-| 17. | **[ansible-role-mount-efs](https://github.com/clouddrove/ansible-role-mount-efs)** | This ansible role is used for installing & Mounting AWS EFS on Debian. | [1.0.0](https://github.com/clouddrove/ansible-role-mount-efs/releases) | 2 | 5 |  
-| 18. | **[ansible-role-user](https://github.com/clouddrove/ansible-role-user)** | This ansible role is used to create users on server. | [1.0.5](https://github.com/clouddrove/ansible-role-user/releases) | 5 | 8 |  
-| 19. | **[ansible-role-redash](https://github.com/clouddrove/ansible-role-redash)** | This ansible role is used for the installation of Redash tool on Debian. | | | |  
-| 20. | **[ansible-role-docker-superset](https://github.com/clouddrove/ansible-role-docker-superset)** | This ansible role is used for installing Superset tool with docker on Debian. | | | |  
-| 21. | **[ansible-role-docker-metabase](https://github.com/clouddrove/ansible-role-docker-metabase)** | This ansible role is used for installing Metabase tool with docker on Debian. | [1.0.0](https://github.com/clouddrove/ansible-role-docker-metabase/releases) | | |  
-| 22. | **[ansible-role-docker-compose](https://github.com/clouddrove/ansible-role-docker-compose)** | This ansible role is used to install docker-compose on linux | | | |  
-| 23. | **[ansible-role-mysql](https://github.com/clouddrove/ansible-role-mysql)** | This ansible role install mysql server for Debian. | [1.0.3](https://github.com/clouddrove/ansible-role-mysql/releases) | 4 | 8 |  
-| 24. | **[ansible-role-docker-jenkins](https://github.com/clouddrove/ansible-role-docker-jenkins)** | This ansible role is used to install Jenkins with docker on server. | [1.0.4](https://github.com/clouddrove/ansible-role-docker-jenkins/releases) | 8 | 9 |  
-| 25. | **[ansible-role-slack-ssh-notifier](https://github.com/clouddrove/ansible-role-slack-ssh-notifier)** | This ansible role is used to install Slack SSH notifier on server. | [1.0.4](https://github.com/clouddrove/ansible-role-slack-ssh-notifier/releases) | 3 | 7 |  
-| 26. | **[ansible-role-docker-caddy](https://github.com/clouddrove/ansible-role-docker-caddy)** | This ansible role is used to install Caddy with docker on server. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-caddy/releases) | 1 | 6 |  
-| 27. | **[ansible-role-docker-pritunl](https://github.com/clouddrove/ansible-role-docker-pritunl)** | This ansible role is used to install Pritunl and Mongodb with docker on server.  | [1.0.3](https://github.com/clouddrove/ansible-role-docker-pritunl/releases) | 10 | 7 |  
-| 28. | **[ansible-role-docker-elasticsearch](https://github.com/clouddrove/ansible-role-docker-elasticsearch)** |   This ansible role is used to install Elasticsearch Server with docker on linux. | [1.0.0](https://github.com/clouddrove/ansible-role-docker-elasticsearch/releases) | 1 | 9 |  
-| 29. | **[ansible-role-docker-elastichq](https://github.com/clouddrove/ansible-role-docker-elastichq)** | This ansible role is used to install Elastichq  with docker on linux | [1.0.2](https://github.com/clouddrove/ansible-role-docker-elastichq/releases) | 2 | 7 |  
-| 30. | **[ansible-role-docker-wowza](https://github.com/clouddrove/ansible-role-docker-wowza)** | This ansible role is used to install Wowza streaming engine with docker on linux. | | | |  
-| 31. | **[ansible-role-docker-vault](https://github.com/clouddrove/ansible-role-docker-vault)** | This ansible role is used to install vault  with docker on linux. | | | |  
-| 32. | **[ansible-role-docker-rabbitmq](https://github.com/clouddrove/ansible-role-docker-rabbitmq)** | This ansible role is used to setup rabbitmq with docker on Debian. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-rabbitmq/releases) | | |  
-| 33. | **[ansible-role-certbot](https://github.com/clouddrove/ansible-role-certbot)** | This ansible role is used to install certbot SSL on linux. | [1.0.1](https://github.com/clouddrove/ansible-role-certbot/releases) | 2 | 6 |  
-| 34. | **[ansible-role-k8s-common](https://github.com/clouddrove/ansible-role-k8s-common)** | This ansible role is used to install k8s common. | | | |  
-| 35. | **[ansible-role-wordpress](https://github.com/clouddrove/ansible-role-wordpress)** | Automated Installation and Configuring Wordpress on Linux. | [1.0.0](https://github.com/clouddrove/ansible-role-wordpress/releases) | | |  
-| 36. | **[ansible-role-magento2](https://github.com/clouddrove/ansible-role-magento2)** | Automated Installation and Configuring Magento2 on Linux. | | | |  
-| 37. | **[ansible-role-docker-redis-node-exporter](https://github.com/clouddrove/ansible-role-docker-redis-node-exporter)** | This ansible role is used to setup Redis node exporter with docker. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-redis-node-exporter/releases) | 1 | 2 |  
-| 38. | **[ansible-role-docker-elasticsearch-node-exporter](https://github.com/clouddrove/ansible-role-docker-elasticsearch-node-exporter)** | This ansible role is used to setup Elasticsearch node exporter with docker. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-elasticsearch-node-exporter/releases) | 2 | 3 |  
-| 39. | **[ansible-role-docker-rabbitmq-node-exporter](https://github.com/clouddrove/ansible-role-docker-rabbitmq-node-exporter)** | This ansible role is used to setup Rabbitmq node exporter with docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-rabbitmq-node-exporter/releases) | | 1 |  
-| 40. | **[ansible-role-docker-monitoring](https://github.com/clouddrove/ansible-role-docker-monitoring)** | This ansible role is used to install prometheus, grafana and alertmanager with docker on linux. | | | |  
-| 41. | **[ansible-role-docker-nginx-node-exporter](https://github.com/clouddrove/ansible-role-docker-nginx-node-exporter)** | This ansible role is used to setup Nginx node exporter with docker. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-nginx-node-exporter/releases) | 2 | 2 |  
-| 42. | **[ansible-role-docker-basic-node-exporter](https://github.com/clouddrove/ansible-role-docker-basic-node-exporter)** | This ansible role is used to setup Basic node exporter with docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-basic-node-exporter/releases) | 2 | 3 |  
-| 43. | **[ansible-role-docker-php-node-exporter](https://github.com/clouddrove/ansible-role-docker-php-node-exporter)** | This ansible role is used to setup Php node exporter with docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-php-node-exporter/releases) | 1 | 2 |  
-| 44. | **[ansible-role-docker-varnish](https://github.com/clouddrove/ansible-role-docker-varnish)** | This ansible role is used to setup Varnish with docker. | [0.12.0](https://github.com/clouddrove/ansible-role-docker-varnish/releases) | 1 | |  
-| 45. | **[ansible-role-docker-jenkins-node-exporter](https://github.com/clouddrove/ansible-role-docker-jenkins-node-exporter)** | This ansible role is used to setup Jenkins node exporter with docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-jenkins-node-exporter/releases) | 1 | 2 |  
-| 46. | **[ansible-role-docker-exporter](https://github.com/clouddrove/ansible-role-docker-exporter)** | This ansible role is used to setup Docker node exporter with docker. | | | |  
-| 47. | **[ansible-role-docker-mysql-node-exporter](https://github.com/clouddrove/ansible-role-docker-mysql-node-exporter)** | This ansible role is used to setup MySQL node exporter with docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-mysql-node-exporter/releases) | 2 | 3 |  
-| 48. | **[ansible-role-docker-nginx-proxy](https://github.com/clouddrove/ansible-role-docker-nginx-proxy)** | This ansible role is used to install Nginx Server with docker on linux. | [0.12.0](https://github.com/clouddrove/ansible-role-docker-nginx-proxy/releases) | | |  
-| 49. | **[ansible-role-aws-inspector-agent](https://github.com/clouddrove/ansible-role-aws-inspector-agent)** | This ansible role is used to install ansible-role-aws-inspector-agent | | | |  
-| 50. | **[ansible-role-apache-airflow](https://github.com/clouddrove/ansible-role-apache-airflow)** | This ansible role is used to install ansible-role-apache-airflow | | | |  
-| 51. | **[ansible-role-clamav](https://github.com/clouddrove/ansible-role-clamav)** | This ansible role is used to install ansible-role-clamav | | | |  
-| 52. | **[ansible-role-os-hardning](https://github.com/clouddrove/ansible-role-os-hardning)** | This ansible role is used to install ansible-role-os-hardning | | | |  
-| 53. | **[ansible-role-devops](https://github.com/clouddrove/ansible-role-devops)** | This ansible role setup devops repo on jenkins. | | | |  
-| 54. | **[ansible-role-newrelic](https://github.com/clouddrove/ansible-role-newrelic)** | This ansible role is used to installansible-role-newrelic | | | |  
-| 55. | **[ansible-role-docker-blackbox-node-exporter](https://github.com/clouddrove/ansible-role-docker-blackbox-node-exporter)** | This ansible role is used to setup Blackbox exporter with docker. | | | |  
-| 56. | **[ansible-role-docker-datadog-agent](https://github.com/clouddrove/ansible-role-docker-datadog-agent)** | This ansible role is created to install the Datadog agent with docker to send statistics to Datadog. | | | |  
-| 57. | **[ansible-role-docker-postgres](https://github.com/clouddrove/ansible-role-docker-postgres)** | This ansible role is used to set up PostgreSQL with docker. | | | |  
-| 58. | **[ansible-role-kuguard](https://github.com/clouddrove/ansible-role-kuguard)** | | | | |  
-| 59. | **[ansible-role-gitlab-runner](https://github.com/clouddrove/ansible-role-gitlab-runner)** | This ansible role install gitlab-runner on ubuntu. | | | |  
-| 60. | **[ansible-role-docker-gtmetrix-speed-test](https://github.com/clouddrove/ansible-role-docker-gtmetrix-speed-test)** | This ansible role is used to setup gtmetrix speed test with docker on Debian. | | | |  
-| 61. | **[ansible-role-github-runner](https://github.com/clouddrove/ansible-role-github-runner)** | Ansible role is used to automate GitHub runner on the server. | | | |  
-| 62. | **[ansible-role-monit](https://github.com/clouddrove/ansible-role-monit)** | This ansible role is used to install monit on linux | | | |  
-| 63. | **[ansible-role-openvas](https://github.com/clouddrove/ansible-role-openvas)** | This ansible role is used to setup openvas on Debian. | | | |  
-| 64. | **[ansible-role-vsftpd](https://github.com/clouddrove/ansible-role-vsftpd)** | Ansible role for Filezilla | | | |  
-| 65. | **[ansible-role-mysqltuner](https://github.com/clouddrove/ansible-role-mysqltuner)** | Install and run mysqltuner | | | |  
-| 66. | **[ansible-role-kubernetes](https://github.com/clouddrove/ansible-role-kubernetes)** | This ansible role is used to set up Kubernetes on Linux. | | | |  
-| 67. | **[ansible-role-docker-redmine](https://github.com/clouddrove/ansible-role-docker-redmine)** | This ansible role is used to set up Redmine with docker. | | | |  
-| 68. | **[ansible-module](https://github.com/clouddrove/ansible-module)** | Example template for ansible role to create roles for CloudDrove. | | | |  
-| 69. | **[ansible-role-docker-promtail](https://github.com/clouddrove/ansible-role-docker-promtail)** | | | | |  
-| 70. | **[ansible-role-sentry-selfhosted](https://github.com/clouddrove/ansible-role-sentry-selfhosted)** | | | | |  
-| 71. | **[ansible-role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp)** | | | | |  
-| 72. | **[ansible-role-wireguard](https://github.com/clouddrove/ansible-role-wireguard)** | This is the dynamic role to setup WireGuard VPN server in Ubuntu linux distribution. | | | |  
-| 73. | **[ansible-test-dt](https://github.com/clouddrove/ansible-test-dt)** | Ansible roles test repository for DT | | | |  
+| 6. | **[ansible-role-php](https://github.com/clouddrove/ansible-role-php)** | This ansible role installs PHP server on Debian. | [1.0.3](https://github.com/clouddrove/ansible-role-php/releases) | 7 | 6 |  
+| 7. | **[ansible-role-jenkins-agent](https://github.com/clouddrove/ansible-role-jenkins-agent)** | This ansible role installs Jenkins Agent on Debian. | | | |  
+| 8. | **[ansible-role-docker-php](https://github.com/clouddrove/ansible-role-docker-php)** | This ansible role installs PHP with Docker on Linux. | [1.0.5](https://github.com/clouddrove/ansible-role-docker-php/releases) | 5 | 9 |  
+| 9. | **[ansible-role-docker-nginx](https://github.com/clouddrove/ansible-role-docker-nginx)** | This ansible role installs Nginx Server with Docker on Linux. | [1.0.4](https://github.com/clouddrove/ansible-role-docker-nginx/releases) | 4 | 8 |  
+| 10. | **[ansible-role-docker-redis](https://github.com/clouddrove/ansible-role-docker-redis)** | This ansible role sets up Redis server with Docker on Debian. | [1.0.4](https://github.com/clouddrove/ansible-role-docker-redis/releases) | 4 | 8 |  
+| 11. | **[ansible-role-docker-mysql](https://github.com/clouddrove/ansible-role-docker-mysql)** | This ansible role sets up MySQL server with Docker on Debian. | | | |  
+| 12. | **[ansible-role-mongo-cluster](https://github.com/clouddrove/ansible-role-mongo-cluster)** | This ansible role sets up MongoDB cluster on Debian. | | | |  
+| 13. | **[ansible-role-docker-mongo-cluster](https://github.com/clouddrove/ansible-role-docker-mongo-cluster)** | This ansible role sets up MongoDB cluster with Docker on Debian. | [1.0.0](https://github.com/clouddrove/ansible-role-docker-mongo-cluster/releases) | | |  
+| 14. | **[ansible-role-solr](https://github.com/clouddrove/ansible-role-solr)** | Ansible role to set up Solr using Docker. | | | |  
+| 15. | **[ansible-role-logz-io](https://github.com/clouddrove/ansible-role-logz-io)** | This ansible role installs Logz.io tool dependencies on Debian. | | | |  
+| 16. | **[ansible-role-nginx](https://github.com/clouddrove/ansible-role-nginx)** | This ansible role installs Nginx Server on Linux. | [1.0.4](https://github.com/clouddrove/ansible-role-nginx/releases) | 4 | 8 |  
+| 17. | **[ansible-role-mount-efs](https://github.com/clouddrove/ansible-role-mount-efs)** | This ansible role installs and mounts AWS EFS on Debian. | [1.0.0](https://github.com/clouddrove/ansible-role-mount-efs/releases) | 2 | 5 |  
+| 18. | **[ansible-role-user](https://github.com/clouddrove/ansible-role-user)** | This ansible role creates users on the server. | [1.0.5](https://github.com/clouddrove/ansible-role-user/releases) | 5 | 8 |  
+| 19. | **[ansible-role-redash](https://github.com/clouddrove/ansible-role-redash)** | This ansible role installs Redash tool on Debian. | | | |  
+| 20. | **[ansible-role-docker-superset](https://github.com/clouddrove/ansible-role-docker-superset)** | This ansible role installs Superset tool with Docker on Debian. | | | |  
+| 21. | **[ansible-role-docker-metabase](https://github.com/clouddrove/ansible-role-docker-metabase)** | This ansible role installs Metabase tool with Docker on Debian. | [1.0.0](https://github.com/clouddrove/ansible-role-docker-metabase/releases) | | |  
+| 22. | **[ansible-role-docker-compose](https://github.com/clouddrove/ansible-role-docker-compose)** | This ansible role installs Docker Compose on Linux. | | | |  
+| 23. | **[ansible-role-mysql](https://github.com/clouddrove/ansible-role-mysql)** | This ansible role installs MySQL server on Debian. | [1.0.3](https://github.com/clouddrove/ansible-role-mysql/releases) | 4 | 8 |  
+| 24. | **[ansible-role-docker-jenkins](https://github.com/clouddrove/ansible-role-docker-jenkins)** | This ansible role installs Jenkins with Docker on the server. | [1.0.4](https://github.com/clouddrove/ansible-role-docker-jenkins/releases) | 8 | 9 |  
+| 25. | **[ansible-role-slack-ssh-notifier](https://github.com/clouddrove/ansible-role-slack-ssh-notifier)** | This ansible role installs Slack SSH notifier on the server. | [1.0.4](https://github.com/clouddrove/ansible-role-slack-ssh-notifier/releases) | 3 | 7 |  
+| 26. | **[ansible-role-docker-caddy](https://github.com/clouddrove/ansible-role-docker-caddy)** | This ansible role installs Caddy with Docker on the server. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-caddy/releases) | 1 | 6 |  
+| 27. | **[ansible-role-docker-pritunl](https://github.com/clouddrove/ansible-role-docker-pritunl)** | This ansible role installs Pritunl and MongoDB with Docker on the server. | [1.0.3](https://github.com/clouddrove/ansible-role-docker-pritunl/releases) | 10 | 7 |  
+| 28. | **[ansible-role-docker-elasticsearch](https://github.com/clouddrove/ansible-role-docker-elasticsearch)** | This ansible role installs Elasticsearch Server with Docker on Linux. | [1.0.0](https://github.com/clouddrove/ansible-role-docker-elasticsearch/releases) | 1 | 9 |  
+| 29. | **[ansible-role-docker-elastichq](https://github.com/clouddrove/ansible-role-docker-elastichq)** | This ansible role installs ElasticHQ with Docker on Linux. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-elastichq/releases) | 2 | 7 |  
+| 30. | **[ansible-role-docker-wowza](https://github.com/clouddrove/ansible-role-docker-wowza)** | This ansible role installs Wowza Streaming Engine with Docker on Linux. | | | |  
+| 31. | **[ansible-role-docker-vault](https://github.com/clouddrove/ansible-role-docker-vault)** | This ansible role installs Vault with Docker on Linux. | | | |  
+| 32. | **[ansible-role-docker-rabbitmq](https://github.com/clouddrove/ansible-role-docker-rabbitmq)** | This ansible role sets up RabbitMQ with Docker on Debian. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-rabbitmq/releases) | | |  
+| 33. | **[ansible-role-certbot](https://github.com/clouddrove/ansible-role-certbot)** | This ansible role installs Certbot SSL on Linux. | [1.0.1](https://github.com/clouddrove/ansible-role-certbot/releases) | 2 | 6 |  
+| 34. | **[ansible-role-k8s-common](https://github.com/clouddrove/ansible-role-k8s-common)** | This ansible role installs common Kubernetes components. | | | |  
+| 35. | **[ansible-role-wordpress](https://github.com/clouddrove/ansible-role-wordpress)** | Automated installation and configuration of WordPress on Linux. | [1.0.0](https://github.com/clouddrove/ansible-role-wordpress/releases) | | |  
+| 36. | **[ansible-role-magento2](https://github.com/clouddrove/ansible-role-magento2)** | Automated installation and configuration of Magento2 on Linux. | | | |  
+| 37. | **[ansible-role-docker-redis-node-exporter](https://github.com/clouddrove/ansible-role-docker-redis-node-exporter)** | This ansible role sets up Redis node exporter with Docker. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-redis-node-exporter/releases) | 1 | 2 |  
+| 38. | **[ansible-role-docker-elasticsearch-node-exporter](https://github.com/clouddrove/ansible-role-docker-elasticsearch-node-exporter)** | This ansible role sets up Elasticsearch node exporter with Docker. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-elasticsearch-node-exporter/releases) | 2 | 3 |  
+| 39. | **[ansible-role-docker-rabbitmq-node-exporter](https://github.com/clouddrove/ansible-role-docker-rabbitmq-node-exporter)** | This ansible role sets up RabbitMQ node exporter with Docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-rabbitmq-node-exporter/releases) | | 1 |  
+| 40. | **[ansible-role-docker-monitoring](https://github.com/clouddrove/ansible-role-docker-monitoring)** | This ansible role installs Prometheus, Grafana, and Alertmanager with Docker on Linux. | | | |  
+| 41. | **[ansible-role-docker-nginx-node-exporter](https://github.com/clouddrove/ansible-role-docker-nginx-node-exporter)** | This Ansible role sets up Nginx node exporter with Docker. | [1.0.2](https://github.com/clouddrove/ansible-role-docker-nginx-node-exporter/releases) | 2 | 2 |  
+| 42. | **[ansible-role-docker-basic-node-exporter](https://github.com/clouddrove/ansible-role-docker-basic-node-exporter)** | This Ansible role sets up Basic node exporter with Docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-basic-node-exporter/releases) | 2 | 3 |  
+| 43. | **[ansible-role-docker-php-node-exporter](https://github.com/clouddrove/ansible-role-docker-php-node-exporter)** | This Ansible role sets up PHP node exporter with Docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-php-node-exporter/releases) | 1 | 2 |  
+| 44. | **[ansible-role-docker-varnish](https://github.com/clouddrove/ansible-role-docker-varnish)** | This Ansible role sets up Varnish with Docker. | [0.12.0](https://github.com/clouddrove/ansible-role-docker-varnish/releases) | 1 | |  
+| 45. | **[ansible-role-docker-jenkins-node-exporter](https://github.com/clouddrove/ansible-role-docker-jenkins-node-exporter)** | This Ansible role sets up Jenkins node exporter with Docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-jenkins-node-exporter/releases) | 1 | 2 |  
+| 46. | **[ansible-role-docker-exporter](https://github.com/clouddrove/ansible-role-docker-exporter)** | This Ansible role sets up Docker node exporter with Docker. | | | |  
+| 47. | **[ansible-role-docker-mysql-node-exporter](https://github.com/clouddrove/ansible-role-docker-mysql-node-exporter)** | This Ansible role sets up MySQL node exporter with Docker. | [1.0.1](https://github.com/clouddrove/ansible-role-docker-mysql-node-exporter/releases) | 2 | 3 |  
+| 48. | **[ansible-role-docker-nginx-proxy](https://github.com/clouddrove/ansible-role-docker-nginx-proxy)** | This Ansible role installs Nginx Server with Docker on Linux. | [0.12.0](https://github.com/clouddrove/ansible-role-docker-nginx-proxy/releases) | | |  
+| 49. | **[ansible-role-aws-inspector-agent](https://github.com/clouddrove/ansible-role-aws-inspector-agent)** | This Ansible role installs AWS Inspector Agent. | | | |  
+| 50. | **[ansible-role-apache-airflow](https://github.com/clouddrove/ansible-role-apache-airflow)** | This Ansible role installs Apache Airflow. | | | |  
+| 51. | **[ansible-role-clamav](https://github.com/clouddrove/ansible-role-clamav)** | This Ansible role installs ClamAV. | | | |  
+| 52. | **[ansible-role-os-hardening](https://github.com/clouddrove/ansible-role-os-hardening)** | This Ansible role applies OS hardening. | | | |  
+| 53. | **[ansible-role-devops](https://github.com/clouddrove/ansible-role-devops)** | This Ansible role sets up DevOps repository on Jenkins. | | | |  
+| 54. | **[ansible-role-newrelic](https://github.com/clouddrove/ansible-role-newrelic)** | This Ansible role installs New Relic. | | | |  
+| 55. | **[ansible-role-docker-blackbox-node-exporter](https://github.com/clouddrove/ansible-role-docker-blackbox-node-exporter)** | This Ansible role sets up Blackbox exporter with Docker. | | | |  
+| 56. | **[ansible-role-docker-datadog-agent](https://github.com/clouddrove/ansible-role-docker-datadog-agent)** | This Ansible role installs the Datadog agent with Docker to send statistics to Datadog. | | | |  
+| 57. | **[ansible-role-docker-postgres](https://github.com/clouddrove/ansible-role-docker-postgres)** | This Ansible role sets up PostgreSQL with Docker. | | | |  
+| 58. | **[ansible-role-kuguard](https://github.com/clouddrove/ansible-role-kuguard)** | This Ansible role sets up Kuguard. | | | |  
+| 59. | **[ansible-role-gitlab-runner](https://github.com/clouddrove/ansible-role-gitlab-runner)** | This Ansible role installs GitLab Runner on Ubuntu. | | | |  
+| 60. | **[ansible-role-docker-gtmetrix-speed-test](https://github.com/clouddrove/ansible-role-docker-gtmetrix-speed-test)** | This Ansible role sets up GTmetrix speed test with Docker on Debian. | | | |  
+| 61. | **[ansible-role-github-runner](https://github.com/clouddrove/ansible-role-github-runner)** | This Ansible role automates GitHub Runner on the server. | | | |  
+| 62. | **[ansible-role-monit](https://github.com/clouddrove/ansible-role-monit)** | This Ansible role installs Monit on Linux. | | | |  
+| 63. | **[ansible-role-openvas](https://github.com/clouddrove/ansible-role-openvas)** | This Ansible role sets up OpenVAS on Debian. | | | |  
+| 64. | **[ansible-role-vsftpd](https://github.com/clouddrove/ansible-role-vsftpd)** | This Ansible role sets up VSFTPD for Filezilla. | | | |  
+| 65. | **[ansible-role-mysqltuner](https://github.com/clouddrove/ansible-role-mysqltuner)** | This Ansible role installs and runs MySQLTuner. | | | |  
+| 66. | **[ansible-role-kubernetes](https://github.com/clouddrove/ansible-role-kubernetes)** | This Ansible role sets up Kubernetes on Linux. | | | |  
+| 67. | **[ansible-role-docker-redmine](https://github.com/clouddrove/ansible-role-docker-redmine)** | This Ansible role sets up Redmine with Docker. | | | |  
+| 68. | **[ansible-module](https://github.com/clouddrove/ansible-module)** | Example template for Ansible role to create roles for CloudDrove. | | | |  
+| 69. | **[ansible-role-docker-promtail](https://github.com/clouddrove/ansible-role-docker-promtail)** | This Ansible role sets up Promtail with Docker. | | | |  
+| 70. | **[ansible-role-sentry-selfhosted](https://github.com/clouddrove/ansible-role-sentry-selfhosted)** | This Ansible role sets up Sentry self-hosted. | | | |  
+| 71. | **[ansible-role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp)** | This Ansible role sets up S3 SFTP. | | | |  
+| 72. | **[ansible-role-wireguard](https://github.com/clouddrove/ansible-role-wireguard)** | This Ansible role sets up WireGuard VPN server on Ubuntu Linux. | | | |  
+| 73. | **[ansible-test-dt](https://github.com/clouddrove/ansible-test-dt)** | Ansible roles test repository for DT. | | | |  
 
 ## Docker Packages
 
