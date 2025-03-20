@@ -277,7 +277,7 @@ Sr No. | Module name | Description | Latest version | Star | Fork | Issues
 | 68. | **[ansible-module](https://github.com/clouddrove/ansible-module)** | Example template for Ansible role to create roles for CloudDrove. | | | |  
 | 69. | **[ansible-role-docker-promtail](https://github.com/clouddrove/ansible-role-docker-promtail)** | This Ansible role sets up Promtail with Docker. | | | |  
 | 70. | **[ansible-role-sentry-selfhosted](https://github.com/clouddrove/ansible-role-sentry-selfhosted)** | This Ansible role sets up Sentry self-hosted. | | | |  
-| 71. | **[ansible-role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp)** | This Ansible role sets up S3 SFTP. | | | |  
+| 71. | **[ansible-role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp)** | This Ansible role sets up SFTP with S3 Bucket. | | | |  
 | 72. | **[ansible-role-wireguard](https://github.com/clouddrove/ansible-role-wireguard)** | This Ansible role sets up WireGuard VPN server on Ubuntu Linux. | | | |  
 | 73. | **[ansible-test-dt](https://github.com/clouddrove/ansible-test-dt)** | Ansible roles test repository for DT. | | | |  
 
