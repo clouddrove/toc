@@ -1,7 +1,9 @@
 name: toc        
+# Superseded by catalog.yml, which covers every CloudDrove organisation plus
+# submodules and the AI readable indexes. This workflow has failed on every
+# scheduled run since 2026-02-23, so the schedule is removed and it is kept
+# for manual use only.
 on:
-  schedule:
-    - cron: '45 22 * * MON'
   workflow_dispatch:
   
 jobs:

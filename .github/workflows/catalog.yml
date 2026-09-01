@@ -1,0 +1,48 @@
+name: catalog
+
+# Rebuilds the module catalog across every CloudDrove organisation, including
+# submodules, and the AI readable indexes. Uses only the built-in GITHUB_TOKEN.
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "scripts/generate_catalog.py"
+      - ".github/workflows/catalog.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+jobs:
+  catalog:
+    name: Rebuild catalog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_catalog.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "clouddrove-ci"
+          git config user.email "clouddrove-ci@clouddrove.com"
+          if [ -n "$(git status --porcelain MODULES.md llms.txt llms-full.txt catalog.json)" ]; then
+            git add MODULES.md llms.txt llms-full.txt catalog.json
+            git commit -m "chore: rebuild module catalog [skip ci]"
+            git push
+          else
+            echo "No catalog changes."
+          fi

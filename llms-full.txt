@@ -1,0 +1,1794 @@
+# CloudDrove Terraform Modules (full index)
+
+> Every addressable Terraform module and submodule CloudDrove maintains: 207 modules and 93 submodules, 300 total. Each line is a usable Terraform `source` value.
+
+Generated 2026-09-01T12:26:22Z.
+
+## Usage
+
+```hcl
+module "example" {
+  source  = "<source value from below>"
+  version = "<version from below>"
+}
+```
+
+## AWS (clouddrove)
+
+### clouddrove/labels/aws
+
+This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
+
+- source: `clouddrove/labels/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-labels
+
+### clouddrove/kms/aws
+
+This terraform module creates a KMS Customer Master Key (CMK) and its alias.
+
+- source: `clouddrove/kms/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-kms
+
+### clouddrove/api-gateway/aws
+
+Terraform module to create Route53 resource on AWS for create api gateway with it's basic elements.
+
+- source: `clouddrove/api-gateway/aws`
+- version: `1.6.1`
+- repository: https://github.com/clouddrove/terraform-aws-api-gateway
+
+### clouddrove/iam-role/aws
+
+Terraform module to create Iam role resource on AWS.
+
+- source: `clouddrove/iam-role/aws`
+- version: `1.4.0`
+- repository: https://github.com/clouddrove/terraform-aws-iam-role
+- submodules:
+  - `clouddrove/iam-role/aws//modules/aws_github_oidc_role`
+
+### clouddrove/route53-record/aws
+
+Terraform module to create Route53 table record set resource on AWS.
+
+- source: `clouddrove/route53-record/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-route53-record
+
+### clouddrove/vpc/aws
+
+Terraform module to create VPC resource on AWS.
+
+- source: `clouddrove/vpc/aws`
+- version: `2.0.5`
+- repository: https://github.com/clouddrove/terraform-aws-vpc
+
+### clouddrove/subnet/aws
+
+Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
+
+- source: `clouddrove/subnet/aws`
+- version: `2.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-subnet
+
+### clouddrove/elasticache/aws
+
+Terraform module to create Elasticache Cluster and replica for Redis and Memcache.
+
+- source: `clouddrove/elasticache/aws`
+- version: `2.1.4`
+- repository: https://github.com/clouddrove/terraform-aws-elasticache
+
+### clouddrove/security-group/aws
+
+This terraform module creates set of Security Group and Security Group Rules resources in various combinations.
+
+- source: `clouddrove/security-group/aws`
+- version: `2.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-security-group
+
+### clouddrove/ses/aws
+
+Terraform module to create an SES Identity with SES IAM user on AWS.
+
+- source: `clouddrove/ses/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-ses
+
+### clouddrove/s3/aws
+
+Terraform module to create default S3 bucket with logging and encryption type specific features.
+
+- source: `clouddrove/s3/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-s3
+
+### clouddrove/cloudwatch-alarms/aws
+
+Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
+
+- source: `clouddrove/cloudwatch-alarms/aws`
+- version: `1.3.3`
+- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-alarms
+
+### clouddrove/ec2/aws
+
+Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
+
+- source: `clouddrove/ec2/aws`
+- version: `2.1.1`
+- repository: https://github.com/clouddrove/terraform-aws-ec2
+
+### clouddrove/sns/aws
+
+Terraform module is used to setup SNS service to manage notifications on application.
+
+- source: `clouddrove/sns/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-sns
+
+### clouddrove/lambda/aws
+
+Terraform module to create Lambda resource on AWS for create lambda function.
+
+- source: `clouddrove/lambda/aws`
+- version: `1.3.3`
+- repository: https://github.com/clouddrove/terraform-aws-lambda
+
+### clouddrove/acm/aws
+
+This terraform module is used for requesting or importing SSL/TLS certificate with validation.
+
+- source: `clouddrove/acm/aws`
+- version: `1.4.3`
+- repository: https://github.com/clouddrove/terraform-aws-acm
+
+### clouddrove/keypair/aws
+
+Terraform module for generating or importing an SSH public key file into AWS.
+
+- source: `clouddrove/keypair/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-keypair
+
+### clouddrove/ecr/aws
+
+This terraform module is used to create ECR on AWS.
+
+- source: `clouddrove/ecr/aws`
+- version: `1.3.3`
+- repository: https://github.com/clouddrove/terraform-aws-ecr
+
+### clouddrove/elasticsearch/aws
+
+Terraform module to create an Elasticsearch resource on AWS.
+
+- source: `clouddrove/elasticsearch/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-elasticsearch
+
+### clouddrove/eks/aws
+
+Terraform module will be created Autoscaling, Workers, EKS.
+
+- source: `clouddrove/eks/aws`
+- version: `1.4.8`
+- repository: https://github.com/clouddrove/terraform-aws-eks
+
+### clouddrove/cross-account-role/aws
+
+This terraform module is used to create an IAM Role to access another AWS account inventory.
+
+- source: `clouddrove/cross-account-role/aws`
+- version: `0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
+
+### clouddrove/cloudwatch-event-rule/aws
+
+Terraform module to create cloudwatch event rule on AWS.
+
+- source: `clouddrove/cloudwatch-event-rule/aws`
+- version: `1.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule
+
+### clouddrove/route53/aws
+
+Terraform module to create Route53 resource on AWS for zone and record set.
+
+- source: `clouddrove/route53/aws`
+- version: `1.0.4`
+- repository: https://github.com/clouddrove/terraform-aws-route53
+
+### clouddrove/sftp/aws
+
+This terraform module is used to create sftp on AWS for S3.
+
+- source: `clouddrove/sftp/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-sftp
+
+### clouddrove/secrets-manager/aws
+
+Terraform module to create Secret Manager resource on AWS for manage our secret variables.
+
+- source: `clouddrove/secrets-manager/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-secrets-manager
+
+### clouddrove/cognito/aws
+
+Terraform module to create an Cognito resource on AWS.
+
+- source: `clouddrove/cognito/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-cognito
+
+### clouddrove/client-vpn/aws
+
+This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
+
+- source: `clouddrove/client-vpn/aws`
+- version: `1.0.10`
+- repository: https://github.com/clouddrove/terraform-aws-client-vpn
+
+### clouddrove/alb/aws
+
+This terraform module is used to create ALB on AWS.
+
+- source: `clouddrove/alb/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-alb
+
+### clouddrove/waf/aws
+
+This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
+
+- source: `clouddrove/waf/aws`
+- version: `2.1.3`
+- repository: https://github.com/clouddrove/terraform-aws-waf
+
+### clouddrove/cloudtrail/aws
+
+Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
+
+- source: `clouddrove/cloudtrail/aws`
+- version: `1.4.4`
+- repository: https://github.com/clouddrove/terraform-aws-cloudtrail
+
+### clouddrove/vpc-peering/aws
+
+Terraform module to connect two VPC's on AWS.
+
+- source: `clouddrove/vpc-peering/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-vpc-peering
+
+### clouddrove/sqs/aws
+
+Terraform module to create SQS resource on AWS for managing queue.
+
+- source: `clouddrove/sqs/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-sqs
+
+### clouddrove/aurora/aws
+
+Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL.
+
+- source: `clouddrove/aurora/aws`
+- version: `2.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-aurora
+
+### clouddrove/iam-user/aws
+
+Terraform module to create Iam user resource on AWS.
+
+- source: `clouddrove/iam-user/aws`
+- version: `1.3.2`
+- repository: https://github.com/clouddrove/terraform-aws-iam-user
+
+### clouddrove/efs/aws
+
+Terraform module to create or deploy EFS on AWS.
+
+- source: `clouddrove/efs/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-efs
+
+### clouddrove/eks-addons/aws
+
+Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS.
+
+- source: `clouddrove/eks-addons/aws`
+- version: `0.4.0`
+- repository: https://github.com/clouddrove/terraform-aws-eks-addons
+- submodules:
+  - `clouddrove/eks-addons/aws//modules/irsa`
+
+### clouddrove/dynamodb/aws
+
+This terraform module is used for create dynamodb resources in AWS.
+
+- source: `clouddrove/dynamodb/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-dynamodb
+
+### clouddrove/cloudfront/aws
+
+Terraform module provisions CloudFront CDN resource on AWS.
+
+- source: `clouddrove/cloudfront/aws`
+- version: `1.2.0`
+- repository: https://github.com/clouddrove/terraform-aws-cloudfront
+
+### clouddrove/multi-account-peering/aws
+
+Terraform module to connect two VPC’s from different AWS account.
+
+- source: `clouddrove/multi-account-peering/aws`
+- version: `1.1.1`
+- repository: https://github.com/clouddrove/terraform-aws-multi-account-peering
+
+### clouddrove/transit-gateway/aws
+
+Terraform module to create Transit gateway resource on AWS.
+
+- source: `clouddrove/transit-gateway/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-transit-gateway
+
+### clouddrove/security-hub/aws
+
+This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
+
+- source: `clouddrove/security-hub/aws`
+- version: `1.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-security-hub
+
+### clouddrove/vpn/aws
+
+Terraform module is used to create VPN resource on AWS for network connectivity.
+
+- source: `clouddrove/vpn/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-vpn
+
+### clouddrove/ec2-autoscaling/aws
+
+Terraform module will be created EC2 modulewith Autoscaling group.
+
+- source: `clouddrove/ec2-autoscaling/aws`
+- version: `1.5.0`
+- repository: https://github.com/clouddrove/terraform-aws-ec2-autoscaling
+
+### clouddrove/lightsail/aws
+
+Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
+
+- source: `clouddrove/lightsail/aws`
+- version: `1.3.2`
+- repository: https://github.com/clouddrove/terraform-aws-lightsail
+
+### clouddrove/lambda-site-monitor/aws
+
+Terraform module to create Lambda resource on AWS for monitor different websites.
+
+- source: `clouddrove/lambda-site-monitor/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-lambda-site-monitor
+
+### clouddrove/mysql/aws
+
+Terraform module to create a MySQL on AWS.
+
+- source: `clouddrove/mysql/aws`
+- version: `1.3.3`
+- repository: https://github.com/clouddrove/terraform-aws-mysql
+
+### clouddrove/active-directory/aws
+
+Terraform module to create Active Directory on AWS.
+
+- source: `clouddrove/active-directory/aws`
+- version: `1.0.4`
+- repository: https://github.com/clouddrove/terraform-aws-active-directory
+
+### clouddrove/macie/aws
+
+This terraform module is used to Provide a resource to manage an AWS Macie Account.
+
+- source: `clouddrove/macie/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-macie
+
+### clouddrove/eventbridge/aws
+
+Terraform module to create an Eventbridge resource on AWS.
+
+- source: `clouddrove/eventbridge/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-eventbridge
+
+### clouddrove/pritunl/aws
+
+Terraform module to create an pritunl resource on AWS with Elastic IP Addresses and Elastic Block Store
+
+- source: `clouddrove/pritunl/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-pritunl
+
+### clouddrove/mfa/aws
+
+A terraform module to enable MFA for AWS groups and users
+
+- source: `clouddrove/mfa/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-mfa
+
+### clouddrove/secure-baseline/aws
+
+Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline.
+
+- source: `clouddrove/secure-baseline/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-secure-baseline
+- submodules:
+  - `clouddrove/secure-baseline/aws//modules/alarm`
+  - `clouddrove/secure-baseline/aws//modules/analyzer`
+  - `clouddrove/secure-baseline/aws//modules/cloudtrail`
+  - `clouddrove/secure-baseline/aws//modules/config`
+  - `clouddrove/secure-baseline/aws//modules/ebs`
+  - `clouddrove/secure-baseline/aws//modules/guardduty`
+  - `clouddrove/secure-baseline/aws//modules/iam`
+  - `clouddrove/secure-baseline/aws//modules/inspector`
+  - `clouddrove/secure-baseline/aws//modules/security_hub`
+  - `clouddrove/secure-baseline/aws//modules/shield`
+
+### clouddrove/cloudwatch-dashboard/aws
+
+This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
+
+- source: `clouddrove/cloudwatch-dashboard/aws`
+- version: `1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
+
+### clouddrove/cloudtrail-slack-notification/aws
+
+Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.
+
+- source: `clouddrove/cloudtrail-slack-notification/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification
+
+### clouddrove/documentdb/aws
+
+terraform-aws-documentdb
+
+- source: `clouddrove/documentdb/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-documentdb
+
+### clouddrove/cost-billing-alarm/aws
+
+A Terraform module to create aws cost billing alarm resource on AWS with sns topic.
+
+- source: `clouddrove/cost-billing-alarm/aws`
+- version: `1.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-cost-billing-alarm
+
+### clouddrove/backup/aws
+
+This Terraform module is used to create backup resource on AWS.
+
+- source: `clouddrove/backup/aws`
+- version: `1.3.2`
+- repository: https://github.com/clouddrove/terraform-aws-backup
+
+### clouddrove/cloudwatch-synthetics/aws
+
+CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
+
+- source: `clouddrove/cloudwatch-synthetics/aws`
+- version: `1.3.2`
+- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-synthetics
+
+### clouddrove/amplify/aws
+
+Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
+
+- source: `clouddrove/amplify/aws`
+- version: `1.4.2`
+- repository: https://github.com/clouddrove/terraform-aws-amplify
+
+### clouddrove/workspace/aws
+
+Terraform module to create workspace resources on AWS for manage betterly.
+
+- source: `clouddrove/workspace/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-workspace
+
+### clouddrove/iam/aws
+
+Terraform module which creates IAM resources on AWS
+
+- source: `clouddrove/iam/aws`
+- version: `4.11.0`
+- repository: https://github.com/clouddrove/terraform-aws-iam
+- submodules:
+  - `clouddrove/iam/aws//modules/iam-account`
+  - `clouddrove/iam/aws//modules/iam-assumable-role`
+  - `clouddrove/iam/aws//modules/iam-assumable-role-with-oidc`
+  - `clouddrove/iam/aws//modules/iam-assumable-role-with-saml`
+  - `clouddrove/iam/aws//modules/iam-assumable-roles`
+  - `clouddrove/iam/aws//modules/iam-assumable-roles-with-saml`
+  - `clouddrove/iam/aws//modules/iam-eks-role`
+  - `clouddrove/iam/aws//modules/iam-group-with-assumable-roles-policy`
+  - `clouddrove/iam/aws//modules/iam-group-with-policies`
+  - `clouddrove/iam/aws//modules/iam-policy`
+  - `clouddrove/iam/aws//modules/iam-read-only-policy`
+  - `clouddrove/iam/aws//modules/iam-user`
+
+### clouddrove/athena/aws
+
+This module provides an easy way to set up Athena queries, The module can set up Athena database and table from an input S3 bucket and create-table SQL script.
+
+- source: `clouddrove/athena/aws`
+- version: `1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-athena
+
+### clouddrove/lifecycle-manager/aws
+
+This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots.
+
+- source: `clouddrove/lifecycle-manager/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-lifecycle-manager
+
+### clouddrove/msk/aws
+
+Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
+
+- source: `clouddrove/msk/aws`
+- version: `1.3.0`
+- repository: https://github.com/clouddrove/terraform-aws-msk
+
+### clouddrove/control-tower/aws
+
+Terraform module to create Control tower baseline resources on AWS.
+
+- source: `clouddrove/control-tower/aws`
+- version: `0.0.5`
+- repository: https://github.com/clouddrove/terraform-aws-control-tower
+
+### clouddrove/ecs/aws
+
+Terraform module to create ECS on AWS.
+
+- source: `clouddrove/ecs/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-ecs
+- submodules:
+  - `clouddrove/ecs/aws//modules/auto-scaling`
+  - `clouddrove/ecs/aws//modules/ecs`
+  - `clouddrove/ecs/aws//modules/service`
+  - `clouddrove/ecs/aws//modules/task-definition`
+
+### clouddrove/eks-lb-controller/aws
+
+Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
+
+- source: `clouddrove/eks-lb-controller/aws`
+- version: `0.5.1`
+- repository: https://github.com/clouddrove/terraform-aws-eks-lb-controller
+
+### clouddrove/cloudtrail-baseline/aws
+
+Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
+
+- source: `clouddrove/cloudtrail-baseline/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-baseline
+
+### clouddrove/bastion/aws
+
+Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbound rules. Composed from published CloudDrove modules.
+
+- source: `clouddrove/bastion/aws`
+- version: `1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-bastion
+
+### clouddrove/karpenter/aws
+
+A Terraform module to create karpenter resource on AWS.
+
+- source: `clouddrove/karpenter/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-karpenter
+
+### clouddrove/health-notifier/aws
+
+Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira today). EventBridge to Lambda, Terraform-deployed.
+
+- source: `clouddrove/health-notifier/aws`
+- version: `0.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-health-notifier
+
+### clouddrove/global-accelerator/aws
+
+This terraform module create a aws Global Accelerator resources in AWS. AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications.
+
+- source: `clouddrove/global-accelerator/aws`
+- version: `1.4.1`
+- repository: https://github.com/clouddrove/terraform-aws-global-accelerator
+
+### clouddrove/alarm/aws
+
+Terraform module to create an Cloudwatch Alarm.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-alarm.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-alarm
+
+### clouddrove/alb-ingress/aws
+
+Terraform module to deploy alb ingress controller on EKS via helm.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-alb-ingress.git` (not yet on the Terraform Registry)
+- version: `v0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-alb-ingress
+
+### clouddrove/aqua/aws
+
+Terraform modules for Connecting AquaSec to Aws Cloud account
+
+- source: `git::https://github.com/clouddrove/terraform-aws-aqua.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-aqua
+
+### clouddrove/autoscaling/aws
+
+Terraform module which creates Auto Scaling resources on AWS
+
+- source: `git::https://github.com/clouddrove/terraform-aws-autoscaling.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-autoscaling
+
+### clouddrove/bedrock/aws
+
+Terraform module will be create AWS bedrock service
+
+- source: `git::https://github.com/clouddrove/terraform-aws-bedrock.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-bedrock
+
+### clouddrove/bootstrap/aws
+
+GitHub Action that creates a new repository in a specified organization and adds Terraform configurations for networking, Kubernetes, and RDS at a predefined path.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-bootstrap.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-bootstrap
+
+### clouddrove/budget/aws
+
+Terraform module for configuring and managing AWS Budgets to monitor and control cloud spending.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-budget.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-budget
+
+### clouddrove/cloudformation/aws
+
+Terraform module to provision CloudFormation Stack
+
+- source: `git::https://github.com/clouddrove/terraform-aws-cloudformation.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-cloudformation
+
+### clouddrove/codecommit/aws
+
+Terraform module to create AWS CodeCommit repositories and triggers.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-codecommit.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-codecommit
+
+### clouddrove/config/aws
+
+This terraform module is used to create aws Config resoruces. Aws config provides a detailed view of the configuration of AWS resources in your AWS account.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-config.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-config
+
+### clouddrove/config-baseline/aws
+
+Terraform module to create an AWS Config resource on AWS with S3, IAM user, Recoder and Roles.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-config-baseline.git` (not yet on the Terraform Registry)
+- version: `v0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-config-baseline
+
+### clouddrove/dms/aws
+
+Module to migrate database to AWS
+
+- source: `git::https://github.com/clouddrove/terraform-aws-dms.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-dms
+
+### clouddrove/ec2-snapshot/aws
+
+Terraform module to create Lambda resource on AWS for creating backup and clear Snapshots and AMIs of instances in AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-ec2-snapshot.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-ec2-snapshot
+
+### clouddrove/elastic-beanstalk/aws
+
+Terraform module to deploy Elastic Beanstalk resource on AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-elastic-beanstalk.git` (not yet on the Terraform Registry)
+- version: `v0.13.1`
+- repository: https://github.com/clouddrove/terraform-aws-elastic-beanstalk
+
+### clouddrove/gitlab-runner/aws
+
+Terraform to run GitLab runners in AWS (Ec2)
+
+- source: `git::https://github.com/clouddrove/terraform-aws-gitlab-runner.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-gitlab-runner
+
+### clouddrove/gitlab-runner-old/aws
+
+This terraform module created a launch template and autoscaling group service. These both can be used to setup gitlab-runner.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-gitlab-runner-old.git` (not yet on the Terraform Registry)
+- version: `1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-gitlab-runner-old
+
+### clouddrove/iam-access-analyzer/aws
+
+Terraform module to create IAM Access Analyzer on AWS for monitoring policies.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-iam-access-analyzer.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-iam-access-analyzer
+
+### clouddrove/iam-baseline/aws
+
+Terraform Module Create default IAM roles for managing AWS account.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-iam-baseline.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-iam-baseline
+
+### clouddrove/k8s-addons/aws
+
+This terraform module is used to create eks addon tools along with IRSA.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-k8s-addons.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-k8s-addons
+
+### clouddrove/mq/aws
+
+Terraform module for provisioning an AmazonMQ broker instance.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-mq.git` (not yet on the Terraform Registry)
+- version: `v0.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-mq
+
+### clouddrove/rabbitmq/aws
+
+This terraform module is used to create RabbitMQ on AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-rabbitmq.git` (not yet on the Terraform Registry)
+- version: `v0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-rabbitmq
+
+### clouddrove/rds/aws
+
+Terraform module for rds
+
+- source: `git::https://github.com/clouddrove/terraform-aws-rds.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-rds
+
+### clouddrove/rds-auto-shutdown/aws
+
+Terraform module to create Lambda function resource to auto-shutdown rds resources in AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-rds-auto-shutdown.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-rds-auto-shutdown
+
+### clouddrove/redshift/aws
+
+This is for aws redshift clustner creation module.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-redshift.git` (not yet on the Terraform Registry)
+- version: `v0.1.1`
+- repository: https://github.com/clouddrove/terraform-aws-redshift
+
+### clouddrove/reference/aws
+
+[Draft] A reference repository to deploy a production ready eks cluster.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-reference.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-reference
+
+### clouddrove/reference-architecture/aws
+
+This repo is used as a sample refrence architecture to manage internal projects terraform.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-reference-architecture.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-reference-architecture
+
+### clouddrove/s3-multiaccount-replication/aws
+
+This terraform module is used for s3 replication between multiple account
+
+- source: `git::https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication
+
+### clouddrove/serverless-jenkins/aws
+
+Terraform module for deploy a serverless jenkins.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-serverless-jenkins.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-serverless-jenkins
+- submodules:
+  - `clouddrove/serverless-jenkins/aws//modules/jenkins_platform`
+
+### clouddrove/sftp-workflow/aws
+
+This terraform module is used to create sftp on AWS for S3. AWS SFTP (Simple File Transfer Protocol) is a fully managed service that enables you to transfer files to and from Amazon S3 using the SFTP protocol
+
+- source: `git::https://github.com/clouddrove/terraform-aws-sftp-workflow.git` (not yet on the Terraform Registry)
+- version: `v1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-sftp-workflow
+
+### clouddrove/slack-alerts/aws
+
+Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-slack-alerts.git` (not yet on the Terraform Registry)
+- version: `v0.12.1`
+- repository: https://github.com/clouddrove/terraform-aws-slack-alerts
+
+### clouddrove/ssm/aws
+
+Terraform module to create an SSM on AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-ssm.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-ssm
+
+### clouddrove/sso/aws
+
+This terraform module is used to create AWS SINGLE SIGN ON resources. AWS SSO is an authentication solution that allows users to log in to multiple applications and websites with one-time user authentication.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-sso.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-sso
+
+### clouddrove/teevity/aws
+
+This terraform module is used for create needed resources like Iam user, S3 and others which used to connect AWS account with Teevity tool to monitor our bills.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-teevity.git` (not yet on the Terraform Registry)
+- version: `v0.13.1`
+- repository: https://github.com/clouddrove/terraform-aws-teevity
+
+## Azure (terraform-az-modules)
+
+### terraform-az-modules/tags/azurerm
+
+Terraform modules to create the tags for the Azure resources.
+
+- source: `terraform-az-modules/tags/azurerm`
+- version: `1.0.2`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-tags
+
+### terraform-az-modules/resource-group/azurerm
+
+Terraform module to create Resource Group resource on Azure . Terraform module to create Virtual Network resource on Azure . Virtual Network (VNet) is the fundamental building block for creating a private network within the Azure cloud.
+
+- source: `terraform-az-modules/resource-group/azurerm`
+- version: `1.0.4`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-resource-group
+
+### terraform-az-modules/vnet/azurerm
+
+Terraform module to create Virtual Network resource on Azure . Virtual Network (VNet) is the fundamental building block for creating a private network within the Azure cloud.
+
+- source: `terraform-az-modules/vnet/azurerm`
+- version: `1.0.4`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vnet
+
+### terraform-az-modules/subnet/azurerm
+
+About This terraform module is designed to create Azure Subnet resources. Virtual networks and virtual machines in Azure. Microsoft Learn A subnet is a range of IP addresses in the virtual network. You can divide a virtual network into multiple subnets for organization and security. Each NIC in a VM is connected to one subnet in one virtual network
+
+- source: `terraform-az-modules/subnet/azurerm`
+- version: `1.0.3`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-subnet
+- submodules:
+  - `terraform-az-modules/subnet/azurerm//modules/nat_gateway`
+  - `terraform-az-modules/subnet/azurerm//modules/route_table`
+
+### terraform-az-modules/log-analytics/azurerm
+
+About This terraform module is designed to create Azure Log Analytics resources.  An Azure Log Analytics Workspace is a logical storage unit in Azure where all log data generated by Azure Monitors are stored.
+
+- source: `terraform-az-modules/log-analytics/azurerm`
+- version: `2.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-log-analytics
+
+### terraform-az-modules/private-dns/azurerm
+
+A Terraform module to provision and manage Azure Private DNS Zones for supported PaaS services such as Azure Container Registry (ACR), Key Vault, MySQL Flexible Server, and others.
+
+- source: `terraform-az-modules/private-dns/azurerm`
+- version: `1.0.8`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns
+
+### terraform-az-modules/key-vault/azurerm
+
+Terraform module to create key-vault resource on AZURE. Azure Key Vault is a cloud service provided by Microsoft Azure that allows you to securely store and manage cryptographic keys, secrets, certificates, and other sensitive information.
+
+- source: `terraform-az-modules/key-vault/azurerm`
+- version: `3.2.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-key-vault
+
+### terraform-az-modules/nsg/azurerm
+
+This Terraform module is used to create Azure Network Security Group on AZURE. An Azure Network Security Group (NSG) is a fundamental Azure security tool that acts as a basic, stateful packet filtering firewall to control network traffic to and from Azure resources within a virtual network
+
+- source: `terraform-az-modules/nsg/azurerm`
+- version: `1.0.7`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-nsg
+
+### terraform-az-modules/storage/azurerm
+
+This terraform module is designed to create Azure Storage Account resources. The Azure Storage platform is Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud.
+
+- source: `terraform-az-modules/storage/azurerm`
+- version: `4.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-storage
+
+### terraform-az-modules/aks/azurerm
+
+This terraform module is designed to create Azure kubernets service  resources.  Azure Kubernetes Service (AKS) offers the quickest way to start developing and deploying cloud-native apps in Azure, datacenters, or at the edge with built-in code-to-cloud pipelines and guardrails.
+
+- source: `terraform-az-modules/aks/azurerm`
+- version: `1.0.7`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-aks
+
+### terraform-az-modules/acr/azurerm
+
+This Terraform module is used to create Azure container regsitry on AZURE.  Azure Container Registry (ACR) is a private Docker registry service offered by Microsoft Azure.
+
+- source: `terraform-az-modules/acr/azurerm`
+- version: `4.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-acr
+
+### terraform-az-modules/application-insights/azurerm
+
+This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
+
+- source: `terraform-az-modules/application-insights/azurerm`
+- version: `1.0.2`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
+
+### terraform-az-modules/vnet-peering/azurerm
+
+This terraform module is designed to create Azure Databricks resources. Virtual network peering enables you to seamlessly connect two or more Virtual Networks in Azure. The virtual networks appear as one for connectivity purposes.
+
+- source: `terraform-az-modules/vnet-peering/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vnet-peering
+
+### terraform-az-modules/virtual-machine/azurerm
+
+Terraform module to create virtual machine resource on AZURE. Azure Virtual Machines are on-demand, scalable computing resources offered by Microsoft Azure.
+
+- source: `terraform-az-modules/virtual-machine/azurerm`
+- version: `1.3.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-machine
+
+### terraform-az-modules/flexible-postgresql/azurerm
+
+This terraform module is designed to create Azure Postgres flexible mysql resources. The Azure Database for PostgreSQL flexible server deployment model is designed to support high availability within a single availability zone and across multiple availability zones
+
+- source: `terraform-az-modules/flexible-postgresql/azurerm`
+- version: `1.0.7`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-postgresql
+
+### terraform-az-modules/cognitive/azurerm
+
+This terraform module is designed to create Azure Cognitive services.  Azure Cognitive Services (now often branded under Azure AI Foundry tools) are pre-built, cloud-based AI APIs that allow developers to integrate intelligence—such as vision, speech, language, and decision-making—into applications .
+
+- source: `terraform-az-modules/cognitive/azurerm`
+- version: `5.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-cognitive
+
+### terraform-az-modules/application-gateway/azurerm
+
+This Terraform module creates Azure Application Gateway resources. Application Gateway is a layer 7 load balancer that manages traffic to web applications, offering features like SSL termination, Web Application Firewall (WAF) integration, and URL-based routing for enhanced security and performance.
+
+- source: `terraform-az-modules/application-gateway/azurerm`
+- version: `3.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-gateway
+
+### terraform-az-modules/vpn/azurerm
+
+This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
+
+- source: `terraform-az-modules/vpn/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vpn
+
+### terraform-az-modules/dns/azurerm
+
+Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
+
+- source: `terraform-az-modules/dns/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-dns
+
+### terraform-az-modules/waf/azurerm
+
+This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
+
+- source: `terraform-az-modules/waf/azurerm`
+- version: `3.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-waf
+
+### terraform-az-modules/redis-cache/azurerm
+
+This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
+
+- source: `terraform-az-modules/redis-cache/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-redis-cache
+
+### terraform-az-modules/service-bus/azurerm
+
+This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
+
+- source: `terraform-az-modules/service-bus/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-bus
+
+### terraform-az-modules/communication-service/azurerm
+
+About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/communication-service/azurerm`
+- version: `2.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
+
+### terraform-az-modules/app-service/azurerm
+
+About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
+
+- source: `terraform-az-modules/app-service/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
+
+### terraform-az-modules/mssql-db/azurerm
+
+This terraform module is designed to create Azure mssql database resources. Azure SQL Database is a fully managed relational database-as-a-service (PaaS) built on the Microsoft SQL Server engine. It is designed to handle core database management functions—such as patching, backups, and monitoring—automatically,.
+
+- source: `terraform-az-modules/mssql-db/azurerm`
+- version: `2.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-mssql-db
+
+### terraform-az-modules/static-web-app/azurerm
+
+Terraform module for static-web-app
+
+- source: `terraform-az-modules/static-web-app/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
+
+### terraform-az-modules/data-factory/azurerm
+
+This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
+
+- source: `terraform-az-modules/data-factory/azurerm`
+- version: `3.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-data-factory
+
+### terraform-az-modules/load-balancer/azurerm
+
+This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
+
+- source: `terraform-az-modules/load-balancer/azurerm`
+- version: `4.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
+
+### terraform-az-modules/databricks/azurerm
+
+This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
+
+- source: `terraform-az-modules/databricks/azurerm`
+- version: `1.0.5`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
+
+### terraform-az-modules/vmss-agent/azurerm
+
+Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
+
+- source: `terraform-az-modules/vmss-agent/azurerm`
+- version: `1.0.2`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
+
+### terraform-az-modules/sql-managed-instance/azurerm
+
+Terraform module to create Sql managed instance resources . Azure SQL Managed Instance is a Platform-as-a-Service (PaaS) offering that provides near 100% compatibility with the SQL Server Enterprise Edition, designed for easy "lift-and-shift" migration of on-premises SQL Server apps to the cloud with minimal changes.
+
+- source: `terraform-az-modules/sql-managed-instance/azurerm`
+- version: `3.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-sql-managed-instance
+
+### terraform-az-modules/private-dns-resolver/azurerm
+
+This terraform module is designed to create Azure private dns resolver resources.
+
+- source: `terraform-az-modules/private-dns-resolver/azurerm`
+- version: `1.0.4`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
+### terraform-az-modules/eventhub/azurerm
+
+This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
+
+- source: `terraform-az-modules/eventhub/azurerm`
+- version: `3.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
+
+### terraform-az-modules/firewall/azurerm
+
+This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/firewall/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
+
+### terraform-az-modules/sentinel/azurerm
+
+This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
+
+- source: `terraform-az-modules/sentinel/azurerm`
+- version: `3.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
+
+### terraform-az-modules/functions-app/azurerm
+
+This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
+
+- source: `terraform-az-modules/functions-app/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
+
+### terraform-az-modules/logic-app/azurerm
+
+Terraform module for logic-app
+
+- source: `terraform-az-modules/logic-app/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
+
+### terraform-az-modules/flexible-mysql/azurerm
+
+Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
+
+- source: `terraform-az-modules/flexible-mysql/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+
+### terraform-az-modules/cosmos-db/azurerm
+
+This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
+
+- source: `terraform-az-modules/cosmos-db/azurerm`
+- version: `2.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-cosmos-db
+
+### terraform-az-modules/service-principle/azurerm
+
+Terraform module for service-principle
+
+- source: `terraform-az-modules/service-principle/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
+
+### terraform-az-modules/api-management/azurerm
+
+Terraform module for api-management
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-api-management.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-api-management
+
+### terraform-az-modules/app-service-plan/azurerm
+
+Terraform module for app-service-plan
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan
+
+### terraform-az-modules/bastion/azurerm
+
+Terraform module for bastion
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-bastion.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-bastion
+
+### terraform-az-modules/container-app/azurerm
+
+Terraform module for container-app
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-container-app.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-container-app
+
+### terraform-az-modules/diagnostic-settings/azurerm
+
+Terraform module for diagnostic-settings
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings
+
+### terraform-az-modules/front-door/azurerm
+
+Terraform module for front-door
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-front-door.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-front-door
+
+### terraform-az-modules/github-pvt-network/azurerm
+
+These resource create a private endpoint connectivity between github private endpoint and Azure vnet network
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-github-pvt-network.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-github-pvt-network
+
+### terraform-az-modules/managed-devops-pool/azurerm
+
+Terraform module for managed-devops-pool
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
+### terraform-az-modules/nat-gateway/azurerm
+
+Terraform module for nat-gateway
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway
+
+### terraform-az-modules/private-endpoint/azurerm
+
+Terraform module for private-endpoint
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint
+
+## Google Cloud (terraform-gcloud-modules)
+
+### terraform-gcloud-modules/alerts-policy/gcp
+
+Terraform module for alerts-policy
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy
+
+### terraform-gcloud-modules/baseline/gcp
+
+Terraform module for baseline
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-baseline.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-baseline
+
+### terraform-gcloud-modules/bigquery/gcp
+
+Terraform module for bigquery
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery
+
+### terraform-gcloud-modules/budget/gcp
+
+Terraform module for budget
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-budget.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-budget
+
+### terraform-gcloud-modules/cloud-run/gcp
+
+Terraform module for cloud-run
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run
+
+### terraform-gcloud-modules/compute-instance/gcp
+
+Terraform module for compute-instance
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance
+
+### terraform-gcloud-modules/dashbord/gcp
+
+Terraform module for dashbord
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-dashbord.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-dashbord
+
+### terraform-gcloud-modules/firewall/gcp
+
+Terraform module for firewall
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-firewall.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-firewall
+
+### terraform-gcloud-modules/gcr/gcp
+
+Terraform module for gcr
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-gcr.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-gcr
+
+### terraform-gcloud-modules/iam/gcp
+
+Terraform module for iam
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-iam.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-iam
+
+### terraform-gcloud-modules/labels/gcp
+
+This terraform module is used To add or manage labels for GCP resources.
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-labels.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-labels
+
+### terraform-gcloud-modules/load-balancer/gcp
+
+Terraform module for load-balancer
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-load-balancer.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-load-balancer
+
+### terraform-gcloud-modules/memorystore/gcp
+
+Terraform module for memorystore
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore
+
+### terraform-gcloud-modules/oidc/gcp
+
+Terraform module for oidc
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-oidc.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-oidc
+
+### terraform-gcloud-modules/pubsub/gcp
+
+Terraform module for pubsub
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub
+
+### terraform-gcloud-modules/scheduler/gcp
+
+Terraform module for scheduler
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler
+
+### terraform-gcloud-modules/service-account/gcp
+
+Terraform module for service-account
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-service-account.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-service-account
+
+### terraform-gcloud-modules/sql/gcp
+
+Terraform module for sql
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-sql.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-sql
+
+### terraform-gcloud-modules/storage/gcp
+
+Terraform module for storage
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-storage.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-storage
+
+### terraform-gcloud-modules/subnet/gcp
+
+Terraform module for subnet
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-subnet.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-subnet
+
+### terraform-gcloud-modules/vm-template-instance/gcp
+
+Terraform module for vm-template-instance
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance
+
+### terraform-gcloud-modules/vpc/gcp
+
+Terraform module for vpc
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-vpc.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-vpc
+
+## DigitalOcean (terraform-do-modules)
+
+### terraform-do-modules/labels/digitalocean
+
+This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
+
+- source: `terraform-do-modules/labels/digitalocean`
+- version: `1.0.7`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-labels
+
+### terraform-do-modules/vpc/digitalocean
+
+Terraform module to create VPC resources. VPCs are virtual networks containing resources that can communicate with each other in full isolation, using private IP addresses
+
+- source: `terraform-do-modules/vpc/digitalocean`
+- version: `1.0.0`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-vpc
+
+### terraform-do-modules/spaces/digitalocean
+
+Terraform module to create spaces resource on Digital Ocean. DigitalOcean Spaces provide S3-compatible object storage which lets you store and serve large amounts of data.
+
+- source: `terraform-do-modules/spaces/digitalocean`
+- version: `1.0.7`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-spaces
+
+### terraform-do-modules/database/digitalocean
+
+Terraform module to create DATABASE resources. DigitalOcean's Managed Databases are a fully managed, high performance database cluster service. Using managed databases is a powerful alternative to installing, configuring, maintaining, and securing databases by hand.
+
+- source: `terraform-do-modules/database/digitalocean`
+- version: `1.0.7`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-database
+
+### terraform-do-modules/droplet/digitalocean
+
+Provides a DigitalOcean Droplet resource. This can be used to create, modify, and delete Droplets.
+
+- source: `terraform-do-modules/droplet/digitalocean`
+- version: `1.0.6`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-droplet
+
+### terraform-do-modules/kubernetes/digitalocean
+
+Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure.
+
+- source: `terraform-do-modules/kubernetes/digitalocean`
+- version: `1.1.9`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-kubernetes
+
+### terraform-do-modules/firewall/digitalocean
+
+Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
+
+- source: `terraform-do-modules/firewall/digitalocean`
+- version: `1.0.5`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-firewall
+
+### terraform-do-modules/certificate/digitalocean
+
+Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+
+- source: `terraform-do-modules/certificate/digitalocean`
+- version: `1.0.4`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-certificate
+
+### terraform-do-modules/container-registry/digitalocean
+
+Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
+
+- source: `terraform-do-modules/container-registry/digitalocean`
+- version: `1.0.7`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-container-registry
+
+### terraform-do-modules/domain/digitalocean
+
+Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean is not a domain name registrar, but you can manage your DNS records from the DigitalOcean Control Panel. This can make record management easier because DigitalOcean DNS integrates with Droplets and Load Balancers.
+
+- source: `terraform-do-modules/domain/digitalocean`
+- version: `1.0.6`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-domain
+
+### terraform-do-modules/ssh-key/digitalocean
+
+Terraform module to create  ssh-key. Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
+
+- source: `terraform-do-modules/ssh-key/digitalocean`
+- version: `1.0.7`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key
+
+### terraform-do-modules/app/digitalocean
+
+Terraform module to create app resources. App Platform is a Platform-as-a-Service (PaaS) offering that allows developers to publish code directly to DigitalOcean servers without worrying about the underlying infrastructure.
+
+- source: `terraform-do-modules/app/digitalocean`
+- version: `1.0.9`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-app
+
+### terraform-do-modules/cdn/digitalocean
+
+Terraform module to create CDN resources. DigitalOcean also includes a CDN with DigitalOcean Spaces, our object storage solution, and App Platform, our Platform as a Service solution. Sign up for a DigitalOcean account today to get started.
+
+- source: `terraform-do-modules/cdn/digitalocean`
+- version: `1.0.7`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-cdn
+
+### terraform-do-modules/load-balancer/digitalocean
+
+Terraform module to create Load-balancer resource .  DigitalOcean Load Balancers ensure that the requests your application receives are only distributed to Droplets that have passed health checks.
+
+- source: `terraform-do-modules/load-balancer/digitalocean`
+- version: `1.0.7`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-load-balancer
+
+### terraform-do-modules/monitoring/digitalocean
+
+Terraform module to create monitor resource. DigitalOcean Monitoring is a free, opt-in service that gathers metrics about Droplet-level resource utilization. It provides additional Droplet graphs and supports configurable metrics alert policies with integrated email Slack notifications to help you track the operational health of your infrastructure
+
+- source: `terraform-do-modules/monitoring/digitalocean`
+- version: `1.0.5`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-monitoring
+
+### terraform-do-modules/components/digitalocean
+
+Terraform module to create digital ocean component.
+
+- source: `git::https://github.com/terraform-do-modules/terraform-digitalocean-components.git` (not yet on the Terraform Registry)
+- version: `v1.0.3`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-components
+
+### terraform-do-modules/nfs/digitalocean
+
+Terraform module for DigitalOcean NFS shares with attachment and snapshot support
+
+- source: `git::https://github.com/terraform-do-modules/terraform-digitalocean-nfs.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-nfs
+
+## Hetzner Cloud (terraform-hc-modules)
+
+### terraform-hc-modules/compute/hcloud
+
+Terraform module for Hetzner Cloud compute (Server, Volume, SSH Key, Placement Group, Snapshot)
+
+- source: `terraform-hc-modules/compute/hcloud`
+- version: `0.3.1`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-compute
+- submodules:
+  - `terraform-hc-modules/compute/hcloud//modules/placement-group`
+  - `terraform-hc-modules/compute/hcloud//modules/server`
+  - `terraform-hc-modules/compute/hcloud//modules/snapshot`
+  - `terraform-hc-modules/compute/hcloud//modules/ssh-key`
+  - `terraform-hc-modules/compute/hcloud//modules/volume`
+
+### terraform-hc-modules/network/hcloud
+
+Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer)
+
+- source: `terraform-hc-modules/network/hcloud`
+- version: `0.3.1`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-network
+- submodules:
+  - `terraform-hc-modules/network/hcloud//modules/firewall`
+  - `terraform-hc-modules/network/hcloud//modules/load-balancer`
+  - `terraform-hc-modules/network/hcloud//modules/vpc`
+
+### terraform-hc-modules/labels/hcloud
+
+Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
+
+- source: `terraform-hc-modules/labels/hcloud`
+- version: `0.3.5`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-labels
+
+### terraform-hc-modules/certificate/hcloud
+
+Terraform module for Hetzner Cloud SSL/TLS certificates
+
+- source: `terraform-hc-modules/certificate/hcloud`
+- version: `0.3.0`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-certificate
+- submodules:
+  - `terraform-hc-modules/certificate/hcloud//modules/managed`
+  - `terraform-hc-modules/certificate/hcloud//modules/uploaded`
+
+### terraform-hc-modules/ip/hcloud
+
+Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
+
+- source: `terraform-hc-modules/ip/hcloud`
+- version: `0.3.0`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-ip
+- submodules:
+  - `terraform-hc-modules/ip/hcloud//modules/floating-ip`
+  - `terraform-hc-modules/ip/hcloud//modules/primary-ip`
+  - `terraform-hc-modules/ip/hcloud//modules/rdns`
+
+### terraform-hc-modules/dns/hcloud
+
+Terraform module for Hetzner DNS zones and records
+
+- source: `terraform-hc-modules/dns/hcloud`
+- version: `0.4.0`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-dns
+- submodules:
+  - `terraform-hc-modules/dns/hcloud//modules/records`
+  - `terraform-hc-modules/dns/hcloud//modules/zone`
+
+### terraform-hc-modules/storage-box/hcloud
+
+Terraform module for Hetzner Storage Box (EXPERIMENTAL)
+
+- source: `terraform-hc-modules/storage-box/hcloud`
+- version: `1.1.0`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-storage-box
+- submodules:
+  - `terraform-hc-modules/storage-box/hcloud//modules/storage-box`
+
+## Cloudflare (terraform-cf-modules)
+
+### terraform-cf-modules/account/cloudflare
+
+Terraform module for Cloudflare account bootstrap, members, API tokens, notifications, Logpush and secrets store
+
+- source: `git::https://github.com/terraform-cf-modules/terraform-cloudflare-account.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-account
+- submodules:
+  - `terraform-cf-modules/account/cloudflare//modules/api-token`
+  - `terraform-cf-modules/account/cloudflare//modules/dns-settings`
+  - `terraform-cf-modules/account/cloudflare//modules/logpush`
+  - `terraform-cf-modules/account/cloudflare//modules/member`
+  - `terraform-cf-modules/account/cloudflare//modules/notification`
+  - `terraform-cf-modules/account/cloudflare//modules/secrets-store`
+  - `terraform-cf-modules/account/cloudflare//modules/sharing`
+
+### terraform-cf-modules/network/cloudflare
+
+Terraform module for Cloudflare load balancing, Spectrum, Magic WAN and Magic Transit
+
+- source: `git::https://github.com/terraform-cf-modules/terraform-cloudflare-network.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-network
+- submodules:
+  - `terraform-cf-modules/network/cloudflare//modules/addressing`
+  - `terraform-cf-modules/network/cloudflare//modules/load-balancer`
+  - `terraform-cf-modules/network/cloudflare//modules/magic-transit`
+  - `terraform-cf-modules/network/cloudflare//modules/magic-wan`
+  - `terraform-cf-modules/network/cloudflare//modules/monitor`
+  - `terraform-cf-modules/network/cloudflare//modules/monitoring`
+  - `terraform-cf-modules/network/cloudflare//modules/pool`
+  - `terraform-cf-modules/network/cloudflare//modules/spectrum`
+
+### terraform-cf-modules/security/cloudflare
+
+Terraform module for Cloudflare WAF rulesets, rate limiting, bot management, Turnstile, API Shield and Page Shield
+
+- source: `git::https://github.com/terraform-cf-modules/terraform-cloudflare-security.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-security
+- submodules:
+  - `terraform-cf-modules/security/cloudflare//modules/api-shield`
+  - `terraform-cf-modules/security/cloudflare//modules/bot-management`
+  - `terraform-cf-modules/security/cloudflare//modules/firewall-legacy`
+  - `terraform-cf-modules/security/cloudflare//modules/list`
+  - `terraform-cf-modules/security/cloudflare//modules/page-shield`
+  - `terraform-cf-modules/security/cloudflare//modules/rate-limit`
+  - `terraform-cf-modules/security/cloudflare//modules/ruleset`
+  - `terraform-cf-modules/security/cloudflare//modules/turnstile`
+
+### terraform-cf-modules/workers/cloudflare
+
+Terraform module for Cloudflare Workers, routes, cron triggers, KV, D1, Queues, R2, Hyperdrive and Pages
+
+- source: `git::https://github.com/terraform-cf-modules/terraform-cloudflare-workers.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-workers
+- submodules:
+  - `terraform-cf-modules/workers/cloudflare//modules/cron`
+  - `terraform-cf-modules/workers/cloudflare//modules/d1`
+  - `terraform-cf-modules/workers/cloudflare//modules/hyperdrive`
+  - `terraform-cf-modules/workers/cloudflare//modules/kv`
+  - `terraform-cf-modules/workers/cloudflare//modules/pages`
+  - `terraform-cf-modules/workers/cloudflare//modules/queue`
+  - `terraform-cf-modules/workers/cloudflare//modules/r2`
+  - `terraform-cf-modules/workers/cloudflare//modules/route`
+  - `terraform-cf-modules/workers/cloudflare//modules/script`
+
+### terraform-cf-modules/zero-trust/cloudflare
+
+Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device posture and DLP
+
+- source: `git::https://github.com/terraform-cf-modules/terraform-cloudflare-zero-trust.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-zero-trust
+- submodules:
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/access-app`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/access-policy`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/device-posture`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/dlp`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/gateway-policy`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/identity`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/service-token`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/tunnel`
+
+### terraform-cf-modules/zone/cloudflare
+
+Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache
+
+- source: `git::https://github.com/terraform-cf-modules/terraform-cloudflare-zone.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-zone
+- submodules:
+  - `terraform-cf-modules/zone/cloudflare//modules/cache`
+  - `terraform-cf-modules/zone/cloudflare//modules/custom-hostname`
+  - `terraform-cf-modules/zone/cloudflare//modules/dns-record`
+  - `terraform-cf-modules/zone/cloudflare//modules/dnssec`
+  - `terraform-cf-modules/zone/cloudflare//modules/settings`
+  - `terraform-cf-modules/zone/cloudflare//modules/ssl`
