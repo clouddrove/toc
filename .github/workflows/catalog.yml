@@ -37,12 +37,28 @@ jobs:
 
       - name: Commit if changed
         run: |
+          set -euo pipefail
           git config user.name  "clouddrove-ci"
           git config user.email "clouddrove-ci@clouddrove.com"
-          if [ -n "$(git status --porcelain MODULES.md llms.txt llms-full.txt catalog.json)" ]; then
-            git add MODULES.md llms.txt llms-full.txt catalog.json
-            git commit -m "chore: rebuild module catalog [skip ci]"
-            git push
-          else
+
+          FILES="README.md MODULES.md llms.txt llms-full.txt catalog.json"
+          if [ -z "$(git status --porcelain $FILES)" ]; then
             echo "No catalog changes."
+            exit 0
           fi
+          git add $FILES
+          git commit -m "chore: rebuild module catalog [skip ci]"
+
+          # Another run may have pushed while this one was generating. Rebase
+          # and regenerate rather than clobbering it.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected, rebasing (attempt $attempt)."
+            git pull --rebase --autostash origin master || git rebase --abort || true
+            sleep $((attempt * 5))
+          done
+          echo "Could not push after 3 attempts." >&2
+          exit 1
