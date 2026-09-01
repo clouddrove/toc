@@ -413,8 +413,8 @@ def render_readme(cat: dict) -> str:
     t = cat["totals"]
     out = [
         "<p align='center'>",
-        "  <img width='1024' alt='CloudDrove Banner' "
-        "src='https://clouddrove.s3.ca-central-1.amazonaws.com/Logo/banner.png' />",
+        "  <img width='1000' alt='CloudDrove Banner' "
+        "src='https://clouddrove.s3.ca-central-1.amazonaws.com/img/clouddrove-github-cover.png' />",
         "</p>",
         "",
         "<h1 align='center'>TOC of All CloudDrove Modules</h1>",

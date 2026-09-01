@@ -1,8 +1,8 @@
 # CloudDrove Terraform Modules (full index)
 
-> Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 93 submodules, 253 total. Each line is a usable Terraform `source` value.
+> Every addressable Terraform module and submodule CloudDrove maintains: 207 modules and 93 submodules, 300 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-01T12:52:22Z.
+Generated 2026-09-01T14:22:16Z.
 
 ## Usage
 
@@ -624,6 +624,30 @@ This terraform module create a aws Global Accelerator resources in AWS. AWS Glob
 - version: `1.4.1`
 - repository: https://github.com/clouddrove/terraform-aws-global-accelerator
 
+### clouddrove/alarm/aws
+
+Terraform module to create an Cloudwatch Alarm.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-alarm.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-alarm
+
+### clouddrove/alb-ingress/aws
+
+Terraform module to deploy alb ingress controller on EKS via helm.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-alb-ingress.git` (not yet on the Terraform Registry)
+- version: `v0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-alb-ingress
+
+### clouddrove/aqua/aws
+
+Terraform modules for Connecting AquaSec to Aws Cloud account
+
+- source: `git::https://github.com/clouddrove/terraform-aws-aqua.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-aqua
+
 ### clouddrove/autoscaling/aws
 
 Terraform module which creates Auto Scaling resources on AWS
@@ -640,6 +664,118 @@ Terraform module will be create AWS bedrock service
 - version: `v1.0.0`
 - repository: https://github.com/clouddrove/terraform-aws-bedrock
 
+### clouddrove/bootstrap/aws
+
+GitHub Action that creates a new repository in a specified organization and adds Terraform configurations for networking, Kubernetes, and RDS at a predefined path.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-bootstrap.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-bootstrap
+
+### clouddrove/budget/aws
+
+Terraform module for configuring and managing AWS Budgets to monitor and control cloud spending.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-budget.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-budget
+
+### clouddrove/cloudformation/aws
+
+Terraform module to provision CloudFormation Stack
+
+- source: `git::https://github.com/clouddrove/terraform-aws-cloudformation.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-cloudformation
+
+### clouddrove/codecommit/aws
+
+Terraform module to create AWS CodeCommit repositories and triggers.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-codecommit.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-codecommit
+
+### clouddrove/config/aws
+
+This terraform module is used to create aws Config resoruces. Aws config provides a detailed view of the configuration of AWS resources in your AWS account.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-config.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-config
+
+### clouddrove/config-baseline/aws
+
+Terraform module to create an AWS Config resource on AWS with S3, IAM user, Recoder and Roles.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-config-baseline.git` (not yet on the Terraform Registry)
+- version: `v0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-config-baseline
+
+### clouddrove/dms/aws
+
+Module to migrate database to AWS
+
+- source: `git::https://github.com/clouddrove/terraform-aws-dms.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-dms
+
+### clouddrove/ec2-snapshot/aws
+
+Terraform module to create Lambda resource on AWS for creating backup and clear Snapshots and AMIs of instances in AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-ec2-snapshot.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-ec2-snapshot
+
+### clouddrove/elastic-beanstalk/aws
+
+Terraform module to deploy Elastic Beanstalk resource on AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-elastic-beanstalk.git` (not yet on the Terraform Registry)
+- version: `v0.13.1`
+- repository: https://github.com/clouddrove/terraform-aws-elastic-beanstalk
+
+### clouddrove/gitlab-runner/aws
+
+Terraform to run GitLab runners in AWS (Ec2)
+
+- source: `git::https://github.com/clouddrove/terraform-aws-gitlab-runner.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-gitlab-runner
+
+### clouddrove/gitlab-runner-old/aws
+
+This terraform module created a launch template and autoscaling group service. These both can be used to setup gitlab-runner.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-gitlab-runner-old.git` (not yet on the Terraform Registry)
+- version: `1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-gitlab-runner-old
+
+### clouddrove/iam-access-analyzer/aws
+
+Terraform module to create IAM Access Analyzer on AWS for monitoring policies.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-iam-access-analyzer.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-iam-access-analyzer
+
+### clouddrove/iam-baseline/aws
+
+Terraform Module Create default IAM roles for managing AWS account.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-iam-baseline.git` (not yet on the Terraform Registry)
+- version: `v1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-iam-baseline
+
+### clouddrove/k8s-addons/aws
+
+This terraform module is used to create eks addon tools along with IRSA.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-k8s-addons.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-k8s-addons
+
 ### clouddrove/mq/aws
 
 Terraform module for provisioning an AmazonMQ broker instance.
@@ -648,6 +784,30 @@ Terraform module for provisioning an AmazonMQ broker instance.
 - version: `v0.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-mq
 
+### clouddrove/rabbitmq/aws
+
+This terraform module is used to create RabbitMQ on AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-rabbitmq.git` (not yet on the Terraform Registry)
+- version: `v0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-rabbitmq
+
+### clouddrove/rds/aws
+
+Terraform module for rds
+
+- source: `git::https://github.com/clouddrove/terraform-aws-rds.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-rds
+
+### clouddrove/rds-auto-shutdown/aws
+
+Terraform module to create Lambda function resource to auto-shutdown rds resources in AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-rds-auto-shutdown.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-rds-auto-shutdown
+
 ### clouddrove/redshift/aws
 
 This is for aws redshift clustner creation module.
@@ -655,6 +815,14 @@ This is for aws redshift clustner creation module.
 - source: `git::https://github.com/clouddrove/terraform-aws-redshift.git` (not yet on the Terraform Registry)
 - version: `v0.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-redshift
+
+### clouddrove/reference/aws
+
+[Draft] A reference repository to deploy a production ready eks cluster.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-reference.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/clouddrove/terraform-aws-reference
 
 ### clouddrove/reference-architecture/aws
 
@@ -689,6 +857,38 @@ This terraform module is used to create sftp on AWS for S3. AWS SFTP (Simple Fil
 - source: `git::https://github.com/clouddrove/terraform-aws-sftp-workflow.git` (not yet on the Terraform Registry)
 - version: `v1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-sftp-workflow
+
+### clouddrove/slack-alerts/aws
+
+Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-slack-alerts.git` (not yet on the Terraform Registry)
+- version: `v0.12.1`
+- repository: https://github.com/clouddrove/terraform-aws-slack-alerts
+
+### clouddrove/ssm/aws
+
+Terraform module to create an SSM on AWS.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-ssm.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-ssm
+
+### clouddrove/sso/aws
+
+This terraform module is used to create AWS SINGLE SIGN ON resources. AWS SSO is an authentication solution that allows users to log in to multiple applications and websites with one-time user authentication.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-sso.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/clouddrove/terraform-aws-sso
+
+### clouddrove/teevity/aws
+
+This terraform module is used for create needed resources like Iam user, S3 and others which used to connect AWS account with Teevity tool to monitor our bills.
+
+- source: `git::https://github.com/clouddrove/terraform-aws-teevity.git` (not yet on the Terraform Registry)
+- version: `v0.13.1`
+- repository: https://github.com/clouddrove/terraform-aws-teevity
 
 ## Azure (terraform-az-modules)
 
@@ -1039,6 +1239,14 @@ Terraform module for bastion
 - version: `unreleased`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-bastion
 
+### terraform-az-modules/container-app/azurerm
+
+Terraform module for container-app
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-container-app.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-container-app
+
 ### terraform-az-modules/diagnostic-settings/azurerm
 
 Terraform module for diagnostic-settings
@@ -1046,6 +1254,22 @@ Terraform module for diagnostic-settings
 - source: `git::https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings.git` (not yet on the Terraform Registry)
 - version: `unreleased`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings
+
+### terraform-az-modules/front-door/azurerm
+
+Terraform module for front-door
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-front-door.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-front-door
+
+### terraform-az-modules/github-pvt-network/azurerm
+
+These resource create a private endpoint connectivity between github private endpoint and Azure vnet network
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-github-pvt-network.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-github-pvt-network
 
 ### terraform-az-modules/managed-devops-pool/azurerm
 
@@ -1073,6 +1297,86 @@ Terraform module for private-endpoint
 
 ## Google Cloud (terraform-gcloud-modules)
 
+### terraform-gcloud-modules/alerts-policy/gcp
+
+Terraform module for alerts-policy
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy
+
+### terraform-gcloud-modules/baseline/gcp
+
+Terraform module for baseline
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-baseline.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-baseline
+
+### terraform-gcloud-modules/bigquery/gcp
+
+Terraform module for bigquery
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery
+
+### terraform-gcloud-modules/budget/gcp
+
+Terraform module for budget
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-budget.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-budget
+
+### terraform-gcloud-modules/cloud-run/gcp
+
+Terraform module for cloud-run
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run
+
+### terraform-gcloud-modules/compute-instance/gcp
+
+Terraform module for compute-instance
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance
+
+### terraform-gcloud-modules/dashbord/gcp
+
+Terraform module for dashbord
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-dashbord.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-dashbord
+
+### terraform-gcloud-modules/firewall/gcp
+
+Terraform module for firewall
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-firewall.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-firewall
+
+### terraform-gcloud-modules/gcr/gcp
+
+Terraform module for gcr
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-gcr.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-gcr
+
+### terraform-gcloud-modules/iam/gcp
+
+Terraform module for iam
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-iam.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-iam
+
 ### terraform-gcloud-modules/labels/gcp
 
 This terraform module is used To add or manage labels for GCP resources.
@@ -1081,6 +1385,70 @@ This terraform module is used To add or manage labels for GCP resources.
 - version: `v0.0.1`
 - repository: https://github.com/terraform-gcloud-modules/terraform-gcp-labels
 
+### terraform-gcloud-modules/load-balancer/gcp
+
+Terraform module for load-balancer
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-load-balancer.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-load-balancer
+
+### terraform-gcloud-modules/memorystore/gcp
+
+Terraform module for memorystore
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore
+
+### terraform-gcloud-modules/oidc/gcp
+
+Terraform module for oidc
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-oidc.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-oidc
+
+### terraform-gcloud-modules/pubsub/gcp
+
+Terraform module for pubsub
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub
+
+### terraform-gcloud-modules/scheduler/gcp
+
+Terraform module for scheduler
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler
+
+### terraform-gcloud-modules/service-account/gcp
+
+Terraform module for service-account
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-service-account.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-service-account
+
+### terraform-gcloud-modules/sql/gcp
+
+Terraform module for sql
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-sql.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-sql
+
+### terraform-gcloud-modules/storage/gcp
+
+Terraform module for storage
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-storage.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-storage
+
 ### terraform-gcloud-modules/subnet/gcp
 
 Terraform module for subnet
@@ -1088,6 +1456,14 @@ Terraform module for subnet
 - source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-subnet.git` (not yet on the Terraform Registry)
 - version: `v0.0.1`
 - repository: https://github.com/terraform-gcloud-modules/terraform-gcp-subnet
+
+### terraform-gcloud-modules/vm-template-instance/gcp
+
+Terraform module for vm-template-instance
+
+- source: `git::https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance.git` (not yet on the Terraform Registry)
+- version: `v0.0.1`
+- repository: https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance
 
 ### terraform-gcloud-modules/vpc/gcp
 
