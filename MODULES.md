@@ -2,25 +2,25 @@
 
 Every Terraform module CloudDrove maintains, across 6 clouds, including every submodule.
 
-**207 modules** and **93 submodules** = **300 addressable units**. 3,971,558 Terraform Registry downloads.
+**160 modules** and **93 submodules** = **253 addressable units**. 3,971,558 Terraform Registry downloads.
 
-Generated 2026-09-01T12:26:22Z by `scripts/generate_catalog.py`. Do not edit by hand.
+Generated 2026-09-01T12:27:19Z by `scripts/generate_catalog.py`. Do not edit by hand.
 
 ## Summary
 
 | Cloud | Organisation | Modules | Submodules | Registry downloads |
 |-------|--------------|--------:|-----------:|-------------------:|
-| AWS | [clouddrove](https://github.com/clouddrove) | 105 | 29 | 3,793,118 |
-| Azure | [terraform-az-modules](https://github.com/terraform-az-modules) | 50 | 2 | 88,878 |
-| Google Cloud | [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) | 22 | 0 | 0 |
+| AWS | [clouddrove](https://github.com/clouddrove) | 80 | 29 | 3,793,118 |
+| Azure | [terraform-az-modules](https://github.com/terraform-az-modules) | 47 | 2 | 88,878 |
+| Google Cloud | [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) | 3 | 0 | 0 |
 | DigitalOcean | [terraform-do-modules](https://github.com/terraform-do-modules) | 17 | 0 | 89,193 |
 | Hetzner Cloud | [terraform-hc-modules](https://github.com/terraform-hc-modules) | 7 | 16 | 369 |
 | Cloudflare | [terraform-cf-modules](https://github.com/terraform-cf-modules) | 6 | 46 | 0 |
-| **Total** | | **207** | **93** | **3,971,558** |
+| **Total** | | **160** | **93** | **3,971,558** |
 
 ## AWS
 
-Organisation [clouddrove](https://github.com/clouddrove) - provider `aws` - 105 modules, 29 submodules.
+Organisation [clouddrove](https://github.com/clouddrove) - provider `aws` - 80 modules, 29 submodules.
 
 | Module | Source | Version | Downloads | Submodules |
 |--------|--------|---------|----------:|------------|
@@ -96,43 +96,18 @@ Organisation [clouddrove](https://github.com/clouddrove) - provider `aws` - 105 
 | [karpenter](https://github.com/clouddrove/terraform-aws-karpenter) | `clouddrove/karpenter/aws` | 1.0.2 | 179 | - |
 | [health-notifier](https://github.com/clouddrove/terraform-aws-health-notifier) | `clouddrove/health-notifier/aws` | 0.0.1 | 25 | - |
 | [global-accelerator](https://github.com/clouddrove/terraform-aws-global-accelerator) | `clouddrove/global-accelerator/aws` | 1.4.1 | 23 | - |
-| [alarm](https://github.com/clouddrove/terraform-aws-alarm) | _unpublished_ | v1.0.2 | 0 | - |
-| [alb-ingress](https://github.com/clouddrove/terraform-aws-alb-ingress) | _unpublished_ | v0.15.1 | 0 | - |
-| [aqua](https://github.com/clouddrove/terraform-aws-aqua) | _unpublished_ | v1.0.0 | 0 | - |
 | [autoscaling](https://github.com/clouddrove/terraform-aws-autoscaling) | _unpublished_ | v1.0.0 | 0 | - |
 | [bedrock](https://github.com/clouddrove/terraform-aws-bedrock) | _unpublished_ | v1.0.0 | 0 | - |
-| [bootstrap](https://github.com/clouddrove/terraform-aws-bootstrap) | _unpublished_ | v1.0.0 | 0 | - |
-| [budget](https://github.com/clouddrove/terraform-aws-budget) | _unpublished_ | v1.0.0 | 0 | - |
-| [cloudformation](https://github.com/clouddrove/terraform-aws-cloudformation) | _unpublished_ | v1.0.0 | 0 | - |
-| [codecommit](https://github.com/clouddrove/terraform-aws-codecommit) | _unpublished_ | - | 0 | - |
-| [config](https://github.com/clouddrove/terraform-aws-config) | _unpublished_ | - | 0 | - |
-| [config-baseline](https://github.com/clouddrove/terraform-aws-config-baseline) | _unpublished_ | v0.15.1 | 0 | - |
-| [dms](https://github.com/clouddrove/terraform-aws-dms) | _unpublished_ | - | 0 | - |
-| [ec2-snapshot](https://github.com/clouddrove/terraform-aws-ec2-snapshot) | _unpublished_ | v1.0.2 | 0 | - |
-| [elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk) | _unpublished_ | v0.13.1 | 0 | - |
-| [gitlab-runner](https://github.com/clouddrove/terraform-aws-gitlab-runner) | _unpublished_ | v1.0.0 | 0 | - |
-| [gitlab-runner-old](https://github.com/clouddrove/terraform-aws-gitlab-runner-old) | _unpublished_ | 1.0.1 | 0 | - |
-| [iam-access-analyzer](https://github.com/clouddrove/terraform-aws-iam-access-analyzer) | _unpublished_ | v1.0.2 | 0 | - |
-| [iam-baseline](https://github.com/clouddrove/terraform-aws-iam-baseline) | _unpublished_ | v1.0.2 | 0 | - |
-| [k8s-addons](https://github.com/clouddrove/terraform-aws-k8s-addons) | _unpublished_ | v1.0.0 | 0 | - |
 | [mq](https://github.com/clouddrove/terraform-aws-mq) | _unpublished_ | v0.0.3 | 0 | - |
-| [rabbitmq](https://github.com/clouddrove/terraform-aws-rabbitmq) | _unpublished_ | v0.15.1 | 0 | - |
-| [rds](https://github.com/clouddrove/terraform-aws-rds) | _unpublished_ | - | 0 | - |
-| [rds-auto-shutdown](https://github.com/clouddrove/terraform-aws-rds-auto-shutdown) | _unpublished_ | v1.0.0 | 0 | - |
 | [redshift](https://github.com/clouddrove/terraform-aws-redshift) | _unpublished_ | v0.1.1 | 0 | - |
-| [reference](https://github.com/clouddrove/terraform-aws-reference) | _unpublished_ | v1.0.0 | 0 | - |
 | [reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture) | _unpublished_ | v1.0.0 | 0 | - |
 | [s3-multiaccount-replication](https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication) | _unpublished_ | v1.0.2 | 0 | - |
 | [serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins) | _unpublished_ | - | 0 | `jenkins_platform` |
 | [sftp-workflow](https://github.com/clouddrove/terraform-aws-sftp-workflow) | _unpublished_ | v1.0.1 | 0 | - |
-| [slack-alerts](https://github.com/clouddrove/terraform-aws-slack-alerts) | _unpublished_ | v0.12.1 | 0 | - |
-| [ssm](https://github.com/clouddrove/terraform-aws-ssm) | _unpublished_ | - | 0 | - |
-| [sso](https://github.com/clouddrove/terraform-aws-sso) | _unpublished_ | - | 0 | - |
-| [teevity](https://github.com/clouddrove/terraform-aws-teevity) | _unpublished_ | v0.13.1 | 0 | - |
 
 ## Azure
 
-Organisation [terraform-az-modules](https://github.com/terraform-az-modules) - provider `azurerm` - 50 modules, 2 submodules.
+Organisation [terraform-az-modules](https://github.com/terraform-az-modules) - provider `azurerm` - 47 modules, 2 submodules.
 
 | Module | Source | Version | Downloads | Submodules |
 |--------|--------|---------|----------:|------------|
@@ -179,41 +154,19 @@ Organisation [terraform-az-modules](https://github.com/terraform-az-modules) - p
 | [api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management) | _unpublished_ | - | 0 | - |
 | [app-service-plan](https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan) | _unpublished_ | - | 0 | - |
 | [bastion](https://github.com/terraform-az-modules/terraform-azurerm-bastion) | _unpublished_ | - | 0 | - |
-| [container-app](https://github.com/terraform-az-modules/terraform-azurerm-container-app) | _unpublished_ | - | 0 | - |
 | [diagnostic-settings](https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings) | _unpublished_ | - | 0 | - |
-| [front-door](https://github.com/terraform-az-modules/terraform-azurerm-front-door) | _unpublished_ | - | 0 | - |
-| [github-pvt-network](https://github.com/terraform-az-modules/terraform-azurerm-github-pvt-network) | _unpublished_ | - | 0 | - |
 | [managed-devops-pool](https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool) | _unpublished_ | - | 0 | - |
 | [nat-gateway](https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway) | _unpublished_ | - | 0 | - |
 | [private-endpoint](https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint) | _unpublished_ | - | 0 | - |
 
 ## Google Cloud
 
-Organisation [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) - provider `gcp` - 22 modules, 0 submodules.
+Organisation [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) - provider `gcp` - 3 modules, 0 submodules.
 
 | Module | Source | Version | Downloads | Submodules |
 |--------|--------|---------|----------:|------------|
-| [alerts-policy](https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy) | _unpublished_ | v0.0.1 | 0 | - |
-| [baseline](https://github.com/terraform-gcloud-modules/terraform-gcp-baseline) | _unpublished_ | - | 0 | - |
-| [bigquery](https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery) | _unpublished_ | v0.0.1 | 0 | - |
-| [budget](https://github.com/terraform-gcloud-modules/terraform-gcp-budget) | _unpublished_ | v0.0.1 | 0 | - |
-| [cloud-run](https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run) | _unpublished_ | v0.0.1 | 0 | - |
-| [compute-instance](https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance) | _unpublished_ | v0.0.1 | 0 | - |
-| [dashbord](https://github.com/terraform-gcloud-modules/terraform-gcp-dashbord) | _unpublished_ | - | 0 | - |
-| [firewall](https://github.com/terraform-gcloud-modules/terraform-gcp-firewall) | _unpublished_ | v0.0.1 | 0 | - |
-| [gcr](https://github.com/terraform-gcloud-modules/terraform-gcp-gcr) | _unpublished_ | v0.0.1 | 0 | - |
-| [iam](https://github.com/terraform-gcloud-modules/terraform-gcp-iam) | _unpublished_ | v0.0.1 | 0 | - |
 | [labels](https://github.com/terraform-gcloud-modules/terraform-gcp-labels) | _unpublished_ | v0.0.1 | 0 | - |
-| [load-balancer](https://github.com/terraform-gcloud-modules/terraform-gcp-load-balancer) | _unpublished_ | - | 0 | - |
-| [memorystore](https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore) | _unpublished_ | v0.0.1 | 0 | - |
-| [oidc](https://github.com/terraform-gcloud-modules/terraform-gcp-oidc) | _unpublished_ | - | 0 | - |
-| [pubsub](https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub) | _unpublished_ | v0.0.1 | 0 | - |
-| [scheduler](https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler) | _unpublished_ | v0.0.1 | 0 | - |
-| [service-account](https://github.com/terraform-gcloud-modules/terraform-gcp-service-account) | _unpublished_ | v0.0.1 | 0 | - |
-| [sql](https://github.com/terraform-gcloud-modules/terraform-gcp-sql) | _unpublished_ | - | 0 | - |
-| [storage](https://github.com/terraform-gcloud-modules/terraform-gcp-storage) | _unpublished_ | v0.0.1 | 0 | - |
 | [subnet](https://github.com/terraform-gcloud-modules/terraform-gcp-subnet) | _unpublished_ | v0.0.1 | 0 | - |
-| [vm-template-instance](https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance) | _unpublished_ | v0.0.1 | 0 | - |
 | [vpc](https://github.com/terraform-gcloud-modules/terraform-gcp-vpc) | _unpublished_ | v0.0.1 | 0 | - |
 
 ## DigitalOcean
@@ -269,12 +222,11 @@ Organisation [terraform-cf-modules](https://github.com/terraform-cf-modules) - p
 
 ## Ansible Roles
 
-39 repositories.
+27 repositories.
 
 | Name | Description |
 |------|-------------|
 | [commands](https://github.com/clouddrove/ansible-commands) | This repository is used to understand how to use ansible commands. |
-| [role-aws-inspector-agent](https://github.com/clouddrove/ansible-role-aws-inspector-agent) | This ansible role is used to install ansible-role-aws-inspector-agent |
 | [role-certbot](https://github.com/clouddrove/ansible-role-certbot) | This ansible role is used to install certbot SSL on linux. |
 | [role-common](https://github.com/clouddrove/ansible-role-common) | This ansible role install common packages for Debian. |
 | [role-docker](https://github.com/clouddrove/ansible-role-docker) | his ansible role install docker at Debian and Centos. |
@@ -285,8 +237,6 @@ Organisation [terraform-cf-modules](https://github.com/terraform-cf-modules) - p
 | [role-docker-elasticsearch-node-exporter](https://github.com/clouddrove/ansible-role-docker-elasticsearch-node-exporter) | This ansible role is used to setup Elasticsearch node exporter with docker. |
 | [role-docker-jenkins](https://github.com/clouddrove/ansible-role-docker-jenkins) | This ansible role is used to install Jenkins with docker on server. |
 | [role-docker-jenkins-node-exporter](https://github.com/clouddrove/ansible-role-docker-jenkins-node-exporter) | This ansible role is used to setup Jenkins node exporter with docker. |
-| [role-docker-metabase](https://github.com/clouddrove/ansible-role-docker-metabase) | This ansible role is used for installing Metabase tool with docker on Debian. |
-| [role-docker-mysql](https://github.com/clouddrove/ansible-role-docker-mysql) | This ansible role is used for formation of MySQL server with docker on Debian. |
 | [role-docker-mysql-node-exporter](https://github.com/clouddrove/ansible-role-docker-mysql-node-exporter) | This ansible role is used to setup MySQL node exporter with docker. |
 | [role-docker-nginx](https://github.com/clouddrove/ansible-role-docker-nginx) | This ansible role is used to install Nginx Server with docker on linux |
 | [role-docker-nginx-node-exporter](https://github.com/clouddrove/ansible-role-docker-nginx-node-exporter) | This ansible role is used to setup Nginx node exporter with docker. |
@@ -296,19 +246,10 @@ Organisation [terraform-cf-modules](https://github.com/terraform-cf-modules) - p
 | [role-docker-rabbitmq-node-exporter](https://github.com/clouddrove/ansible-role-docker-rabbitmq-node-exporter) | This ansible role is used to setup Rabbitmq node exporter with docker. |
 | [role-docker-redis](https://github.com/clouddrove/ansible-role-docker-redis) | This ansible role is used to setup Redis server with docker on Debian. |
 | [role-docker-redis-node-exporter](https://github.com/clouddrove/ansible-role-docker-redis-node-exporter) | This ansible role is used to setup Redis node exporter with docker. |
-| [role-docker-superset](https://github.com/clouddrove/ansible-role-docker-superset) | This ansible role is used for installing Superset tool with docker on Debian. |
-| [role-jenkins-agent](https://github.com/clouddrove/ansible-role-jenkins-agent) | This ansible role is used to install Jenkins Agent on Debian. |
-| [role-keys](https://github.com/clouddrove/ansible-role-keys) | Ansible role to manage keys. |
-| [role-mongo-cluster](https://github.com/clouddrove/ansible-role-mongo-cluster) | This ansible role is used to setup Mongo cluster on Debian. |
 | [role-mount-efs](https://github.com/clouddrove/ansible-role-mount-efs) | This ansible role is used for installing & Mounting AWS EFS on Debian. |
 | [role-mysql](https://github.com/clouddrove/ansible-role-mysql) | This ansible role install mysql server for Debian. |
 | [role-nginx](https://github.com/clouddrove/ansible-role-nginx) | This ansible role is used to install Nginx Server on linux. |
 | [role-php](https://github.com/clouddrove/ansible-role-php) | This ansible role is used to install PHP server on Debian. |
-| [role-redash](https://github.com/clouddrove/ansible-role-redash) | This ansible role is used for the installation of Redash tool on Debian. |
-| [role-redis](https://github.com/clouddrove/ansible-role-redis) | This ansible role is used to install Redis server on Debian. |
 | [role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp) | This Ansible role sets up SFTP with S3 Bucket. |
 | [role-slack-ssh-notifier](https://github.com/clouddrove/ansible-role-slack-ssh-notifier) | This ansible role is used to install Slack SSH notifier on server. |
-| [role-solr](https://github.com/clouddrove/ansible-role-solr) | Ansible role to run setup solr  using docker. |
 | [role-user](https://github.com/clouddrove/ansible-role-user) | This ansible role is used to create users on server. |
-| [role-vsftpd](https://github.com/clouddrove/ansible-role-vsftpd) | Ansible role for Filezilla |
-| [role-wireguard](https://github.com/clouddrove/ansible-role-wireguard) | This is the dynamic role to setup WireGuard VPN server in Ubuntu linux distribution. |
