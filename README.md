@@ -10,7 +10,7 @@
 </p>
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/modules-207-blue' alt='Modules' />
+  <img src='https://img.shields.io/badge/modules-160-blue' alt='Modules' />
   <img src='https://img.shields.io/badge/submodules-93-blue' alt='Submodules' />
   <img src='https://img.shields.io/badge/clouds-6-blue' alt='Clouds' />
   <img src='https://img.shields.io/badge/downloads-3971k-brightgreen' alt='Downloads' />
@@ -18,17 +18,17 @@
 
 <hr>
 
-**207 modules** and **93 submodules** across **6 clouds**, which is **300 separately addressable Terraform sources**, with 3,971,558 registry downloads.
+**160 modules** and **93 submodules** across **6 clouds**, which is **253 separately addressable Terraform sources**, with 3,971,558 registry downloads.
 
 | Cloud | Organisation | Modules | Submodules | Downloads |
 |-------|--------------|--------:|-----------:|----------:|
-| [AWS](#aws) | [clouddrove](https://github.com/clouddrove) | 105 | 29 | 3,793,118 |
-| [Azure](#azure) | [terraform-az-modules](https://github.com/terraform-az-modules) | 50 | 2 | 88,878 |
-| [Google Cloud](#google-cloud) | [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) | 22 | 0 | 0 |
+| [AWS](#aws) | [clouddrove](https://github.com/clouddrove) | 80 | 29 | 3,793,118 |
+| [Azure](#azure) | [terraform-az-modules](https://github.com/terraform-az-modules) | 47 | 2 | 88,878 |
+| [Google Cloud](#google-cloud) | [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) | 3 | 0 | 0 |
 | [DigitalOcean](#digitalocean) | [terraform-do-modules](https://github.com/terraform-do-modules) | 17 | 0 | 89,193 |
 | [Hetzner Cloud](#hetzner-cloud) | [terraform-hc-modules](https://github.com/terraform-hc-modules) | 7 | 16 | 369 |
 | [Cloudflare](#cloudflare) | [terraform-cf-modules](https://github.com/terraform-cf-modules) | 6 | 46 | 0 |
-| **Total** | | **207** | **93** | **3,971,558** |
+| **Total** | | **160** | **93** | **3,971,558** |
 
 For AI assistants: [llms.txt](llms.txt) (compact index), [llms-full.txt](llms-full.txt) (every source string), [catalog.json](catalog.json) (structured data).
 
@@ -112,39 +112,14 @@ Sr No. | Module | Description | Source | Version | Submodules | Downloads | Star
 | 70. | **[terraform-aws-karpenter](https://github.com/clouddrove/terraform-aws-karpenter)** | A Terraform module to create karpenter resource on AWS. | `clouddrove/karpenter/aws` | [1.0.2](https://github.com/clouddrove/terraform-aws-karpenter/releases) | - | 179 | 1
 | 71. | **[terraform-aws-health-notifier](https://github.com/clouddrove/terraform-aws-health-notifier)** | Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira today). EventBridge to Lambda, Terraform-deployed. | `clouddrove/health-notifier/aws` | [0.0.1](https://github.com/clouddrove/terraform-aws-health-notifier/releases) | - | 25 | 
 | 72. | **[terraform-aws-global-accelerator](https://github.com/clouddrove/terraform-aws-global-accelerator)** | This terraform module create a aws Global Accelerator resources in AWS. AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications. | `clouddrove/global-accelerator/aws` | [1.4.1](https://github.com/clouddrove/terraform-aws-global-accelerator/releases) | - | 23 | 
-| 73. | **[terraform-aws-alarm](https://github.com/clouddrove/terraform-aws-alarm)** | Terraform module to create an Cloudwatch Alarm. | _unpublished_ | [v1.0.2](https://github.com/clouddrove/terraform-aws-alarm/releases) | - | 0 | 
-| 74. | **[terraform-aws-alb-ingress](https://github.com/clouddrove/terraform-aws-alb-ingress)** | Terraform module to deploy alb ingress controller on EKS via helm. | _unpublished_ | [v0.15.1](https://github.com/clouddrove/terraform-aws-alb-ingress/releases) | - | 0 | 
-| 75. | **[terraform-aws-aqua](https://github.com/clouddrove/terraform-aws-aqua)** | Terraform modules for Connecting AquaSec to Aws Cloud account | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-aqua/releases) | - | 0 | 
-| 76. | **[terraform-aws-autoscaling](https://github.com/clouddrove/terraform-aws-autoscaling)** | Terraform module which creates Auto Scaling resources on AWS | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-autoscaling/releases) | - | 0 | 1
-| 77. | **[terraform-aws-bedrock](https://github.com/clouddrove/terraform-aws-bedrock)** | Terraform module will be create AWS bedrock service | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-bedrock/releases) | - | 0 | 
-| 78. | **[terraform-aws-bootstrap](https://github.com/clouddrove/terraform-aws-bootstrap)** | GitHub Action that creates a new repository in a specified organization and adds Terraform configurations for networking, Kubernetes, and RDS at a predefined path. | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-bootstrap/releases) | - | 0 | 
-| 79. | **[terraform-aws-budget](https://github.com/clouddrove/terraform-aws-budget)** | Terraform module for configuring and managing AWS Budgets to monitor and control cloud spending. | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-budget/releases) | - | 0 | 
-| 80. | **[terraform-aws-cloudformation](https://github.com/clouddrove/terraform-aws-cloudformation)** | Terraform module to provision CloudFormation Stack | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-cloudformation/releases) | - | 0 | 
-| 81. | **[terraform-aws-codecommit](https://github.com/clouddrove/terraform-aws-codecommit)** | Terraform module to create AWS CodeCommit repositories and triggers. | _unpublished_ | - | - | 0 | 
-| 82. | **[terraform-aws-config](https://github.com/clouddrove/terraform-aws-config)** | This terraform module is used to create aws Config resoruces. Aws config provides a detailed view of the configuration of AWS resources in your AWS account. | _unpublished_ | - | - | 0 | 
-| 83. | **[terraform-aws-config-baseline](https://github.com/clouddrove/terraform-aws-config-baseline)** | Terraform module to create an AWS Config resource on AWS with S3, IAM user, Recoder and Roles. | _unpublished_ | [v0.15.1](https://github.com/clouddrove/terraform-aws-config-baseline/releases) | - | 0 | 
-| 84. | **[terraform-aws-dms](https://github.com/clouddrove/terraform-aws-dms)** | Module to migrate database to AWS | _unpublished_ | - | - | 0 | 
-| 85. | **[terraform-aws-ec2-snapshot](https://github.com/clouddrove/terraform-aws-ec2-snapshot)** | Terraform module to create Lambda resource on AWS for creating backup and clear Snapshots and AMIs of instances in AWS. | _unpublished_ | [v1.0.2](https://github.com/clouddrove/terraform-aws-ec2-snapshot/releases) | - | 0 | 
-| 86. | **[terraform-aws-elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk)** | Terraform module to deploy Elastic Beanstalk resource on AWS. | _unpublished_ | [v0.13.1](https://github.com/clouddrove/terraform-aws-elastic-beanstalk/releases) | - | 0 | 
-| 87. | **[terraform-aws-gitlab-runner](https://github.com/clouddrove/terraform-aws-gitlab-runner)** | Terraform to run GitLab runners in AWS (Ec2) | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-gitlab-runner/releases) | - | 0 | 
-| 88. | **[terraform-aws-gitlab-runner-old](https://github.com/clouddrove/terraform-aws-gitlab-runner-old)** | This terraform module created a launch template and autoscaling group service. These both can be used to setup gitlab-runner. | _unpublished_ | [1.0.1](https://github.com/clouddrove/terraform-aws-gitlab-runner-old/releases) | - | 0 | 
-| 89. | **[terraform-aws-iam-access-analyzer](https://github.com/clouddrove/terraform-aws-iam-access-analyzer)** | Terraform module to create IAM Access Analyzer on AWS for monitoring policies. | _unpublished_ | [v1.0.2](https://github.com/clouddrove/terraform-aws-iam-access-analyzer/releases) | - | 0 | 
-| 90. | **[terraform-aws-iam-baseline](https://github.com/clouddrove/terraform-aws-iam-baseline)** | Terraform Module Create default IAM roles for managing AWS account. | _unpublished_ | [v1.0.2](https://github.com/clouddrove/terraform-aws-iam-baseline/releases) | - | 0 | 
-| 91. | **[terraform-aws-k8s-addons](https://github.com/clouddrove/terraform-aws-k8s-addons)** | This terraform module is used to create eks addon tools along with IRSA. | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-k8s-addons/releases) | - | 0 | 
-| 92. | **[terraform-aws-mq](https://github.com/clouddrove/terraform-aws-mq)** | Terraform module for provisioning an AmazonMQ broker instance. | _unpublished_ | [v0.0.3](https://github.com/clouddrove/terraform-aws-mq/releases) | - | 0 | 1
-| 93. | **[terraform-aws-rabbitmq](https://github.com/clouddrove/terraform-aws-rabbitmq)** | This terraform module is used to create RabbitMQ on AWS. | _unpublished_ | [v0.15.1](https://github.com/clouddrove/terraform-aws-rabbitmq/releases) | - | 0 | 
-| 94. | **[terraform-aws-rds](https://github.com/clouddrove/terraform-aws-rds)** | - | _unpublished_ | - | - | 0 | 
-| 95. | **[terraform-aws-rds-auto-shutdown](https://github.com/clouddrove/terraform-aws-rds-auto-shutdown)** | Terraform module to create Lambda function resource to auto-shutdown rds resources in AWS. | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-rds-auto-shutdown/releases) | - | 0 | 
-| 96. | **[terraform-aws-redshift](https://github.com/clouddrove/terraform-aws-redshift)** | This is for aws redshift clustner creation module. | _unpublished_ | [v0.1.1](https://github.com/clouddrove/terraform-aws-redshift/releases) | - | 0 | 
-| 97. | **[terraform-aws-reference](https://github.com/clouddrove/terraform-aws-reference)** | [Draft] A reference repository to deploy a production ready eks cluster. | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-reference/releases) | - | 0 | 
-| 98. | **[terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture)** | This repo is used as a sample refrence architecture to manage internal projects terraform. | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-reference-architecture/releases) | - | 0 | 
-| 99. | **[terraform-aws-s3-multiaccount-replication](https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication)** | This terraform module is used for s3 replication between multiple account | _unpublished_ | [v1.0.2](https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication/releases) | - | 0 | 
-| 100. | **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins)** | Terraform module for deploy a serverless jenkins. | _unpublished_ | - | `jenkins_platform` | 0 | 
-| 101. | **[terraform-aws-sftp-workflow](https://github.com/clouddrove/terraform-aws-sftp-workflow)** | This terraform module is used to create sftp on AWS for S3. AWS SFTP (Simple File Transfer Protocol) is a fully managed service that enables you to transfer files to and from Amazon S3 using the SFTP protocol | _unpublished_ | [v1.0.1](https://github.com/clouddrove/terraform-aws-sftp-workflow/releases) | - | 0 | 
-| 102. | **[terraform-aws-slack-alerts](https://github.com/clouddrove/terraform-aws-slack-alerts)** | Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things. | _unpublished_ | [v0.12.1](https://github.com/clouddrove/terraform-aws-slack-alerts/releases) | - | 0 | 
-| 103. | **[terraform-aws-ssm](https://github.com/clouddrove/terraform-aws-ssm)** | Terraform module to create an SSM on AWS. | _unpublished_ | - | - | 0 | 
-| 104. | **[terraform-aws-sso](https://github.com/clouddrove/terraform-aws-sso)** | This terraform module is used to create AWS SINGLE SIGN ON resources. AWS SSO is an authentication solution that allows users to log in to multiple applications and websites with one-time user authentication. | _unpublished_ | - | - | 0 | 
-| 105. | **[terraform-aws-teevity](https://github.com/clouddrove/terraform-aws-teevity)** | This terraform module is used for create needed resources like Iam user, S3 and others which used to connect AWS account with Teevity tool to monitor our bills. | _unpublished_ | [v0.13.1](https://github.com/clouddrove/terraform-aws-teevity/releases) | - | 0 | 
+| 73. | **[terraform-aws-autoscaling](https://github.com/clouddrove/terraform-aws-autoscaling)** | Terraform module which creates Auto Scaling resources on AWS | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-autoscaling/releases) | - | 0 | 1
+| 74. | **[terraform-aws-bedrock](https://github.com/clouddrove/terraform-aws-bedrock)** | Terraform module will be create AWS bedrock service | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-bedrock/releases) | - | 0 | 
+| 75. | **[terraform-aws-mq](https://github.com/clouddrove/terraform-aws-mq)** | Terraform module for provisioning an AmazonMQ broker instance. | _unpublished_ | [v0.0.3](https://github.com/clouddrove/terraform-aws-mq/releases) | - | 0 | 1
+| 76. | **[terraform-aws-redshift](https://github.com/clouddrove/terraform-aws-redshift)** | This is for aws redshift clustner creation module. | _unpublished_ | [v0.1.1](https://github.com/clouddrove/terraform-aws-redshift/releases) | - | 0 | 
+| 77. | **[terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture)** | This repo is used as a sample refrence architecture to manage internal projects terraform. | _unpublished_ | [v1.0.0](https://github.com/clouddrove/terraform-aws-reference-architecture/releases) | - | 0 | 
+| 78. | **[terraform-aws-s3-multiaccount-replication](https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication)** | This terraform module is used for s3 replication between multiple account | _unpublished_ | [v1.0.2](https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication/releases) | - | 0 | 
+| 79. | **[terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins)** | Terraform module for deploy a serverless jenkins. | _unpublished_ | - | `jenkins_platform` | 0 | 
+| 80. | **[terraform-aws-sftp-workflow](https://github.com/clouddrove/terraform-aws-sftp-workflow)** | This terraform module is used to create sftp on AWS for S3. AWS SFTP (Simple File Transfer Protocol) is a fully managed service that enables you to transfer files to and from Amazon S3 using the SFTP protocol | _unpublished_ | [v1.0.1](https://github.com/clouddrove/terraform-aws-sftp-workflow/releases) | - | 0 | 
 
 <hr>
 
@@ -197,13 +172,10 @@ Sr No. | Module | Description | Source | Version | Submodules | Downloads | Star
 | 41. | **[terraform-azurerm-api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management)** | - | _unpublished_ | - | - | 0 | 
 | 42. | **[terraform-azurerm-app-service-plan](https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan)** | - | _unpublished_ | - | - | 0 | 
 | 43. | **[terraform-azurerm-bastion](https://github.com/terraform-az-modules/terraform-azurerm-bastion)** | - | _unpublished_ | - | - | 0 | 
-| 44. | **[terraform-azurerm-container-app](https://github.com/terraform-az-modules/terraform-azurerm-container-app)** | - | _unpublished_ | - | - | 0 | 
-| 45. | **[terraform-azurerm-diagnostic-settings](https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings)** | - | _unpublished_ | - | - | 0 | 
-| 46. | **[terraform-azurerm-front-door](https://github.com/terraform-az-modules/terraform-azurerm-front-door)** | - | _unpublished_ | - | - | 0 | 
-| 47. | **[terraform-azurerm-github-pvt-network](https://github.com/terraform-az-modules/terraform-azurerm-github-pvt-network)** | These resource create a private endpoint connectivity between github private endpoint and Azure vnet network | _unpublished_ | - | - | 0 | 
-| 48. | **[terraform-azurerm-managed-devops-pool](https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool)** | - | _unpublished_ | - | - | 0 | 
-| 49. | **[terraform-azurerm-nat-gateway](https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway)** | - | _unpublished_ | - | - | 0 | 
-| 50. | **[terraform-azurerm-private-endpoint](https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint)** | - | _unpublished_ | - | - | 0 | 
+| 44. | **[terraform-azurerm-diagnostic-settings](https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings)** | - | _unpublished_ | - | - | 0 | 
+| 45. | **[terraform-azurerm-managed-devops-pool](https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool)** | - | _unpublished_ | - | - | 0 | 
+| 46. | **[terraform-azurerm-nat-gateway](https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway)** | - | _unpublished_ | - | - | 0 | 
+| 47. | **[terraform-azurerm-private-endpoint](https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint)** | - | _unpublished_ | - | - | 0 | 
 
 <hr>
 
@@ -213,28 +185,9 @@ CloudDrove offers the below Terraform Google Cloud modules in [terraform-gcloud-
 
 Sr No. | Module | Description | Source | Version | Submodules | Downloads | Star
 --- | --- | --- | --- | --- | --- | --- | ---
-| 1. | **[terraform-gcp-alerts-policy](https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy/releases) | - | 0 | 
-| 2. | **[terraform-gcp-baseline](https://github.com/terraform-gcloud-modules/terraform-gcp-baseline)** | - | _unpublished_ | - | - | 0 | 
-| 3. | **[terraform-gcp-bigquery](https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery/releases) | - | 0 | 
-| 4. | **[terraform-gcp-budget](https://github.com/terraform-gcloud-modules/terraform-gcp-budget)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-budget/releases) | - | 0 | 
-| 5. | **[terraform-gcp-cloud-run](https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run/releases) | - | 0 | 
-| 6. | **[terraform-gcp-compute-instance](https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance/releases) | - | 0 | 
-| 7. | **[terraform-gcp-dashbord](https://github.com/terraform-gcloud-modules/terraform-gcp-dashbord)** | - | _unpublished_ | - | - | 0 | 
-| 8. | **[terraform-gcp-firewall](https://github.com/terraform-gcloud-modules/terraform-gcp-firewall)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-firewall/releases) | - | 0 | 
-| 9. | **[terraform-gcp-gcr](https://github.com/terraform-gcloud-modules/terraform-gcp-gcr)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-gcr/releases) | - | 0 | 
-| 10. | **[terraform-gcp-iam](https://github.com/terraform-gcloud-modules/terraform-gcp-iam)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-iam/releases) | - | 0 | 
-| 11. | **[terraform-gcp-labels](https://github.com/terraform-gcloud-modules/terraform-gcp-labels)** | This terraform module is used To add or manage labels for GCP resources. | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-labels/releases) | - | 0 | 
-| 12. | **[terraform-gcp-load-balancer](https://github.com/terraform-gcloud-modules/terraform-gcp-load-balancer)** | - | _unpublished_ | - | - | 0 | 
-| 13. | **[terraform-gcp-memorystore](https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore/releases) | - | 0 | 
-| 14. | **[terraform-gcp-oidc](https://github.com/terraform-gcloud-modules/terraform-gcp-oidc)** | - | _unpublished_ | - | - | 0 | 
-| 15. | **[terraform-gcp-pubsub](https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub/releases) | - | 0 | 
-| 16. | **[terraform-gcp-scheduler](https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler/releases) | - | 0 | 
-| 17. | **[terraform-gcp-service-account](https://github.com/terraform-gcloud-modules/terraform-gcp-service-account)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-service-account/releases) | - | 0 | 
-| 18. | **[terraform-gcp-sql](https://github.com/terraform-gcloud-modules/terraform-gcp-sql)** | - | _unpublished_ | - | - | 0 | 
-| 19. | **[terraform-gcp-storage](https://github.com/terraform-gcloud-modules/terraform-gcp-storage)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-storage/releases) | - | 0 | 
-| 20. | **[terraform-gcp-subnet](https://github.com/terraform-gcloud-modules/terraform-gcp-subnet)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-subnet/releases) | - | 0 | 
-| 21. | **[terraform-gcp-vm-template-instance](https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance/releases) | - | 0 | 
-| 22. | **[terraform-gcp-vpc](https://github.com/terraform-gcloud-modules/terraform-gcp-vpc)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-vpc/releases) | - | 0 | 
+| 1. | **[terraform-gcp-labels](https://github.com/terraform-gcloud-modules/terraform-gcp-labels)** | This terraform module is used To add or manage labels for GCP resources. | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-labels/releases) | - | 0 | 
+| 2. | **[terraform-gcp-subnet](https://github.com/terraform-gcloud-modules/terraform-gcp-subnet)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-subnet/releases) | - | 0 | 
+| 3. | **[terraform-gcp-vpc](https://github.com/terraform-gcloud-modules/terraform-gcp-vpc)** | - | _unpublished_ | [v0.0.1](https://github.com/terraform-gcloud-modules/terraform-gcp-vpc/releases) | - | 0 | 
 
 <hr>
 
@@ -297,49 +250,37 @@ Sr No. | Module | Description | Source | Version | Submodules | Downloads | Star
 
 ## Ansible Roles
 
-CloudDrove offers the below ansible roles (39):
+CloudDrove offers the below ansible roles (27):
 
 Sr No. | Name | Description | Star
 --- | --- | --- | ---
 | 1. | **[ansible-commands](https://github.com/clouddrove/ansible-commands)** | This repository is used to understand how to use ansible commands. | 31
-| 2. | **[ansible-role-aws-inspector-agent](https://github.com/clouddrove/ansible-role-aws-inspector-agent)** | This ansible role is used to install ansible-role-aws-inspector-agent | 
-| 3. | **[ansible-role-certbot](https://github.com/clouddrove/ansible-role-certbot)** | This ansible role is used to install certbot SSL on linux. | 4
-| 4. | **[ansible-role-common](https://github.com/clouddrove/ansible-role-common)** | This ansible role install common packages for Debian. | 10
-| 5. | **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker)** | his ansible role install docker at Debian and Centos. | 5
-| 6. | **[ansible-role-docker-basic-node-exporter](https://github.com/clouddrove/ansible-role-docker-basic-node-exporter)** | This ansible role is used to setup Basic node exporter with docker. | 2
-| 7. | **[ansible-role-docker-caddy](https://github.com/clouddrove/ansible-role-docker-caddy)** | This ansible role is used to install Caddy with docker on server. | 1
-| 8. | **[ansible-role-docker-elastichq](https://github.com/clouddrove/ansible-role-docker-elastichq)** | This ansible role is used to install Elastichq  with docker on linux | 2
-| 9. | **[ansible-role-docker-elasticsearch](https://github.com/clouddrove/ansible-role-docker-elasticsearch)** | This ansible role is used to install Elasticsearch Server with docker on linux. | 1
-| 10. | **[ansible-role-docker-elasticsearch-node-exporter](https://github.com/clouddrove/ansible-role-docker-elasticsearch-node-exporter)** | This ansible role is used to setup Elasticsearch node exporter with docker. | 2
-| 11. | **[ansible-role-docker-jenkins](https://github.com/clouddrove/ansible-role-docker-jenkins)** | This ansible role is used to install Jenkins with docker on server. | 7
-| 12. | **[ansible-role-docker-jenkins-node-exporter](https://github.com/clouddrove/ansible-role-docker-jenkins-node-exporter)** | This ansible role is used to setup Jenkins node exporter with docker. | 1
-| 13. | **[ansible-role-docker-metabase](https://github.com/clouddrove/ansible-role-docker-metabase)** | This ansible role is used for installing Metabase tool with docker on Debian. | 
-| 14. | **[ansible-role-docker-mysql](https://github.com/clouddrove/ansible-role-docker-mysql)** | This ansible role is used for formation of MySQL server with docker on Debian. | 
-| 15. | **[ansible-role-docker-mysql-node-exporter](https://github.com/clouddrove/ansible-role-docker-mysql-node-exporter)** | This ansible role is used to setup MySQL node exporter with docker. | 2
-| 16. | **[ansible-role-docker-nginx](https://github.com/clouddrove/ansible-role-docker-nginx)** | This ansible role is used to install Nginx Server with docker on linux | 4
-| 17. | **[ansible-role-docker-nginx-node-exporter](https://github.com/clouddrove/ansible-role-docker-nginx-node-exporter)** | This ansible role is used to setup Nginx node exporter with docker. | 2
-| 18. | **[ansible-role-docker-php](https://github.com/clouddrove/ansible-role-docker-php)** | This ansible ro used to install PHP with docker on linux. | 5
-| 19. | **[ansible-role-docker-php-node-exporter](https://github.com/clouddrove/ansible-role-docker-php-node-exporter)** | This ansible role is used to setup Php node exporter with docker. | 1
-| 20. | **[ansible-role-docker-pritunl](https://github.com/clouddrove/ansible-role-docker-pritunl)** | This ansible role is used to install Pritunl and Mongodb with docker on server. | 10
-| 21. | **[ansible-role-docker-rabbitmq-node-exporter](https://github.com/clouddrove/ansible-role-docker-rabbitmq-node-exporter)** | This ansible role is used to setup Rabbitmq node exporter with docker. | 
-| 22. | **[ansible-role-docker-redis](https://github.com/clouddrove/ansible-role-docker-redis)** | This ansible role is used to setup Redis server with docker on Debian. | 4
-| 23. | **[ansible-role-docker-redis-node-exporter](https://github.com/clouddrove/ansible-role-docker-redis-node-exporter)** | This ansible role is used to setup Redis node exporter with docker. | 1
-| 24. | **[ansible-role-docker-superset](https://github.com/clouddrove/ansible-role-docker-superset)** | This ansible role is used for installing Superset tool with docker on Debian. | 
-| 25. | **[ansible-role-jenkins-agent](https://github.com/clouddrove/ansible-role-jenkins-agent)** | This ansible role is used to install Jenkins Agent on Debian. | 
-| 26. | **[ansible-role-keys](https://github.com/clouddrove/ansible-role-keys)** | Ansible role to manage keys. | 
-| 27. | **[ansible-role-mongo-cluster](https://github.com/clouddrove/ansible-role-mongo-cluster)** | This ansible role is used to setup Mongo cluster on Debian. | 
-| 28. | **[ansible-role-mount-efs](https://github.com/clouddrove/ansible-role-mount-efs)** | This ansible role is used for installing & Mounting AWS EFS on Debian. | 2
-| 29. | **[ansible-role-mysql](https://github.com/clouddrove/ansible-role-mysql)** | This ansible role install mysql server for Debian. | 4
-| 30. | **[ansible-role-nginx](https://github.com/clouddrove/ansible-role-nginx)** | This ansible role is used to install Nginx Server on linux. | 4
-| 31. | **[ansible-role-php](https://github.com/clouddrove/ansible-role-php)** | This ansible role is used to install PHP server on Debian. | 7
-| 32. | **[ansible-role-redash](https://github.com/clouddrove/ansible-role-redash)** | This ansible role is used for the installation of Redash tool on Debian. | 
-| 33. | **[ansible-role-redis](https://github.com/clouddrove/ansible-role-redis)** | This ansible role is used to install Redis server on Debian. | 
-| 34. | **[ansible-role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp)** | This Ansible role sets up SFTP with S3 Bucket. | 
-| 35. | **[ansible-role-slack-ssh-notifier](https://github.com/clouddrove/ansible-role-slack-ssh-notifier)** | This ansible role is used to install Slack SSH notifier on server. | 3
-| 36. | **[ansible-role-solr](https://github.com/clouddrove/ansible-role-solr)** | Ansible role to run setup solr  using docker. | 
-| 37. | **[ansible-role-user](https://github.com/clouddrove/ansible-role-user)** | This ansible role is used to create users on server. | 5
-| 38. | **[ansible-role-vsftpd](https://github.com/clouddrove/ansible-role-vsftpd)** | Ansible role for Filezilla | 
-| 39. | **[ansible-role-wireguard](https://github.com/clouddrove/ansible-role-wireguard)** | This is the dynamic role to setup WireGuard VPN server in Ubuntu linux distribution. | 
+| 2. | **[ansible-role-certbot](https://github.com/clouddrove/ansible-role-certbot)** | This ansible role is used to install certbot SSL on linux. | 4
+| 3. | **[ansible-role-common](https://github.com/clouddrove/ansible-role-common)** | This ansible role install common packages for Debian. | 10
+| 4. | **[ansible-role-docker](https://github.com/clouddrove/ansible-role-docker)** | his ansible role install docker at Debian and Centos. | 5
+| 5. | **[ansible-role-docker-basic-node-exporter](https://github.com/clouddrove/ansible-role-docker-basic-node-exporter)** | This ansible role is used to setup Basic node exporter with docker. | 2
+| 6. | **[ansible-role-docker-caddy](https://github.com/clouddrove/ansible-role-docker-caddy)** | This ansible role is used to install Caddy with docker on server. | 1
+| 7. | **[ansible-role-docker-elastichq](https://github.com/clouddrove/ansible-role-docker-elastichq)** | This ansible role is used to install Elastichq  with docker on linux | 2
+| 8. | **[ansible-role-docker-elasticsearch](https://github.com/clouddrove/ansible-role-docker-elasticsearch)** | This ansible role is used to install Elasticsearch Server with docker on linux. | 1
+| 9. | **[ansible-role-docker-elasticsearch-node-exporter](https://github.com/clouddrove/ansible-role-docker-elasticsearch-node-exporter)** | This ansible role is used to setup Elasticsearch node exporter with docker. | 2
+| 10. | **[ansible-role-docker-jenkins](https://github.com/clouddrove/ansible-role-docker-jenkins)** | This ansible role is used to install Jenkins with docker on server. | 7
+| 11. | **[ansible-role-docker-jenkins-node-exporter](https://github.com/clouddrove/ansible-role-docker-jenkins-node-exporter)** | This ansible role is used to setup Jenkins node exporter with docker. | 1
+| 12. | **[ansible-role-docker-mysql-node-exporter](https://github.com/clouddrove/ansible-role-docker-mysql-node-exporter)** | This ansible role is used to setup MySQL node exporter with docker. | 2
+| 13. | **[ansible-role-docker-nginx](https://github.com/clouddrove/ansible-role-docker-nginx)** | This ansible role is used to install Nginx Server with docker on linux | 4
+| 14. | **[ansible-role-docker-nginx-node-exporter](https://github.com/clouddrove/ansible-role-docker-nginx-node-exporter)** | This ansible role is used to setup Nginx node exporter with docker. | 2
+| 15. | **[ansible-role-docker-php](https://github.com/clouddrove/ansible-role-docker-php)** | This ansible ro used to install PHP with docker on linux. | 5
+| 16. | **[ansible-role-docker-php-node-exporter](https://github.com/clouddrove/ansible-role-docker-php-node-exporter)** | This ansible role is used to setup Php node exporter with docker. | 1
+| 17. | **[ansible-role-docker-pritunl](https://github.com/clouddrove/ansible-role-docker-pritunl)** | This ansible role is used to install Pritunl and Mongodb with docker on server. | 10
+| 18. | **[ansible-role-docker-rabbitmq-node-exporter](https://github.com/clouddrove/ansible-role-docker-rabbitmq-node-exporter)** | This ansible role is used to setup Rabbitmq node exporter with docker. | 
+| 19. | **[ansible-role-docker-redis](https://github.com/clouddrove/ansible-role-docker-redis)** | This ansible role is used to setup Redis server with docker on Debian. | 4
+| 20. | **[ansible-role-docker-redis-node-exporter](https://github.com/clouddrove/ansible-role-docker-redis-node-exporter)** | This ansible role is used to setup Redis node exporter with docker. | 1
+| 21. | **[ansible-role-mount-efs](https://github.com/clouddrove/ansible-role-mount-efs)** | This ansible role is used for installing & Mounting AWS EFS on Debian. | 2
+| 22. | **[ansible-role-mysql](https://github.com/clouddrove/ansible-role-mysql)** | This ansible role install mysql server for Debian. | 4
+| 23. | **[ansible-role-nginx](https://github.com/clouddrove/ansible-role-nginx)** | This ansible role is used to install Nginx Server on linux. | 4
+| 24. | **[ansible-role-php](https://github.com/clouddrove/ansible-role-php)** | This ansible role is used to install PHP server on Debian. | 7
+| 25. | **[ansible-role-s3-sftp](https://github.com/clouddrove/ansible-role-s3-sftp)** | This Ansible role sets up SFTP with S3 Bucket. | 
+| 26. | **[ansible-role-slack-ssh-notifier](https://github.com/clouddrove/ansible-role-slack-ssh-notifier)** | This ansible role is used to install Slack SSH notifier on server. | 3
+| 27. | **[ansible-role-user](https://github.com/clouddrove/ansible-role-user)** | This ansible role is used to create users on server. | 5
 
 <hr>
 
@@ -351,7 +292,7 @@ Sr No. | Name | Description | Star
 GITHUB_TOKEN=$(gh auth token) python3 scripts/generate_catalog.py
 ```
 
-Generated 2026-09-01T14:22:16Z. This file is generated, so do not edit it by hand.
+Generated 2026-09-01T14:23:10Z. This file is generated, so do not edit it by hand.
 
 ## Feedback
 

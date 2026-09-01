@@ -1,10 +1,10 @@
 # CloudDrove Terraform Modules
 
-> 207 open source Terraform modules and 93 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
+> 160 open source Terraform modules and 93 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-01T14:22:16Z.
+Generated 2026-09-01T14:23:10Z.
 
 ## Catalog
 
@@ -86,39 +86,14 @@ Generated 2026-09-01T14:22:16Z.
 - [clouddrove/karpenter/aws](https://registry.terraform.io/modules/clouddrove/karpenter/aws): A Terraform module to create karpenter resource on AWS.
 - [clouddrove/health-notifier/aws](https://registry.terraform.io/modules/clouddrove/health-notifier/aws): Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira today). EventBridge to Lambda, Terraform-deployed.
 - [clouddrove/global-accelerator/aws](https://registry.terraform.io/modules/clouddrove/global-accelerator/aws): This terraform module create a aws Global Accelerator resources in AWS. AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications.
-- [terraform-aws-alarm](https://github.com/clouddrove/terraform-aws-alarm): Terraform module to create an Cloudwatch Alarm. [not yet on the Terraform Registry]
-- [terraform-aws-alb-ingress](https://github.com/clouddrove/terraform-aws-alb-ingress): Terraform module to deploy alb ingress controller on EKS via helm. [not yet on the Terraform Registry]
-- [terraform-aws-aqua](https://github.com/clouddrove/terraform-aws-aqua): Terraform modules for Connecting AquaSec to Aws Cloud account [not yet on the Terraform Registry]
 - [terraform-aws-autoscaling](https://github.com/clouddrove/terraform-aws-autoscaling): Terraform module which creates Auto Scaling resources on AWS [not yet on the Terraform Registry]
 - [terraform-aws-bedrock](https://github.com/clouddrove/terraform-aws-bedrock): Terraform module will be create AWS bedrock service [not yet on the Terraform Registry]
-- [terraform-aws-bootstrap](https://github.com/clouddrove/terraform-aws-bootstrap): GitHub Action that creates a new repository in a specified organization and adds Terraform configurations for networking, Kubernetes, and RDS at a predefined path. [not yet on the Terraform Registry]
-- [terraform-aws-budget](https://github.com/clouddrove/terraform-aws-budget): Terraform module for configuring and managing AWS Budgets to monitor and control cloud spending. [not yet on the Terraform Registry]
-- [terraform-aws-cloudformation](https://github.com/clouddrove/terraform-aws-cloudformation): Terraform module to provision CloudFormation Stack [not yet on the Terraform Registry]
-- [terraform-aws-codecommit](https://github.com/clouddrove/terraform-aws-codecommit): Terraform module to create AWS CodeCommit repositories and triggers. [not yet on the Terraform Registry]
-- [terraform-aws-config](https://github.com/clouddrove/terraform-aws-config): This terraform module is used to create aws Config resoruces. Aws config provides a detailed view of the configuration of AWS resources in your AWS account. [not yet on the Terraform Registry]
-- [terraform-aws-config-baseline](https://github.com/clouddrove/terraform-aws-config-baseline): Terraform module to create an AWS Config resource on AWS with S3, IAM user, Recoder and Roles. [not yet on the Terraform Registry]
-- [terraform-aws-dms](https://github.com/clouddrove/terraform-aws-dms): Module to migrate database to AWS [not yet on the Terraform Registry]
-- [terraform-aws-ec2-snapshot](https://github.com/clouddrove/terraform-aws-ec2-snapshot): Terraform module to create Lambda resource on AWS for creating backup and clear Snapshots and AMIs of instances in AWS. [not yet on the Terraform Registry]
-- [terraform-aws-elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk): Terraform module to deploy Elastic Beanstalk resource on AWS. [not yet on the Terraform Registry]
-- [terraform-aws-gitlab-runner](https://github.com/clouddrove/terraform-aws-gitlab-runner): Terraform to run GitLab runners in AWS (Ec2) [not yet on the Terraform Registry]
-- [terraform-aws-gitlab-runner-old](https://github.com/clouddrove/terraform-aws-gitlab-runner-old): This terraform module created a launch template and autoscaling group service. These both can be used to setup gitlab-runner. [not yet on the Terraform Registry]
-- [terraform-aws-iam-access-analyzer](https://github.com/clouddrove/terraform-aws-iam-access-analyzer): Terraform module to create IAM Access Analyzer on AWS for monitoring policies. [not yet on the Terraform Registry]
-- [terraform-aws-iam-baseline](https://github.com/clouddrove/terraform-aws-iam-baseline): Terraform Module Create default IAM roles for managing AWS account. [not yet on the Terraform Registry]
-- [terraform-aws-k8s-addons](https://github.com/clouddrove/terraform-aws-k8s-addons): This terraform module is used to create eks addon tools along with IRSA. [not yet on the Terraform Registry]
 - [terraform-aws-mq](https://github.com/clouddrove/terraform-aws-mq): Terraform module for provisioning an AmazonMQ broker instance. [not yet on the Terraform Registry]
-- [terraform-aws-rabbitmq](https://github.com/clouddrove/terraform-aws-rabbitmq): This terraform module is used to create RabbitMQ on AWS. [not yet on the Terraform Registry]
-- [terraform-aws-rds](https://github.com/clouddrove/terraform-aws-rds): Terraform module for rds [not yet on the Terraform Registry]
-- [terraform-aws-rds-auto-shutdown](https://github.com/clouddrove/terraform-aws-rds-auto-shutdown): Terraform module to create Lambda function resource to auto-shutdown rds resources in AWS. [not yet on the Terraform Registry]
 - [terraform-aws-redshift](https://github.com/clouddrove/terraform-aws-redshift): This is for aws redshift clustner creation module. [not yet on the Terraform Registry]
-- [terraform-aws-reference](https://github.com/clouddrove/terraform-aws-reference): [Draft] A reference repository to deploy a production ready eks cluster. [not yet on the Terraform Registry]
 - [terraform-aws-reference-architecture](https://github.com/clouddrove/terraform-aws-reference-architecture): This repo is used as a sample refrence architecture to manage internal projects terraform. [not yet on the Terraform Registry]
 - [terraform-aws-s3-multiaccount-replication](https://github.com/clouddrove/terraform-aws-s3-multiaccount-replication): This terraform module is used for s3 replication between multiple account [not yet on the Terraform Registry]
 - [terraform-aws-serverless-jenkins](https://github.com/clouddrove/terraform-aws-serverless-jenkins): Terraform module for deploy a serverless jenkins. (1 submodule) [not yet on the Terraform Registry]
 - [terraform-aws-sftp-workflow](https://github.com/clouddrove/terraform-aws-sftp-workflow): This terraform module is used to create sftp on AWS for S3. AWS SFTP (Simple File Transfer Protocol) is a fully managed service that enables you to transfer files to and from Amazon S3 using the SFTP protocol [not yet on the Terraform Registry]
-- [terraform-aws-slack-alerts](https://github.com/clouddrove/terraform-aws-slack-alerts): Terraform module to setup tool for send slack alerts via sns for cloudwatch alarms, Elasticbeanstalk, elasticache, autoscaling and other things. [not yet on the Terraform Registry]
-- [terraform-aws-ssm](https://github.com/clouddrove/terraform-aws-ssm): Terraform module to create an SSM on AWS. [not yet on the Terraform Registry]
-- [terraform-aws-sso](https://github.com/clouddrove/terraform-aws-sso): This terraform module is used to create AWS SINGLE SIGN ON resources. AWS SSO is an authentication solution that allows users to log in to multiple applications and websites with one-time user authentication. [not yet on the Terraform Registry]
-- [terraform-aws-teevity](https://github.com/clouddrove/terraform-aws-teevity): This terraform module is used for create needed resources like Iam user, S3 and others which used to connect AWS account with Teevity tool to monitor our bills. [not yet on the Terraform Registry]
 
 ## Azure
 
@@ -165,37 +140,15 @@ Generated 2026-09-01T14:22:16Z.
 - [terraform-azurerm-api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management): Terraform module for api-management [not yet on the Terraform Registry]
 - [terraform-azurerm-app-service-plan](https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan): Terraform module for app-service-plan [not yet on the Terraform Registry]
 - [terraform-azurerm-bastion](https://github.com/terraform-az-modules/terraform-azurerm-bastion): Terraform module for bastion [not yet on the Terraform Registry]
-- [terraform-azurerm-container-app](https://github.com/terraform-az-modules/terraform-azurerm-container-app): Terraform module for container-app [not yet on the Terraform Registry]
 - [terraform-azurerm-diagnostic-settings](https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings): Terraform module for diagnostic-settings [not yet on the Terraform Registry]
-- [terraform-azurerm-front-door](https://github.com/terraform-az-modules/terraform-azurerm-front-door): Terraform module for front-door [not yet on the Terraform Registry]
-- [terraform-azurerm-github-pvt-network](https://github.com/terraform-az-modules/terraform-azurerm-github-pvt-network): These resource create a private endpoint connectivity between github private endpoint and Azure vnet network [not yet on the Terraform Registry]
 - [terraform-azurerm-managed-devops-pool](https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool): Terraform module for managed-devops-pool [not yet on the Terraform Registry]
 - [terraform-azurerm-nat-gateway](https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway): Terraform module for nat-gateway [not yet on the Terraform Registry]
 - [terraform-azurerm-private-endpoint](https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint): Terraform module for private-endpoint [not yet on the Terraform Registry]
 
 ## Google Cloud
 
-- [terraform-gcp-alerts-policy](https://github.com/terraform-gcloud-modules/terraform-gcp-alerts-policy): Terraform module for alerts-policy [not yet on the Terraform Registry]
-- [terraform-gcp-baseline](https://github.com/terraform-gcloud-modules/terraform-gcp-baseline): Terraform module for baseline [not yet on the Terraform Registry]
-- [terraform-gcp-bigquery](https://github.com/terraform-gcloud-modules/terraform-gcp-bigquery): Terraform module for bigquery [not yet on the Terraform Registry]
-- [terraform-gcp-budget](https://github.com/terraform-gcloud-modules/terraform-gcp-budget): Terraform module for budget [not yet on the Terraform Registry]
-- [terraform-gcp-cloud-run](https://github.com/terraform-gcloud-modules/terraform-gcp-cloud-run): Terraform module for cloud-run [not yet on the Terraform Registry]
-- [terraform-gcp-compute-instance](https://github.com/terraform-gcloud-modules/terraform-gcp-compute-instance): Terraform module for compute-instance [not yet on the Terraform Registry]
-- [terraform-gcp-dashbord](https://github.com/terraform-gcloud-modules/terraform-gcp-dashbord): Terraform module for dashbord [not yet on the Terraform Registry]
-- [terraform-gcp-firewall](https://github.com/terraform-gcloud-modules/terraform-gcp-firewall): Terraform module for firewall [not yet on the Terraform Registry]
-- [terraform-gcp-gcr](https://github.com/terraform-gcloud-modules/terraform-gcp-gcr): Terraform module for gcr [not yet on the Terraform Registry]
-- [terraform-gcp-iam](https://github.com/terraform-gcloud-modules/terraform-gcp-iam): Terraform module for iam [not yet on the Terraform Registry]
 - [terraform-gcp-labels](https://github.com/terraform-gcloud-modules/terraform-gcp-labels): This terraform module is used To add or manage labels for GCP resources. [not yet on the Terraform Registry]
-- [terraform-gcp-load-balancer](https://github.com/terraform-gcloud-modules/terraform-gcp-load-balancer): Terraform module for load-balancer [not yet on the Terraform Registry]
-- [terraform-gcp-memorystore](https://github.com/terraform-gcloud-modules/terraform-gcp-memorystore): Terraform module for memorystore [not yet on the Terraform Registry]
-- [terraform-gcp-oidc](https://github.com/terraform-gcloud-modules/terraform-gcp-oidc): Terraform module for oidc [not yet on the Terraform Registry]
-- [terraform-gcp-pubsub](https://github.com/terraform-gcloud-modules/terraform-gcp-pubsub): Terraform module for pubsub [not yet on the Terraform Registry]
-- [terraform-gcp-scheduler](https://github.com/terraform-gcloud-modules/terraform-gcp-scheduler): Terraform module for scheduler [not yet on the Terraform Registry]
-- [terraform-gcp-service-account](https://github.com/terraform-gcloud-modules/terraform-gcp-service-account): Terraform module for service-account [not yet on the Terraform Registry]
-- [terraform-gcp-sql](https://github.com/terraform-gcloud-modules/terraform-gcp-sql): Terraform module for sql [not yet on the Terraform Registry]
-- [terraform-gcp-storage](https://github.com/terraform-gcloud-modules/terraform-gcp-storage): Terraform module for storage [not yet on the Terraform Registry]
 - [terraform-gcp-subnet](https://github.com/terraform-gcloud-modules/terraform-gcp-subnet): Terraform module for subnet [not yet on the Terraform Registry]
-- [terraform-gcp-vm-template-instance](https://github.com/terraform-gcloud-modules/terraform-gcp-vm-template-instance): Terraform module for vm-template-instance [not yet on the Terraform Registry]
 - [terraform-gcp-vpc](https://github.com/terraform-gcloud-modules/terraform-gcp-vpc): Terraform module for vpc [not yet on the Terraform Registry]
 
 ## DigitalOcean
