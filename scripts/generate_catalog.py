@@ -409,120 +409,127 @@ def render_llms_full_txt(cat: dict) -> str:
 
 
 def render_readme(cat: dict) -> str:
+    """Front door. Shows the modules themselves, not just counts."""
     t = cat["totals"]
     out = [
         "<p align='center'>",
-        "  <img width='1000' alt='CloudDrove Banner' "
-        "src='https://clouddrove.s3.ca-central-1.amazonaws.com/img/clouddrove-github-cover.png' />",
+        "  <img width='1024' alt='CloudDrove Banner' "
+        "src='https://clouddrove.s3.ca-central-1.amazonaws.com/Logo/banner.png' />",
         "</p>",
         "",
-        "<h1 align='center'>CloudDrove Module Catalog</h1>",
-        "<p align='center'><em>Every open source Terraform module CloudDrove maintains, "
-        "in one index, for humans and for AI.</em></p>",
+        "<h1 align='center'>TOC of All CloudDrove Modules</h1>",
+        "",
+        "<p align='center' style='font-size: 1.2rem;'>",
+        "  This repo is a useful way to discover all "
+        "<a href='https://clouddrove.com'>CloudDrove</a> developed and maintained modules,",
+        "  across every cloud, including every submodule.",
+        "</p>",
         "",
         "<p align='center'>",
         f"  <img src='https://img.shields.io/badge/modules-{t['modules']}-blue' alt='Modules' />",
         f"  <img src='https://img.shields.io/badge/submodules-{t['submodules']}-blue' alt='Submodules' />",
         f"  <img src='https://img.shields.io/badge/clouds-{t['clouds']}-blue' alt='Clouds' />",
-        f"  <img src='https://img.shields.io/badge/registry%20downloads-"
-        f"{t['registry_downloads'] // 1000}k-brightgreen' alt='Downloads' />",
+        f"  <img src='https://img.shields.io/badge/downloads-{t['registry_downloads'] // 1000}k-brightgreen' alt='Downloads' />",
         "</p>",
         "",
-        "---",
-        "",
-        "## At a glance",
+        "<hr>",
         "",
         f"**{num(t['modules'])} modules** and **{num(t['submodules'])} submodules** across "
         f"**{t['clouds']} clouds**, which is **{num(t['addressable_units'])} separately "
-        f"addressable Terraform sources**. {num(t['registry_downloads'])} Terraform Registry "
-        "downloads to date.",
+        f"addressable Terraform sources**, with {num(t['registry_downloads'])} registry downloads.",
         "",
-        "| Cloud | Organisation | Modules | Submodules | Registry downloads |",
-        "|-------|--------------|--------:|-----------:|-------------------:|",
+        "| Cloud | Organisation | Modules | Submodules | Downloads |",
+        "|-------|--------------|--------:|-----------:|----------:|",
     ]
     for c in cat["clouds"]:
+        anchor = c["cloud"].lower().replace(" ", "-")
         out.append(
-            f"| {c['cloud']} | [{c['org']}]({c['org_url']}) | {num(c['module_count'])} "
-            f"| {num(c['submodule_count'])} | {num(c['downloads'])} |"
+            f"| [{c['cloud']}](#{anchor}) | [{c['org']}]({c['org_url']}) "
+            f"| {num(c['module_count'])} | {num(c['submodule_count'])} | {num(c['downloads'])} |"
         )
     out += [
         f"| **Total** | | **{num(t['modules'])}** | **{num(t['submodules'])}** "
         f"| **{num(t['registry_downloads'])}** |",
         "",
-        "Submodules are not extras. They are separately addressable modules published from the "
-        "same repository, so the real surface area is the addressable-units number, not the "
-        "repository count.",
+        "For AI assistants: [llms.txt](llms.txt) (compact index), "
+        "[llms-full.txt](llms-full.txt) (every source string), "
+        "[catalog.json](catalog.json) (structured data).",
         "",
-        "---",
+        "<hr>",
         "",
-        "## Where to look",
-        "",
-        "| You are | Read this |",
-        "|---------|-----------|",
-        "| A human browsing | **[MODULES.md](MODULES.md)** - full tables, every module and submodule |",
-        "| An AI assistant | **[llms.txt](llms.txt)** - compact index, [llms-full.txt](llms-full.txt) - every source string |",
-        "| A script or tool | **[catalog.json](catalog.json)** - complete structured data |",
-        "",
-        "---",
-        "",
-        "## For AI assistants",
-        "",
-        "This repository follows the [llms.txt](https://llmstxt.org/) convention.",
-        "",
-        "- [`llms.txt`](llms.txt) is the compact index: one line per module with its registry address.",
-        "- [`llms-full.txt`](llms-full.txt) expands every module *and every submodule* into a "
-        "usable Terraform `source` string.",
-        "- [`catalog.json`](catalog.json) is the same data structured, with download counts, "
-        "versions, stars and topics.",
-        "",
-        "Module addresses take the form `<namespace>/<name>/<provider>`. Submodules use the "
-        "double slash form:",
-        "",
-        "```hcl",
-        'module "kv" {',
-        '  source  = "terraform-cf-modules/workers/cloudflare//modules/kv"',
-        '  version = "~> 0.1"',
-        "}",
-        "```",
-        "",
-        "---",
-        "",
-        "## Organisations",
-        "",
-        "| Cloud | Organisation | Provider |",
-        "|-------|--------------|----------|",
     ]
+
     for c in cat["clouds"]:
-        out.append(f"| {c['cloud']} | [{c['org']}]({c['org_url']}) | `{c['provider']}` |")
+        out += [
+            f"## {c['cloud']}",
+            "",
+            f"CloudDrove offers the below Terraform {c['cloud']} modules in "
+            f"[{c['org']}]({c['org_url']}), provider `{c['provider']}`:",
+            "",
+        ]
+        if not c["modules"]:
+            out += ["_No modules yet._", "", "<hr>", ""]
+            continue
+        out += [
+            "Sr No. | Module | Description | Source | Version | Submodules | Downloads | Star",
+            "--- | --- | --- | --- | --- | --- | --- | ---",
+        ]
+        for i, m in enumerate(c["modules"], 1):
+            desc = (m["description"] or "").replace("|", "/") or "-"
+            src = f"`{m['registry']}`" if m["published"] else "_unpublished_"
+            ver = (
+                f"[{m['version']}]({m['url']}/releases)" if m["version"] else "-"
+            )
+            if m["submodules"]:
+                subs = "<br>".join(f"`{s['name']}`" for s in m["submodules"])
+            else:
+                subs = "-"
+            out.append(
+                f"| {i}. | **[{m['repo']}]({m['url']})** | {desc} | {src} | {ver} "
+                f"| {subs} | {num(m['downloads'])} | {m['stars'] or ''}"
+            )
+        out += ["", "<hr>", ""]
+
+    for coll in cat["collections"]:
+        out += [
+            f"## {coll['label']}",
+            "",
+            f"CloudDrove offers the below {coll['label'].lower()} ({coll['count']}):",
+            "",
+            "Sr No. | Name | Description | Star",
+            "--- | --- | --- | ---",
+        ]
+        for i, it in enumerate(coll["items"], 1):
+            d = (it["description"] or "").replace("|", "/") or "-"
+            out.append(f"| {i}. | **[{it['repo']}]({it['url']})** | {d} | {it['stars'] or ''}")
+        out += ["", "<hr>", ""]
+
     out += [
-        "",
-        "---",
-        "",
         "## How this is built",
         "",
-        "`scripts/generate_catalog.py` scans every organisation through the GitHub API, reads each "
-        "repository tree to enumerate `modules/` submodules, enriches with Terraform Registry "
-        "download counts, and writes all four artifacts. It runs nightly through "
-        "[`.github/workflows/catalog.yml`](.github/workflows/catalog.yml) and uses only the "
-        "standard library and the built-in `GITHUB_TOKEN`.",
-        "",
-        "Run it yourself:",
+        "`scripts/generate_catalog.py` scans every CloudDrove organisation through the GitHub API, "
+        "reads each repository tree to enumerate `modules/` submodules, and enriches with Terraform "
+        "Registry download counts. It runs nightly through "
+        "[`.github/workflows/catalog.yml`](.github/workflows/catalog.yml), using only the standard "
+        "library and the built-in `GITHUB_TOKEN`.",
         "",
         "```bash",
         "GITHUB_TOKEN=$(gh auth token) python3 scripts/generate_catalog.py",
         "```",
         "",
-        f"Generated {cat['generated_at']}. Every file in this repository except the script and "
-        "the workflow is generated, so do not edit them by hand.",
-        "",
-        "---",
+        f"Generated {cat['generated_at']}. This file is generated, so do not edit it by hand.",
         "",
         "## Feedback",
         "",
-        "Open an issue on [clouddrove/toc](https://github.com/clouddrove/toc/issues), or reach us "
-        "at [business@clouddrove.com](mailto:business@clouddrove.com).",
+        "Report issues or request modules on "
+        "[clouddrove/toc](https://github.com/clouddrove/toc/issues), or write to "
+        "[business@clouddrove.com](mailto:business@clouddrove.com).",
         "",
-        "Maintained by [CloudDrove](https://clouddrove.com).",
+        "## About us",
+        "",
+        "At [CloudDrove](https://clouddrove.com), we build reliable, secure and cost efficient "
+        "cloud native solutions. Join our "
+        "[Slack community](https://www.launchpass.com/devops-talks).",
     ]
     return "\n".join(out)
 
@@ -536,7 +543,6 @@ def main() -> int:
         fh.write("\n")
     for name, body in (
         ("README.md", render_readme(cat)),
-        ("MODULES.md", render_modules_md(cat)),
         ("llms.txt", render_llms_txt(cat)),
         ("llms-full.txt", render_llms_full_txt(cat)),
     ):

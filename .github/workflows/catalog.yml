@@ -41,7 +41,7 @@ jobs:
           git config user.name  "clouddrove-ci"
           git config user.email "clouddrove-ci@clouddrove.com"
 
-          FILES="README.md MODULES.md llms.txt llms-full.txt catalog.json"
+          FILES="README.md llms.txt llms-full.txt catalog.json"
 
           # The generator stamps a timestamp into every artifact, so the files
           # always differ. Only commit when something other than that timestamp
