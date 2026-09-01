@@ -6,7 +6,7 @@
 <p align='center'><em>Every open source Terraform module CloudDrove maintains, in one index, for humans and for AI.</em></p>
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/modules-207-blue' alt='Modules' />
+  <img src='https://img.shields.io/badge/modules-160-blue' alt='Modules' />
   <img src='https://img.shields.io/badge/submodules-93-blue' alt='Submodules' />
   <img src='https://img.shields.io/badge/clouds-6-blue' alt='Clouds' />
   <img src='https://img.shields.io/badge/registry%20downloads-3971k-brightgreen' alt='Downloads' />
@@ -16,17 +16,17 @@
 
 ## At a glance
 
-**207 modules** and **93 submodules** across **6 clouds**, which is **300 separately addressable Terraform sources**. 3,971,558 Terraform Registry downloads to date.
+**160 modules** and **93 submodules** across **6 clouds**, which is **253 separately addressable Terraform sources**. 3,971,558 Terraform Registry downloads to date.
 
 | Cloud | Organisation | Modules | Submodules | Registry downloads |
 |-------|--------------|--------:|-----------:|-------------------:|
-| AWS | [clouddrove](https://github.com/clouddrove) | 105 | 29 | 3,793,118 |
-| Azure | [terraform-az-modules](https://github.com/terraform-az-modules) | 50 | 2 | 88,878 |
-| Google Cloud | [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) | 22 | 0 | 0 |
+| AWS | [clouddrove](https://github.com/clouddrove) | 80 | 29 | 3,793,118 |
+| Azure | [terraform-az-modules](https://github.com/terraform-az-modules) | 47 | 2 | 88,878 |
+| Google Cloud | [terraform-gcloud-modules](https://github.com/terraform-gcloud-modules) | 3 | 0 | 0 |
 | DigitalOcean | [terraform-do-modules](https://github.com/terraform-do-modules) | 17 | 0 | 89,193 |
 | Hetzner Cloud | [terraform-hc-modules](https://github.com/terraform-hc-modules) | 7 | 16 | 369 |
 | Cloudflare | [terraform-cf-modules](https://github.com/terraform-cf-modules) | 6 | 46 | 0 |
-| **Total** | | **207** | **93** | **3,971,558** |
+| **Total** | | **160** | **93** | **3,971,558** |
 
 Submodules are not extras. They are separately addressable modules published from the same repository, so the real surface area is the addressable-units number, not the repository count.
 
@@ -84,7 +84,7 @@ Run it yourself:
 GITHUB_TOKEN=$(gh auth token) python3 scripts/generate_catalog.py
 ```
 
-Generated 2026-09-01T12:26:22Z. Every file in this repository except the script and the workflow is generated, so do not edit them by hand.
+Generated 2026-09-01T12:29:13Z. Every file in this repository except the script and the workflow is generated, so do not edit them by hand.
 
 ---
 

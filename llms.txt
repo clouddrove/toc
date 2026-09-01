@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-01T12:27:19Z.
+Generated 2026-09-01T12:29:13Z.
 
 ## Catalog
 

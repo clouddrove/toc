@@ -4,7 +4,7 @@ Every Terraform module CloudDrove maintains, across 6 clouds, including every su
 
 **160 modules** and **93 submodules** = **253 addressable units**. 3,971,558 Terraform Registry downloads.
 
-Generated 2026-09-01T12:27:19Z by `scripts/generate_catalog.py`. Do not edit by hand.
+Generated 2026-09-01T12:29:13Z by `scripts/generate_catalog.py`. Do not edit by hand.
 
 ## Summary
 
