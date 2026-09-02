@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-01T14:23:10Z.
+Generated 2026-09-02T03:15:56Z.
 
 ## Catalog
 
@@ -44,8 +44,8 @@ Generated 2026-09-01T14:23:10Z.
 - [clouddrove/alb/aws](https://registry.terraform.io/modules/clouddrove/alb/aws): This terraform module is used to create ALB on AWS.
 - [clouddrove/waf/aws](https://registry.terraform.io/modules/clouddrove/waf/aws): This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
 - [clouddrove/cloudtrail/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail/aws): Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
-- [clouddrove/vpc-peering/aws](https://registry.terraform.io/modules/clouddrove/vpc-peering/aws): Terraform module to connect two VPC's on AWS.
 - [clouddrove/sqs/aws](https://registry.terraform.io/modules/clouddrove/sqs/aws): Terraform module to create SQS resource on AWS for managing queue.
+- [clouddrove/vpc-peering/aws](https://registry.terraform.io/modules/clouddrove/vpc-peering/aws): Terraform module to connect two VPC's on AWS.
 - [clouddrove/aurora/aws](https://registry.terraform.io/modules/clouddrove/aurora/aws): Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL.
 - [clouddrove/iam-user/aws](https://registry.terraform.io/modules/clouddrove/iam-user/aws): Terraform module to create Iam user resource on AWS.
 - [clouddrove/efs/aws](https://registry.terraform.io/modules/clouddrove/efs/aws): Terraform module to create or deploy EFS on AWS.
@@ -114,8 +114,8 @@ Generated 2026-09-01T14:23:10Z.
 - [terraform-az-modules/flexible-postgresql/azurerm](https://registry.terraform.io/modules/terraform-az-modules/flexible-postgresql/azurerm): This terraform module is designed to create Azure Postgres flexible mysql resources. The Azure Database for PostgreSQL flexible server deployment model is designed to support high availability within a single availability zone and across multiple availability zones
 - [terraform-az-modules/cognitive/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cognitive/azurerm): This terraform module is designed to create Azure Cognitive services.  Azure Cognitive Services (now often branded under Azure AI Foundry tools) are pre-built, cloud-based AI APIs that allow developers to integrate intelligence—such as vision, speech, language, and decision-making—into applications .
 - [terraform-az-modules/application-gateway/azurerm](https://registry.terraform.io/modules/terraform-az-modules/application-gateway/azurerm): This Terraform module creates Azure Application Gateway resources. Application Gateway is a layer 7 load balancer that manages traffic to web applications, offering features like SSL termination, Web Application Firewall (WAF) integration, and URL-based routing for enhanced security and performance.
-- [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 - [terraform-az-modules/dns/azurerm](https://registry.terraform.io/modules/terraform-az-modules/dns/azurerm): Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
+- [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 - [terraform-az-modules/waf/azurerm](https://registry.terraform.io/modules/terraform-az-modules/waf/azurerm): This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
 - [terraform-az-modules/redis-cache/azurerm](https://registry.terraform.io/modules/terraform-az-modules/redis-cache/azurerm): This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
 - [terraform-az-modules/service-bus/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-bus/azurerm): This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
@@ -183,9 +183,9 @@ Generated 2026-09-01T14:23:10Z.
 
 ## Cloudflare
 
-- [terraform-cloudflare-account](https://github.com/terraform-cf-modules/terraform-cloudflare-account): Terraform module for Cloudflare account bootstrap, members, API tokens, notifications, Logpush and secrets store (7 submodules) [not yet on the Terraform Registry]
-- [terraform-cloudflare-network](https://github.com/terraform-cf-modules/terraform-cloudflare-network): Terraform module for Cloudflare load balancing, Spectrum, Magic WAN and Magic Transit (8 submodules) [not yet on the Terraform Registry]
-- [terraform-cloudflare-security](https://github.com/terraform-cf-modules/terraform-cloudflare-security): Terraform module for Cloudflare WAF rulesets, rate limiting, bot management, Turnstile, API Shield and Page Shield (8 submodules) [not yet on the Terraform Registry]
-- [terraform-cloudflare-workers](https://github.com/terraform-cf-modules/terraform-cloudflare-workers): Terraform module for Cloudflare Workers, routes, cron triggers, KV, D1, Queues, R2, Hyperdrive and Pages (9 submodules) [not yet on the Terraform Registry]
-- [terraform-cloudflare-zero-trust](https://github.com/terraform-cf-modules/terraform-cloudflare-zero-trust): Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device posture and DLP (8 submodules) [not yet on the Terraform Registry]
-- [terraform-cloudflare-zone](https://github.com/terraform-cf-modules/terraform-cloudflare-zone): Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache (6 submodules) [not yet on the Terraform Registry]
+- [terraform-cf-modules/account/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/account/cloudflare): Terraform module for Cloudflare account bootstrap, members, API tokens, notifications, Logpush and secrets store (7 submodules)
+- [terraform-cf-modules/network/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/network/cloudflare): Terraform module for Cloudflare load balancing, Spectrum, Magic WAN and Magic Transit (8 submodules)
+- [terraform-cf-modules/security/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/security/cloudflare): Terraform module for Cloudflare WAF rulesets, rate limiting, bot management, Turnstile, API Shield and Page Shield (8 submodules)
+- [terraform-cf-modules/workers/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/workers/cloudflare): Terraform module for Cloudflare Workers, routes, cron triggers, KV, D1, Queues, R2, Hyperdrive and Pages (9 submodules)
+- [terraform-cf-modules/zero-trust/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/zero-trust/cloudflare): Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device posture and DLP (8 submodules)
+- [terraform-cf-modules/zone/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/zone/cloudflare): Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache (6 submodules)
