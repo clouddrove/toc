@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-02T03:15:56Z.
+Generated 2026-09-03T04:28:41Z.
 
 ## Catalog
 
@@ -61,8 +61,8 @@ Generated 2026-09-02T03:15:56Z.
 - [clouddrove/lambda-site-monitor/aws](https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws): Terraform module to create Lambda resource on AWS for monitor different websites.
 - [clouddrove/mysql/aws](https://registry.terraform.io/modules/clouddrove/mysql/aws): Terraform module to create a MySQL on AWS.
 - [clouddrove/active-directory/aws](https://registry.terraform.io/modules/clouddrove/active-directory/aws): Terraform module to create Active Directory on AWS.
-- [clouddrove/macie/aws](https://registry.terraform.io/modules/clouddrove/macie/aws): This terraform module is used to Provide a resource to manage an AWS Macie Account.
 - [clouddrove/eventbridge/aws](https://registry.terraform.io/modules/clouddrove/eventbridge/aws): Terraform module to create an Eventbridge resource on AWS.
+- [clouddrove/macie/aws](https://registry.terraform.io/modules/clouddrove/macie/aws): This terraform module is used to Provide a resource to manage an AWS Macie Account.
 - [clouddrove/pritunl/aws](https://registry.terraform.io/modules/clouddrove/pritunl/aws): Terraform module to create an pritunl resource on AWS with Elastic IP Addresses and Elastic Block Store
 - [clouddrove/mfa/aws](https://registry.terraform.io/modules/clouddrove/mfa/aws): A terraform module to enable MFA for AWS groups and users
 - [clouddrove/secure-baseline/aws](https://registry.terraform.io/modules/clouddrove/secure-baseline/aws): Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline. (10 submodules)
@@ -114,8 +114,8 @@ Generated 2026-09-02T03:15:56Z.
 - [terraform-az-modules/flexible-postgresql/azurerm](https://registry.terraform.io/modules/terraform-az-modules/flexible-postgresql/azurerm): This terraform module is designed to create Azure Postgres flexible mysql resources. The Azure Database for PostgreSQL flexible server deployment model is designed to support high availability within a single availability zone and across multiple availability zones
 - [terraform-az-modules/cognitive/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cognitive/azurerm): This terraform module is designed to create Azure Cognitive services.  Azure Cognitive Services (now often branded under Azure AI Foundry tools) are pre-built, cloud-based AI APIs that allow developers to integrate intelligence—such as vision, speech, language, and decision-making—into applications .
 - [terraform-az-modules/application-gateway/azurerm](https://registry.terraform.io/modules/terraform-az-modules/application-gateway/azurerm): This Terraform module creates Azure Application Gateway resources. Application Gateway is a layer 7 load balancer that manages traffic to web applications, offering features like SSL termination, Web Application Firewall (WAF) integration, and URL-based routing for enhanced security and performance.
-- [terraform-az-modules/dns/azurerm](https://registry.terraform.io/modules/terraform-az-modules/dns/azurerm): Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
 - [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
+- [terraform-az-modules/dns/azurerm](https://registry.terraform.io/modules/terraform-az-modules/dns/azurerm): Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
 - [terraform-az-modules/waf/azurerm](https://registry.terraform.io/modules/terraform-az-modules/waf/azurerm): This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
 - [terraform-az-modules/redis-cache/azurerm](https://registry.terraform.io/modules/terraform-az-modules/redis-cache/azurerm): This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
 - [terraform-az-modules/service-bus/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-bus/azurerm): This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
@@ -133,8 +133,8 @@ Generated 2026-09-02T03:15:56Z.
 - [terraform-az-modules/firewall/azurerm](https://registry.terraform.io/modules/terraform-az-modules/firewall/azurerm): This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
 - [terraform-az-modules/sentinel/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sentinel/azurerm): This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
 - [terraform-az-modules/functions-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/functions-app/azurerm): This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
-- [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
 - [terraform-az-modules/flexible-mysql/azurerm](https://registry.terraform.io/modules/terraform-az-modules/flexible-mysql/azurerm): Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
+- [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
 - [terraform-az-modules/cosmos-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cosmos-db/azurerm): This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
 - [terraform-az-modules/service-principle/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-principle/azurerm): Terraform module for service-principle
 - [terraform-azurerm-api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management): Terraform module for api-management [not yet on the Terraform Registry]
@@ -177,8 +177,8 @@ Generated 2026-09-02T03:15:56Z.
 - [terraform-hc-modules/network/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/network/hcloud): Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer) (3 submodules)
 - [terraform-hc-modules/labels/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/labels/hcloud): Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
 - [terraform-hc-modules/certificate/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/certificate/hcloud): Terraform module for Hetzner Cloud SSL/TLS certificates (2 submodules)
-- [terraform-hc-modules/ip/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/ip/hcloud): Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS) (3 submodules)
 - [terraform-hc-modules/dns/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/dns/hcloud): Terraform module for Hetzner DNS zones and records (2 submodules)
+- [terraform-hc-modules/ip/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/ip/hcloud): Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS) (3 submodules)
 - [terraform-hc-modules/storage-box/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud): Terraform module for Hetzner Storage Box (EXPERIMENTAL) (1 submodule)
 
 ## Cloudflare

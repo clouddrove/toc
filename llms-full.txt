@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 93 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-02T03:15:56Z.
+Generated 2026-09-03T04:28:41Z.
 
 ## Usage
 
@@ -395,14 +395,6 @@ Terraform module to create Active Directory on AWS.
 - version: `1.0.4`
 - repository: https://github.com/clouddrove/terraform-aws-active-directory
 
-### clouddrove/macie/aws
-
-This terraform module is used to Provide a resource to manage an AWS Macie Account.
-
-- source: `clouddrove/macie/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-macie
-
 ### clouddrove/eventbridge/aws
 
 Terraform module to create an Eventbridge resource on AWS.
@@ -410,6 +402,14 @@ Terraform module to create an Eventbridge resource on AWS.
 - source: `clouddrove/eventbridge/aws`
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-eventbridge
+
+### clouddrove/macie/aws
+
+This terraform module is used to Provide a resource to manage an AWS Macie Account.
+
+- source: `clouddrove/macie/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-macie
 
 ### clouddrove/pritunl/aws
 
@@ -613,7 +613,7 @@ A Terraform module to create karpenter resource on AWS.
 Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira today). EventBridge to Lambda, Terraform-deployed.
 
 - source: `clouddrove/health-notifier/aws`
-- version: `0.0.1`
+- version: `0.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-health-notifier
 
 ### clouddrove/global-accelerator/aws
@@ -831,14 +831,6 @@ This Terraform module creates Azure Application Gateway resources. Application G
 - version: `3.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-application-gateway
 
-### terraform-az-modules/dns/azurerm
-
-Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
-
-- source: `terraform-az-modules/dns/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-dns
-
 ### terraform-az-modules/vpn/azurerm
 
 This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
@@ -846,6 +838,14 @@ This terraform module is designed to create Azure VPN resources. Azure VPN Gatew
 - source: `terraform-az-modules/vpn/azurerm`
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vpn
+
+### terraform-az-modules/dns/azurerm
+
+Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
+
+- source: `terraform-az-modules/dns/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-dns
 
 ### terraform-az-modules/waf/azurerm
 
@@ -983,14 +983,6 @@ This Terraform module is used to create firewall resource on AZURE.  Azure Funct
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
 
-### terraform-az-modules/logic-app/azurerm
-
-Terraform module for logic-app
-
-- source: `terraform-az-modules/logic-app/azurerm`
-- version: `2.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
-
 ### terraform-az-modules/flexible-mysql/azurerm
 
 Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
@@ -998,6 +990,14 @@ Terraform module to create flexible-MySQL resource on AZURE. Azure offers a mana
 - source: `terraform-az-modules/flexible-mysql/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+
+### terraform-az-modules/logic-app/azurerm
+
+Terraform module for logic-app
+
+- source: `terraform-az-modules/logic-app/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
 
 ### terraform-az-modules/cosmos-db/azurerm
 
@@ -1282,6 +1282,17 @@ Terraform module for Hetzner Cloud SSL/TLS certificates
   - `terraform-hc-modules/certificate/hcloud//modules/managed`
   - `terraform-hc-modules/certificate/hcloud//modules/uploaded`
 
+### terraform-hc-modules/dns/hcloud
+
+Terraform module for Hetzner DNS zones and records
+
+- source: `terraform-hc-modules/dns/hcloud`
+- version: `0.4.0`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-dns
+- submodules:
+  - `terraform-hc-modules/dns/hcloud//modules/records`
+  - `terraform-hc-modules/dns/hcloud//modules/zone`
+
 ### terraform-hc-modules/ip/hcloud
 
 Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
@@ -1293,17 +1304,6 @@ Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
   - `terraform-hc-modules/ip/hcloud//modules/floating-ip`
   - `terraform-hc-modules/ip/hcloud//modules/primary-ip`
   - `terraform-hc-modules/ip/hcloud//modules/rdns`
-
-### terraform-hc-modules/dns/hcloud
-
-Terraform module for Hetzner DNS zones and records
-
-- source: `terraform-hc-modules/dns/hcloud`
-- version: `0.4.0`
-- repository: https://github.com/terraform-hc-modules/terraform-hcloud-dns
-- submodules:
-  - `terraform-hc-modules/dns/hcloud//modules/records`
-  - `terraform-hc-modules/dns/hcloud//modules/zone`
 
 ### terraform-hc-modules/storage-box/hcloud
 
