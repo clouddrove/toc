@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 93 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-03T04:28:41Z.
+Generated 2026-09-04T03:15:58Z.
 
 ## Usage
 
@@ -145,14 +145,6 @@ This terraform module is used for requesting or importing SSL/TLS certificate wi
 - version: `1.4.3`
 - repository: https://github.com/clouddrove/terraform-aws-acm
 
-### clouddrove/keypair/aws
-
-Terraform module for generating or importing an SSH public key file into AWS.
-
-- source: `clouddrove/keypair/aws`
-- version: `1.3.4`
-- repository: https://github.com/clouddrove/terraform-aws-keypair
-
 ### clouddrove/ecr/aws
 
 This terraform module is used to create ECR on AWS.
@@ -160,6 +152,14 @@ This terraform module is used to create ECR on AWS.
 - source: `clouddrove/ecr/aws`
 - version: `1.3.3`
 - repository: https://github.com/clouddrove/terraform-aws-ecr
+
+### clouddrove/keypair/aws
+
+Terraform module for generating or importing an SSH public key file into AWS.
+
+- source: `clouddrove/keypair/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-keypair
 
 ### clouddrove/elasticsearch/aws
 
@@ -177,14 +177,6 @@ Terraform module will be created Autoscaling, Workers, EKS.
 - version: `1.4.8`
 - repository: https://github.com/clouddrove/terraform-aws-eks
 
-### clouddrove/cross-account-role/aws
-
-This terraform module is used to create an IAM Role to access another AWS account inventory.
-
-- source: `clouddrove/cross-account-role/aws`
-- version: `0.15.1`
-- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
-
 ### clouddrove/cloudwatch-event-rule/aws
 
 Terraform module to create cloudwatch event rule on AWS.
@@ -192,6 +184,14 @@ Terraform module to create cloudwatch event rule on AWS.
 - source: `clouddrove/cloudwatch-event-rule/aws`
 - version: `1.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule
+
+### clouddrove/cross-account-role/aws
+
+This terraform module is used to create an IAM Role to access another AWS account inventory.
+
+- source: `clouddrove/cross-account-role/aws`
+- version: `0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
 ### clouddrove/route53/aws
 
@@ -297,6 +297,14 @@ Terraform module to create or deploy EFS on AWS.
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-efs
 
+### clouddrove/dynamodb/aws
+
+This terraform module is used for create dynamodb resources in AWS.
+
+- source: `clouddrove/dynamodb/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-dynamodb
+
 ### clouddrove/eks-addons/aws
 
 Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS.
@@ -306,14 +314,6 @@ Terraform module for installing and managing Helm-based Kubernetes add-ons on Am
 - repository: https://github.com/clouddrove/terraform-aws-eks-addons
 - submodules:
   - `clouddrove/eks-addons/aws//modules/irsa`
-
-### clouddrove/dynamodb/aws
-
-This terraform module is used for create dynamodb resources in AWS.
-
-- source: `clouddrove/dynamodb/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-dynamodb
 
 ### clouddrove/cloudfront/aws
 
@@ -384,7 +384,7 @@ Terraform module to create Lambda resource on AWS for monitor different websites
 Terraform module to create a MySQL on AWS.
 
 - source: `clouddrove/mysql/aws`
-- version: `1.3.3`
+- version: `1.3.4`
 - repository: https://github.com/clouddrove/terraform-aws-mysql
 
 ### clouddrove/active-directory/aws
@@ -427,6 +427,14 @@ A terraform module to enable MFA for AWS groups and users
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-mfa
 
+### clouddrove/cloudwatch-dashboard/aws
+
+This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
+
+- source: `clouddrove/cloudwatch-dashboard/aws`
+- version: `1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
+
 ### clouddrove/secure-baseline/aws
 
 Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline.
@@ -445,14 +453,6 @@ Terraform module to create an Secure Basline, inclued module is alarm baseline, 
   - `clouddrove/secure-baseline/aws//modules/inspector`
   - `clouddrove/secure-baseline/aws//modules/security_hub`
   - `clouddrove/secure-baseline/aws//modules/shield`
-
-### clouddrove/cloudwatch-dashboard/aws
-
-This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
-
-- source: `clouddrove/cloudwatch-dashboard/aws`
-- version: `1.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
 
 ### clouddrove/cloudtrail-slack-notification/aws
 
@@ -502,14 +502,6 @@ Terraform module to provision AWS Amplify apps, backend environments, branches, 
 - version: `1.4.2`
 - repository: https://github.com/clouddrove/terraform-aws-amplify
 
-### clouddrove/workspace/aws
-
-Terraform module to create workspace resources on AWS for manage betterly.
-
-- source: `clouddrove/workspace/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-workspace
-
 ### clouddrove/iam/aws
 
 Terraform module which creates IAM resources on AWS
@@ -530,6 +522,14 @@ Terraform module which creates IAM resources on AWS
   - `clouddrove/iam/aws//modules/iam-policy`
   - `clouddrove/iam/aws//modules/iam-read-only-policy`
   - `clouddrove/iam/aws//modules/iam-user`
+
+### clouddrove/workspace/aws
+
+Terraform module to create workspace resources on AWS for manage betterly.
+
+- source: `clouddrove/workspace/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-workspace
 
 ### clouddrove/athena/aws
 
@@ -584,14 +584,6 @@ Terraform module for deploying AWS Load Balancer Controller inside a pre-existin
 - version: `0.5.1`
 - repository: https://github.com/clouddrove/terraform-aws-eks-lb-controller
 
-### clouddrove/cloudtrail-baseline/aws
-
-Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
-
-- source: `clouddrove/cloudtrail-baseline/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-baseline
-
 ### clouddrove/bastion/aws
 
 Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbound rules. Composed from published CloudDrove modules.
@@ -600,13 +592,13 @@ Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbou
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-bastion
 
-### clouddrove/karpenter/aws
+### clouddrove/cloudtrail-baseline/aws
 
-A Terraform module to create karpenter resource on AWS.
+Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
 
-- source: `clouddrove/karpenter/aws`
+- source: `clouddrove/cloudtrail-baseline/aws`
 - version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-karpenter
+- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-baseline
 
 ### clouddrove/health-notifier/aws
 
@@ -615,6 +607,14 @@ Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira 
 - source: `clouddrove/health-notifier/aws`
 - version: `0.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-health-notifier
+
+### clouddrove/karpenter/aws
+
+A Terraform module to create karpenter resource on AWS.
+
+- source: `clouddrove/karpenter/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-karpenter
 
 ### clouddrove/global-accelerator/aws
 
@@ -1317,6 +1317,38 @@ Terraform module for Hetzner Storage Box (EXPERIMENTAL)
 
 ## Cloudflare (terraform-cf-modules)
 
+### terraform-cf-modules/zero-trust/cloudflare
+
+Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device posture and DLP
+
+- source: `terraform-cf-modules/zero-trust/cloudflare`
+- version: `0.0.1`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-zero-trust
+- submodules:
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/access-app`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/access-policy`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/device-posture`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/dlp`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/gateway-policy`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/identity`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/service-token`
+  - `terraform-cf-modules/zero-trust/cloudflare//modules/tunnel`
+
+### terraform-cf-modules/zone/cloudflare
+
+Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache
+
+- source: `terraform-cf-modules/zone/cloudflare`
+- version: `0.0.1`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-zone
+- submodules:
+  - `terraform-cf-modules/zone/cloudflare//modules/cache`
+  - `terraform-cf-modules/zone/cloudflare//modules/custom-hostname`
+  - `terraform-cf-modules/zone/cloudflare//modules/dns-record`
+  - `terraform-cf-modules/zone/cloudflare//modules/dnssec`
+  - `terraform-cf-modules/zone/cloudflare//modules/settings`
+  - `terraform-cf-modules/zone/cloudflare//modules/ssl`
+
 ### terraform-cf-modules/account/cloudflare
 
 Terraform module for Cloudflare account bootstrap, members, API tokens, notifications, Logpush and secrets store
@@ -1384,35 +1416,3 @@ Terraform module for Cloudflare Workers, routes, cron triggers, KV, D1, Queues, 
   - `terraform-cf-modules/workers/cloudflare//modules/r2`
   - `terraform-cf-modules/workers/cloudflare//modules/route`
   - `terraform-cf-modules/workers/cloudflare//modules/script`
-
-### terraform-cf-modules/zero-trust/cloudflare
-
-Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device posture and DLP
-
-- source: `terraform-cf-modules/zero-trust/cloudflare`
-- version: `0.0.1`
-- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-zero-trust
-- submodules:
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/access-app`
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/access-policy`
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/device-posture`
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/dlp`
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/gateway-policy`
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/identity`
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/service-token`
-  - `terraform-cf-modules/zero-trust/cloudflare//modules/tunnel`
-
-### terraform-cf-modules/zone/cloudflare
-
-Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache
-
-- source: `terraform-cf-modules/zone/cloudflare`
-- version: `0.0.1`
-- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-zone
-- submodules:
-  - `terraform-cf-modules/zone/cloudflare//modules/cache`
-  - `terraform-cf-modules/zone/cloudflare//modules/custom-hostname`
-  - `terraform-cf-modules/zone/cloudflare//modules/dns-record`
-  - `terraform-cf-modules/zone/cloudflare//modules/dnssec`
-  - `terraform-cf-modules/zone/cloudflare//modules/settings`
-  - `terraform-cf-modules/zone/cloudflare//modules/ssl`

@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-03T04:28:41Z.
+Generated 2026-09-04T03:15:58Z.
 
 ## Catalog
 
@@ -30,12 +30,12 @@ Generated 2026-09-03T04:28:41Z.
 - [clouddrove/sns/aws](https://registry.terraform.io/modules/clouddrove/sns/aws): Terraform module is used to setup SNS service to manage notifications on application.
 - [clouddrove/lambda/aws](https://registry.terraform.io/modules/clouddrove/lambda/aws): Terraform module to create Lambda resource on AWS for create lambda function.
 - [clouddrove/acm/aws](https://registry.terraform.io/modules/clouddrove/acm/aws): This terraform module is used for requesting or importing SSL/TLS certificate with validation.
-- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/ecr/aws](https://registry.terraform.io/modules/clouddrove/ecr/aws): This terraform module is used to create ECR on AWS.
+- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
 - [clouddrove/eks/aws](https://registry.terraform.io/modules/clouddrove/eks/aws): Terraform module will be created Autoscaling, Workers, EKS.
-- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/cloudwatch-event-rule/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws): Terraform module to create cloudwatch event rule on AWS.
+- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
 - [clouddrove/sftp/aws](https://registry.terraform.io/modules/clouddrove/sftp/aws): This terraform module is used to create sftp on AWS for S3.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
@@ -49,8 +49,8 @@ Generated 2026-09-03T04:28:41Z.
 - [clouddrove/aurora/aws](https://registry.terraform.io/modules/clouddrove/aurora/aws): Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL.
 - [clouddrove/iam-user/aws](https://registry.terraform.io/modules/clouddrove/iam-user/aws): Terraform module to create Iam user resource on AWS.
 - [clouddrove/efs/aws](https://registry.terraform.io/modules/clouddrove/efs/aws): Terraform module to create or deploy EFS on AWS.
-- [clouddrove/eks-addons/aws](https://registry.terraform.io/modules/clouddrove/eks-addons/aws): Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS. (1 submodule)
 - [clouddrove/dynamodb/aws](https://registry.terraform.io/modules/clouddrove/dynamodb/aws): This terraform module is used for create dynamodb resources in AWS.
+- [clouddrove/eks-addons/aws](https://registry.terraform.io/modules/clouddrove/eks-addons/aws): Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS. (1 submodule)
 - [clouddrove/cloudfront/aws](https://registry.terraform.io/modules/clouddrove/cloudfront/aws): Terraform module provisions CloudFront CDN resource on AWS.
 - [clouddrove/multi-account-peering/aws](https://registry.terraform.io/modules/clouddrove/multi-account-peering/aws): Terraform module to connect two VPC’s from different AWS account.
 - [clouddrove/transit-gateway/aws](https://registry.terraform.io/modules/clouddrove/transit-gateway/aws): Terraform module to create Transit gateway resource on AWS.
@@ -65,26 +65,26 @@ Generated 2026-09-03T04:28:41Z.
 - [clouddrove/macie/aws](https://registry.terraform.io/modules/clouddrove/macie/aws): This terraform module is used to Provide a resource to manage an AWS Macie Account.
 - [clouddrove/pritunl/aws](https://registry.terraform.io/modules/clouddrove/pritunl/aws): Terraform module to create an pritunl resource on AWS with Elastic IP Addresses and Elastic Block Store
 - [clouddrove/mfa/aws](https://registry.terraform.io/modules/clouddrove/mfa/aws): A terraform module to enable MFA for AWS groups and users
-- [clouddrove/secure-baseline/aws](https://registry.terraform.io/modules/clouddrove/secure-baseline/aws): Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline. (10 submodules)
 - [clouddrove/cloudwatch-dashboard/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-dashboard/aws): This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
+- [clouddrove/secure-baseline/aws](https://registry.terraform.io/modules/clouddrove/secure-baseline/aws): Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline. (10 submodules)
 - [clouddrove/cloudtrail-slack-notification/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail-slack-notification/aws): Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.
 - [clouddrove/documentdb/aws](https://registry.terraform.io/modules/clouddrove/documentdb/aws): terraform-aws-documentdb
 - [clouddrove/cost-billing-alarm/aws](https://registry.terraform.io/modules/clouddrove/cost-billing-alarm/aws): A Terraform module to create aws cost billing alarm resource on AWS with sns topic.
 - [clouddrove/backup/aws](https://registry.terraform.io/modules/clouddrove/backup/aws): This Terraform module is used to create backup resource on AWS.
 - [clouddrove/cloudwatch-synthetics/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-synthetics/aws): CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
 - [clouddrove/amplify/aws](https://registry.terraform.io/modules/clouddrove/amplify/aws): Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
-- [clouddrove/workspace/aws](https://registry.terraform.io/modules/clouddrove/workspace/aws): Terraform module to create workspace resources on AWS for manage betterly.
 - [clouddrove/iam/aws](https://registry.terraform.io/modules/clouddrove/iam/aws): Terraform module which creates IAM resources on AWS (12 submodules)
+- [clouddrove/workspace/aws](https://registry.terraform.io/modules/clouddrove/workspace/aws): Terraform module to create workspace resources on AWS for manage betterly.
 - [clouddrove/athena/aws](https://registry.terraform.io/modules/clouddrove/athena/aws): This module provides an easy way to set up Athena queries, The module can set up Athena database and table from an input S3 bucket and create-table SQL script.
 - [clouddrove/lifecycle-manager/aws](https://registry.terraform.io/modules/clouddrove/lifecycle-manager/aws): This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots.
 - [clouddrove/msk/aws](https://registry.terraform.io/modules/clouddrove/msk/aws): Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
 - [clouddrove/control-tower/aws](https://registry.terraform.io/modules/clouddrove/control-tower/aws): Terraform module to create Control tower baseline resources on AWS.
 - [clouddrove/ecs/aws](https://registry.terraform.io/modules/clouddrove/ecs/aws): Terraform module to create ECS on AWS. (4 submodules)
 - [clouddrove/eks-lb-controller/aws](https://registry.terraform.io/modules/clouddrove/eks-lb-controller/aws): Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
-- [clouddrove/cloudtrail-baseline/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail-baseline/aws): Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
 - [clouddrove/bastion/aws](https://registry.terraform.io/modules/clouddrove/bastion/aws): Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbound rules. Composed from published CloudDrove modules.
-- [clouddrove/karpenter/aws](https://registry.terraform.io/modules/clouddrove/karpenter/aws): A Terraform module to create karpenter resource on AWS.
+- [clouddrove/cloudtrail-baseline/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail-baseline/aws): Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
 - [clouddrove/health-notifier/aws](https://registry.terraform.io/modules/clouddrove/health-notifier/aws): Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira today). EventBridge to Lambda, Terraform-deployed.
+- [clouddrove/karpenter/aws](https://registry.terraform.io/modules/clouddrove/karpenter/aws): A Terraform module to create karpenter resource on AWS.
 - [clouddrove/global-accelerator/aws](https://registry.terraform.io/modules/clouddrove/global-accelerator/aws): This terraform module create a aws Global Accelerator resources in AWS. AWS Global Accelerator is a networking service that helps you improve the availability, performance, and security of your public applications.
 - [terraform-aws-autoscaling](https://github.com/clouddrove/terraform-aws-autoscaling): Terraform module which creates Auto Scaling resources on AWS [not yet on the Terraform Registry]
 - [terraform-aws-bedrock](https://github.com/clouddrove/terraform-aws-bedrock): Terraform module will be create AWS bedrock service [not yet on the Terraform Registry]
@@ -183,9 +183,9 @@ Generated 2026-09-03T04:28:41Z.
 
 ## Cloudflare
 
+- [terraform-cf-modules/zero-trust/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/zero-trust/cloudflare): Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device posture and DLP (8 submodules)
+- [terraform-cf-modules/zone/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/zone/cloudflare): Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache (6 submodules)
 - [terraform-cf-modules/account/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/account/cloudflare): Terraform module for Cloudflare account bootstrap, members, API tokens, notifications, Logpush and secrets store (7 submodules)
 - [terraform-cf-modules/network/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/network/cloudflare): Terraform module for Cloudflare load balancing, Spectrum, Magic WAN and Magic Transit (8 submodules)
 - [terraform-cf-modules/security/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/security/cloudflare): Terraform module for Cloudflare WAF rulesets, rate limiting, bot management, Turnstile, API Shield and Page Shield (8 submodules)
 - [terraform-cf-modules/workers/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/workers/cloudflare): Terraform module for Cloudflare Workers, routes, cron triggers, KV, D1, Queues, R2, Hyperdrive and Pages (9 submodules)
-- [terraform-cf-modules/zero-trust/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/zero-trust/cloudflare): Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device posture and DLP (8 submodules)
-- [terraform-cf-modules/zone/cloudflare](https://registry.terraform.io/modules/terraform-cf-modules/zone/cloudflare): Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache (6 submodules)
