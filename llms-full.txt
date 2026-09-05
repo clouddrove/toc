@@ -1,8 +1,8 @@
 # CloudDrove Terraform Modules (full index)
 
-> Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 93 submodules, 253 total. Each line is a usable Terraform `source` value.
+> Every addressable Terraform module and submodule CloudDrove maintains: 157 modules and 93 submodules, 250 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-04T03:15:58Z.
+Generated 2026-09-05T03:15:00Z.
 
 ## Usage
 
@@ -788,7 +788,7 @@ This Terraform module is used to create Azure container regsitry on AZURE.  Azur
 This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
 
 - source: `terraform-az-modules/application-insights/azurerm`
-- version: `1.0.2`
+- version: `1.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
 
 ### terraform-az-modules/vnet-peering/azurerm
@@ -932,7 +932,7 @@ This terraform module is designed to create Azure Databricks resources. Azure Da
 Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
 
 - source: `terraform-az-modules/vmss-agent/azurerm`
-- version: `1.0.2`
+- version: `1.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
 
 ### terraform-az-modules/sql-managed-instance/azurerm
@@ -1015,6 +1015,22 @@ Terraform module for service-principle
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
+### terraform-az-modules/bastion/azurerm
+
+Terraform module for bastion
+
+- source: `terraform-az-modules/bastion/azurerm`
+- version: `1.1.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-bastion
+
+### terraform-az-modules/managed-devops-pool/azurerm
+
+Terraform module for managed-devops-pool
+
+- source: `terraform-az-modules/managed-devops-pool/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
 ### terraform-az-modules/api-management/azurerm
 
 Terraform module for api-management
@@ -1023,22 +1039,6 @@ Terraform module for api-management
 - version: `unreleased`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-api-management
 
-### terraform-az-modules/app-service-plan/azurerm
-
-Terraform module for app-service-plan
-
-- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan.git` (not yet on the Terraform Registry)
-- version: `unreleased`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan
-
-### terraform-az-modules/bastion/azurerm
-
-Terraform module for bastion
-
-- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-bastion.git` (not yet on the Terraform Registry)
-- version: `unreleased`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-bastion
-
 ### terraform-az-modules/diagnostic-settings/azurerm
 
 Terraform module for diagnostic-settings
@@ -1046,30 +1046,6 @@ Terraform module for diagnostic-settings
 - source: `git::https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings.git` (not yet on the Terraform Registry)
 - version: `unreleased`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings
-
-### terraform-az-modules/managed-devops-pool/azurerm
-
-Terraform module for managed-devops-pool
-
-- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool.git` (not yet on the Terraform Registry)
-- version: `unreleased`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
-
-### terraform-az-modules/nat-gateway/azurerm
-
-Terraform module for nat-gateway
-
-- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway.git` (not yet on the Terraform Registry)
-- version: `unreleased`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway
-
-### terraform-az-modules/private-endpoint/azurerm
-
-Terraform module for private-endpoint
-
-- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint.git` (not yet on the Terraform Registry)
-- version: `unreleased`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint
 
 ## Google Cloud (terraform-gcloud-modules)
 

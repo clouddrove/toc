@@ -1,10 +1,10 @@
 # CloudDrove Terraform Modules
 
-> 160 open source Terraform modules and 93 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
+> 157 open source Terraform modules and 93 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-04T03:15:58Z.
+Generated 2026-09-05T03:15:00Z.
 
 ## Catalog
 
@@ -137,13 +137,10 @@ Generated 2026-09-04T03:15:58Z.
 - [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
 - [terraform-az-modules/cosmos-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cosmos-db/azurerm): This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
 - [terraform-az-modules/service-principle/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-principle/azurerm): Terraform module for service-principle
+- [terraform-az-modules/bastion/azurerm](https://registry.terraform.io/modules/terraform-az-modules/bastion/azurerm): Terraform module for bastion
+- [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): Terraform module for managed-devops-pool
 - [terraform-azurerm-api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management): Terraform module for api-management [not yet on the Terraform Registry]
-- [terraform-azurerm-app-service-plan](https://github.com/terraform-az-modules/terraform-azurerm-app-service-plan): Terraform module for app-service-plan [not yet on the Terraform Registry]
-- [terraform-azurerm-bastion](https://github.com/terraform-az-modules/terraform-azurerm-bastion): Terraform module for bastion [not yet on the Terraform Registry]
 - [terraform-azurerm-diagnostic-settings](https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings): Terraform module for diagnostic-settings [not yet on the Terraform Registry]
-- [terraform-azurerm-managed-devops-pool](https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool): Terraform module for managed-devops-pool [not yet on the Terraform Registry]
-- [terraform-azurerm-nat-gateway](https://github.com/terraform-az-modules/terraform-azurerm-nat-gateway): Terraform module for nat-gateway [not yet on the Terraform Registry]
-- [terraform-azurerm-private-endpoint](https://github.com/terraform-az-modules/terraform-azurerm-private-endpoint): Terraform module for private-endpoint [not yet on the Terraform Registry]
 
 ## Google Cloud
 
