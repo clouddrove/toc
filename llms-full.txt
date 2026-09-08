@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 157 modules and 93 submodules, 250 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-07T03:16:55Z.
+Generated 2026-09-08T03:15:37Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -799,14 +799,6 @@ This terraform module is designed to create Azure Databricks resources. Virtual 
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vnet-peering
 
-### terraform-az-modules/virtual-machine/azurerm
-
-Terraform module to create virtual machine resource on AZURE. Azure Virtual Machines are on-demand, scalable computing resources offered by Microsoft Azure.
-
-- source: `terraform-az-modules/virtual-machine/azurerm`
-- version: `1.3.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-machine
-
 ### terraform-az-modules/flexible-postgresql/azurerm
 
 This terraform module is designed to create Azure Postgres flexible mysql resources. The Azure Database for PostgreSQL flexible server deployment model is designed to support high availability within a single availability zone and across multiple availability zones
@@ -814,6 +806,14 @@ This terraform module is designed to create Azure Postgres flexible mysql resour
 - source: `terraform-az-modules/flexible-postgresql/azurerm`
 - version: `1.0.7`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-postgresql
+
+### terraform-az-modules/virtual-machine/azurerm
+
+Terraform module to create virtual machine resource on AZURE. Azure Virtual Machines are on-demand, scalable computing resources offered by Microsoft Azure.
+
+- source: `terraform-az-modules/virtual-machine/azurerm`
+- version: `1.3.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-machine
 
 ### terraform-az-modules/cognitive/azurerm
 
@@ -1218,7 +1218,7 @@ Terraform module for DigitalOcean NFS shares with attachment and snapshot suppor
 Terraform module for Hetzner Cloud compute (Server, Volume, SSH Key, Placement Group, Snapshot)
 
 - source: `terraform-hc-modules/compute/hcloud`
-- version: `0.3.1`
+- version: `0.4.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-compute
 - submodules:
   - `terraform-hc-modules/compute/hcloud//modules/placement-group`
@@ -1232,7 +1232,7 @@ Terraform module for Hetzner Cloud compute (Server, Volume, SSH Key, Placement G
 Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer)
 
 - source: `terraform-hc-modules/network/hcloud`
-- version: `0.3.1`
+- version: `0.3.2`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-network
 - submodules:
   - `terraform-hc-modules/network/hcloud//modules/firewall`
@@ -1244,7 +1244,7 @@ Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer)
 Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
 
 - source: `terraform-hc-modules/labels/hcloud`
-- version: `0.3.5`
+- version: `0.3.6`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-labels
 
 ### terraform-hc-modules/certificate/hcloud
@@ -1252,7 +1252,7 @@ Terraform module for generating consistent naming and labeling for Hetzner Cloud
 Terraform module for Hetzner Cloud SSL/TLS certificates
 
 - source: `terraform-hc-modules/certificate/hcloud`
-- version: `0.3.0`
+- version: `0.4.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-certificate
 - submodules:
   - `terraform-hc-modules/certificate/hcloud//modules/managed`
@@ -1263,7 +1263,7 @@ Terraform module for Hetzner Cloud SSL/TLS certificates
 Terraform module for Hetzner DNS zones and records
 
 - source: `terraform-hc-modules/dns/hcloud`
-- version: `0.4.0`
+- version: `0.6.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-dns
 - submodules:
   - `terraform-hc-modules/dns/hcloud//modules/records`
@@ -1274,7 +1274,7 @@ Terraform module for Hetzner DNS zones and records
 Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
 
 - source: `terraform-hc-modules/ip/hcloud`
-- version: `0.3.0`
+- version: `0.4.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-ip
 - submodules:
   - `terraform-hc-modules/ip/hcloud//modules/floating-ip`
@@ -1286,7 +1286,7 @@ Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
 Terraform module for Hetzner Storage Box (EXPERIMENTAL)
 
 - source: `terraform-hc-modules/storage-box/hcloud`
-- version: `1.1.0`
+- version: `1.1.1`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-storage-box
 - submodules:
   - `terraform-hc-modules/storage-box/hcloud//modules/storage-box`
