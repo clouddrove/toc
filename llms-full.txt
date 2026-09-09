@@ -1,8 +1,8 @@
 # CloudDrove Terraform Modules (full index)
 
-> Every addressable Terraform module and submodule CloudDrove maintains: 157 modules and 93 submodules, 250 total. Each line is a usable Terraform `source` value.
+> Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-08T03:15:37Z.
+Generated 2026-09-09T03:15:57Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.1`
+- version: `2.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -323,14 +323,6 @@ Terraform module provisions CloudFront CDN resource on AWS.
 - version: `1.2.0`
 - repository: https://github.com/clouddrove/terraform-aws-cloudfront
 
-### clouddrove/multi-account-peering/aws
-
-Terraform module to connect two VPC’s from different AWS account.
-
-- source: `clouddrove/multi-account-peering/aws`
-- version: `1.1.1`
-- repository: https://github.com/clouddrove/terraform-aws-multi-account-peering
-
 ### clouddrove/transit-gateway/aws
 
 Terraform module to create Transit gateway resource on AWS.
@@ -338,6 +330,14 @@ Terraform module to create Transit gateway resource on AWS.
 - source: `clouddrove/transit-gateway/aws`
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-transit-gateway
+
+### clouddrove/multi-account-peering/aws
+
+Terraform module to connect two VPC’s from different AWS account.
+
+- source: `clouddrove/multi-account-peering/aws`
+- version: `1.1.1`
+- repository: https://github.com/clouddrove/terraform-aws-multi-account-peering
 
 ### clouddrove/security-hub/aws
 
@@ -847,14 +847,6 @@ Terraform module to create dns resource on AZURE. Azure DNS is a domain name sys
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-dns
 
-### terraform-az-modules/waf/azurerm
-
-This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
-
-- source: `terraform-az-modules/waf/azurerm`
-- version: `3.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-waf
-
 ### terraform-az-modules/redis-cache/azurerm
 
 This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
@@ -862,6 +854,14 @@ This Terraform module is used to create Azure Redis cache resource on AZURE.  Az
 - source: `terraform-az-modules/redis-cache/azurerm`
 - version: `1.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-redis-cache
+
+### terraform-az-modules/waf/azurerm
+
+This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
+
+- source: `terraform-az-modules/waf/azurerm`
+- version: `3.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-waf
 
 ### terraform-az-modules/service-bus/azurerm
 
@@ -879,14 +879,6 @@ About Terraform module to create data factory resource on AZURE. Azure Data Fact
 - version: `2.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
 
-### terraform-az-modules/app-service/azurerm
-
-About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
-
-- source: `terraform-az-modules/app-service/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
-
 ### terraform-az-modules/mssql-db/azurerm
 
 This terraform module is designed to create Azure mssql database resources. Azure SQL Database is a fully managed relational database-as-a-service (PaaS) built on the Microsoft SQL Server engine. It is designed to handle core database management functions—such as patching, backups, and monitoring—automatically,.
@@ -894,6 +886,14 @@ This terraform module is designed to create Azure mssql database resources. Azur
 - source: `terraform-az-modules/mssql-db/azurerm`
 - version: `2.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-mssql-db
+
+### terraform-az-modules/app-service/azurerm
+
+About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
+
+- source: `terraform-az-modules/app-service/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
 
 ### terraform-az-modules/static-web-app/azurerm
 
@@ -1025,7 +1025,7 @@ Terraform module for bastion
 
 ### terraform-az-modules/managed-devops-pool/azurerm
 
-Terraform module for managed-devops-pool
+This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
 
 - source: `terraform-az-modules/managed-devops-pool/azurerm`
 - version: `1.0.0`
@@ -1038,6 +1038,14 @@ Terraform module for api-management
 - source: `git::https://github.com/terraform-az-modules/terraform-azurerm-api-management.git` (not yet on the Terraform Registry)
 - version: `unreleased`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-api-management
+
+### terraform-az-modules/automation-account/azurerm
+
+Terraform module for automation-account
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-automation-account.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-automation-account
 
 ### terraform-az-modules/diagnostic-settings/azurerm
 
@@ -1325,6 +1333,23 @@ Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostname
   - `terraform-cf-modules/zone/cloudflare//modules/settings`
   - `terraform-cf-modules/zone/cloudflare//modules/ssl`
 
+### terraform-cf-modules/security/cloudflare
+
+Terraform module for Cloudflare WAF rulesets, rate limiting, bot management, Turnstile, API Shield and Page Shield
+
+- source: `terraform-cf-modules/security/cloudflare`
+- version: `0.0.1`
+- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-security
+- submodules:
+  - `terraform-cf-modules/security/cloudflare//modules/api-shield`
+  - `terraform-cf-modules/security/cloudflare//modules/bot-management`
+  - `terraform-cf-modules/security/cloudflare//modules/firewall-legacy`
+  - `terraform-cf-modules/security/cloudflare//modules/list`
+  - `terraform-cf-modules/security/cloudflare//modules/page-shield`
+  - `terraform-cf-modules/security/cloudflare//modules/rate-limit`
+  - `terraform-cf-modules/security/cloudflare//modules/ruleset`
+  - `terraform-cf-modules/security/cloudflare//modules/turnstile`
+
 ### terraform-cf-modules/account/cloudflare
 
 Terraform module for Cloudflare account bootstrap, members, API tokens, notifications, Logpush and secrets store
@@ -1357,23 +1382,6 @@ Terraform module for Cloudflare load balancing, Spectrum, Magic WAN and Magic Tr
   - `terraform-cf-modules/network/cloudflare//modules/monitoring`
   - `terraform-cf-modules/network/cloudflare//modules/pool`
   - `terraform-cf-modules/network/cloudflare//modules/spectrum`
-
-### terraform-cf-modules/security/cloudflare
-
-Terraform module for Cloudflare WAF rulesets, rate limiting, bot management, Turnstile, API Shield and Page Shield
-
-- source: `terraform-cf-modules/security/cloudflare`
-- version: `0.0.1`
-- repository: https://github.com/terraform-cf-modules/terraform-cloudflare-security
-- submodules:
-  - `terraform-cf-modules/security/cloudflare//modules/api-shield`
-  - `terraform-cf-modules/security/cloudflare//modules/bot-management`
-  - `terraform-cf-modules/security/cloudflare//modules/firewall-legacy`
-  - `terraform-cf-modules/security/cloudflare//modules/list`
-  - `terraform-cf-modules/security/cloudflare//modules/page-shield`
-  - `terraform-cf-modules/security/cloudflare//modules/rate-limit`
-  - `terraform-cf-modules/security/cloudflare//modules/ruleset`
-  - `terraform-cf-modules/security/cloudflare//modules/turnstile`
 
 ### terraform-cf-modules/workers/cloudflare
 
