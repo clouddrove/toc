@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-09T03:15:57Z.
+Generated 2026-09-10T03:15:51Z.
 
 ## Catalog
 
@@ -32,11 +32,11 @@ Generated 2026-09-09T03:15:57Z.
 - [clouddrove/acm/aws](https://registry.terraform.io/modules/clouddrove/acm/aws): This terraform module is used for requesting or importing SSL/TLS certificate with validation.
 - [clouddrove/ecr/aws](https://registry.terraform.io/modules/clouddrove/ecr/aws): This terraform module is used to create ECR on AWS.
 - [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
-- [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
 - [clouddrove/eks/aws](https://registry.terraform.io/modules/clouddrove/eks/aws): Terraform module will be created Autoscaling, Workers, EKS.
+- [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
 - [clouddrove/cloudwatch-event-rule/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws): Terraform module to create cloudwatch event rule on AWS.
-- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
+- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/sftp/aws](https://registry.terraform.io/modules/clouddrove/sftp/aws): This terraform module is used to create sftp on AWS for S3.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
 - [clouddrove/cognito/aws](https://registry.terraform.io/modules/clouddrove/cognito/aws): Terraform module to create an Cognito resource on AWS.
@@ -114,8 +114,8 @@ Generated 2026-09-09T03:15:57Z.
 - [terraform-az-modules/virtual-machine/azurerm](https://registry.terraform.io/modules/terraform-az-modules/virtual-machine/azurerm): Terraform module to create virtual machine resource on AZURE. Azure Virtual Machines are on-demand, scalable computing resources offered by Microsoft Azure.
 - [terraform-az-modules/cognitive/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cognitive/azurerm): This terraform module is designed to create Azure Cognitive services.  Azure Cognitive Services (now often branded under Azure AI Foundry tools) are pre-built, cloud-based AI APIs that allow developers to integrate intelligence—such as vision, speech, language, and decision-making—into applications .
 - [terraform-az-modules/application-gateway/azurerm](https://registry.terraform.io/modules/terraform-az-modules/application-gateway/azurerm): This Terraform module creates Azure Application Gateway resources. Application Gateway is a layer 7 load balancer that manages traffic to web applications, offering features like SSL termination, Web Application Firewall (WAF) integration, and URL-based routing for enhanced security and performance.
-- [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 - [terraform-az-modules/dns/azurerm](https://registry.terraform.io/modules/terraform-az-modules/dns/azurerm): Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
+- [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 - [terraform-az-modules/redis-cache/azurerm](https://registry.terraform.io/modules/terraform-az-modules/redis-cache/azurerm): This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
 - [terraform-az-modules/waf/azurerm](https://registry.terraform.io/modules/terraform-az-modules/waf/azurerm): This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
 - [terraform-az-modules/service-bus/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-bus/azurerm): This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).

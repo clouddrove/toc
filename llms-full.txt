@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-09T03:15:57Z.
+Generated 2026-09-10T03:15:51Z.
 
 ## Usage
 
@@ -161,14 +161,6 @@ Terraform module for generating or importing an SSH public key file into AWS.
 - version: `1.3.4`
 - repository: https://github.com/clouddrove/terraform-aws-keypair
 
-### clouddrove/elasticsearch/aws
-
-Terraform module to create an Elasticsearch resource on AWS.
-
-- source: `clouddrove/elasticsearch/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-elasticsearch
-
 ### clouddrove/eks/aws
 
 Terraform module will be created Autoscaling, Workers, EKS.
@@ -176,6 +168,14 @@ Terraform module will be created Autoscaling, Workers, EKS.
 - source: `clouddrove/eks/aws`
 - version: `1.4.8`
 - repository: https://github.com/clouddrove/terraform-aws-eks
+
+### clouddrove/elasticsearch/aws
+
+Terraform module to create an Elasticsearch resource on AWS.
+
+- source: `clouddrove/elasticsearch/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-elasticsearch
 
 ### clouddrove/cloudwatch-event-rule/aws
 
@@ -185,14 +185,6 @@ Terraform module to create cloudwatch event rule on AWS.
 - version: `1.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule
 
-### clouddrove/cross-account-role/aws
-
-This terraform module is used to create an IAM Role to access another AWS account inventory.
-
-- source: `clouddrove/cross-account-role/aws`
-- version: `0.15.1`
-- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
-
 ### clouddrove/route53/aws
 
 Terraform module to create Route53 resource on AWS for zone and record set.
@@ -200,6 +192,14 @@ Terraform module to create Route53 resource on AWS for zone and record set.
 - source: `clouddrove/route53/aws`
 - version: `1.0.4`
 - repository: https://github.com/clouddrove/terraform-aws-route53
+
+### clouddrove/cross-account-role/aws
+
+This terraform module is used to create an IAM Role to access another AWS account inventory.
+
+- source: `clouddrove/cross-account-role/aws`
+- version: `0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
 ### clouddrove/sftp/aws
 
@@ -831,14 +831,6 @@ This Terraform module creates Azure Application Gateway resources. Application G
 - version: `3.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-application-gateway
 
-### terraform-az-modules/vpn/azurerm
-
-This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
-
-- source: `terraform-az-modules/vpn/azurerm`
-- version: `2.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-vpn
-
 ### terraform-az-modules/dns/azurerm
 
 Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
@@ -846,6 +838,14 @@ Terraform module to create dns resource on AZURE. Azure DNS is a domain name sys
 - source: `terraform-az-modules/dns/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-dns
+
+### terraform-az-modules/vpn/azurerm
+
+This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
+
+- source: `terraform-az-modules/vpn/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vpn
 
 ### terraform-az-modules/redis-cache/azurerm
 
