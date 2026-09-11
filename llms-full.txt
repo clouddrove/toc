@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-10T03:15:51Z.
+Generated 2026-09-11T03:15:44Z.
 
 ## Usage
 
@@ -347,14 +347,6 @@ This terraform module creates set of Security hub. AWS Security Hub is a compreh
 - version: `1.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-security-hub
 
-### clouddrove/vpn/aws
-
-Terraform module is used to create VPN resource on AWS for network connectivity.
-
-- source: `clouddrove/vpn/aws`
-- version: `2.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-vpn
-
 ### clouddrove/ec2-autoscaling/aws
 
 Terraform module will be created EC2 modulewith Autoscaling group.
@@ -362,6 +354,14 @@ Terraform module will be created EC2 modulewith Autoscaling group.
 - source: `clouddrove/ec2-autoscaling/aws`
 - version: `1.5.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2-autoscaling
+
+### clouddrove/vpn/aws
+
+Terraform module is used to create VPN resource on AWS for network connectivity.
+
+- source: `clouddrove/vpn/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-vpn
 
 ### clouddrove/lightsail/aws
 
@@ -772,7 +772,7 @@ This terraform module is designed to create Azure Storage Account resources. The
 This terraform module is designed to create Azure kubernets service  resources.  Azure Kubernetes Service (AKS) offers the quickest way to start developing and deploying cloud-native apps in Azure, datacenters, or at the edge with built-in code-to-cloud pipelines and guardrails.
 
 - source: `terraform-az-modules/aks/azurerm`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-aks
 
 ### terraform-az-modules/acr/azurerm

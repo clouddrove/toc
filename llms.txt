@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-10T03:15:51Z.
+Generated 2026-09-11T03:15:44Z.
 
 ## Catalog
 
@@ -55,8 +55,8 @@ Generated 2026-09-10T03:15:51Z.
 - [clouddrove/transit-gateway/aws](https://registry.terraform.io/modules/clouddrove/transit-gateway/aws): Terraform module to create Transit gateway resource on AWS.
 - [clouddrove/multi-account-peering/aws](https://registry.terraform.io/modules/clouddrove/multi-account-peering/aws): Terraform module to connect two VPC’s from different AWS account.
 - [clouddrove/security-hub/aws](https://registry.terraform.io/modules/clouddrove/security-hub/aws): This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
-- [clouddrove/vpn/aws](https://registry.terraform.io/modules/clouddrove/vpn/aws): Terraform module is used to create VPN resource on AWS for network connectivity.
 - [clouddrove/ec2-autoscaling/aws](https://registry.terraform.io/modules/clouddrove/ec2-autoscaling/aws): Terraform module will be created EC2 modulewith Autoscaling group.
+- [clouddrove/vpn/aws](https://registry.terraform.io/modules/clouddrove/vpn/aws): Terraform module is used to create VPN resource on AWS for network connectivity.
 - [clouddrove/lightsail/aws](https://registry.terraform.io/modules/clouddrove/lightsail/aws): Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
 - [clouddrove/lambda-site-monitor/aws](https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws): Terraform module to create Lambda resource on AWS for monitor different websites.
 - [clouddrove/mysql/aws](https://registry.terraform.io/modules/clouddrove/mysql/aws): Terraform module to create a MySQL on AWS.
