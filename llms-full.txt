@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-12T03:14:53Z.
+Generated 2026-09-13T03:15:40Z.
 
 ## Usage
 
@@ -113,14 +113,6 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 - version: `1.3.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-alarms
 
-### clouddrove/ec2/aws
-
-Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
-
-- source: `clouddrove/ec2/aws`
-- version: `2.1.0`
-- repository: https://github.com/clouddrove/terraform-aws-ec2
-
 ### clouddrove/sns/aws
 
 Terraform module is used to setup SNS service to manage notifications on application.
@@ -129,13 +121,13 @@ Terraform module is used to setup SNS service to manage notifications on applica
 - version: `1.3.1`
 - repository: https://github.com/clouddrove/terraform-aws-sns
 
-### clouddrove/lambda/aws
+### clouddrove/ec2/aws
 
-Terraform module to create Lambda resource on AWS for create lambda function.
+Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
-- source: `clouddrove/lambda/aws`
-- version: `1.3.3`
-- repository: https://github.com/clouddrove/terraform-aws-lambda
+- source: `clouddrove/ec2/aws`
+- version: `2.1.1`
+- repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/acm/aws
 
@@ -144,6 +136,14 @@ This terraform module is used for requesting or importing SSL/TLS certificate wi
 - source: `clouddrove/acm/aws`
 - version: `1.4.3`
 - repository: https://github.com/clouddrove/terraform-aws-acm
+
+### clouddrove/lambda/aws
+
+Terraform module to create Lambda resource on AWS for create lambda function.
+
+- source: `clouddrove/lambda/aws`
+- version: `1.3.3`
+- repository: https://github.com/clouddrove/terraform-aws-lambda
 
 ### clouddrove/ecr/aws
 
@@ -241,6 +241,14 @@ This terraform module is used to create ALB on AWS.
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-alb
 
+### clouddrove/sqs/aws
+
+Terraform module to create SQS resource on AWS for managing queue.
+
+- source: `clouddrove/sqs/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-sqs
+
 ### clouddrove/waf/aws
 
 This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
@@ -256,14 +264,6 @@ Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with 
 - source: `clouddrove/cloudtrail/aws`
 - version: `1.4.4`
 - repository: https://github.com/clouddrove/terraform-aws-cloudtrail
-
-### clouddrove/sqs/aws
-
-Terraform module to create SQS resource on AWS for managing queue.
-
-- source: `clouddrove/sqs/aws`
-- version: `1.3.1`
-- repository: https://github.com/clouddrove/terraform-aws-sqs
 
 ### clouddrove/vpc-peering/aws
 
@@ -289,14 +289,6 @@ Terraform module to create Iam user resource on AWS.
 - version: `1.3.2`
 - repository: https://github.com/clouddrove/terraform-aws-iam-user
 
-### clouddrove/efs/aws
-
-Terraform module to create or deploy EFS on AWS.
-
-- source: `clouddrove/efs/aws`
-- version: `2.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-efs
-
 ### clouddrove/dynamodb/aws
 
 This terraform module is used for create dynamodb resources in AWS.
@@ -304,6 +296,14 @@ This terraform module is used for create dynamodb resources in AWS.
 - source: `clouddrove/dynamodb/aws`
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-dynamodb
+
+### clouddrove/efs/aws
+
+Terraform module to create or deploy EFS on AWS.
+
+- source: `clouddrove/efs/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-efs
 
 ### clouddrove/eks-addons/aws
 
@@ -411,6 +411,14 @@ This terraform module is used to Provide a resource to manage an AWS Macie Accou
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-macie
 
+### clouddrove/cloudwatch-dashboard/aws
+
+This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
+
+- source: `clouddrove/cloudwatch-dashboard/aws`
+- version: `1.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
+
 ### clouddrove/pritunl/aws
 
 Terraform module to create an pritunl resource on AWS with Elastic IP Addresses and Elastic Block Store
@@ -426,14 +434,6 @@ A terraform module to enable MFA for AWS groups and users
 - source: `clouddrove/mfa/aws`
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-mfa
-
-### clouddrove/cloudwatch-dashboard/aws
-
-This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
-
-- source: `clouddrove/cloudwatch-dashboard/aws`
-- version: `1.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
 
 ### clouddrove/secure-baseline/aws
 
@@ -576,14 +576,6 @@ Terraform module to create ECS on AWS.
   - `clouddrove/ecs/aws//modules/service`
   - `clouddrove/ecs/aws//modules/task-definition`
 
-### clouddrove/eks-lb-controller/aws
-
-Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
-
-- source: `clouddrove/eks-lb-controller/aws`
-- version: `0.5.1`
-- repository: https://github.com/clouddrove/terraform-aws-eks-lb-controller
-
 ### clouddrove/bastion/aws
 
 Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbound rules. Composed from published CloudDrove modules.
@@ -591,6 +583,14 @@ Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbou
 - source: `clouddrove/bastion/aws`
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-bastion
+
+### clouddrove/eks-lb-controller/aws
+
+Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
+
+- source: `clouddrove/eks-lb-controller/aws`
+- version: `0.5.1`
+- repository: https://github.com/clouddrove/terraform-aws-eks-lb-controller
 
 ### clouddrove/cloudtrail-baseline/aws
 
