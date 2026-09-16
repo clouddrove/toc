@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-15T03:16:25Z.
+Generated 2026-09-16T03:15:46Z.
 
 ## Usage
 
@@ -153,14 +153,6 @@ This terraform module is used to create ECR on AWS.
 - version: `1.3.3`
 - repository: https://github.com/clouddrove/terraform-aws-ecr
 
-### clouddrove/keypair/aws
-
-Terraform module for generating or importing an SSH public key file into AWS.
-
-- source: `clouddrove/keypair/aws`
-- version: `1.3.4`
-- repository: https://github.com/clouddrove/terraform-aws-keypair
-
 ### clouddrove/eks/aws
 
 Terraform module will be created Autoscaling, Workers, EKS.
@@ -168,6 +160,14 @@ Terraform module will be created Autoscaling, Workers, EKS.
 - source: `clouddrove/eks/aws`
 - version: `1.4.8`
 - repository: https://github.com/clouddrove/terraform-aws-eks
+
+### clouddrove/keypair/aws
+
+Terraform module for generating or importing an SSH public key file into AWS.
+
+- source: `clouddrove/keypair/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-keypair
 
 ### clouddrove/elasticsearch/aws
 
@@ -201,14 +201,6 @@ This terraform module is used to create an IAM Role to access another AWS accoun
 - version: `0.15.1`
 - repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
-### clouddrove/sftp/aws
-
-This terraform module is used to create sftp on AWS for S3.
-
-- source: `clouddrove/sftp/aws`
-- version: `1.3.4`
-- repository: https://github.com/clouddrove/terraform-aws-sftp
-
 ### clouddrove/secrets-manager/aws
 
 Terraform module to create Secret Manager resource on AWS for manage our secret variables.
@@ -216,6 +208,14 @@ Terraform module to create Secret Manager resource on AWS for manage our secret 
 - source: `clouddrove/secrets-manager/aws`
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-secrets-manager
+
+### clouddrove/sftp/aws
+
+This terraform module is used to create sftp on AWS for S3.
+
+- source: `clouddrove/sftp/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-sftp
 
 ### clouddrove/cognito/aws
 
@@ -927,14 +927,6 @@ This terraform module is designed to create Azure Databricks resources. Azure Da
 - version: `1.0.5`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
 
-### terraform-az-modules/vmss-agent/azurerm
-
-Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
-
-- source: `terraform-az-modules/vmss-agent/azurerm`
-- version: `1.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
-
 ### terraform-az-modules/private-dns-resolver/azurerm
 
 This terraform module is designed to create Azure private dns resolver resources.
@@ -942,6 +934,14 @@ This terraform module is designed to create Azure private dns resolver resources
 - source: `terraform-az-modules/private-dns-resolver/azurerm`
 - version: `1.0.4`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
+### terraform-az-modules/vmss-agent/azurerm
+
+Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
+
+- source: `terraform-az-modules/vmss-agent/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
 
 ### terraform-az-modules/sql-managed-instance/azurerm
 
@@ -999,6 +999,14 @@ Terraform module for logic-app
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
 
+### terraform-az-modules/managed-devops-pool/azurerm
+
+This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
+
+- source: `terraform-az-modules/managed-devops-pool/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
 ### terraform-az-modules/cosmos-db/azurerm
 
 This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
@@ -1014,14 +1022,6 @@ Terraform module for service-principle
 - source: `terraform-az-modules/service-principle/azurerm`
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
-
-### terraform-az-modules/managed-devops-pool/azurerm
-
-This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
-
-- source: `terraform-az-modules/managed-devops-pool/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
 
 ### terraform-az-modules/bastion/azurerm
 
