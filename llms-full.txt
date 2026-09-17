@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-16T03:15:46Z.
+Generated 2026-09-17T03:15:39Z.
 
 ## Usage
 
@@ -201,14 +201,6 @@ This terraform module is used to create an IAM Role to access another AWS accoun
 - version: `0.15.1`
 - repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
-### clouddrove/secrets-manager/aws
-
-Terraform module to create Secret Manager resource on AWS for manage our secret variables.
-
-- source: `clouddrove/secrets-manager/aws`
-- version: `2.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-secrets-manager
-
 ### clouddrove/sftp/aws
 
 This terraform module is used to create sftp on AWS for S3.
@@ -216,6 +208,14 @@ This terraform module is used to create sftp on AWS for S3.
 - source: `clouddrove/sftp/aws`
 - version: `1.3.4`
 - repository: https://github.com/clouddrove/terraform-aws-sftp
+
+### clouddrove/secrets-manager/aws
+
+Terraform module to create Secret Manager resource on AWS for manage our secret variables.
+
+- source: `clouddrove/secrets-manager/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-secrets-manager
 
 ### clouddrove/cognito/aws
 
@@ -919,14 +919,6 @@ This terraform module is designed to create Azure network load balancer resource
 - version: `4.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
 
-### terraform-az-modules/databricks/azurerm
-
-This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
-
-- source: `terraform-az-modules/databricks/azurerm`
-- version: `1.0.5`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
-
 ### terraform-az-modules/private-dns-resolver/azurerm
 
 This terraform module is designed to create Azure private dns resolver resources.
@@ -934,6 +926,14 @@ This terraform module is designed to create Azure private dns resolver resources
 - source: `terraform-az-modules/private-dns-resolver/azurerm`
 - version: `1.0.4`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
+### terraform-az-modules/databricks/azurerm
+
+This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
+
+- source: `terraform-az-modules/databricks/azurerm`
+- version: `1.0.5`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
 
 ### terraform-az-modules/vmss-agent/azurerm
 
@@ -983,6 +983,14 @@ This Terraform module is used to create firewall resource on AZURE.  Azure Funct
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
 
+### terraform-az-modules/managed-devops-pool/azurerm
+
+This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
+
+- source: `terraform-az-modules/managed-devops-pool/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
 ### terraform-az-modules/flexible-mysql/azurerm
 
 Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
@@ -998,14 +1006,6 @@ Terraform module for logic-app
 - source: `terraform-az-modules/logic-app/azurerm`
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
-
-### terraform-az-modules/managed-devops-pool/azurerm
-
-This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
-
-- source: `terraform-az-modules/managed-devops-pool/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
 
 ### terraform-az-modules/cosmos-db/azurerm
 
