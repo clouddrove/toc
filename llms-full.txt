@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-17T03:15:39Z.
+Generated 2026-09-18T03:15:15Z.
 
 ## Usage
 
@@ -201,14 +201,6 @@ This terraform module is used to create an IAM Role to access another AWS accoun
 - version: `0.15.1`
 - repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
-### clouddrove/sftp/aws
-
-This terraform module is used to create sftp on AWS for S3.
-
-- source: `clouddrove/sftp/aws`
-- version: `1.3.4`
-- repository: https://github.com/clouddrove/terraform-aws-sftp
-
 ### clouddrove/secrets-manager/aws
 
 Terraform module to create Secret Manager resource on AWS for manage our secret variables.
@@ -216,6 +208,14 @@ Terraform module to create Secret Manager resource on AWS for manage our secret 
 - source: `clouddrove/secrets-manager/aws`
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-secrets-manager
+
+### clouddrove/sftp/aws
+
+This terraform module is used to create sftp on AWS for S3.
+
+- source: `clouddrove/sftp/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-sftp
 
 ### clouddrove/cognito/aws
 
@@ -281,14 +281,6 @@ Terraform module which creates RDS Aurora database resources on AWS and can crea
 - version: `2.0.0`
 - repository: https://github.com/clouddrove/terraform-aws-aurora
 
-### clouddrove/iam-user/aws
-
-Terraform module to create Iam user resource on AWS.
-
-- source: `clouddrove/iam-user/aws`
-- version: `1.3.2`
-- repository: https://github.com/clouddrove/terraform-aws-iam-user
-
 ### clouddrove/dynamodb/aws
 
 This terraform module is used for create dynamodb resources in AWS.
@@ -297,6 +289,14 @@ This terraform module is used for create dynamodb resources in AWS.
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-dynamodb
 
+### clouddrove/iam-user/aws
+
+Terraform module to create Iam user resource on AWS.
+
+- source: `clouddrove/iam-user/aws`
+- version: `1.3.2`
+- repository: https://github.com/clouddrove/terraform-aws-iam-user
+
 ### clouddrove/efs/aws
 
 Terraform module to create or deploy EFS on AWS.
@@ -304,6 +304,14 @@ Terraform module to create or deploy EFS on AWS.
 - source: `clouddrove/efs/aws`
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-efs
+
+### clouddrove/cloudfront/aws
+
+Terraform module provisions CloudFront CDN resource on AWS.
+
+- source: `clouddrove/cloudfront/aws`
+- version: `1.2.0`
+- repository: https://github.com/clouddrove/terraform-aws-cloudfront
 
 ### clouddrove/eks-addons/aws
 
@@ -314,14 +322,6 @@ Terraform module for installing and managing Helm-based Kubernetes add-ons on Am
 - repository: https://github.com/clouddrove/terraform-aws-eks-addons
 - submodules:
   - `clouddrove/eks-addons/aws//modules/irsa`
-
-### clouddrove/cloudfront/aws
-
-Terraform module provisions CloudFront CDN resource on AWS.
-
-- source: `clouddrove/cloudfront/aws`
-- version: `1.2.0`
-- repository: https://github.com/clouddrove/terraform-aws-cloudfront
 
 ### clouddrove/transit-gateway/aws
 
@@ -1208,7 +1208,7 @@ Terraform module to create monitor resource. DigitalOcean Monitoring is a free, 
 Terraform module to create digital ocean component.
 
 - source: `git::https://github.com/terraform-do-modules/terraform-digitalocean-components.git` (not yet on the Terraform Registry)
-- version: `v1.0.3`
+- version: `v1.0.4`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-components
 
 ### terraform-do-modules/nfs/digitalocean
