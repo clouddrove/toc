@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-18T03:15:15Z.
+Generated 2026-09-19T03:14:54Z.
 
 ## Usage
 
@@ -967,6 +967,14 @@ This Terraform module is used to create firewall resource on AZURE. AZURE Firewa
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
 
+### terraform-az-modules/managed-devops-pool/azurerm
+
+This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
+
+- source: `terraform-az-modules/managed-devops-pool/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
 ### terraform-az-modules/sentinel/azurerm
 
 This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
@@ -982,14 +990,6 @@ This Terraform module is used to create firewall resource on AZURE.  Azure Funct
 - source: `terraform-az-modules/functions-app/azurerm`
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
-
-### terraform-az-modules/managed-devops-pool/azurerm
-
-This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
-
-- source: `terraform-az-modules/managed-devops-pool/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
 
 ### terraform-az-modules/flexible-mysql/azurerm
 
