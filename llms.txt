@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-20T03:15:55Z.
+Generated 2026-09-21T03:17:35Z.
 
 ## Catalog
 
@@ -74,8 +74,8 @@ Generated 2026-09-20T03:15:55Z.
 - [clouddrove/cloudwatch-synthetics/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-synthetics/aws): CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
 - [clouddrove/amplify/aws](https://registry.terraform.io/modules/clouddrove/amplify/aws): Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
 - [clouddrove/iam/aws](https://registry.terraform.io/modules/clouddrove/iam/aws): Terraform module which creates IAM resources on AWS (12 submodules)
-- [clouddrove/workspace/aws](https://registry.terraform.io/modules/clouddrove/workspace/aws): Terraform module to create workspace resources on AWS for manage betterly.
 - [clouddrove/athena/aws](https://registry.terraform.io/modules/clouddrove/athena/aws): This module provides an easy way to set up Athena queries, The module can set up Athena database and table from an input S3 bucket and create-table SQL script.
+- [clouddrove/workspace/aws](https://registry.terraform.io/modules/clouddrove/workspace/aws): Terraform module to create workspace resources on AWS for manage betterly.
 - [clouddrove/lifecycle-manager/aws](https://registry.terraform.io/modules/clouddrove/lifecycle-manager/aws): This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots.
 - [clouddrove/msk/aws](https://registry.terraform.io/modules/clouddrove/msk/aws): Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
 - [clouddrove/control-tower/aws](https://registry.terraform.io/modules/clouddrove/control-tower/aws): Terraform module to create Control tower baseline resources on AWS.
@@ -134,8 +134,8 @@ Generated 2026-09-20T03:15:55Z.
 - [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
 - [terraform-az-modules/sentinel/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sentinel/azurerm): This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
 - [terraform-az-modules/functions-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/functions-app/azurerm): This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
-- [terraform-az-modules/flexible-mysql/azurerm](https://registry.terraform.io/modules/terraform-az-modules/flexible-mysql/azurerm): Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
 - [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
+- [terraform-az-modules/flexible-mysql/azurerm](https://registry.terraform.io/modules/terraform-az-modules/flexible-mysql/azurerm): Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
 - [terraform-az-modules/cosmos-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cosmos-db/azurerm): This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
 - [terraform-az-modules/service-principle/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-principle/azurerm): Terraform module for service-principle
 - [terraform-az-modules/bastion/azurerm](https://registry.terraform.io/modules/terraform-az-modules/bastion/azurerm): Terraform module for bastion

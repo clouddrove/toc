@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-20T03:15:55Z.
+Generated 2026-09-21T03:17:35Z.
 
 ## Usage
 
@@ -523,14 +523,6 @@ Terraform module which creates IAM resources on AWS
   - `clouddrove/iam/aws//modules/iam-read-only-policy`
   - `clouddrove/iam/aws//modules/iam-user`
 
-### clouddrove/workspace/aws
-
-Terraform module to create workspace resources on AWS for manage betterly.
-
-- source: `clouddrove/workspace/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-workspace
-
 ### clouddrove/athena/aws
 
 This module provides an easy way to set up Athena queries, The module can set up Athena database and table from an input S3 bucket and create-table SQL script.
@@ -538,6 +530,14 @@ This module provides an easy way to set up Athena queries, The module can set up
 - source: `clouddrove/athena/aws`
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-athena
+
+### clouddrove/workspace/aws
+
+Terraform module to create workspace resources on AWS for manage betterly.
+
+- source: `clouddrove/workspace/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-workspace
 
 ### clouddrove/lifecycle-manager/aws
 
@@ -991,14 +991,6 @@ This Terraform module is used to create firewall resource on AZURE.  Azure Funct
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
 
-### terraform-az-modules/flexible-mysql/azurerm
-
-Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
-
-- source: `terraform-az-modules/flexible-mysql/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
-
 ### terraform-az-modules/logic-app/azurerm
 
 Terraform module for logic-app
@@ -1006,6 +998,14 @@ Terraform module for logic-app
 - source: `terraform-az-modules/logic-app/azurerm`
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
+
+### terraform-az-modules/flexible-mysql/azurerm
+
+Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
+
+- source: `terraform-az-modules/flexible-mysql/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
 
 ### terraform-az-modules/cosmos-db/azurerm
 
