@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-21T03:17:35Z.
+Generated 2026-09-22T03:16:14Z.
 
 ## Usage
 
@@ -126,7 +126,7 @@ Terraform module is used to setup SNS service to manage notifications on applica
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.1`
+- version: `2.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/acm/aws
@@ -959,14 +959,6 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
 
-### terraform-az-modules/firewall/azurerm
-
-This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
-
-- source: `terraform-az-modules/firewall/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
-
 ### terraform-az-modules/managed-devops-pool/azurerm
 
 This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
@@ -974,6 +966,14 @@ This Terraform module is used to create Azure Devops Managed devops pool on AZUR
 - source: `terraform-az-modules/managed-devops-pool/azurerm`
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
+### terraform-az-modules/firewall/azurerm
+
+This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/firewall/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
 
 ### terraform-az-modules/sentinel/azurerm
 

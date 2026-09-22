@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-21T03:17:35Z.
+Generated 2026-09-22T03:16:14Z.
 
 ## Catalog
 
@@ -130,8 +130,8 @@ Generated 2026-09-21T03:17:35Z.
 - [terraform-az-modules/vmss-agent/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vmss-agent/azurerm): Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
 - [terraform-az-modules/sql-managed-instance/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sql-managed-instance/azurerm): Terraform module to create Sql managed instance resources . Azure SQL Managed Instance is a Platform-as-a-Service (PaaS) offering that provides near 100% compatibility with the SQL Server Enterprise Edition, designed for easy "lift-and-shift" migration of on-premises SQL Server apps to the cloud with minimal changes.
 - [terraform-az-modules/eventhub/azurerm](https://registry.terraform.io/modules/terraform-az-modules/eventhub/azurerm): This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
-- [terraform-az-modules/firewall/azurerm](https://registry.terraform.io/modules/terraform-az-modules/firewall/azurerm): This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
 - [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
+- [terraform-az-modules/firewall/azurerm](https://registry.terraform.io/modules/terraform-az-modules/firewall/azurerm): This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
 - [terraform-az-modules/sentinel/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sentinel/azurerm): This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
 - [terraform-az-modules/functions-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/functions-app/azurerm): This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
 - [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
