@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-22T03:16:14Z.
+Generated 2026-09-23T03:16:53Z.
 
 ## Usage
 
@@ -126,7 +126,7 @@ Terraform module is used to setup SNS service to manage notifications on applica
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/acm/aws
@@ -788,7 +788,7 @@ This Terraform module is used to create Azure container regsitry on AZURE.  Azur
 This terraform module is designed to create Azure Databricks resources. Virtual network peering enables you to seamlessly connect two or more Virtual Networks in Azure. The virtual networks appear as one for connectivity purposes.
 
 - source: `terraform-az-modules/vnet-peering/azurerm`
-- version: `2.0.0`
+- version: `2.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vnet-peering
 
 ### terraform-az-modules/application-insights/azurerm
@@ -903,6 +903,14 @@ Terraform module for static-web-app
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
 
+### terraform-az-modules/private-dns-resolver/azurerm
+
+This terraform module is designed to create Azure private dns resolver resources.
+
+- source: `terraform-az-modules/private-dns-resolver/azurerm`
+- version: `1.0.4`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
 ### terraform-az-modules/data-factory/azurerm
 
 This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
@@ -919,13 +927,13 @@ This terraform module is designed to create Azure network load balancer resource
 - version: `4.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
 
-### terraform-az-modules/private-dns-resolver/azurerm
+### terraform-az-modules/managed-devops-pool/azurerm
 
-This terraform module is designed to create Azure private dns resolver resources.
+This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
 
-- source: `terraform-az-modules/private-dns-resolver/azurerm`
-- version: `1.0.4`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+- source: `terraform-az-modules/managed-devops-pool/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
 
 ### terraform-az-modules/databricks/azurerm
 
@@ -958,14 +966,6 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - source: `terraform-az-modules/eventhub/azurerm`
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
-
-### terraform-az-modules/managed-devops-pool/azurerm
-
-This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
-
-- source: `terraform-az-modules/managed-devops-pool/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
 
 ### terraform-az-modules/firewall/azurerm
 
