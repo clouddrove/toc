@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-23T03:16:53Z.
+Generated 2026-09-24T03:15:44Z.
 
 ## Catalog
 
@@ -54,8 +54,8 @@ Generated 2026-09-23T03:16:53Z.
 - [clouddrove/eks-addons/aws](https://registry.terraform.io/modules/clouddrove/eks-addons/aws): Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS. (1 submodule)
 - [clouddrove/transit-gateway/aws](https://registry.terraform.io/modules/clouddrove/transit-gateway/aws): Terraform module to create Transit gateway resource on AWS.
 - [clouddrove/multi-account-peering/aws](https://registry.terraform.io/modules/clouddrove/multi-account-peering/aws): Terraform module to connect two VPC’s from different AWS account.
-- [clouddrove/security-hub/aws](https://registry.terraform.io/modules/clouddrove/security-hub/aws): This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 - [clouddrove/ec2-autoscaling/aws](https://registry.terraform.io/modules/clouddrove/ec2-autoscaling/aws): Terraform module will be created EC2 modulewith Autoscaling group.
+- [clouddrove/security-hub/aws](https://registry.terraform.io/modules/clouddrove/security-hub/aws): This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 - [clouddrove/vpn/aws](https://registry.terraform.io/modules/clouddrove/vpn/aws): Terraform module is used to create VPN resource on AWS for network connectivity.
 - [clouddrove/lightsail/aws](https://registry.terraform.io/modules/clouddrove/lightsail/aws): Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
 - [clouddrove/lambda-site-monitor/aws](https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws): Terraform module to create Lambda resource on AWS for monitor different websites.
@@ -122,8 +122,8 @@ Generated 2026-09-23T03:16:53Z.
 - [terraform-az-modules/communication-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/communication-service/azurerm): About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
 - [terraform-az-modules/mssql-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/mssql-db/azurerm): This terraform module is designed to create Azure mssql database resources. Azure SQL Database is a fully managed relational database-as-a-service (PaaS) built on the Microsoft SQL Server engine. It is designed to handle core database management functions—such as patching, backups, and monitoring—automatically,.
 - [terraform-az-modules/app-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/app-service/azurerm): About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
-- [terraform-az-modules/static-web-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/static-web-app/azurerm): Terraform module for static-web-app
 - [terraform-az-modules/private-dns-resolver/azurerm](https://registry.terraform.io/modules/terraform-az-modules/private-dns-resolver/azurerm): This terraform module is designed to create Azure private dns resolver resources.
+- [terraform-az-modules/static-web-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/static-web-app/azurerm): Terraform module for static-web-app
 - [terraform-az-modules/data-factory/azurerm](https://registry.terraform.io/modules/terraform-az-modules/data-factory/azurerm): This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
 - [terraform-az-modules/load-balancer/azurerm](https://registry.terraform.io/modules/terraform-az-modules/load-balancer/azurerm): This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
 - [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.

@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-23T03:16:53Z.
+Generated 2026-09-24T03:15:44Z.
 
 ## Usage
 
@@ -339,14 +339,6 @@ Terraform module to connect two VPC’s from different AWS account.
 - version: `1.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-multi-account-peering
 
-### clouddrove/security-hub/aws
-
-This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
-
-- source: `clouddrove/security-hub/aws`
-- version: `1.0.3`
-- repository: https://github.com/clouddrove/terraform-aws-security-hub
-
 ### clouddrove/ec2-autoscaling/aws
 
 Terraform module will be created EC2 modulewith Autoscaling group.
@@ -354,6 +346,14 @@ Terraform module will be created EC2 modulewith Autoscaling group.
 - source: `clouddrove/ec2-autoscaling/aws`
 - version: `1.5.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2-autoscaling
+
+### clouddrove/security-hub/aws
+
+This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
+
+- source: `clouddrove/security-hub/aws`
+- version: `1.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-security-hub
 
 ### clouddrove/vpn/aws
 
@@ -895,14 +895,6 @@ About This terraform module is designed to create Azure Databricks resources. Az
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
 
-### terraform-az-modules/static-web-app/azurerm
-
-Terraform module for static-web-app
-
-- source: `terraform-az-modules/static-web-app/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
-
 ### terraform-az-modules/private-dns-resolver/azurerm
 
 This terraform module is designed to create Azure private dns resolver resources.
@@ -910,6 +902,14 @@ This terraform module is designed to create Azure private dns resolver resources
 - source: `terraform-az-modules/private-dns-resolver/azurerm`
 - version: `1.0.4`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
+### terraform-az-modules/static-web-app/azurerm
+
+Terraform module for static-web-app
+
+- source: `terraform-az-modules/static-web-app/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
 
 ### terraform-az-modules/data-factory/azurerm
 
