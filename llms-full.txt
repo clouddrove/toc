@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-24T03:15:44Z.
+Generated 2026-09-25T03:15:13Z.
 
 ## Usage
 
@@ -791,14 +791,6 @@ This terraform module is designed to create Azure Databricks resources. Virtual 
 - version: `2.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vnet-peering
 
-### terraform-az-modules/application-insights/azurerm
-
-This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
-
-- source: `terraform-az-modules/application-insights/azurerm`
-- version: `1.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
-
 ### terraform-az-modules/flexible-postgresql/azurerm
 
 This terraform module is designed to create Azure Postgres flexible mysql resources. The Azure Database for PostgreSQL flexible server deployment model is designed to support high availability within a single availability zone and across multiple availability zones
@@ -806,6 +798,14 @@ This terraform module is designed to create Azure Postgres flexible mysql resour
 - source: `terraform-az-modules/flexible-postgresql/azurerm`
 - version: `1.0.7`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-postgresql
+
+### terraform-az-modules/application-insights/azurerm
+
+This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
+
+- source: `terraform-az-modules/application-insights/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
 
 ### terraform-az-modules/virtual-machine/azurerm
 
@@ -871,6 +871,14 @@ This terraform module is designed to create Azure Service Bus resources. Azure S
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-bus
 
+### terraform-az-modules/private-dns-resolver/azurerm
+
+This terraform module is designed to create Azure private dns resolver resources.
+
+- source: `terraform-az-modules/private-dns-resolver/azurerm`
+- version: `1.0.4`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
 ### terraform-az-modules/communication-service/azurerm
 
 About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
@@ -895,14 +903,6 @@ About This terraform module is designed to create Azure Databricks resources. Az
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
 
-### terraform-az-modules/private-dns-resolver/azurerm
-
-This terraform module is designed to create Azure private dns resolver resources.
-
-- source: `terraform-az-modules/private-dns-resolver/azurerm`
-- version: `1.0.4`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
-
 ### terraform-az-modules/static-web-app/azurerm
 
 Terraform module for static-web-app
@@ -910,6 +910,14 @@ Terraform module for static-web-app
 - source: `terraform-az-modules/static-web-app/azurerm`
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
+
+### terraform-az-modules/managed-devops-pool/azurerm
+
+This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
+
+- source: `terraform-az-modules/managed-devops-pool/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
 
 ### terraform-az-modules/data-factory/azurerm
 
@@ -926,14 +934,6 @@ This terraform module is designed to create Azure network load balancer resource
 - source: `terraform-az-modules/load-balancer/azurerm`
 - version: `4.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
-
-### terraform-az-modules/managed-devops-pool/azurerm
-
-This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
-
-- source: `terraform-az-modules/managed-devops-pool/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
 
 ### terraform-az-modules/databricks/azurerm
 
