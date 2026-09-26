@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-09-25T03:15:13Z.
+Generated 2026-09-26T03:14:52Z.
 
 ## Catalog
 
@@ -36,8 +36,8 @@ Generated 2026-09-25T03:15:13Z.
 - [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
 - [clouddrove/cloudwatch-event-rule/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws): Terraform module to create cloudwatch event rule on AWS.
 - [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
-- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
+- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/sftp/aws](https://registry.terraform.io/modules/clouddrove/sftp/aws): This terraform module is used to create sftp on AWS for S3.
 - [clouddrove/cognito/aws](https://registry.terraform.io/modules/clouddrove/cognito/aws): Terraform module to create an Cognito resource on AWS.
 - [clouddrove/client-vpn/aws](https://registry.terraform.io/modules/clouddrove/client-vpn/aws): This terraform module is used for create AWS Client VPN service to manage internal AWS resources.

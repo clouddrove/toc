@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-25T03:15:13Z.
+Generated 2026-09-26T03:14:52Z.
 
 ## Usage
 
@@ -126,7 +126,7 @@ Terraform module is used to setup SNS service to manage notifications on applica
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.1`
+- version: `2.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/acm/aws
@@ -193,14 +193,6 @@ Terraform module to create Route53 resource on AWS for zone and record set.
 - version: `1.0.4`
 - repository: https://github.com/clouddrove/terraform-aws-route53
 
-### clouddrove/cross-account-role/aws
-
-This terraform module is used to create an IAM Role to access another AWS account inventory.
-
-- source: `clouddrove/cross-account-role/aws`
-- version: `0.15.1`
-- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
-
 ### clouddrove/secrets-manager/aws
 
 Terraform module to create Secret Manager resource on AWS for manage our secret variables.
@@ -208,6 +200,14 @@ Terraform module to create Secret Manager resource on AWS for manage our secret 
 - source: `clouddrove/secrets-manager/aws`
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-secrets-manager
+
+### clouddrove/cross-account-role/aws
+
+This terraform module is used to create an IAM Role to access another AWS account inventory.
+
+- source: `clouddrove/cross-account-role/aws`
+- version: `0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
 ### clouddrove/sftp/aws
 
