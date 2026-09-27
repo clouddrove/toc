@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-26T03:14:52Z.
+Generated 2026-09-27T03:16:54Z.
 
 ## Usage
 
@@ -126,7 +126,7 @@ Terraform module is used to setup SNS service to manage notifications on applica
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/acm/aws
@@ -967,6 +967,14 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
 
+### terraform-az-modules/service-principle/azurerm
+
+Terraform module for service-principle
+
+- source: `terraform-az-modules/service-principle/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
+
 ### terraform-az-modules/firewall/azurerm
 
 This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
@@ -1014,14 +1022,6 @@ This terraform module is designed to create Azure cosmos db resources. Azure Cos
 - source: `terraform-az-modules/cosmos-db/azurerm`
 - version: `2.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-cosmos-db
-
-### terraform-az-modules/service-principle/azurerm
-
-Terraform module for service-principle
-
-- source: `terraform-az-modules/service-principle/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
 ### terraform-az-modules/bastion/azurerm
 
