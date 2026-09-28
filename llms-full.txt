@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-27T03:16:54Z.
+Generated 2026-09-28T03:20:01Z.
 
 ## Usage
 
@@ -113,14 +113,6 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 - version: `1.3.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-alarms
 
-### clouddrove/sns/aws
-
-Terraform module is used to setup SNS service to manage notifications on application.
-
-- source: `clouddrove/sns/aws`
-- version: `1.3.1`
-- repository: https://github.com/clouddrove/terraform-aws-sns
-
 ### clouddrove/ec2/aws
 
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
@@ -128,6 +120,14 @@ Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and 
 - source: `clouddrove/ec2/aws`
 - version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
+
+### clouddrove/sns/aws
+
+Terraform module is used to setup SNS service to manage notifications on application.
+
+- source: `clouddrove/sns/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-sns
 
 ### clouddrove/acm/aws
 
@@ -169,6 +169,14 @@ Terraform module for generating or importing an SSH public key file into AWS.
 - version: `1.3.4`
 - repository: https://github.com/clouddrove/terraform-aws-keypair
 
+### clouddrove/route53/aws
+
+Terraform module to create Route53 resource on AWS for zone and record set.
+
+- source: `clouddrove/route53/aws`
+- version: `1.0.4`
+- repository: https://github.com/clouddrove/terraform-aws-route53
+
 ### clouddrove/elasticsearch/aws
 
 Terraform module to create an Elasticsearch resource on AWS.
@@ -184,14 +192,6 @@ Terraform module to create cloudwatch event rule on AWS.
 - source: `clouddrove/cloudwatch-event-rule/aws`
 - version: `1.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule
-
-### clouddrove/route53/aws
-
-Terraform module to create Route53 resource on AWS for zone and record set.
-
-- source: `clouddrove/route53/aws`
-- version: `1.0.4`
-- repository: https://github.com/clouddrove/terraform-aws-route53
 
 ### clouddrove/secrets-manager/aws
 
@@ -225,14 +225,6 @@ Terraform module to create an Cognito resource on AWS.
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-cognito
 
-### clouddrove/client-vpn/aws
-
-This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
-
-- source: `clouddrove/client-vpn/aws`
-- version: `1.0.10`
-- repository: https://github.com/clouddrove/terraform-aws-client-vpn
-
 ### clouddrove/alb/aws
 
 This terraform module is used to create ALB on AWS.
@@ -240,6 +232,14 @@ This terraform module is used to create ALB on AWS.
 - source: `clouddrove/alb/aws`
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-alb
+
+### clouddrove/client-vpn/aws
+
+This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
+
+- source: `clouddrove/client-vpn/aws`
+- version: `1.0.10`
+- repository: https://github.com/clouddrove/terraform-aws-client-vpn
 
 ### clouddrove/sqs/aws
 
@@ -265,14 +265,6 @@ Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with 
 - version: `1.4.4`
 - repository: https://github.com/clouddrove/terraform-aws-cloudtrail
 
-### clouddrove/vpc-peering/aws
-
-Terraform module to connect two VPC's on AWS.
-
-- source: `clouddrove/vpc-peering/aws`
-- version: `1.3.1`
-- repository: https://github.com/clouddrove/terraform-aws-vpc-peering
-
 ### clouddrove/aurora/aws
 
 Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL.
@@ -280,6 +272,14 @@ Terraform module which creates RDS Aurora database resources on AWS and can crea
 - source: `clouddrove/aurora/aws`
 - version: `2.0.0`
 - repository: https://github.com/clouddrove/terraform-aws-aurora
+
+### clouddrove/vpc-peering/aws
+
+Terraform module to connect two VPC's on AWS.
+
+- source: `clouddrove/vpc-peering/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-vpc-peering
 
 ### clouddrove/dynamodb/aws
 
@@ -305,14 +305,6 @@ Terraform module to create or deploy EFS on AWS.
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-efs
 
-### clouddrove/cloudfront/aws
-
-Terraform module provisions CloudFront CDN resource on AWS.
-
-- source: `clouddrove/cloudfront/aws`
-- version: `1.2.0`
-- repository: https://github.com/clouddrove/terraform-aws-cloudfront
-
 ### clouddrove/eks-addons/aws
 
 Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS.
@@ -322,6 +314,22 @@ Terraform module for installing and managing Helm-based Kubernetes add-ons on Am
 - repository: https://github.com/clouddrove/terraform-aws-eks-addons
 - submodules:
   - `clouddrove/eks-addons/aws//modules/irsa`
+
+### clouddrove/cloudfront/aws
+
+Terraform module provisions CloudFront CDN resource on AWS.
+
+- source: `clouddrove/cloudfront/aws`
+- version: `1.2.0`
+- repository: https://github.com/clouddrove/terraform-aws-cloudfront
+
+### clouddrove/security-hub/aws
+
+This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
+
+- source: `clouddrove/security-hub/aws`
+- version: `1.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-security-hub
 
 ### clouddrove/transit-gateway/aws
 
@@ -346,14 +354,6 @@ Terraform module will be created EC2 modulewith Autoscaling group.
 - source: `clouddrove/ec2-autoscaling/aws`
 - version: `1.5.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2-autoscaling
-
-### clouddrove/security-hub/aws
-
-This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
-
-- source: `clouddrove/security-hub/aws`
-- version: `1.0.3`
-- repository: https://github.com/clouddrove/terraform-aws-security-hub
 
 ### clouddrove/vpn/aws
 
@@ -470,14 +470,6 @@ terraform-aws-documentdb
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-documentdb
 
-### clouddrove/cost-billing-alarm/aws
-
-A Terraform module to create aws cost billing alarm resource on AWS with sns topic.
-
-- source: `clouddrove/cost-billing-alarm/aws`
-- version: `1.0.3`
-- repository: https://github.com/clouddrove/terraform-aws-cost-billing-alarm
-
 ### clouddrove/backup/aws
 
 This Terraform module is used to create backup resource on AWS.
@@ -485,6 +477,14 @@ This Terraform module is used to create backup resource on AWS.
 - source: `clouddrove/backup/aws`
 - version: `1.3.2`
 - repository: https://github.com/clouddrove/terraform-aws-backup
+
+### clouddrove/cost-billing-alarm/aws
+
+A Terraform module to create aws cost billing alarm resource on AWS with sns topic.
+
+- source: `clouddrove/cost-billing-alarm/aws`
+- version: `1.0.3`
+- repository: https://github.com/clouddrove/terraform-aws-cost-billing-alarm
 
 ### clouddrove/cloudwatch-synthetics/aws
 
