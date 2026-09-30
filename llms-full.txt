@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-29T03:16:21Z.
+Generated 2026-09-30T03:18:11Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.1`
+- version: `2.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -241,14 +241,6 @@ This terraform module is used for create AWS Client VPN service to manage intern
 - version: `1.0.10`
 - repository: https://github.com/clouddrove/terraform-aws-client-vpn
 
-### clouddrove/sqs/aws
-
-Terraform module to create SQS resource on AWS for managing queue.
-
-- source: `clouddrove/sqs/aws`
-- version: `1.3.1`
-- repository: https://github.com/clouddrove/terraform-aws-sqs
-
 ### clouddrove/waf/aws
 
 This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
@@ -256,6 +248,14 @@ This Terraform module is used to create waf on AWS. WAF (Web Application Firewal
 - source: `clouddrove/waf/aws`
 - version: `2.1.3`
 - repository: https://github.com/clouddrove/terraform-aws-waf
+
+### clouddrove/sqs/aws
+
+Terraform module to create SQS resource on AWS for managing queue.
+
+- source: `clouddrove/sqs/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-sqs
 
 ### clouddrove/cloudtrail/aws
 
@@ -395,14 +395,6 @@ This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS service
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
 
-### clouddrove/active-directory/aws
-
-Terraform module to create Active Directory on AWS.
-
-- source: `clouddrove/active-directory/aws`
-- version: `1.0.4`
-- repository: https://github.com/clouddrove/terraform-aws-active-directory
-
 ### clouddrove/eventbridge/aws
 
 Terraform module to create an Eventbridge resource on AWS.
@@ -410,6 +402,14 @@ Terraform module to create an Eventbridge resource on AWS.
 - source: `clouddrove/eventbridge/aws`
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-eventbridge
+
+### clouddrove/active-directory/aws
+
+Terraform module to create Active Directory on AWS.
+
+- source: `clouddrove/active-directory/aws`
+- version: `1.0.4`
+- repository: https://github.com/clouddrove/terraform-aws-active-directory
 
 ### clouddrove/macie/aws
 
@@ -951,6 +951,14 @@ Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent"
 - version: `1.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
 
+### terraform-az-modules/service-principle/azurerm
+
+Terraform module for service-principle
+
+- source: `terraform-az-modules/service-principle/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
+
 ### terraform-az-modules/sql-managed-instance/azurerm
 
 Terraform module to create Sql managed instance resources . Azure SQL Managed Instance is a Platform-as-a-Service (PaaS) offering that provides near 100% compatibility with the SQL Server Enterprise Edition, designed for easy "lift-and-shift" migration of on-premises SQL Server apps to the cloud with minimal changes.
@@ -966,14 +974,6 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - source: `terraform-az-modules/eventhub/azurerm`
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
-
-### terraform-az-modules/service-principle/azurerm
-
-Terraform module for service-principle
-
-- source: `terraform-az-modules/service-principle/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
 ### terraform-az-modules/firewall/azurerm
 
