@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-09-30T03:18:11Z.
+Generated 2026-10-01T03:20:28Z.
 
 ## Usage
 
@@ -828,7 +828,7 @@ This terraform module is designed to create Azure Cognitive services.  Azure Cog
 This Terraform module creates Azure Application Gateway resources. Application Gateway is a layer 7 load balancer that manages traffic to web applications, offering features like SSL termination, Web Application Firewall (WAF) integration, and URL-based routing for enhanced security and performance.
 
 - source: `terraform-az-modules/application-gateway/azurerm`
-- version: `3.0.0`
+- version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-application-gateway
 
 ### terraform-az-modules/vpn/azurerm
@@ -863,14 +863,6 @@ This Terraform module creates Azure Web Application Firewall (WAF) resources. WA
 - version: `3.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-waf
 
-### terraform-az-modules/service-bus/azurerm
-
-This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
-
-- source: `terraform-az-modules/service-bus/azurerm`
-- version: `2.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-bus
-
 ### terraform-az-modules/private-dns-resolver/azurerm
 
 This terraform module is designed to create Azure private dns resolver resources.
@@ -878,6 +870,14 @@ This terraform module is designed to create Azure private dns resolver resources
 - source: `terraform-az-modules/private-dns-resolver/azurerm`
 - version: `1.0.4`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
+### terraform-az-modules/service-bus/azurerm
+
+This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
+
+- source: `terraform-az-modules/service-bus/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-bus
 
 ### terraform-az-modules/communication-service/azurerm
 
@@ -900,7 +900,7 @@ This terraform module is designed to create Azure mssql database resources. Azur
 About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
 
 - source: `terraform-az-modules/app-service/azurerm`
-- version: `1.0.1`
+- version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
 
 ### terraform-az-modules/static-web-app/azurerm
@@ -927,6 +927,14 @@ This Terraform module is used to create Azure data factory on AZURE.  Azure Data
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-data-factory
 
+### terraform-az-modules/service-principle/azurerm
+
+Terraform module for service-principle
+
+- source: `terraform-az-modules/service-principle/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
+
 ### terraform-az-modules/load-balancer/azurerm
 
 This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
@@ -950,14 +958,6 @@ Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent"
 - source: `terraform-az-modules/vmss-agent/azurerm`
 - version: `1.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
-
-### terraform-az-modules/service-principle/azurerm
-
-Terraform module for service-principle
-
-- source: `terraform-az-modules/service-principle/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
 ### terraform-az-modules/sql-managed-instance/azurerm
 
