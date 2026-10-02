@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-01T03:20:28Z.
+Generated 2026-10-02T03:16:53Z.
 
 ## Usage
 
@@ -903,14 +903,6 @@ About This terraform module is designed to create Azure Databricks resources. Az
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
 
-### terraform-az-modules/static-web-app/azurerm
-
-Terraform module for static-web-app
-
-- source: `terraform-az-modules/static-web-app/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
-
 ### terraform-az-modules/managed-devops-pool/azurerm
 
 This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
@@ -918,6 +910,14 @@ This Terraform module is used to create Azure Devops Managed devops pool on AZUR
 - source: `terraform-az-modules/managed-devops-pool/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
+### terraform-az-modules/static-web-app/azurerm
+
+Terraform module for static-web-app
+
+- source: `terraform-az-modules/static-web-app/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
 
 ### terraform-az-modules/data-factory/azurerm
 
@@ -927,14 +927,6 @@ This Terraform module is used to create Azure data factory on AZURE.  Azure Data
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-data-factory
 
-### terraform-az-modules/service-principle/azurerm
-
-Terraform module for service-principle
-
-- source: `terraform-az-modules/service-principle/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
-
 ### terraform-az-modules/load-balancer/azurerm
 
 This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
@@ -942,6 +934,14 @@ This terraform module is designed to create Azure network load balancer resource
 - source: `terraform-az-modules/load-balancer/azurerm`
 - version: `4.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
+
+### terraform-az-modules/service-principle/azurerm
+
+Terraform module for service-principle
+
+- source: `terraform-az-modules/service-principle/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
 ### terraform-az-modules/databricks/azurerm
 
