@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-10-05T03:22:18Z.
+Generated 2026-10-06T03:16:58Z.
 
 ## Catalog
 
@@ -78,8 +78,8 @@ Generated 2026-10-05T03:22:18Z.
 - [clouddrove/workspace/aws](https://registry.terraform.io/modules/clouddrove/workspace/aws): Terraform module to create workspace resources on AWS for manage betterly.
 - [clouddrove/lifecycle-manager/aws](https://registry.terraform.io/modules/clouddrove/lifecycle-manager/aws): This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots.
 - [clouddrove/msk/aws](https://registry.terraform.io/modules/clouddrove/msk/aws): Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
-- [clouddrove/control-tower/aws](https://registry.terraform.io/modules/clouddrove/control-tower/aws): Terraform module to create Control tower baseline resources on AWS.
 - [clouddrove/ecs/aws](https://registry.terraform.io/modules/clouddrove/ecs/aws): Terraform module to create ECS on AWS. (4 submodules)
+- [clouddrove/control-tower/aws](https://registry.terraform.io/modules/clouddrove/control-tower/aws): Terraform module to create Control tower baseline resources on AWS.
 - [clouddrove/bastion/aws](https://registry.terraform.io/modules/clouddrove/bastion/aws): Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbound rules. Composed from published CloudDrove modules.
 - [clouddrove/eks-lb-controller/aws](https://registry.terraform.io/modules/clouddrove/eks-lb-controller/aws): Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
 - [clouddrove/cloudtrail-baseline/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail-baseline/aws): Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
@@ -175,8 +175,8 @@ Generated 2026-10-05T03:22:18Z.
 - [terraform-hc-modules/network/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/network/hcloud): Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer) (3 submodules)
 - [terraform-hc-modules/labels/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/labels/hcloud): Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
 - [terraform-hc-modules/certificate/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/certificate/hcloud): Terraform module for Hetzner Cloud SSL/TLS certificates (2 submodules)
-- [terraform-hc-modules/dns/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/dns/hcloud): Terraform module for Hetzner DNS zones and records (2 submodules)
 - [terraform-hc-modules/ip/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/ip/hcloud): Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS) (3 submodules)
+- [terraform-hc-modules/dns/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/dns/hcloud): Terraform module for Hetzner DNS zones and records (2 submodules)
 - [terraform-hc-modules/storage-box/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud): Terraform module for Hetzner Storage Box (EXPERIMENTAL) (1 submodule)
 
 ## Cloudflare
