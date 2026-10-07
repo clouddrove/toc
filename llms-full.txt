@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-06T03:16:58Z.
+Generated 2026-10-07T03:19:12Z.
 
 ## Usage
 
@@ -863,14 +863,6 @@ This Terraform module creates Azure Web Application Firewall (WAF) resources. WA
 - version: `3.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-waf
 
-### terraform-az-modules/private-dns-resolver/azurerm
-
-This terraform module is designed to create Azure private dns resolver resources.
-
-- source: `terraform-az-modules/private-dns-resolver/azurerm`
-- version: `1.0.4`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
-
 ### terraform-az-modules/service-bus/azurerm
 
 This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
@@ -879,13 +871,13 @@ This terraform module is designed to create Azure Service Bus resources. Azure S
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-bus
 
-### terraform-az-modules/communication-service/azurerm
+### terraform-az-modules/private-dns-resolver/azurerm
 
-About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
+This terraform module is designed to create Azure private dns resolver resources.
 
-- source: `terraform-az-modules/communication-service/azurerm`
-- version: `2.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
+- source: `terraform-az-modules/private-dns-resolver/azurerm`
+- version: `1.0.4`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
 
 ### terraform-az-modules/mssql-db/azurerm
 
@@ -894,6 +886,14 @@ This terraform module is designed to create Azure mssql database resources. Azur
 - source: `terraform-az-modules/mssql-db/azurerm`
 - version: `2.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-mssql-db
+
+### terraform-az-modules/communication-service/azurerm
+
+About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/communication-service/azurerm`
+- version: `2.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
 
 ### terraform-az-modules/app-service/azurerm
 
