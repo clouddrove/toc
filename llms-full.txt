@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-07T03:19:12Z.
+Generated 2026-10-08T03:19:22Z.
 
 ## Usage
 
@@ -871,6 +871,14 @@ This terraform module is designed to create Azure Service Bus resources. Azure S
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-bus
 
+### terraform-az-modules/communication-service/azurerm
+
+About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/communication-service/azurerm`
+- version: `2.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
+
 ### terraform-az-modules/private-dns-resolver/azurerm
 
 This terraform module is designed to create Azure private dns resolver resources.
@@ -886,14 +894,6 @@ This terraform module is designed to create Azure mssql database resources. Azur
 - source: `terraform-az-modules/mssql-db/azurerm`
 - version: `2.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-mssql-db
-
-### terraform-az-modules/communication-service/azurerm
-
-About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
-
-- source: `terraform-az-modules/communication-service/azurerm`
-- version: `2.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
 
 ### terraform-az-modules/app-service/azurerm
 
