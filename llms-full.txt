@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-08T03:19:22Z.
+Generated 2026-10-09T03:19:39Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -177,14 +177,6 @@ Terraform module to create Route53 resource on AWS for zone and record set.
 - version: `1.0.4`
 - repository: https://github.com/clouddrove/terraform-aws-route53
 
-### clouddrove/elasticsearch/aws
-
-Terraform module to create an Elasticsearch resource on AWS.
-
-- source: `clouddrove/elasticsearch/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-elasticsearch
-
 ### clouddrove/cloudwatch-event-rule/aws
 
 Terraform module to create cloudwatch event rule on AWS.
@@ -192,6 +184,14 @@ Terraform module to create cloudwatch event rule on AWS.
 - source: `clouddrove/cloudwatch-event-rule/aws`
 - version: `1.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule
+
+### clouddrove/elasticsearch/aws
+
+Terraform module to create an Elasticsearch resource on AWS.
+
+- source: `clouddrove/elasticsearch/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-elasticsearch
 
 ### clouddrove/secrets-manager/aws
 
@@ -201,14 +201,6 @@ Terraform module to create Secret Manager resource on AWS for manage our secret 
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-secrets-manager
 
-### clouddrove/cross-account-role/aws
-
-This terraform module is used to create an IAM Role to access another AWS account inventory.
-
-- source: `clouddrove/cross-account-role/aws`
-- version: `0.15.1`
-- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
-
 ### clouddrove/sftp/aws
 
 This terraform module is used to create sftp on AWS for S3.
@@ -216,6 +208,14 @@ This terraform module is used to create sftp on AWS for S3.
 - source: `clouddrove/sftp/aws`
 - version: `1.3.4`
 - repository: https://github.com/clouddrove/terraform-aws-sftp
+
+### clouddrove/cross-account-role/aws
+
+This terraform module is used to create an IAM Role to access another AWS account inventory.
+
+- source: `clouddrove/cross-account-role/aws`
+- version: `0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
 ### clouddrove/alb/aws
 
@@ -339,14 +339,6 @@ Terraform module to create Transit gateway resource on AWS.
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-transit-gateway
 
-### clouddrove/multi-account-peering/aws
-
-Terraform module to connect two VPC’s from different AWS account.
-
-- source: `clouddrove/multi-account-peering/aws`
-- version: `1.1.1`
-- repository: https://github.com/clouddrove/terraform-aws-multi-account-peering
-
 ### clouddrove/ec2-autoscaling/aws
 
 Terraform module will be created EC2 modulewith Autoscaling group.
@@ -354,6 +346,14 @@ Terraform module will be created EC2 modulewith Autoscaling group.
 - source: `clouddrove/ec2-autoscaling/aws`
 - version: `1.5.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2-autoscaling
+
+### clouddrove/multi-account-peering/aws
+
+Terraform module to connect two VPC’s from different AWS account.
+
+- source: `clouddrove/multi-account-peering/aws`
+- version: `1.1.1`
+- repository: https://github.com/clouddrove/terraform-aws-multi-account-peering
 
 ### clouddrove/vpn/aws
 
@@ -379,14 +379,6 @@ Terraform module to create Lambda resource on AWS for monitor different websites
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-lambda-site-monitor
 
-### clouddrove/mysql/aws
-
-Terraform module to create a MySQL on AWS.
-
-- source: `clouddrove/mysql/aws`
-- version: `1.3.4`
-- repository: https://github.com/clouddrove/terraform-aws-mysql
-
 ### clouddrove/cloudwatch-dashboard/aws
 
 This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
@@ -394,6 +386,14 @@ This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS service
 - source: `clouddrove/cloudwatch-dashboard/aws`
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
+
+### clouddrove/mysql/aws
+
+Terraform module to create a MySQL on AWS.
+
+- source: `clouddrove/mysql/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-mysql
 
 ### clouddrove/eventbridge/aws
 
@@ -852,7 +852,7 @@ Terraform module to create dns resource on AZURE. Azure DNS is a domain name sys
 This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
 
 - source: `terraform-az-modules/redis-cache/azurerm`
-- version: `2.0.0`
+- version: `2.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-redis-cache
 
 ### terraform-az-modules/waf/azurerm
