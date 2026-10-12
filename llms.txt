@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-10-11T03:20:37Z.
+Generated 2026-10-12T03:27:51Z.
 
 ## Catalog
 
@@ -32,8 +32,8 @@ Generated 2026-10-11T03:20:37Z.
 - [clouddrove/lambda/aws](https://registry.terraform.io/modules/clouddrove/lambda/aws): Terraform module to create Lambda resource on AWS for create lambda function.
 - [clouddrove/ecr/aws](https://registry.terraform.io/modules/clouddrove/ecr/aws): This terraform module is used to create ECR on AWS.
 - [clouddrove/eks/aws](https://registry.terraform.io/modules/clouddrove/eks/aws): Terraform module will be created Autoscaling, Workers, EKS.
-- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
+- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/cloudwatch-event-rule/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws): Terraform module to create cloudwatch event rule on AWS.
 - [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
@@ -58,8 +58,8 @@ Generated 2026-10-11T03:20:37Z.
 - [clouddrove/multi-account-peering/aws](https://registry.terraform.io/modules/clouddrove/multi-account-peering/aws): Terraform module to connect two VPC’s from different AWS account.
 - [clouddrove/vpn/aws](https://registry.terraform.io/modules/clouddrove/vpn/aws): Terraform module is used to create VPN resource on AWS for network connectivity.
 - [clouddrove/lightsail/aws](https://registry.terraform.io/modules/clouddrove/lightsail/aws): Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
-- [clouddrove/lambda-site-monitor/aws](https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws): Terraform module to create Lambda resource on AWS for monitor different websites.
 - [clouddrove/cloudwatch-dashboard/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-dashboard/aws): This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
+- [clouddrove/lambda-site-monitor/aws](https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws): Terraform module to create Lambda resource on AWS for monitor different websites.
 - [clouddrove/mysql/aws](https://registry.terraform.io/modules/clouddrove/mysql/aws): Terraform module to create a MySQL on AWS.
 - [clouddrove/eventbridge/aws](https://registry.terraform.io/modules/clouddrove/eventbridge/aws): Terraform module to create an Eventbridge resource on AWS.
 - [clouddrove/active-directory/aws](https://registry.terraform.io/modules/clouddrove/active-directory/aws): Terraform module to create Active Directory on AWS.
@@ -67,8 +67,8 @@ Generated 2026-10-11T03:20:37Z.
 - [clouddrove/pritunl/aws](https://registry.terraform.io/modules/clouddrove/pritunl/aws): Terraform module to create an pritunl resource on AWS with Elastic IP Addresses and Elastic Block Store
 - [clouddrove/mfa/aws](https://registry.terraform.io/modules/clouddrove/mfa/aws): A terraform module to enable MFA for AWS groups and users
 - [clouddrove/secure-baseline/aws](https://registry.terraform.io/modules/clouddrove/secure-baseline/aws): Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline. (10 submodules)
-- [clouddrove/cloudtrail-slack-notification/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail-slack-notification/aws): Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.
 - [clouddrove/backup/aws](https://registry.terraform.io/modules/clouddrove/backup/aws): This Terraform module is used to create backup resource on AWS.
+- [clouddrove/cloudtrail-slack-notification/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail-slack-notification/aws): Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.
 - [clouddrove/documentdb/aws](https://registry.terraform.io/modules/clouddrove/documentdb/aws): terraform-aws-documentdb
 - [clouddrove/cost-billing-alarm/aws](https://registry.terraform.io/modules/clouddrove/cost-billing-alarm/aws): A Terraform module to create aws cost billing alarm resource on AWS with sns topic.
 - [clouddrove/cloudwatch-synthetics/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-synthetics/aws): CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services

@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-11T03:20:37Z.
+Generated 2026-10-12T03:27:51Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.1`
+- version: `2.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -161,14 +161,6 @@ Terraform module will be created Autoscaling, Workers, EKS.
 - version: `1.4.8`
 - repository: https://github.com/clouddrove/terraform-aws-eks
 
-### clouddrove/keypair/aws
-
-Terraform module for generating or importing an SSH public key file into AWS.
-
-- source: `clouddrove/keypair/aws`
-- version: `1.3.4`
-- repository: https://github.com/clouddrove/terraform-aws-keypair
-
 ### clouddrove/route53/aws
 
 Terraform module to create Route53 resource on AWS for zone and record set.
@@ -176,6 +168,14 @@ Terraform module to create Route53 resource on AWS for zone and record set.
 - source: `clouddrove/route53/aws`
 - version: `1.0.4`
 - repository: https://github.com/clouddrove/terraform-aws-route53
+
+### clouddrove/keypair/aws
+
+Terraform module for generating or importing an SSH public key file into AWS.
+
+- source: `clouddrove/keypair/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-keypair
 
 ### clouddrove/cloudwatch-event-rule/aws
 
@@ -371,14 +371,6 @@ Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Li
 - version: `1.3.2`
 - repository: https://github.com/clouddrove/terraform-aws-lightsail
 
-### clouddrove/lambda-site-monitor/aws
-
-Terraform module to create Lambda resource on AWS for monitor different websites.
-
-- source: `clouddrove/lambda-site-monitor/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-lambda-site-monitor
-
 ### clouddrove/cloudwatch-dashboard/aws
 
 This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
@@ -386,6 +378,14 @@ This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS service
 - source: `clouddrove/cloudwatch-dashboard/aws`
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
+
+### clouddrove/lambda-site-monitor/aws
+
+Terraform module to create Lambda resource on AWS for monitor different websites.
+
+- source: `clouddrove/lambda-site-monitor/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-lambda-site-monitor
 
 ### clouddrove/mysql/aws
 
@@ -454,14 +454,6 @@ Terraform module to create an Secure Basline, inclued module is alarm baseline, 
   - `clouddrove/secure-baseline/aws//modules/security_hub`
   - `clouddrove/secure-baseline/aws//modules/shield`
 
-### clouddrove/cloudtrail-slack-notification/aws
-
-Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.
-
-- source: `clouddrove/cloudtrail-slack-notification/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification
-
 ### clouddrove/backup/aws
 
 This Terraform module is used to create backup resource on AWS.
@@ -469,6 +461,14 @@ This Terraform module is used to create backup resource on AWS.
 - source: `clouddrove/backup/aws`
 - version: `1.3.2`
 - repository: https://github.com/clouddrove/terraform-aws-backup
+
+### clouddrove/cloudtrail-slack-notification/aws
+
+Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS.
+
+- source: `clouddrove/cloudtrail-slack-notification/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification
 
 ### clouddrove/documentdb/aws
 
