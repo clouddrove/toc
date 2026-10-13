@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-12T03:27:51Z.
+Generated 2026-10-13T03:21:19Z.
 
 ## Usage
 
@@ -217,14 +217,6 @@ This terraform module is used to create an IAM Role to access another AWS accoun
 - version: `0.15.1`
 - repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
-### clouddrove/alb/aws
-
-This terraform module is used to create ALB on AWS.
-
-- source: `clouddrove/alb/aws`
-- version: `2.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-alb
-
 ### clouddrove/cognito/aws
 
 Terraform module to create an Cognito resource on AWS.
@@ -232,6 +224,14 @@ Terraform module to create an Cognito resource on AWS.
 - source: `clouddrove/cognito/aws`
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-cognito
+
+### clouddrove/alb/aws
+
+This terraform module is used to create ALB on AWS.
+
+- source: `clouddrove/alb/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-alb
 
 ### clouddrove/client-vpn/aws
 
@@ -241,14 +241,6 @@ This terraform module is used for create AWS Client VPN service to manage intern
 - version: `1.0.10`
 - repository: https://github.com/clouddrove/terraform-aws-client-vpn
 
-### clouddrove/waf/aws
-
-This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
-
-- source: `clouddrove/waf/aws`
-- version: `2.1.3`
-- repository: https://github.com/clouddrove/terraform-aws-waf
-
 ### clouddrove/sqs/aws
 
 Terraform module to create SQS resource on AWS for managing queue.
@@ -256,6 +248,14 @@ Terraform module to create SQS resource on AWS for managing queue.
 - source: `clouddrove/sqs/aws`
 - version: `1.3.1`
 - repository: https://github.com/clouddrove/terraform-aws-sqs
+
+### clouddrove/waf/aws
+
+This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
+
+- source: `clouddrove/waf/aws`
+- version: `2.1.3`
+- repository: https://github.com/clouddrove/terraform-aws-waf
 
 ### clouddrove/cloudtrail/aws
 
@@ -294,7 +294,7 @@ This terraform module is used for create dynamodb resources in AWS.
 Terraform module to create Iam user resource on AWS.
 
 - source: `clouddrove/iam-user/aws`
-- version: `1.3.2`
+- version: `1.3.3`
 - repository: https://github.com/clouddrove/terraform-aws-iam-user
 
 ### clouddrove/efs/aws
