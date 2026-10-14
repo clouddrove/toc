@@ -1,8 +1,8 @@
 # CloudDrove Terraform Modules (full index)
 
-> Every addressable Terraform module and submodule CloudDrove maintains: 158 modules and 93 submodules, 251 total. Each line is a usable Terraform `source` value.
+> Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-13T03:21:19Z.
+Generated 2026-10-14T03:15:34Z.
 
 ## Usage
 
@@ -217,14 +217,6 @@ This terraform module is used to create an IAM Role to access another AWS accoun
 - version: `0.15.1`
 - repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
-### clouddrove/cognito/aws
-
-Terraform module to create an Cognito resource on AWS.
-
-- source: `clouddrove/cognito/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-cognito
-
 ### clouddrove/alb/aws
 
 This terraform module is used to create ALB on AWS.
@@ -232,6 +224,14 @@ This terraform module is used to create ALB on AWS.
 - source: `clouddrove/alb/aws`
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-alb
+
+### clouddrove/cognito/aws
+
+Terraform module to create an Cognito resource on AWS.
+
+- source: `clouddrove/cognito/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-cognito
 
 ### clouddrove/client-vpn/aws
 
@@ -241,14 +241,6 @@ This terraform module is used for create AWS Client VPN service to manage intern
 - version: `1.0.10`
 - repository: https://github.com/clouddrove/terraform-aws-client-vpn
 
-### clouddrove/sqs/aws
-
-Terraform module to create SQS resource on AWS for managing queue.
-
-- source: `clouddrove/sqs/aws`
-- version: `1.3.1`
-- repository: https://github.com/clouddrove/terraform-aws-sqs
-
 ### clouddrove/waf/aws
 
 This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
@@ -256,6 +248,14 @@ This Terraform module is used to create waf on AWS. WAF (Web Application Firewal
 - source: `clouddrove/waf/aws`
 - version: `2.1.3`
 - repository: https://github.com/clouddrove/terraform-aws-waf
+
+### clouddrove/sqs/aws
+
+Terraform module to create SQS resource on AWS for managing queue.
+
+- source: `clouddrove/sqs/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-sqs
 
 ### clouddrove/cloudtrail/aws
 
@@ -297,14 +297,6 @@ Terraform module to create Iam user resource on AWS.
 - version: `1.3.3`
 - repository: https://github.com/clouddrove/terraform-aws-iam-user
 
-### clouddrove/efs/aws
-
-Terraform module to create or deploy EFS on AWS.
-
-- source: `clouddrove/efs/aws`
-- version: `2.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-efs
-
 ### clouddrove/eks-addons/aws
 
 Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS.
@@ -314,6 +306,14 @@ Terraform module for installing and managing Helm-based Kubernetes add-ons on Am
 - repository: https://github.com/clouddrove/terraform-aws-eks-addons
 - submodules:
   - `clouddrove/eks-addons/aws//modules/irsa`
+
+### clouddrove/efs/aws
+
+Terraform module to create or deploy EFS on AWS.
+
+- source: `clouddrove/efs/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-efs
 
 ### clouddrove/cloudfront/aws
 
@@ -788,8 +788,10 @@ This Terraform module is used to create Azure container regsitry on AZURE.  Azur
 This terraform module is designed to create Azure Databricks resources. Virtual network peering enables you to seamlessly connect two or more Virtual Networks in Azure. The virtual networks appear as one for connectivity purposes.
 
 - source: `terraform-az-modules/vnet-peering/azurerm`
-- version: `2.0.1`
+- version: `2.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vnet-peering
+- submodules:
+  - `terraform-az-modules/vnet-peering/azurerm//modules/single`
 
 ### terraform-az-modules/flexible-postgresql/azurerm
 
@@ -812,7 +814,7 @@ This Terraform module is used to create Azure Application Insights resource on A
 Terraform module to create virtual machine resource on AZURE. Azure Virtual Machines are on-demand, scalable computing resources offered by Microsoft Azure.
 
 - source: `terraform-az-modules/virtual-machine/azurerm`
-- version: `1.3.0`
+- version: `1.4.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-machine
 
 ### terraform-az-modules/cognitive/azurerm
@@ -828,7 +830,7 @@ This terraform module is designed to create Azure Cognitive services.  Azure Cog
 This Terraform module creates Azure Application Gateway resources. Application Gateway is a layer 7 load balancer that manages traffic to web applications, offering features like SSL termination, Web Application Firewall (WAF) integration, and URL-based routing for enhanced security and performance.
 
 - source: `terraform-az-modules/application-gateway/azurerm`
-- version: `3.1.0`
+- version: `3.1.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-application-gateway
 
 ### terraform-az-modules/vpn/azurerm
@@ -932,7 +934,7 @@ This Terraform module is used to create Azure data factory on AZURE.  Azure Data
 This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
 
 - source: `terraform-az-modules/load-balancer/azurerm`
-- version: `4.0.0`
+- version: `4.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
 
 ### terraform-az-modules/service-principle/azurerm
@@ -999,14 +1001,6 @@ This Terraform module is used to create firewall resource on AZURE.  Azure Funct
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
 
-### terraform-az-modules/logic-app/azurerm
-
-Terraform module for logic-app
-
-- source: `terraform-az-modules/logic-app/azurerm`
-- version: `2.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
-
 ### terraform-az-modules/flexible-mysql/azurerm
 
 Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
@@ -1014,6 +1008,14 @@ Terraform module to create flexible-MySQL resource on AZURE. Azure offers a mana
 - source: `terraform-az-modules/flexible-mysql/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+
+### terraform-az-modules/logic-app/azurerm
+
+Terraform module for logic-app
+
+- source: `terraform-az-modules/logic-app/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
 
 ### terraform-az-modules/cosmos-db/azurerm
 
@@ -1054,6 +1056,14 @@ Terraform module for diagnostic-settings
 - source: `git::https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings.git` (not yet on the Terraform Registry)
 - version: `unreleased`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings
+
+### terraform-az-modules/virtual-wan/azurerm
+
+Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan.git` (not yet on the Terraform Registry)
+- version: `v1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan
 
 ## Google Cloud (terraform-gcloud-modules)
 
