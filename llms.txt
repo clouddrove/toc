@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-10-14T03:15:34Z.
+Generated 2026-10-15T03:15:08Z.
 
 ## Catalog
 
@@ -39,8 +39,8 @@ Generated 2026-10-14T03:15:34Z.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
 - [clouddrove/sftp/aws](https://registry.terraform.io/modules/clouddrove/sftp/aws): This terraform module is used to create sftp on AWS for S3.
 - [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
-- [clouddrove/alb/aws](https://registry.terraform.io/modules/clouddrove/alb/aws): This terraform module is used to create ALB on AWS.
 - [clouddrove/cognito/aws](https://registry.terraform.io/modules/clouddrove/cognito/aws): Terraform module to create an Cognito resource on AWS.
+- [clouddrove/alb/aws](https://registry.terraform.io/modules/clouddrove/alb/aws): This terraform module is used to create ALB on AWS.
 - [clouddrove/client-vpn/aws](https://registry.terraform.io/modules/clouddrove/client-vpn/aws): This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
 - [clouddrove/waf/aws](https://registry.terraform.io/modules/clouddrove/waf/aws): This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
 - [clouddrove/sqs/aws](https://registry.terraform.io/modules/clouddrove/sqs/aws): Terraform module to create SQS resource on AWS for managing queue.
@@ -125,8 +125,8 @@ Generated 2026-10-14T03:15:34Z.
 - [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
 - [terraform-az-modules/app-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/app-service/azurerm): About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
 - [terraform-az-modules/static-web-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/static-web-app/azurerm): Terraform module for static-web-app
-- [terraform-az-modules/data-factory/azurerm](https://registry.terraform.io/modules/terraform-az-modules/data-factory/azurerm): This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
 - [terraform-az-modules/load-balancer/azurerm](https://registry.terraform.io/modules/terraform-az-modules/load-balancer/azurerm): This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
+- [terraform-az-modules/data-factory/azurerm](https://registry.terraform.io/modules/terraform-az-modules/data-factory/azurerm): This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
 - [terraform-az-modules/service-principle/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-principle/azurerm): Terraform module for service-principle
 - [terraform-az-modules/databricks/azurerm](https://registry.terraform.io/modules/terraform-az-modules/databricks/azurerm): This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
 - [terraform-az-modules/vmss-agent/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vmss-agent/azurerm): Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
