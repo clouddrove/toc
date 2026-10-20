@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-19T03:17:00Z.
+Generated 2026-10-20T03:15:16Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -945,6 +945,14 @@ Terraform module for service-principle
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
+### terraform-az-modules/vmss-agent/azurerm
+
+Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
+
+- source: `terraform-az-modules/vmss-agent/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
+
 ### terraform-az-modules/databricks/azurerm
 
 This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
@@ -953,13 +961,13 @@ This terraform module is designed to create Azure Databricks resources. Azure Da
 - version: `1.0.5`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
 
-### terraform-az-modules/vmss-agent/azurerm
+### terraform-az-modules/sentinel/azurerm
 
-Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
+This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
 
-- source: `terraform-az-modules/vmss-agent/azurerm`
-- version: `1.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
+- source: `terraform-az-modules/sentinel/azurerm`
+- version: `3.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
 
 ### terraform-az-modules/sql-managed-instance/azurerm
 
@@ -976,14 +984,6 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - source: `terraform-az-modules/eventhub/azurerm`
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
-
-### terraform-az-modules/sentinel/azurerm
-
-This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
-
-- source: `terraform-az-modules/sentinel/azurerm`
-- version: `3.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
 
 ### terraform-az-modules/firewall/azurerm
 
