@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-20T03:15:16Z.
+Generated 2026-10-21T03:16:14Z.
 
 ## Usage
 
@@ -494,14 +494,6 @@ CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs f
 - version: `1.3.2`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-synthetics
 
-### clouddrove/amplify/aws
-
-Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
-
-- source: `clouddrove/amplify/aws`
-- version: `1.4.2`
-- repository: https://github.com/clouddrove/terraform-aws-amplify
-
 ### clouddrove/iam/aws
 
 Terraform module which creates IAM resources on AWS
@@ -522,6 +514,14 @@ Terraform module which creates IAM resources on AWS
   - `clouddrove/iam/aws//modules/iam-policy`
   - `clouddrove/iam/aws//modules/iam-read-only-policy`
   - `clouddrove/iam/aws//modules/iam-user`
+
+### clouddrove/amplify/aws
+
+Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
+
+- source: `clouddrove/amplify/aws`
+- version: `1.4.2`
+- repository: https://github.com/clouddrove/terraform-aws-amplify
 
 ### clouddrove/athena/aws
 
@@ -937,6 +937,14 @@ This Terraform module is used to create Azure data factory on AZURE.  Azure Data
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-data-factory
 
+### terraform-az-modules/sentinel/azurerm
+
+This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
+
+- source: `terraform-az-modules/sentinel/azurerm`
+- version: `3.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
+
 ### terraform-az-modules/service-principle/azurerm
 
 Terraform module for service-principle
@@ -960,14 +968,6 @@ This terraform module is designed to create Azure Databricks resources. Azure Da
 - source: `terraform-az-modules/databricks/azurerm`
 - version: `1.0.5`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
-
-### terraform-az-modules/sentinel/azurerm
-
-This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
-
-- source: `terraform-az-modules/sentinel/azurerm`
-- version: `3.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
 
 ### terraform-az-modules/sql-managed-instance/azurerm
 
