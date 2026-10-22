@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-21T03:16:14Z.
+Generated 2026-10-22T03:15:21Z.
 
 ## Usage
 
@@ -881,6 +881,14 @@ About Terraform module to create data factory resource on AZURE. Azure Data Fact
 - version: `2.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
 
+### terraform-az-modules/sentinel/azurerm
+
+This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
+
+- source: `terraform-az-modules/sentinel/azurerm`
+- version: `3.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
+
 ### terraform-az-modules/service-bus/azurerm
 
 This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
@@ -937,14 +945,6 @@ This Terraform module is used to create Azure data factory on AZURE.  Azure Data
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-data-factory
 
-### terraform-az-modules/sentinel/azurerm
-
-This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
-
-- source: `terraform-az-modules/sentinel/azurerm`
-- version: `3.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
-
 ### terraform-az-modules/service-principle/azurerm
 
 Terraform module for service-principle
@@ -993,14 +993,6 @@ This Terraform module is used to create firewall resource on AZURE. AZURE Firewa
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
 
-### terraform-az-modules/functions-app/azurerm
-
-This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
-
-- source: `terraform-az-modules/functions-app/azurerm`
-- version: `2.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
-
 ### terraform-az-modules/flexible-mysql/azurerm
 
 Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
@@ -1008,6 +1000,14 @@ Terraform module to create flexible-MySQL resource on AZURE. Azure offers a mana
 - source: `terraform-az-modules/flexible-mysql/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+
+### terraform-az-modules/functions-app/azurerm
+
+This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
+
+- source: `terraform-az-modules/functions-app/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-functions-app
 
 ### terraform-az-modules/logic-app/azurerm
 
