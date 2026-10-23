@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-22T03:15:21Z.
+Generated 2026-10-23T03:15:24Z.
 
 ## Usage
 
@@ -873,14 +873,6 @@ This terraform module is designed to create Azure private dns resolver resources
 - version: `1.0.4`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
 
-### terraform-az-modules/communication-service/azurerm
-
-About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
-
-- source: `terraform-az-modules/communication-service/azurerm`
-- version: `2.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
-
 ### terraform-az-modules/sentinel/azurerm
 
 This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
@@ -888,6 +880,14 @@ This Terraform module is used to create azure sentinel resource on AZURE.  Micro
 - source: `terraform-az-modules/sentinel/azurerm`
 - version: `3.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
+
+### terraform-az-modules/communication-service/azurerm
+
+About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/communication-service/azurerm`
+- version: `2.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
 
 ### terraform-az-modules/service-bus/azurerm
 

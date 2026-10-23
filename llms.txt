@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-10-22T03:15:21Z.
+Generated 2026-10-23T03:15:24Z.
 
 ## Catalog
 
@@ -119,8 +119,8 @@ Generated 2026-10-22T03:15:21Z.
 - [terraform-az-modules/redis-cache/azurerm](https://registry.terraform.io/modules/terraform-az-modules/redis-cache/azurerm): This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
 - [terraform-az-modules/waf/azurerm](https://registry.terraform.io/modules/terraform-az-modules/waf/azurerm): This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
 - [terraform-az-modules/private-dns-resolver/azurerm](https://registry.terraform.io/modules/terraform-az-modules/private-dns-resolver/azurerm): This terraform module is designed to create Azure private dns resolver resources.
-- [terraform-az-modules/communication-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/communication-service/azurerm): About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
 - [terraform-az-modules/sentinel/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sentinel/azurerm): This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
+- [terraform-az-modules/communication-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/communication-service/azurerm): About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
 - [terraform-az-modules/service-bus/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-bus/azurerm): This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
 - [terraform-az-modules/mssql-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/mssql-db/azurerm): This terraform module is designed to create Azure mssql database resources. Azure SQL Database is a fully managed relational database-as-a-service (PaaS) built on the Microsoft SQL Server engine. It is designed to handle core database management functions—such as patching, backups, and monitoring—automatically,.
 - [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
