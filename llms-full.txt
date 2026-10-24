@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-23T03:15:24Z.
+Generated 2026-10-24T03:14:17Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.1`
+- version: `2.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -801,14 +801,6 @@ This terraform module is designed to create Azure Postgres flexible mysql resour
 - version: `1.0.7`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-postgresql
 
-### terraform-az-modules/application-insights/azurerm
-
-This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
-
-- source: `terraform-az-modules/application-insights/azurerm`
-- version: `1.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
-
 ### terraform-az-modules/virtual-machine/azurerm
 
 Terraform module to create virtual machine resource on AZURE. Azure Virtual Machines are on-demand, scalable computing resources offered by Microsoft Azure.
@@ -816,6 +808,14 @@ Terraform module to create virtual machine resource on AZURE. Azure Virtual Mach
 - source: `terraform-az-modules/virtual-machine/azurerm`
 - version: `1.4.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-machine
+
+### terraform-az-modules/application-insights/azurerm
+
+This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
+
+- source: `terraform-az-modules/application-insights/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
 
 ### terraform-az-modules/cognitive/azurerm
 
@@ -921,14 +921,6 @@ About This terraform module is designed to create Azure Databricks resources. Az
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
 
-### terraform-az-modules/static-web-app/azurerm
-
-Terraform module for static-web-app
-
-- source: `terraform-az-modules/static-web-app/azurerm`
-- version: `1.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
-
 ### terraform-az-modules/load-balancer/azurerm
 
 This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
@@ -936,6 +928,14 @@ This terraform module is designed to create Azure network load balancer resource
 - source: `terraform-az-modules/load-balancer/azurerm`
 - version: `4.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
+
+### terraform-az-modules/static-web-app/azurerm
+
+Terraform module for static-web-app
+
+- source: `terraform-az-modules/static-web-app/azurerm`
+- version: `1.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
 
 ### terraform-az-modules/data-factory/azurerm
 
@@ -953,14 +953,6 @@ Terraform module for service-principle
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
-### terraform-az-modules/vmss-agent/azurerm
-
-Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
-
-- source: `terraform-az-modules/vmss-agent/azurerm`
-- version: `1.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
-
 ### terraform-az-modules/databricks/azurerm
 
 This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
@@ -968,6 +960,14 @@ This terraform module is designed to create Azure Databricks resources. Azure Da
 - source: `terraform-az-modules/databricks/azurerm`
 - version: `1.0.5`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
+
+### terraform-az-modules/vmss-agent/azurerm
+
+Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
+
+- source: `terraform-az-modules/vmss-agent/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
 
 ### terraform-az-modules/sql-managed-instance/azurerm
 
@@ -985,14 +985,6 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
 
-### terraform-az-modules/firewall/azurerm
-
-This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
-
-- source: `terraform-az-modules/firewall/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
-
 ### terraform-az-modules/flexible-mysql/azurerm
 
 Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
@@ -1000,6 +992,14 @@ Terraform module to create flexible-MySQL resource on AZURE. Azure offers a mana
 - source: `terraform-az-modules/flexible-mysql/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+
+### terraform-az-modules/firewall/azurerm
+
+This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/firewall/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
 
 ### terraform-az-modules/functions-app/azurerm
 
@@ -1149,14 +1149,6 @@ Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls ar
 - version: `1.0.5`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-firewall
 
-### terraform-do-modules/certificate/digitalocean
-
-Provides a DigitalOcean Certificate resource that allows you to manage certificates.
-
-- source: `terraform-do-modules/certificate/digitalocean`
-- version: `1.0.4`
-- repository: https://github.com/terraform-do-modules/terraform-digitalocean-certificate
-
 ### terraform-do-modules/container-registry/digitalocean
 
 Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
@@ -1164,6 +1156,14 @@ Terraform module to create container registry. The DigitalOcean Container Regist
 - source: `terraform-do-modules/container-registry/digitalocean`
 - version: `1.0.7`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-container-registry
+
+### terraform-do-modules/certificate/digitalocean
+
+Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+
+- source: `terraform-do-modules/certificate/digitalocean`
+- version: `1.0.4`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-certificate
 
 ### terraform-do-modules/domain/digitalocean
 
@@ -1276,6 +1276,17 @@ Terraform module for Hetzner Cloud SSL/TLS certificates
   - `terraform-hc-modules/certificate/hcloud//modules/managed`
   - `terraform-hc-modules/certificate/hcloud//modules/uploaded`
 
+### terraform-hc-modules/dns/hcloud
+
+Terraform module for Hetzner DNS zones and records
+
+- source: `terraform-hc-modules/dns/hcloud`
+- version: `0.6.0`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-dns
+- submodules:
+  - `terraform-hc-modules/dns/hcloud//modules/records`
+  - `terraform-hc-modules/dns/hcloud//modules/zone`
+
 ### terraform-hc-modules/ip/hcloud
 
 Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
@@ -1287,17 +1298,6 @@ Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
   - `terraform-hc-modules/ip/hcloud//modules/floating-ip`
   - `terraform-hc-modules/ip/hcloud//modules/primary-ip`
   - `terraform-hc-modules/ip/hcloud//modules/rdns`
-
-### terraform-hc-modules/dns/hcloud
-
-Terraform module for Hetzner DNS zones and records
-
-- source: `terraform-hc-modules/dns/hcloud`
-- version: `0.6.0`
-- repository: https://github.com/terraform-hc-modules/terraform-hcloud-dns
-- submodules:
-  - `terraform-hc-modules/dns/hcloud//modules/records`
-  - `terraform-hc-modules/dns/hcloud//modules/zone`
 
 ### terraform-hc-modules/storage-box/hcloud
 
