@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-24T03:14:17Z.
+Generated 2026-10-25T03:15:34Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
