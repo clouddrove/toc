@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-26T03:18:41Z.
+Generated 2026-10-27T03:15:34Z.
 
 ## Usage
 
@@ -273,14 +273,6 @@ Terraform module which creates RDS Aurora database resources on AWS and can crea
 - version: `2.0.0`
 - repository: https://github.com/clouddrove/terraform-aws-aurora
 
-### clouddrove/vpc-peering/aws
-
-Terraform module to connect two VPC's on AWS.
-
-- source: `clouddrove/vpc-peering/aws`
-- version: `1.3.1`
-- repository: https://github.com/clouddrove/terraform-aws-vpc-peering
-
 ### clouddrove/dynamodb/aws
 
 This terraform module is used for create dynamodb resources in AWS.
@@ -288,6 +280,14 @@ This terraform module is used for create dynamodb resources in AWS.
 - source: `clouddrove/dynamodb/aws`
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-dynamodb
+
+### clouddrove/vpc-peering/aws
+
+Terraform module to connect two VPC's on AWS.
+
+- source: `clouddrove/vpc-peering/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-vpc-peering
 
 ### clouddrove/iam-user/aws
 
@@ -905,6 +905,14 @@ This terraform module is designed to create Azure mssql database resources. Azur
 - version: `2.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-mssql-db
 
+### terraform-az-modules/load-balancer/azurerm
+
+This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
+
+- source: `terraform-az-modules/load-balancer/azurerm`
+- version: `4.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
+
 ### terraform-az-modules/managed-devops-pool/azurerm
 
 This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
@@ -920,14 +928,6 @@ About This terraform module is designed to create Azure Databricks resources. Az
 - source: `terraform-az-modules/app-service/azurerm`
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-app-service
-
-### terraform-az-modules/load-balancer/azurerm
-
-This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
-
-- source: `terraform-az-modules/load-balancer/azurerm`
-- version: `4.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
 
 ### terraform-az-modules/static-web-app/azurerm
 
