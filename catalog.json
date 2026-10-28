@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:15:34Z",
+  "generated_at": "2026-10-28T03:12:16Z",
   "clouds": [
     {
       "cloud": "AWS",
@@ -9,7 +9,7 @@
       "repo_prefix": "terraform-aws-",
       "module_count": 80,
       "submodule_count": 29,
-      "downloads": 3998723,
+      "downloads": 4002529,
       "modules": [
         {
           "repo": "terraform-aws-labels",
@@ -20,7 +20,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/labels/aws",
           "published": true,
           "version": "1.3.1",
-          "downloads": 1880665,
+          "downloads": 1882333,
           "stars": 43,
           "forks": 18,
           "topics": [
@@ -41,7 +41,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/kms/aws",
           "published": true,
           "version": "1.3.4",
-          "downloads": 811801,
+          "downloads": 812171,
           "stars": 21,
           "forks": 13,
           "topics": [
@@ -64,7 +64,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/iam-role/aws",
           "published": true,
           "version": "1.4.0",
-          "downloads": 91755,
+          "downloads": 92037,
           "stars": 11,
           "forks": 14,
           "topics": [
@@ -97,7 +97,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/api-gateway/aws",
           "published": true,
           "version": "1.6.1",
-          "downloads": 87577,
+          "downloads": 87606,
           "stars": 73,
           "forks": 71,
           "topics": [
@@ -119,7 +119,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/route53-record/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 78923,
+          "downloads": 78953,
           "stars": 9,
           "forks": 10,
           "topics": [
@@ -143,7 +143,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/vpc/aws",
           "published": true,
           "version": "2.0.5",
-          "downloads": 71782,
+          "downloads": 71895,
           "stars": 37,
           "forks": 22,
           "topics": [
@@ -167,7 +167,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/subnet/aws",
           "published": true,
           "version": "2.0.3",
-          "downloads": 71716,
+          "downloads": 71828,
           "stars": 42,
           "forks": 19,
           "topics": [
@@ -195,7 +195,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/elasticache/aws",
           "published": true,
           "version": "2.1.4",
-          "downloads": 61669,
+          "downloads": 61701,
           "stars": 46,
           "forks": 29,
           "topics": [
@@ -223,7 +223,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/security-group/aws",
           "published": true,
           "version": "2.0.3",
-          "downloads": 59479,
+          "downloads": 59538,
           "stars": 23,
           "forks": 17,
           "topics": [
@@ -249,7 +249,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/ses/aws",
           "published": true,
           "version": "1.3.4",
-          "downloads": 49059,
+          "downloads": 49084,
           "stars": 28,
           "forks": 25,
           "topics": [
@@ -274,7 +274,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/s3/aws",
           "published": true,
           "version": "2.0.1",
-          "downloads": 46885,
+          "downloads": 46956,
           "stars": 34,
           "forks": 15,
           "topics": [
@@ -302,7 +302,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cloudwatch-alarms/aws",
           "published": true,
           "version": "1.3.3",
-          "downloads": 42754,
+          "downloads": 42781,
           "stars": 44,
           "forks": 30,
           "topics": [
@@ -324,7 +324,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/ec2/aws",
           "published": true,
           "version": "2.1.1",
-          "downloads": 29926,
+          "downloads": 30031,
           "stars": 53,
           "forks": 41,
           "topics": [
@@ -344,7 +344,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/sns/aws",
           "published": true,
           "version": "1.3.1",
-          "downloads": 29185,
+          "downloads": 29235,
           "stars": 19,
           "forks": 8,
           "topics": [
@@ -370,7 +370,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/acm/aws",
           "published": true,
           "version": "1.4.3",
-          "downloads": 27305,
+          "downloads": 27368,
           "stars": 9,
           "forks": 13,
           "topics": [
@@ -396,7 +396,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/lambda/aws",
           "published": true,
           "version": "1.3.3",
-          "downloads": 25879,
+          "downloads": 25895,
           "stars": 22,
           "forks": 14,
           "topics": [
@@ -419,7 +419,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/ecr/aws",
           "published": true,
           "version": "1.3.3",
-          "downloads": 22503,
+          "downloads": 22520,
           "stars": 26,
           "forks": 17,
           "topics": [
@@ -446,7 +446,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/eks/aws",
           "published": true,
           "version": "1.4.8",
-          "downloads": 21405,
+          "downloads": 21443,
           "stars": 17,
           "forks": 12,
           "topics": [
@@ -475,7 +475,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/route53/aws",
           "published": true,
           "version": "1.0.4",
-          "downloads": 20295,
+          "downloads": 20345,
           "stars": 16,
           "forks": 21,
           "topics": [
@@ -499,7 +499,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/keypair/aws",
           "published": true,
           "version": "1.3.4",
-          "downloads": 19877,
+          "downloads": 19882,
           "stars": 12,
           "forks": 7,
           "topics": [
@@ -523,7 +523,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws",
           "published": true,
           "version": "1.0.3",
-          "downloads": 19844,
+          "downloads": 19878,
           "stars": 8,
           "forks": 10,
           "topics": [],
@@ -538,7 +538,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/elasticsearch/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 19672,
+          "downloads": 19715,
           "stars": 13,
           "forks": 10,
           "topics": [
@@ -561,7 +561,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/secrets-manager/aws",
           "published": true,
           "version": "2.0.1",
-          "downloads": 19454,
+          "downloads": 19503,
           "stars": 1,
           "forks": 2,
           "topics": [],
@@ -576,7 +576,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/sftp/aws",
           "published": true,
           "version": "1.3.4",
-          "downloads": 18293,
+          "downloads": 18300,
           "stars": 36,
           "forks": 24,
           "topics": [
@@ -601,7 +601,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cross-account-role/aws",
           "published": true,
           "version": "0.15.1",
-          "downloads": 18028,
+          "downloads": 18030,
           "stars": 13,
           "forks": 12,
           "topics": [
@@ -627,7 +627,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cognito/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 17637,
+          "downloads": 17693,
           "stars": 3,
           "forks": 3,
           "topics": [],
@@ -642,7 +642,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/alb/aws",
           "published": true,
           "version": "2.0.1",
-          "downloads": 17513,
+          "downloads": 17573,
           "stars": 17,
           "forks": 16,
           "topics": [
@@ -664,7 +664,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/client-vpn/aws",
           "published": true,
           "version": "1.0.10",
-          "downloads": 16720,
+          "downloads": 16762,
           "stars": 9,
           "forks": 9,
           "topics": [],
@@ -679,7 +679,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/waf/aws",
           "published": true,
           "version": "2.1.3",
-          "downloads": 16639,
+          "downloads": 16698,
           "stars": 5,
           "forks": 5,
           "topics": [
@@ -699,7 +699,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/sqs/aws",
           "published": true,
           "version": "1.3.1",
-          "downloads": 16498,
+          "downloads": 16525,
           "stars": 7,
           "forks": 10,
           "topics": [
@@ -721,7 +721,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cloudtrail/aws",
           "published": true,
           "version": "1.4.4",
-          "downloads": 15489,
+          "downloads": 15514,
           "stars": 11,
           "forks": 12,
           "topics": [
@@ -742,7 +742,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/aurora/aws",
           "published": true,
           "version": "2.0.0",
-          "downloads": 13735,
+          "downloads": 13757,
           "stars": 26,
           "forks": 19,
           "topics": [
@@ -766,7 +766,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/dynamodb/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 13274,
+          "downloads": 13292,
           "stars": 5,
           "forks": 2,
           "topics": [],
@@ -781,7 +781,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/vpc-peering/aws",
           "published": true,
           "version": "1.3.1",
-          "downloads": 13238,
+          "downloads": 13240,
           "stars": 17,
           "forks": 12,
           "topics": [
@@ -802,7 +802,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/iam-user/aws",
           "published": true,
           "version": "1.3.3",
-          "downloads": 12230,
+          "downloads": 12235,
           "stars": 8,
           "forks": 11,
           "topics": [
@@ -825,7 +825,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/eks-addons/aws",
           "published": true,
           "version": "0.4.0",
-          "downloads": 10678,
+          "downloads": 10684,
           "stars": 23,
           "forks": 12,
           "topics": [
@@ -852,7 +852,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/efs/aws",
           "published": true,
           "version": "2.0.1",
-          "downloads": 10556,
+          "downloads": 10560,
           "stars": 10,
           "forks": 6,
           "topics": [
@@ -878,7 +878,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cloudfront/aws",
           "published": true,
           "version": "1.2.0",
-          "downloads": 10538,
+          "downloads": 10546,
           "stars": 1,
           "forks": 2,
           "topics": [
@@ -904,7 +904,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/security-hub/aws",
           "published": true,
           "version": "1.0.3",
-          "downloads": 9797,
+          "downloads": 9824,
           "stars": 2,
           "forks": 5,
           "topics": [
@@ -925,7 +925,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/transit-gateway/aws",
           "published": true,
           "version": "2.0.1",
-          "downloads": 9353,
+          "downloads": 9358,
           "stars": 4,
           "forks": 1,
           "topics": [
@@ -953,7 +953,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/ec2-autoscaling/aws",
           "published": true,
           "version": "1.5.0",
-          "downloads": 9329,
+          "downloads": 9338,
           "stars": 4,
           "forks": 5,
           "topics": [],
@@ -968,7 +968,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/multi-account-peering/aws",
           "published": true,
           "version": "1.1.1",
-          "downloads": 9141,
+          "downloads": 9143,
           "stars": 10,
           "forks": 7,
           "topics": [
@@ -992,7 +992,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/vpn/aws",
           "published": true,
           "version": "2.0.1",
-          "downloads": 8360,
+          "downloads": 8362,
           "stars": 12,
           "forks": 5,
           "topics": [
@@ -1019,7 +1019,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/lightsail/aws",
           "published": true,
           "version": "1.3.2",
-          "downloads": 7888,
+          "downloads": 7892,
           "stars": 22,
           "forks": 12,
           "topics": [],
@@ -1034,7 +1034,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cloudwatch-dashboard/aws",
           "published": true,
           "version": "1.0.1",
-          "downloads": 7746,
+          "downloads": 7781,
           "stars": 1,
           "forks": 1,
           "topics": [
@@ -1053,7 +1053,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 7394,
+          "downloads": 7396,
           "stars": 4,
           "forks": 4,
           "topics": [],
@@ -1068,7 +1068,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/mysql/aws",
           "published": true,
           "version": "1.3.4",
-          "downloads": 7310,
+          "downloads": 7312,
           "stars": 0,
           "forks": 9,
           "topics": [],
@@ -1083,7 +1083,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/eventbridge/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 7235,
+          "downloads": 7241,
           "stars": 0,
           "forks": 2,
           "topics": [],
@@ -1098,7 +1098,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/active-directory/aws",
           "published": true,
           "version": "1.0.4",
-          "downloads": 7021,
+          "downloads": 7023,
           "stars": 3,
           "forks": 5,
           "topics": [],
@@ -1113,7 +1113,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/macie/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 6422,
+          "downloads": 6424,
           "stars": 1,
           "forks": 4,
           "topics": [
@@ -1135,7 +1135,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/pritunl/aws",
           "published": true,
           "version": "1.3.1",
-          "downloads": 6175,
+          "downloads": 6177,
           "stars": 0,
           "forks": 2,
           "topics": [
@@ -1154,7 +1154,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/mfa/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 6129,
+          "downloads": 6131,
           "stars": 0,
           "forks": 5,
           "topics": [],
@@ -1169,7 +1169,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/secure-baseline/aws",
           "published": true,
           "version": "1.3.1",
-          "downloads": 5754,
+          "downloads": 5756,
           "stars": 14,
           "forks": 5,
           "topics": [
@@ -1247,7 +1247,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/backup/aws",
           "published": true,
           "version": "1.3.2",
-          "downloads": 5036,
+          "downloads": 5065,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -1267,7 +1267,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cloudtrail-slack-notification/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 4767,
+          "downloads": 4769,
           "stars": 8,
           "forks": 5,
           "topics": [
@@ -1291,7 +1291,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/documentdb/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 4631,
+          "downloads": 4633,
           "stars": 0,
           "forks": 1,
           "topics": [],
@@ -1306,7 +1306,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cost-billing-alarm/aws",
           "published": true,
           "version": "1.0.3",
-          "downloads": 4386,
+          "downloads": 4388,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -1327,7 +1327,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/cloudwatch-synthetics/aws",
           "published": true,
           "version": "1.3.2",
-          "downloads": 3680,
+          "downloads": 3682,
           "stars": 1,
           "forks": 5,
           "topics": [],
@@ -1342,7 +1342,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/iam/aws",
           "published": true,
           "version": "4.11.0",
-          "downloads": 3515,
+          "downloads": 3517,
           "stars": 0,
           "forks": 1,
           "topics": [],
@@ -1437,7 +1437,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/athena/aws",
           "published": true,
           "version": "1.0.1",
-          "downloads": 3397,
+          "downloads": 3399,
           "stars": 0,
           "forks": 1,
           "topics": [],
@@ -1452,7 +1452,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/workspace/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 3371,
+          "downloads": 3373,
           "stars": 0,
           "forks": 6,
           "topics": [],
@@ -1487,7 +1487,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/msk/aws",
           "published": true,
           "version": "1.3.0",
-          "downloads": 2766,
+          "downloads": 2768,
           "stars": 2,
           "forks": 2,
           "topics": [
@@ -1507,7 +1507,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/ecs/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 2727,
+          "downloads": 2740,
           "stars": 3,
           "forks": 5,
           "topics": [],
@@ -1562,7 +1562,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/bastion/aws",
           "published": true,
           "version": "1.0.1",
-          "downloads": 2253,
+          "downloads": 2260,
           "stars": 2,
           "forks": 0,
           "topics": [],
@@ -1617,7 +1617,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/health-notifier/aws",
           "published": true,
           "version": "0.1.0",
-          "downloads": 839,
+          "downloads": 843,
           "stars": 0,
           "forks": 3,
           "topics": [],
@@ -1632,7 +1632,7 @@
           "registry_url": "https://registry.terraform.io/modules/clouddrove/karpenter/aws",
           "published": true,
           "version": "1.0.2",
-          "downloads": 244,
+          "downloads": 246,
           "stars": 1,
           "forks": 1,
           "topics": [
@@ -1802,7 +1802,7 @@
       "repo_prefix": "terraform-azurerm-",
       "module_count": 46,
       "submodule_count": 3,
-      "downloads": 101434,
+      "downloads": 101521,
       "modules": [
         {
           "repo": "terraform-azurerm-tags",
@@ -1813,7 +1813,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/tags/azurerm",
           "published": true,
           "version": "1.0.2",
-          "downloads": 23120,
+          "downloads": 23161,
           "stars": 1,
           "forks": 1,
           "topics": [
@@ -1834,7 +1834,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/resource-group/azurerm",
           "published": true,
           "version": "1.0.4",
-          "downloads": 15372,
+          "downloads": 15378,
           "stars": 0,
           "forks": 4,
           "topics": [
@@ -1860,7 +1860,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/vnet/azurerm",
           "published": true,
           "version": "1.0.4",
-          "downloads": 12444,
+          "downloads": 12447,
           "stars": 0,
           "forks": 2,
           "topics": [
@@ -1885,7 +1885,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/subnet/azurerm",
           "published": true,
           "version": "1.0.3",
-          "downloads": 10972,
+          "downloads": 10974,
           "stars": 1,
           "forks": 3,
           "topics": [
@@ -1919,7 +1919,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/log-analytics/azurerm",
           "published": true,
           "version": "2.1.0",
-          "downloads": 8730,
+          "downloads": 8732,
           "stars": 0,
           "forks": 3,
           "topics": [
@@ -2014,7 +2014,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/storage/azurerm",
           "published": true,
           "version": "4.0.0",
-          "downloads": 2086,
+          "downloads": 2094,
           "stars": 1,
           "forks": 1,
           "topics": [
@@ -2037,7 +2037,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/aks/azurerm",
           "published": true,
           "version": "1.0.8",
-          "downloads": 1588,
+          "downloads": 1590,
           "stars": 2,
           "forks": 1,
           "topics": [
@@ -2119,7 +2119,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/flexible-postgresql/azurerm",
           "published": true,
           "version": "1.0.7",
-          "downloads": 1097,
+          "downloads": 1099,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -2191,7 +2191,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/cognitive/azurerm",
           "published": true,
           "version": "5.0.0",
-          "downloads": 831,
+          "downloads": 833,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -2262,7 +2262,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/dns/azurerm",
           "published": true,
           "version": "1.0.1",
-          "downloads": 533,
+          "downloads": 547,
           "stars": 0,
           "forks": 1,
           "topics": [],
@@ -2277,7 +2277,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/redis-cache/azurerm",
           "published": true,
           "version": "2.1.0",
-          "downloads": 285,
+          "downloads": 287,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -2368,7 +2368,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/communication-service/azurerm",
           "published": true,
           "version": "2.0.1",
-          "downloads": 198,
+          "downloads": 200,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -2584,7 +2584,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-az-modules/vmss-agent/azurerm",
           "published": true,
           "version": "1.1.0",
-          "downloads": 84,
+          "downloads": 85,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -2894,7 +2894,7 @@
       "repo_prefix": "terraform-digitalocean-",
       "module_count": 17,
       "submodule_count": 0,
-      "downloads": 98189,
+      "downloads": 98480,
       "modules": [
         {
           "repo": "terraform-digitalocean-labels",
@@ -2905,7 +2905,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-do-modules/labels/digitalocean",
           "published": true,
           "version": "1.0.7",
-          "downloads": 49963,
+          "downloads": 50154,
           "stars": 10,
           "forks": 2,
           "topics": [
@@ -2930,7 +2930,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-do-modules/vpc/digitalocean",
           "published": true,
           "version": "1.0.0",
-          "downloads": 12780,
+          "downloads": 12812,
           "stars": 12,
           "forks": 1,
           "topics": [
@@ -2956,7 +2956,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-do-modules/spaces/digitalocean",
           "published": true,
           "version": "1.0.7",
-          "downloads": 10723,
+          "downloads": 10785,
           "stars": 9,
           "forks": 1,
           "topics": [
@@ -3079,7 +3079,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-do-modules/container-registry/digitalocean",
           "published": true,
           "version": "1.0.7",
-          "downloads": 1271,
+          "downloads": 1274,
           "stars": 7,
           "forks": 2,
           "topics": [
@@ -3129,7 +3129,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-do-modules/domain/digitalocean",
           "published": true,
           "version": "1.0.6",
-          "downloads": 1065,
+          "downloads": 1068,
           "stars": 8,
           "forks": 0,
           "topics": [
@@ -3318,7 +3318,7 @@
       "repo_prefix": "terraform-hcloud-",
       "module_count": 7,
       "submodule_count": 16,
-      "downloads": 555,
+      "downloads": 556,
       "modules": [
         {
           "repo": "terraform-hcloud-compute",
@@ -3544,7 +3544,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud",
           "published": true,
           "version": "1.1.1",
-          "downloads": 38,
+          "downloads": 39,
           "stars": 0,
           "forks": 1,
           "topics": [
@@ -3573,7 +3573,7 @@
       "repo_prefix": "terraform-cloudflare-",
       "module_count": 6,
       "submodule_count": 46,
-      "downloads": 1866,
+      "downloads": 1872,
       "modules": [
         {
           "repo": "terraform-cloudflare-zero-trust",
@@ -3584,7 +3584,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-cf-modules/zero-trust/cloudflare",
           "published": true,
           "version": "0.0.1",
-          "downloads": 833,
+          "downloads": 836,
           "stars": 0,
           "forks": 0,
           "topics": [
@@ -3646,7 +3646,7 @@
           "registry_url": "https://registry.terraform.io/modules/terraform-cf-modules/zone/cloudflare",
           "published": true,
           "version": "0.0.1",
-          "downloads": 669,
+          "downloads": 672,
           "stars": 1,
           "forks": 0,
           "topics": [
@@ -4142,7 +4142,7 @@
     "modules": 159,
     "submodules": 94,
     "addressable_units": 253,
-    "registry_downloads": 4200767,
+    "registry_downloads": 4204958,
     "collections": 27
   }
 }
