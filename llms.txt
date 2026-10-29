@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-10-28T03:12:16Z.
+Generated 2026-10-29T03:12:09Z.
 
 ## Catalog
 
@@ -33,8 +33,8 @@ Generated 2026-10-28T03:12:16Z.
 - [clouddrove/ecr/aws](https://registry.terraform.io/modules/clouddrove/ecr/aws): This terraform module is used to create ECR on AWS.
 - [clouddrove/eks/aws](https://registry.terraform.io/modules/clouddrove/eks/aws): Terraform module will be created Autoscaling, Workers, EKS.
 - [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
-- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/cloudwatch-event-rule/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws): Terraform module to create cloudwatch event rule on AWS.
+- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
 - [clouddrove/sftp/aws](https://registry.terraform.io/modules/clouddrove/sftp/aws): This terraform module is used to create sftp on AWS for S3.
@@ -139,10 +139,10 @@ Generated 2026-10-28T03:12:16Z.
 - [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
 - [terraform-az-modules/cosmos-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cosmos-db/azurerm): This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
 - [terraform-az-modules/bastion/azurerm](https://registry.terraform.io/modules/terraform-az-modules/bastion/azurerm): Terraform module for bastion
+- [terraform-az-modules/virtual-wan/azurerm](https://registry.terraform.io/modules/terraform-az-modules/virtual-wan/azurerm): Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
 - [terraform-azurerm-api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management): Terraform module for api-management [not yet on the Terraform Registry]
 - [terraform-azurerm-automation-account](https://github.com/terraform-az-modules/terraform-azurerm-automation-account): Terraform module for automation-account [not yet on the Terraform Registry]
 - [terraform-azurerm-diagnostic-settings](https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings): Terraform module for diagnostic-settings [not yet on the Terraform Registry]
-- [terraform-azurerm-virtual-wan](https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan): Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections. [not yet on the Terraform Registry]
 
 ## Google Cloud
 
