@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-10-29T03:12:09Z.
+Generated 2026-10-30T03:12:05Z.
 
 ## Catalog
 
@@ -50,8 +50,8 @@ Generated 2026-10-29T03:12:09Z.
 - [clouddrove/vpc-peering/aws](https://registry.terraform.io/modules/clouddrove/vpc-peering/aws): Terraform module to connect two VPC's on AWS.
 - [clouddrove/iam-user/aws](https://registry.terraform.io/modules/clouddrove/iam-user/aws): Terraform module to create Iam user resource on AWS.
 - [clouddrove/eks-addons/aws](https://registry.terraform.io/modules/clouddrove/eks-addons/aws): Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS. (1 submodule)
-- [clouddrove/efs/aws](https://registry.terraform.io/modules/clouddrove/efs/aws): Terraform module to create or deploy EFS on AWS.
 - [clouddrove/cloudfront/aws](https://registry.terraform.io/modules/clouddrove/cloudfront/aws): Terraform module provisions CloudFront CDN resource on AWS.
+- [clouddrove/efs/aws](https://registry.terraform.io/modules/clouddrove/efs/aws): Terraform module to create or deploy EFS on AWS.
 - [clouddrove/security-hub/aws](https://registry.terraform.io/modules/clouddrove/security-hub/aws): This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 - [clouddrove/transit-gateway/aws](https://registry.terraform.io/modules/clouddrove/transit-gateway/aws): Terraform module to create Transit gateway resource on AWS.
 - [clouddrove/ec2-autoscaling/aws](https://registry.terraform.io/modules/clouddrove/ec2-autoscaling/aws): Terraform module will be created EC2 modulewith Autoscaling group.
@@ -114,8 +114,8 @@ Generated 2026-10-29T03:12:09Z.
 - [terraform-az-modules/application-insights/azurerm](https://registry.terraform.io/modules/terraform-az-modules/application-insights/azurerm): This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
 - [terraform-az-modules/cognitive/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cognitive/azurerm): This terraform module is designed to create Azure Cognitive services.  Azure Cognitive Services (now often branded under Azure AI Foundry tools) are pre-built, cloud-based AI APIs that allow developers to integrate intelligence—such as vision, speech, language, and decision-making—into applications .
 - [terraform-az-modules/application-gateway/azurerm](https://registry.terraform.io/modules/terraform-az-modules/application-gateway/azurerm): This Terraform module creates Azure Application Gateway resources. Application Gateway is a layer 7 load balancer that manages traffic to web applications, offering features like SSL termination, Web Application Firewall (WAF) integration, and URL-based routing for enhanced security and performance.
-- [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 - [terraform-az-modules/dns/azurerm](https://registry.terraform.io/modules/terraform-az-modules/dns/azurerm): Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
+- [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 - [terraform-az-modules/redis-cache/azurerm](https://registry.terraform.io/modules/terraform-az-modules/redis-cache/azurerm): This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
 - [terraform-az-modules/waf/azurerm](https://registry.terraform.io/modules/terraform-az-modules/waf/azurerm): This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
 - [terraform-az-modules/private-dns-resolver/azurerm](https://registry.terraform.io/modules/terraform-az-modules/private-dns-resolver/azurerm): This terraform module is designed to create Azure private dns resolver resources.

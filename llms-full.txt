@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-10-29T03:12:09Z.
+Generated 2026-10-30T03:12:05Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -307,14 +307,6 @@ Terraform module for installing and managing Helm-based Kubernetes add-ons on Am
 - submodules:
   - `clouddrove/eks-addons/aws//modules/irsa`
 
-### clouddrove/efs/aws
-
-Terraform module to create or deploy EFS on AWS.
-
-- source: `clouddrove/efs/aws`
-- version: `2.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-efs
-
 ### clouddrove/cloudfront/aws
 
 Terraform module provisions CloudFront CDN resource on AWS.
@@ -322,6 +314,14 @@ Terraform module provisions CloudFront CDN resource on AWS.
 - source: `clouddrove/cloudfront/aws`
 - version: `1.2.0`
 - repository: https://github.com/clouddrove/terraform-aws-cloudfront
+
+### clouddrove/efs/aws
+
+Terraform module to create or deploy EFS on AWS.
+
+- source: `clouddrove/efs/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-efs
 
 ### clouddrove/security-hub/aws
 
@@ -833,14 +833,6 @@ This Terraform module creates Azure Application Gateway resources. Application G
 - version: `3.1.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-application-gateway
 
-### terraform-az-modules/vpn/azurerm
-
-This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
-
-- source: `terraform-az-modules/vpn/azurerm`
-- version: `2.0.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-vpn
-
 ### terraform-az-modules/dns/azurerm
 
 Terraform module to create dns resource on AZURE. Azure DNS is a domain name system. it allows to host your DNS domains and manage DNS records within the Azure cloud environment.
@@ -848,6 +840,14 @@ Terraform module to create dns resource on AZURE. Azure DNS is a domain name sys
 - source: `terraform-az-modules/dns/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-dns
+
+### terraform-az-modules/vpn/azurerm
+
+This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
+
+- source: `terraform-az-modules/vpn/azurerm`
+- version: `2.0.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vpn
 
 ### terraform-az-modules/redis-cache/azurerm
 
@@ -1038,7 +1038,7 @@ Terraform module for bastion
 Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
 
 - source: `terraform-az-modules/virtual-wan/azurerm`
-- version: `1.0.0`
+- version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan
 
 ### terraform-az-modules/api-management/azurerm
