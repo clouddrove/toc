@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-03T03:10:10Z.
+Generated 2026-11-04T03:09:56Z.
 
 ## Catalog
 
@@ -34,8 +34,8 @@ Generated 2026-11-03T03:10:10Z.
 - [clouddrove/eks/aws](https://registry.terraform.io/modules/clouddrove/eks/aws): Terraform module will be created Autoscaling, Workers, EKS.
 - [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
 - [clouddrove/cloudwatch-event-rule/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws): Terraform module to create cloudwatch event rule on AWS.
-- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
+- [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
 - [clouddrove/sftp/aws](https://registry.terraform.io/modules/clouddrove/sftp/aws): This terraform module is used to create sftp on AWS for S3.
 - [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
@@ -158,10 +158,10 @@ Generated 2026-11-03T03:10:10Z.
 - [terraform-do-modules/database/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/database/digitalocean): Terraform module to create DATABASE resources. DigitalOcean's Managed Databases are a fully managed, high performance database cluster service. Using managed databases is a powerful alternative to installing, configuring, maintaining, and securing databases by hand.
 - [terraform-do-modules/droplet/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/droplet/digitalocean): Provides a DigitalOcean Droplet resource. This can be used to create, modify, and delete Droplets.
 - [terraform-do-modules/kubernetes/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/kubernetes/digitalocean): Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure.
-- [terraform-do-modules/firewall/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/firewall/digitalocean): Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
 - [terraform-do-modules/container-registry/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/container-registry/digitalocean): Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
-- [terraform-do-modules/certificate/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/certificate/digitalocean): Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+- [terraform-do-modules/firewall/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/firewall/digitalocean): Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
 - [terraform-do-modules/domain/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/domain/digitalocean): Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean is not a domain name registrar, but you can manage your DNS records from the DigitalOcean Control Panel. This can make record management easier because DigitalOcean DNS integrates with Droplets and Load Balancers.
+- [terraform-do-modules/certificate/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/certificate/digitalocean): Provides a DigitalOcean Certificate resource that allows you to manage certificates.
 - [terraform-do-modules/ssh-key/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/ssh-key/digitalocean): Terraform module to create  ssh-key. Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
 - [terraform-do-modules/app/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/app/digitalocean): Terraform module to create app resources. App Platform is a Platform-as-a-Service (PaaS) offering that allows developers to publish code directly to DigitalOcean servers without worrying about the underlying infrastructure.
 - [terraform-do-modules/cdn/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/cdn/digitalocean): Terraform module to create CDN resources. DigitalOcean also includes a CDN with DigitalOcean Spaces, our object storage solution, and App Platform, our Platform as a Service solution. Sign up for a DigitalOcean account today to get started.

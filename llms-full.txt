@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-03T03:10:10Z.
+Generated 2026-11-04T03:09:56Z.
 
 ## Usage
 
@@ -118,7 +118,7 @@ Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 
 - source: `clouddrove/ec2/aws`
-- version: `2.1.0`
+- version: `2.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-ec2
 
 ### clouddrove/sns/aws
@@ -177,14 +177,6 @@ Terraform module to create cloudwatch event rule on AWS.
 - version: `1.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule
 
-### clouddrove/keypair/aws
-
-Terraform module for generating or importing an SSH public key file into AWS.
-
-- source: `clouddrove/keypair/aws`
-- version: `1.3.4`
-- repository: https://github.com/clouddrove/terraform-aws-keypair
-
 ### clouddrove/elasticsearch/aws
 
 Terraform module to create an Elasticsearch resource on AWS.
@@ -192,6 +184,14 @@ Terraform module to create an Elasticsearch resource on AWS.
 - source: `clouddrove/elasticsearch/aws`
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-elasticsearch
+
+### clouddrove/keypair/aws
+
+Terraform module for generating or importing an SSH public key file into AWS.
+
+- source: `clouddrove/keypair/aws`
+- version: `1.3.4`
+- repository: https://github.com/clouddrove/terraform-aws-keypair
 
 ### clouddrove/secrets-manager/aws
 
@@ -1141,14 +1141,6 @@ Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOce
 - version: `1.1.9`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-kubernetes
 
-### terraform-do-modules/firewall/digitalocean
-
-Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
-
-- source: `terraform-do-modules/firewall/digitalocean`
-- version: `1.0.5`
-- repository: https://github.com/terraform-do-modules/terraform-digitalocean-firewall
-
 ### terraform-do-modules/container-registry/digitalocean
 
 Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
@@ -1157,13 +1149,13 @@ Terraform module to create container registry. The DigitalOcean Container Regist
 - version: `1.0.7`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-container-registry
 
-### terraform-do-modules/certificate/digitalocean
+### terraform-do-modules/firewall/digitalocean
 
-Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
 
-- source: `terraform-do-modules/certificate/digitalocean`
-- version: `1.0.4`
-- repository: https://github.com/terraform-do-modules/terraform-digitalocean-certificate
+- source: `terraform-do-modules/firewall/digitalocean`
+- version: `1.0.5`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-firewall
 
 ### terraform-do-modules/domain/digitalocean
 
@@ -1172,6 +1164,14 @@ Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean i
 - source: `terraform-do-modules/domain/digitalocean`
 - version: `1.0.6`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-domain
+
+### terraform-do-modules/certificate/digitalocean
+
+Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+
+- source: `terraform-do-modules/certificate/digitalocean`
+- version: `1.0.4`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-certificate
 
 ### terraform-do-modules/ssh-key/digitalocean
 
