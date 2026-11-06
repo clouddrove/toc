@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-05T03:10:27Z.
+Generated 2026-11-06T03:10:25Z.
 
 ## Usage
 
@@ -547,14 +547,6 @@ This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycl
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-lifecycle-manager
 
-### clouddrove/msk/aws
-
-Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
-
-- source: `clouddrove/msk/aws`
-- version: `1.3.0`
-- repository: https://github.com/clouddrove/terraform-aws-msk
-
 ### clouddrove/ecs/aws
 
 Terraform module to create ECS on AWS.
@@ -567,6 +559,14 @@ Terraform module to create ECS on AWS.
   - `clouddrove/ecs/aws//modules/ecs`
   - `clouddrove/ecs/aws//modules/service`
   - `clouddrove/ecs/aws//modules/task-definition`
+
+### clouddrove/msk/aws
+
+Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
+
+- source: `clouddrove/msk/aws`
+- version: `1.3.0`
+- repository: https://github.com/clouddrove/terraform-aws-msk
 
 ### clouddrove/control-tower/aws
 
@@ -873,14 +873,6 @@ This terraform module is designed to create Azure private dns resolver resources
 - version: `1.0.4`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
 
-### terraform-az-modules/sentinel/azurerm
-
-This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
-
-- source: `terraform-az-modules/sentinel/azurerm`
-- version: `3.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
-
 ### terraform-az-modules/communication-service/azurerm
 
 About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
@@ -888,6 +880,14 @@ About Terraform module to create data factory resource on AZURE. Azure Data Fact
 - source: `terraform-az-modules/communication-service/azurerm`
 - version: `2.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
+
+### terraform-az-modules/sentinel/azurerm
+
+This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
+
+- source: `terraform-az-modules/sentinel/azurerm`
+- version: `3.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-sentinel
 
 ### terraform-az-modules/service-bus/azurerm
 
@@ -977,14 +977,6 @@ Terraform module to create Sql managed instance resources . Azure SQL Managed In
 - version: `3.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-sql-managed-instance
 
-### terraform-az-modules/eventhub/azurerm
-
-This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
-
-- source: `terraform-az-modules/eventhub/azurerm`
-- version: `3.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
-
 ### terraform-az-modules/flexible-mysql/azurerm
 
 Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
@@ -992,6 +984,14 @@ Terraform module to create flexible-MySQL resource on AZURE. Azure offers a mana
 - source: `terraform-az-modules/flexible-mysql/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+
+### terraform-az-modules/eventhub/azurerm
+
+This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
+
+- source: `terraform-az-modules/eventhub/azurerm`
+- version: `3.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
 
 ### terraform-az-modules/firewall/azurerm
 
@@ -1149,14 +1149,6 @@ Terraform module to create container registry. The DigitalOcean Container Regist
 - version: `1.0.7`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-container-registry
 
-### terraform-do-modules/firewall/digitalocean
-
-Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
-
-- source: `terraform-do-modules/firewall/digitalocean`
-- version: `1.0.5`
-- repository: https://github.com/terraform-do-modules/terraform-digitalocean-firewall
-
 ### terraform-do-modules/domain/digitalocean
 
 Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean is not a domain name registrar, but you can manage your DNS records from the DigitalOcean Control Panel. This can make record management easier because DigitalOcean DNS integrates with Droplets and Load Balancers.
@@ -1164,6 +1156,14 @@ Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean i
 - source: `terraform-do-modules/domain/digitalocean`
 - version: `1.0.6`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-domain
+
+### terraform-do-modules/firewall/digitalocean
+
+Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
+
+- source: `terraform-do-modules/firewall/digitalocean`
+- version: `1.0.5`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-firewall
 
 ### terraform-do-modules/certificate/digitalocean
 
