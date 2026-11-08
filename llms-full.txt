@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-07T03:09:19Z.
+Generated 2026-11-08T03:10:26Z.
 
 ## Usage
 
