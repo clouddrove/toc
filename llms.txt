@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-08T03:10:26Z.
+Generated 2026-11-09T03:11:49Z.
 
 ## Catalog
 
@@ -49,8 +49,8 @@ Generated 2026-11-08T03:10:26Z.
 - [clouddrove/dynamodb/aws](https://registry.terraform.io/modules/clouddrove/dynamodb/aws): This terraform module is used for create dynamodb resources in AWS.
 - [clouddrove/vpc-peering/aws](https://registry.terraform.io/modules/clouddrove/vpc-peering/aws): Terraform module to connect two VPC's on AWS.
 - [clouddrove/iam-user/aws](https://registry.terraform.io/modules/clouddrove/iam-user/aws): Terraform module to create Iam user resource on AWS.
-- [clouddrove/eks-addons/aws](https://registry.terraform.io/modules/clouddrove/eks-addons/aws): Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS. (1 submodule)
 - [clouddrove/cloudfront/aws](https://registry.terraform.io/modules/clouddrove/cloudfront/aws): Terraform module provisions CloudFront CDN resource on AWS.
+- [clouddrove/eks-addons/aws](https://registry.terraform.io/modules/clouddrove/eks-addons/aws): Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS. (1 submodule)
 - [clouddrove/efs/aws](https://registry.terraform.io/modules/clouddrove/efs/aws): Terraform module to create or deploy EFS on AWS.
 - [clouddrove/security-hub/aws](https://registry.terraform.io/modules/clouddrove/security-hub/aws): This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 - [clouddrove/ec2-autoscaling/aws](https://registry.terraform.io/modules/clouddrove/ec2-autoscaling/aws): Terraform module will be created EC2 modulewith Autoscaling group.

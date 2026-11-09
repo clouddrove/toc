@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-08T03:10:26Z.
+Generated 2026-11-09T03:11:49Z.
 
 ## Usage
 
@@ -297,6 +297,14 @@ Terraform module to create Iam user resource on AWS.
 - version: `1.3.3`
 - repository: https://github.com/clouddrove/terraform-aws-iam-user
 
+### clouddrove/cloudfront/aws
+
+Terraform module provisions CloudFront CDN resource on AWS.
+
+- source: `clouddrove/cloudfront/aws`
+- version: `1.2.0`
+- repository: https://github.com/clouddrove/terraform-aws-cloudfront
+
 ### clouddrove/eks-addons/aws
 
 Terraform module for installing and managing Helm-based Kubernetes add-ons on Amazon EKS.
@@ -306,14 +314,6 @@ Terraform module for installing and managing Helm-based Kubernetes add-ons on Am
 - repository: https://github.com/clouddrove/terraform-aws-eks-addons
 - submodules:
   - `clouddrove/eks-addons/aws//modules/irsa`
-
-### clouddrove/cloudfront/aws
-
-Terraform module provisions CloudFront CDN resource on AWS.
-
-- source: `clouddrove/cloudfront/aws`
-- version: `1.2.0`
-- repository: https://github.com/clouddrove/terraform-aws-cloudfront
 
 ### clouddrove/efs/aws
 
