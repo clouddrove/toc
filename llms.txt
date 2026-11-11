@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-10T03:10:05Z.
+Generated 2026-11-11T03:09:49Z.
 
 ## Catalog
 
@@ -41,8 +41,8 @@ Generated 2026-11-10T03:10:05Z.
 - [clouddrove/cognito/aws](https://registry.terraform.io/modules/clouddrove/cognito/aws): Terraform module to create an Cognito resource on AWS.
 - [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/alb/aws](https://registry.terraform.io/modules/clouddrove/alb/aws): This terraform module is used to create ALB on AWS.
-- [clouddrove/waf/aws](https://registry.terraform.io/modules/clouddrove/waf/aws): This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
 - [clouddrove/client-vpn/aws](https://registry.terraform.io/modules/clouddrove/client-vpn/aws): This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
+- [clouddrove/waf/aws](https://registry.terraform.io/modules/clouddrove/waf/aws): This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
 - [clouddrove/sqs/aws](https://registry.terraform.io/modules/clouddrove/sqs/aws): Terraform module to create SQS resource on AWS for managing queue.
 - [clouddrove/cloudtrail/aws](https://registry.terraform.io/modules/clouddrove/cloudtrail/aws): Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
 - [clouddrove/aurora/aws](https://registry.terraform.io/modules/clouddrove/aurora/aws): Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL.
@@ -136,8 +136,8 @@ Generated 2026-11-10T03:10:05Z.
 - [terraform-az-modules/eventhub/azurerm](https://registry.terraform.io/modules/terraform-az-modules/eventhub/azurerm): This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
 - [terraform-az-modules/firewall/azurerm](https://registry.terraform.io/modules/terraform-az-modules/firewall/azurerm): This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
 - [terraform-az-modules/functions-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/functions-app/azurerm): This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
-- [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
 - [terraform-az-modules/cosmos-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cosmos-db/azurerm): This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
+- [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
 - [terraform-az-modules/bastion/azurerm](https://registry.terraform.io/modules/terraform-az-modules/bastion/azurerm): Terraform module for bastion
 - [terraform-az-modules/virtual-wan/azurerm](https://registry.terraform.io/modules/terraform-az-modules/virtual-wan/azurerm): Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
 - [terraform-azurerm-api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management): Terraform module for api-management [not yet on the Terraform Registry]
@@ -177,8 +177,8 @@ Generated 2026-11-10T03:10:05Z.
 - [terraform-hc-modules/labels/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/labels/hcloud): Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
 - [terraform-hc-modules/certificate/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/certificate/hcloud): Terraform module for Hetzner Cloud SSL/TLS certificates (2 submodules)
 - [terraform-hc-modules/dns/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/dns/hcloud): Terraform module for Hetzner DNS zones and records (2 submodules)
-- [terraform-hc-modules/ip/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/ip/hcloud): Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS) (3 submodules)
 - [terraform-hc-modules/storage-box/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud): Terraform module for Hetzner Storage Box (EXPERIMENTAL) (1 submodule)
+- [terraform-hc-modules/ip/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/ip/hcloud): Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS) (3 submodules)
 
 ## Cloudflare
 
