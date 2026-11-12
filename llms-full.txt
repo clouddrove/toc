@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-11T03:09:49Z.
+Generated 2026-11-12T03:10:07Z.
 
 ## Usage
 
@@ -953,14 +953,6 @@ Terraform module for service-principle
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
 
-### terraform-az-modules/databricks/azurerm
-
-This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
-
-- source: `terraform-az-modules/databricks/azurerm`
-- version: `1.0.5`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
-
 ### terraform-az-modules/vmss-agent/azurerm
 
 Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
@@ -968,6 +960,14 @@ Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent"
 - source: `terraform-az-modules/vmss-agent/azurerm`
 - version: `1.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
+
+### terraform-az-modules/databricks/azurerm
+
+This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
+
+- source: `terraform-az-modules/databricks/azurerm`
+- version: `1.0.5`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-databricks
 
 ### terraform-az-modules/sql-managed-instance/azurerm
 
