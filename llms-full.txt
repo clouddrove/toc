@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-12T03:10:07Z.
+Generated 2026-11-13T03:10:05Z.
 
 ## Usage
 
@@ -897,14 +897,6 @@ This terraform module is designed to create Azure Service Bus resources. Azure S
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-bus
 
-### terraform-az-modules/mssql-db/azurerm
-
-This terraform module is designed to create Azure mssql database resources. Azure SQL Database is a fully managed relational database-as-a-service (PaaS) built on the Microsoft SQL Server engine. It is designed to handle core database management functions—such as patching, backups, and monitoring—automatically,.
-
-- source: `terraform-az-modules/mssql-db/azurerm`
-- version: `2.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-mssql-db
-
 ### terraform-az-modules/load-balancer/azurerm
 
 This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
@@ -913,6 +905,14 @@ This terraform module is designed to create Azure network load balancer resource
 - version: `4.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-load-balancer
 
+### terraform-az-modules/mssql-db/azurerm
+
+This terraform module is designed to create Azure mssql database resources. Azure SQL Database is a fully managed relational database-as-a-service (PaaS) built on the Microsoft SQL Server engine. It is designed to handle core database management functions—such as patching, backups, and monitoring—automatically,.
+
+- source: `terraform-az-modules/mssql-db/azurerm`
+- version: `2.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-mssql-db
+
 ### terraform-az-modules/managed-devops-pool/azurerm
 
 This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
@@ -920,6 +920,14 @@ This Terraform module is used to create Azure Devops Managed devops pool on AZUR
 - source: `terraform-az-modules/managed-devops-pool/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-managed-devops-pool
+
+### terraform-az-modules/data-factory/azurerm
+
+This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
+
+- source: `terraform-az-modules/data-factory/azurerm`
+- version: `3.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-data-factory
 
 ### terraform-az-modules/app-service/azurerm
 
@@ -937,14 +945,6 @@ Terraform module for static-web-app
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-static-web-app
 
-### terraform-az-modules/data-factory/azurerm
-
-This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
-
-- source: `terraform-az-modules/data-factory/azurerm`
-- version: `3.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-data-factory
-
 ### terraform-az-modules/service-principle/azurerm
 
 Terraform module for service-principle
@@ -952,14 +952,6 @@ Terraform module for service-principle
 - source: `terraform-az-modules/service-principle/azurerm`
 - version: `1.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-service-principle
-
-### terraform-az-modules/vmss-agent/azurerm
-
-Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
-
-- source: `terraform-az-modules/vmss-agent/azurerm`
-- version: `1.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
 
 ### terraform-az-modules/databricks/azurerm
 
@@ -977,13 +969,13 @@ Terraform module to create Sql managed instance resources . Azure SQL Managed In
 - version: `3.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-sql-managed-instance
 
-### terraform-az-modules/flexible-mysql/azurerm
+### terraform-az-modules/vmss-agent/azurerm
 
-Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
+Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
 
-- source: `terraform-az-modules/flexible-mysql/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+- source: `terraform-az-modules/vmss-agent/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
 
 ### terraform-az-modules/eventhub/azurerm
 
@@ -992,6 +984,14 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - source: `terraform-az-modules/eventhub/azurerm`
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
+
+### terraform-az-modules/flexible-mysql/azurerm
+
+Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
+
+- source: `terraform-az-modules/flexible-mysql/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
 
 ### terraform-az-modules/firewall/azurerm
 
