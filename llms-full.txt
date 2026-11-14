@@ -1,8 +1,8 @@
 # CloudDrove Terraform Modules (full index)
 
-> Every addressable Terraform module and submodule CloudDrove maintains: 159 modules and 94 submodules, 253 total. Each line is a usable Terraform `source` value.
+> Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 99 submodules, 259 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-13T03:10:05Z.
+Generated 2026-11-14T03:09:27Z.
 
 ## Usage
 
@@ -977,14 +977,6 @@ Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent"
 - version: `1.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-vmss-agent
 
-### terraform-az-modules/eventhub/azurerm
-
-This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
-
-- source: `terraform-az-modules/eventhub/azurerm`
-- version: `3.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
-
 ### terraform-az-modules/flexible-mysql/azurerm
 
 Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
@@ -992,6 +984,14 @@ Terraform module to create flexible-MySQL resource on AZURE. Azure offers a mana
 - source: `terraform-az-modules/flexible-mysql/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql
+
+### terraform-az-modules/eventhub/azurerm
+
+This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
+
+- source: `terraform-az-modules/eventhub/azurerm`
+- version: `3.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
 
 ### terraform-az-modules/firewall/azurerm
 
@@ -1098,7 +1098,7 @@ Terraform module for vpc
 This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 
 - source: `terraform-do-modules/labels/digitalocean`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-labels
 
 ### terraform-do-modules/vpc/digitalocean
@@ -1106,7 +1106,7 @@ This terraform module is designed to generate consistent label names and tags fo
 Terraform module to create VPC resources. VPCs are virtual networks containing resources that can communicate with each other in full isolation, using private IP addresses
 
 - source: `terraform-do-modules/vpc/digitalocean`
-- version: `1.0.0`
+- version: `1.0.7`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-vpc
 
 ### terraform-do-modules/spaces/digitalocean
@@ -1114,7 +1114,7 @@ Terraform module to create VPC resources. VPCs are virtual networks containing r
 Terraform module to create spaces resource on Digital Ocean. DigitalOcean Spaces provide S3-compatible object storage which lets you store and serve large amounts of data.
 
 - source: `terraform-do-modules/spaces/digitalocean`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-spaces
 
 ### terraform-do-modules/database/digitalocean
@@ -1122,7 +1122,7 @@ Terraform module to create spaces resource on Digital Ocean. DigitalOcean Spaces
 Terraform module to create DATABASE resources. DigitalOcean's Managed Databases are a fully managed, high performance database cluster service. Using managed databases is a powerful alternative to installing, configuring, maintaining, and securing databases by hand.
 
 - source: `terraform-do-modules/database/digitalocean`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-database
 
 ### terraform-do-modules/droplet/digitalocean
@@ -1130,7 +1130,7 @@ Terraform module to create DATABASE resources. DigitalOcean's Managed Databases 
 Provides a DigitalOcean Droplet resource. This can be used to create, modify, and delete Droplets.
 
 - source: `terraform-do-modules/droplet/digitalocean`
-- version: `1.0.6`
+- version: `1.0.7`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-droplet
 
 ### terraform-do-modules/kubernetes/digitalocean
@@ -1138,7 +1138,7 @@ Provides a DigitalOcean Droplet resource. This can be used to create, modify, an
 Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure.
 
 - source: `terraform-do-modules/kubernetes/digitalocean`
-- version: `1.1.9`
+- version: `1.1.10`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-kubernetes
 
 ### terraform-do-modules/container-registry/digitalocean
@@ -1146,7 +1146,7 @@ Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOce
 Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
 
 - source: `terraform-do-modules/container-registry/digitalocean`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-container-registry
 
 ### terraform-do-modules/domain/digitalocean
@@ -1154,7 +1154,7 @@ Terraform module to create container registry. The DigitalOcean Container Regist
 Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean is not a domain name registrar, but you can manage your DNS records from the DigitalOcean Control Panel. This can make record management easier because DigitalOcean DNS integrates with Droplets and Load Balancers.
 
 - source: `terraform-do-modules/domain/digitalocean`
-- version: `1.0.6`
+- version: `1.0.7`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-domain
 
 ### terraform-do-modules/firewall/digitalocean
@@ -1162,7 +1162,7 @@ Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean i
 Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule.
 
 - source: `terraform-do-modules/firewall/digitalocean`
-- version: `1.0.5`
+- version: `1.0.6`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-firewall
 
 ### terraform-do-modules/certificate/digitalocean
@@ -1170,7 +1170,7 @@ Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls ar
 Provides a DigitalOcean Certificate resource that allows you to manage certificates.
 
 - source: `terraform-do-modules/certificate/digitalocean`
-- version: `1.0.4`
+- version: `1.0.5`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-certificate
 
 ### terraform-do-modules/ssh-key/digitalocean
@@ -1178,7 +1178,7 @@ Provides a DigitalOcean Certificate resource that allows you to manage certifica
 Terraform module to create  ssh-key. Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
 
 - source: `terraform-do-modules/ssh-key/digitalocean`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key
 
 ### terraform-do-modules/app/digitalocean
@@ -1186,7 +1186,7 @@ Terraform module to create  ssh-key. Provides a DigitalOcean SSH key resource to
 Terraform module to create app resources. App Platform is a Platform-as-a-Service (PaaS) offering that allows developers to publish code directly to DigitalOcean servers without worrying about the underlying infrastructure.
 
 - source: `terraform-do-modules/app/digitalocean`
-- version: `1.0.9`
+- version: `1.0.10`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-app
 
 ### terraform-do-modules/cdn/digitalocean
@@ -1194,7 +1194,7 @@ Terraform module to create app resources. App Platform is a Platform-as-a-Servic
 Terraform module to create CDN resources. DigitalOcean also includes a CDN with DigitalOcean Spaces, our object storage solution, and App Platform, our Platform as a Service solution. Sign up for a DigitalOcean account today to get started.
 
 - source: `terraform-do-modules/cdn/digitalocean`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-cdn
 
 ### terraform-do-modules/load-balancer/digitalocean
@@ -1202,7 +1202,7 @@ Terraform module to create CDN resources. DigitalOcean also includes a CDN with 
 Terraform module to create Load-balancer resource .  DigitalOcean Load Balancers ensure that the requests your application receives are only distributed to Droplets that have passed health checks.
 
 - source: `terraform-do-modules/load-balancer/digitalocean`
-- version: `1.0.7`
+- version: `1.0.8`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-load-balancer
 
 ### terraform-do-modules/monitoring/digitalocean
@@ -1210,24 +1210,24 @@ Terraform module to create Load-balancer resource .  DigitalOcean Load Balancers
 Terraform module to create monitor resource. DigitalOcean Monitoring is a free, opt-in service that gathers metrics about Droplet-level resource utilization. It provides additional Droplet graphs and supports configurable metrics alert policies with integrated email Slack notifications to help you track the operational health of your infrastructure
 
 - source: `terraform-do-modules/monitoring/digitalocean`
-- version: `1.0.5`
+- version: `1.0.6`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-monitoring
+
+### terraform-do-modules/nfs/digitalocean
+
+Terraform module for DigitalOcean NFS shares with attachment and snapshot support
+
+- source: `terraform-do-modules/nfs/digitalocean`
+- version: `1.0.3`
+- repository: https://github.com/terraform-do-modules/terraform-digitalocean-nfs
 
 ### terraform-do-modules/components/digitalocean
 
 Terraform module to create digital ocean component.
 
 - source: `git::https://github.com/terraform-do-modules/terraform-digitalocean-components.git` (not yet on the Terraform Registry)
-- version: `v1.0.4`
+- version: `v1.0.5`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-components
-
-### terraform-do-modules/nfs/digitalocean
-
-Terraform module for DigitalOcean NFS shares with attachment and snapshot support
-
-- source: `git::https://github.com/terraform-do-modules/terraform-digitalocean-nfs.git` (not yet on the Terraform Registry)
-- version: `v1.0.2`
-- repository: https://github.com/terraform-do-modules/terraform-digitalocean-nfs
 
 ## Hetzner Cloud (terraform-hc-modules)
 
@@ -1236,7 +1236,7 @@ Terraform module for DigitalOcean NFS shares with attachment and snapshot suppor
 Terraform module for Hetzner Cloud compute (Server, Volume, SSH Key, Placement Group, Snapshot)
 
 - source: `terraform-hc-modules/compute/hcloud`
-- version: `0.5.0`
+- version: `0.6.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-compute
 - submodules:
   - `terraform-hc-modules/compute/hcloud//modules/placement-group`
@@ -1244,16 +1244,18 @@ Terraform module for Hetzner Cloud compute (Server, Volume, SSH Key, Placement G
   - `terraform-hc-modules/compute/hcloud//modules/snapshot`
   - `terraform-hc-modules/compute/hcloud//modules/ssh-key`
   - `terraform-hc-modules/compute/hcloud//modules/volume`
+  - `terraform-hc-modules/compute/hcloud//modules/volume-attachment`
 
 ### terraform-hc-modules/network/hcloud
 
 Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer)
 
 - source: `terraform-hc-modules/network/hcloud`
-- version: `0.3.2`
+- version: `0.4.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-network
 - submodules:
   - `terraform-hc-modules/network/hcloud//modules/firewall`
+  - `terraform-hc-modules/network/hcloud//modules/firewall-attachment`
   - `terraform-hc-modules/network/hcloud//modules/load-balancer`
   - `terraform-hc-modules/network/hcloud//modules/vpc`
 
@@ -1262,7 +1264,7 @@ Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer)
 Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
 
 - source: `terraform-hc-modules/labels/hcloud`
-- version: `0.3.6`
+- version: `0.3.10`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-labels
 
 ### terraform-hc-modules/certificate/hcloud
@@ -1270,7 +1272,7 @@ Terraform module for generating consistent naming and labeling for Hetzner Cloud
 Terraform module for Hetzner Cloud SSL/TLS certificates
 
 - source: `terraform-hc-modules/certificate/hcloud`
-- version: `0.4.0`
+- version: `0.4.2`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-certificate
 - submodules:
   - `terraform-hc-modules/certificate/hcloud//modules/managed`
@@ -1281,33 +1283,44 @@ Terraform module for Hetzner Cloud SSL/TLS certificates
 Terraform module for Hetzner DNS zones and records
 
 - source: `terraform-hc-modules/dns/hcloud`
-- version: `0.6.0`
+- version: `0.7.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-dns
 - submodules:
   - `terraform-hc-modules/dns/hcloud//modules/records`
+  - `terraform-hc-modules/dns/hcloud//modules/rrset`
   - `terraform-hc-modules/dns/hcloud//modules/zone`
 
 ### terraform-hc-modules/storage-box/hcloud
 
-Terraform module for Hetzner Storage Box (EXPERIMENTAL)
+Terraform module for Hetzner Storage Box
 
 - source: `terraform-hc-modules/storage-box/hcloud`
-- version: `1.1.1`
+- version: `1.2.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-storage-box
 - submodules:
+  - `terraform-hc-modules/storage-box/hcloud//modules/snapshot`
   - `terraform-hc-modules/storage-box/hcloud//modules/storage-box`
+  - `terraform-hc-modules/storage-box/hcloud//modules/subaccount`
 
 ### terraform-hc-modules/ip/hcloud
 
 Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS)
 
 - source: `terraform-hc-modules/ip/hcloud`
-- version: `0.4.0`
+- version: `0.5.0`
 - repository: https://github.com/terraform-hc-modules/terraform-hcloud-ip
 - submodules:
   - `terraform-hc-modules/ip/hcloud//modules/floating-ip`
   - `terraform-hc-modules/ip/hcloud//modules/primary-ip`
   - `terraform-hc-modules/ip/hcloud//modules/rdns`
+
+### terraform-hc-modules/object-storage/hcloud
+
+Terraform module for Hetzner Object Storage buckets (S3 compatible) using the MinIO provider
+
+- source: `terraform-hc-modules/object-storage/hcloud`
+- version: `0.1.0`
+- repository: https://github.com/terraform-hc-modules/terraform-hcloud-object-storage
 
 ## Cloudflare (terraform-cf-modules)
 

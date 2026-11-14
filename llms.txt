@@ -1,10 +1,10 @@
 # CloudDrove Terraform Modules
 
-> 159 open source Terraform modules and 94 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
+> 160 open source Terraform modules and 99 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-13T03:10:05Z.
+Generated 2026-11-14T03:09:27Z.
 
 ## Catalog
 
@@ -132,8 +132,8 @@ Generated 2026-11-13T03:10:05Z.
 - [terraform-az-modules/databricks/azurerm](https://registry.terraform.io/modules/terraform-az-modules/databricks/azurerm): This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
 - [terraform-az-modules/sql-managed-instance/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sql-managed-instance/azurerm): Terraform module to create Sql managed instance resources . Azure SQL Managed Instance is a Platform-as-a-Service (PaaS) offering that provides near 100% compatibility with the SQL Server Enterprise Edition, designed for easy "lift-and-shift" migration of on-premises SQL Server apps to the cloud with minimal changes.
 - [terraform-az-modules/vmss-agent/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vmss-agent/azurerm): Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
-- [terraform-az-modules/eventhub/azurerm](https://registry.terraform.io/modules/terraform-az-modules/eventhub/azurerm): This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
 - [terraform-az-modules/flexible-mysql/azurerm](https://registry.terraform.io/modules/terraform-az-modules/flexible-mysql/azurerm): Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud.
+- [terraform-az-modules/eventhub/azurerm](https://registry.terraform.io/modules/terraform-az-modules/eventhub/azurerm): This Terraform module is used to create Azure eventhub  resource on AZURE. Azure Event Hubs is a fully managed, high-throughput real-time data ingestion and streaming platform designed for big data, capable of receiving millions of events per second with low latency.
 - [terraform-az-modules/firewall/azurerm](https://registry.terraform.io/modules/terraform-az-modules/firewall/azurerm): This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
 - [terraform-az-modules/functions-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/functions-app/azurerm): This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
 - [terraform-az-modules/cosmos-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cosmos-db/azurerm): This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
@@ -167,18 +167,19 @@ Generated 2026-11-13T03:10:05Z.
 - [terraform-do-modules/cdn/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/cdn/digitalocean): Terraform module to create CDN resources. DigitalOcean also includes a CDN with DigitalOcean Spaces, our object storage solution, and App Platform, our Platform as a Service solution. Sign up for a DigitalOcean account today to get started.
 - [terraform-do-modules/load-balancer/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/load-balancer/digitalocean): Terraform module to create Load-balancer resource .  DigitalOcean Load Balancers ensure that the requests your application receives are only distributed to Droplets that have passed health checks.
 - [terraform-do-modules/monitoring/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/monitoring/digitalocean): Terraform module to create monitor resource. DigitalOcean Monitoring is a free, opt-in service that gathers metrics about Droplet-level resource utilization. It provides additional Droplet graphs and supports configurable metrics alert policies with integrated email Slack notifications to help you track the operational health of your infrastructure
+- [terraform-do-modules/nfs/digitalocean](https://registry.terraform.io/modules/terraform-do-modules/nfs/digitalocean): Terraform module for DigitalOcean NFS shares with attachment and snapshot support
 - [terraform-digitalocean-components](https://github.com/terraform-do-modules/terraform-digitalocean-components): Terraform module to create digital ocean component. [not yet on the Terraform Registry]
-- [terraform-digitalocean-nfs](https://github.com/terraform-do-modules/terraform-digitalocean-nfs): Terraform module for DigitalOcean NFS shares with attachment and snapshot support [not yet on the Terraform Registry]
 
 ## Hetzner Cloud
 
-- [terraform-hc-modules/compute/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/compute/hcloud): Terraform module for Hetzner Cloud compute (Server, Volume, SSH Key, Placement Group, Snapshot) (5 submodules)
-- [terraform-hc-modules/network/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/network/hcloud): Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer) (3 submodules)
+- [terraform-hc-modules/compute/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/compute/hcloud): Terraform module for Hetzner Cloud compute (Server, Volume, SSH Key, Placement Group, Snapshot) (6 submodules)
+- [terraform-hc-modules/network/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/network/hcloud): Terraform module for Hetzner Cloud networking (VPC, Firewall, Load Balancer) (4 submodules)
 - [terraform-hc-modules/labels/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/labels/hcloud): Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
 - [terraform-hc-modules/certificate/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/certificate/hcloud): Terraform module for Hetzner Cloud SSL/TLS certificates (2 submodules)
-- [terraform-hc-modules/dns/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/dns/hcloud): Terraform module for Hetzner DNS zones and records (2 submodules)
-- [terraform-hc-modules/storage-box/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud): Terraform module for Hetzner Storage Box (EXPERIMENTAL) (1 submodule)
+- [terraform-hc-modules/dns/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/dns/hcloud): Terraform module for Hetzner DNS zones and records (3 submodules)
+- [terraform-hc-modules/storage-box/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud): Terraform module for Hetzner Storage Box (3 submodules)
 - [terraform-hc-modules/ip/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/ip/hcloud): Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS) (3 submodules)
+- [terraform-hc-modules/object-storage/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/object-storage/hcloud): Terraform module for Hetzner Object Storage buckets (S3 compatible) using the MinIO provider
 
 ## Cloudflare
 
