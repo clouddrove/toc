@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-16T03:12:04Z.
+Generated 2026-11-17T03:10:12Z.
 
 ## Catalog
 
@@ -59,8 +59,8 @@ Generated 2026-11-16T03:12:04Z.
 - [clouddrove/vpn/aws](https://registry.terraform.io/modules/clouddrove/vpn/aws): Terraform module is used to create VPN resource on AWS for network connectivity.
 - [clouddrove/cloudwatch-dashboard/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-dashboard/aws): This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
 - [clouddrove/lightsail/aws](https://registry.terraform.io/modules/clouddrove/lightsail/aws): Terraform module to create Lightsail instance, Lightsail Key Pair (Optional), Lightsail Static IP (Optional), Metric alarm (Optional).
-- [clouddrove/lambda-site-monitor/aws](https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws): Terraform module to create Lambda resource on AWS for monitor different websites.
 - [clouddrove/eventbridge/aws](https://registry.terraform.io/modules/clouddrove/eventbridge/aws): Terraform module to create an Eventbridge resource on AWS.
+- [clouddrove/lambda-site-monitor/aws](https://registry.terraform.io/modules/clouddrove/lambda-site-monitor/aws): Terraform module to create Lambda resource on AWS for monitor different websites.
 - [clouddrove/mysql/aws](https://registry.terraform.io/modules/clouddrove/mysql/aws): Terraform module to create a MySQL on AWS.
 - [clouddrove/active-directory/aws](https://registry.terraform.io/modules/clouddrove/active-directory/aws): Terraform module to create Active Directory on AWS.
 - [clouddrove/macie/aws](https://registry.terraform.io/modules/clouddrove/macie/aws): This terraform module is used to Provide a resource to manage an AWS Macie Account.
@@ -127,8 +127,8 @@ Generated 2026-11-16T03:12:04Z.
 - [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
 - [terraform-az-modules/data-factory/azurerm](https://registry.terraform.io/modules/terraform-az-modules/data-factory/azurerm): This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
 - [terraform-az-modules/app-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/app-service/azurerm): About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
-- [terraform-az-modules/static-web-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/static-web-app/azurerm): Terraform module for static-web-app
 - [terraform-az-modules/service-principle/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-principle/azurerm): Terraform module for service-principle
+- [terraform-az-modules/static-web-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/static-web-app/azurerm): Terraform module for static-web-app
 - [terraform-az-modules/databricks/azurerm](https://registry.terraform.io/modules/terraform-az-modules/databricks/azurerm): This terraform module is designed to create Azure Databricks resources. Azure Databricks is a fully managed first-party service that enables an open data lakehouse in Azure.
 - [terraform-az-modules/sql-managed-instance/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sql-managed-instance/azurerm): Terraform module to create Sql managed instance resources . Azure SQL Managed Instance is a Platform-as-a-Service (PaaS) offering that provides near 100% compatibility with the SQL Server Enterprise Edition, designed for easy "lift-and-shift" migration of on-premises SQL Server apps to the cloud with minimal changes.
 - [terraform-az-modules/vmss-agent/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vmss-agent/azurerm): Resource to create  Azure vmss agent for Azure devops . A "Terraform VMSS agent" refers to a self-hosted agent for a CI/CD platform (like Azure DevOps) that is deployed and managed within an Azure Virtual Machine Scale Set (VMSS) using Terraform.
