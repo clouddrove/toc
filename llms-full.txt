@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 99 submodules, 259 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-18T03:10:27Z.
+Generated 2026-11-19T03:10:08Z.
 
 ## Usage
 
@@ -57,14 +57,6 @@ Terraform module to create Route53 table record set resource on AWS.
 - version: `1.0.2`
 - repository: https://github.com/clouddrove/terraform-aws-route53-record
 
-### clouddrove/vpc/aws
-
-Terraform module to create VPC resource on AWS.
-
-- source: `clouddrove/vpc/aws`
-- version: `2.0.5`
-- repository: https://github.com/clouddrove/terraform-aws-vpc
-
 ### clouddrove/subnet/aws
 
 Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
@@ -72,6 +64,14 @@ Terraform module to create public, private and public-private subnet with networ
 - source: `clouddrove/subnet/aws`
 - version: `2.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-subnet
+
+### clouddrove/vpc/aws
+
+Terraform module to create VPC resource on AWS.
+
+- source: `clouddrove/vpc/aws`
+- version: `2.0.5`
+- repository: https://github.com/clouddrove/terraform-aws-vpc
 
 ### clouddrove/elasticache/aws
 
@@ -233,6 +233,14 @@ This terraform module is used to create ALB on AWS.
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-alb
 
+### clouddrove/sqs/aws
+
+Terraform module to create SQS resource on AWS for managing queue.
+
+- source: `clouddrove/sqs/aws`
+- version: `1.3.1`
+- repository: https://github.com/clouddrove/terraform-aws-sqs
+
 ### clouddrove/waf/aws
 
 This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
@@ -249,14 +257,6 @@ This terraform module is used for create AWS Client VPN service to manage intern
 - version: `1.0.10`
 - repository: https://github.com/clouddrove/terraform-aws-client-vpn
 
-### clouddrove/sqs/aws
-
-Terraform module to create SQS resource on AWS for managing queue.
-
-- source: `clouddrove/sqs/aws`
-- version: `1.3.1`
-- repository: https://github.com/clouddrove/terraform-aws-sqs
-
 ### clouddrove/cloudtrail/aws
 
 Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
@@ -270,7 +270,7 @@ Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with 
 This terraform module is used for create dynamodb resources in AWS.
 
 - source: `clouddrove/dynamodb/aws`
-- version: `1.0.2`
+- version: `1.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-dynamodb
 
 ### clouddrove/aurora/aws
@@ -355,14 +355,6 @@ Terraform module to connect two VPC’s from different AWS account.
 - version: `1.1.1`
 - repository: https://github.com/clouddrove/terraform-aws-multi-account-peering
 
-### clouddrove/vpn/aws
-
-Terraform module is used to create VPN resource on AWS for network connectivity.
-
-- source: `clouddrove/vpn/aws`
-- version: `2.0.1`
-- repository: https://github.com/clouddrove/terraform-aws-vpn
-
 ### clouddrove/cloudwatch-dashboard/aws
 
 This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services.
@@ -370,6 +362,14 @@ This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS service
 - source: `clouddrove/cloudwatch-dashboard/aws`
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard
+
+### clouddrove/vpn/aws
+
+Terraform module is used to create VPN resource on AWS for network connectivity.
+
+- source: `clouddrove/vpn/aws`
+- version: `2.0.1`
+- repository: https://github.com/clouddrove/terraform-aws-vpn
 
 ### clouddrove/lightsail/aws
 
@@ -560,14 +560,6 @@ Terraform module to create ECS on AWS.
   - `clouddrove/ecs/aws//modules/service`
   - `clouddrove/ecs/aws//modules/task-definition`
 
-### clouddrove/msk/aws
-
-Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
-
-- source: `clouddrove/msk/aws`
-- version: `1.3.0`
-- repository: https://github.com/clouddrove/terraform-aws-msk
-
 ### clouddrove/bastion/aws
 
 Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbound rules. Composed from published CloudDrove modules.
@@ -575,6 +567,14 @@ Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbou
 - source: `clouddrove/bastion/aws`
 - version: `1.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-bastion
+
+### clouddrove/msk/aws
+
+Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
+
+- source: `clouddrove/msk/aws`
+- version: `1.3.0`
+- repository: https://github.com/clouddrove/terraform-aws-msk
 
 ### clouddrove/control-tower/aws
 
@@ -592,14 +592,6 @@ Terraform module for deploying AWS Load Balancer Controller inside a pre-existin
 - version: `0.5.1`
 - repository: https://github.com/clouddrove/terraform-aws-eks-lb-controller
 
-### clouddrove/cloudtrail-baseline/aws
-
-Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
-
-- source: `clouddrove/cloudtrail-baseline/aws`
-- version: `1.0.2`
-- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-baseline
-
 ### clouddrove/health-notifier/aws
 
 Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira today). EventBridge to Lambda, Terraform-deployed.
@@ -607,6 +599,14 @@ Turn AWS Health EC2 scheduled events into tickets in a pluggable notifier (Jira 
 - source: `clouddrove/health-notifier/aws`
 - version: `0.1.0`
 - repository: https://github.com/clouddrove/terraform-aws-health-notifier
+
+### clouddrove/cloudtrail-baseline/aws
+
+Terraform module to create an cloudtrail resource on AWS with S3 encryption with KMS key
+
+- source: `clouddrove/cloudtrail-baseline/aws`
+- version: `1.0.2`
+- repository: https://github.com/clouddrove/terraform-aws-cloudtrail-baseline
 
 ### clouddrove/karpenter/aws
 
@@ -1146,7 +1146,7 @@ Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOce
 Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
 
 - source: `terraform-do-modules/container-registry/digitalocean`
-- version: `1.0.8`
+- version: `1.0.9`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-container-registry
 
 ### terraform-do-modules/domain/digitalocean
@@ -1346,7 +1346,7 @@ Terraform module for Cloudflare Zero Trust: Access, Gateway, Tunnels, device pos
 Terraform module for Cloudflare zones, DNS records, DNSSEC, TLS, custom hostnames and cache
 
 - source: `terraform-cf-modules/zone/cloudflare`
-- version: `0.0.1`
+- version: `0.0.2`
 - repository: https://github.com/terraform-cf-modules/terraform-cloudflare-zone
 - submodules:
   - `terraform-cf-modules/zone/cloudflare//modules/cache`
