@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-19T03:10:08Z.
+Generated 2026-11-20T03:10:02Z.
 
 ## Catalog
 
@@ -39,8 +39,8 @@ Generated 2026-11-19T03:10:08Z.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
 - [clouddrove/cognito/aws](https://registry.terraform.io/modules/clouddrove/cognito/aws): Terraform module to create an Cognito resource on AWS.
 - [clouddrove/sftp/aws](https://registry.terraform.io/modules/clouddrove/sftp/aws): This terraform module is used to create sftp on AWS for S3.
-- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/alb/aws](https://registry.terraform.io/modules/clouddrove/alb/aws): This terraform module is used to create ALB on AWS.
+- [clouddrove/cross-account-role/aws](https://registry.terraform.io/modules/clouddrove/cross-account-role/aws): This terraform module is used to create an IAM Role to access another AWS account inventory.
 - [clouddrove/sqs/aws](https://registry.terraform.io/modules/clouddrove/sqs/aws): Terraform module to create SQS resource on AWS for managing queue.
 - [clouddrove/waf/aws](https://registry.terraform.io/modules/clouddrove/waf/aws): This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
 - [clouddrove/client-vpn/aws](https://registry.terraform.io/modules/clouddrove/client-vpn/aws): This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
@@ -73,8 +73,8 @@ Generated 2026-11-19T03:10:08Z.
 - [clouddrove/cost-billing-alarm/aws](https://registry.terraform.io/modules/clouddrove/cost-billing-alarm/aws): A Terraform module to create aws cost billing alarm resource on AWS with sns topic.
 - [clouddrove/cloudwatch-synthetics/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-synthetics/aws): CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
 - [clouddrove/iam/aws](https://registry.terraform.io/modules/clouddrove/iam/aws): Terraform module which creates IAM resources on AWS (12 submodules)
-- [clouddrove/amplify/aws](https://registry.terraform.io/modules/clouddrove/amplify/aws): Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
 - [clouddrove/athena/aws](https://registry.terraform.io/modules/clouddrove/athena/aws): This module provides an easy way to set up Athena queries, The module can set up Athena database and table from an input S3 bucket and create-table SQL script.
+- [clouddrove/amplify/aws](https://registry.terraform.io/modules/clouddrove/amplify/aws): Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
 - [clouddrove/workspace/aws](https://registry.terraform.io/modules/clouddrove/workspace/aws): Terraform module to create workspace resources on AWS for manage betterly.
 - [clouddrove/lifecycle-manager/aws](https://registry.terraform.io/modules/clouddrove/lifecycle-manager/aws): This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots.
 - [clouddrove/ecs/aws](https://registry.terraform.io/modules/clouddrove/ecs/aws): Terraform module to create ECS on AWS. (4 submodules)
@@ -124,8 +124,8 @@ Generated 2026-11-19T03:10:08Z.
 - [terraform-az-modules/service-bus/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-bus/azurerm): This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
 - [terraform-az-modules/load-balancer/azurerm](https://registry.terraform.io/modules/terraform-az-modules/load-balancer/azurerm): This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
 - [terraform-az-modules/mssql-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/mssql-db/azurerm): This terraform module is designed to create Azure mssql database resources. Azure SQL Database is a fully managed relational database-as-a-service (PaaS) built on the Microsoft SQL Server engine. It is designed to handle core database management functions—such as patching, backups, and monitoring—automatically,.
-- [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
 - [terraform-az-modules/data-factory/azurerm](https://registry.terraform.io/modules/terraform-az-modules/data-factory/azurerm): This Terraform module is used to create Azure data factory on AZURE.  Azure Data Factory (ADF) is a fully managed, serverless cloud ETL and data integration service used to create, schedule, and orchestrate complex data workflows.
+- [terraform-az-modules/managed-devops-pool/azurerm](https://registry.terraform.io/modules/terraform-az-modules/managed-devops-pool/azurerm): This Terraform module is used to create Azure Devops Managed devops pool on AZURE.  Azure Managed DevOps Pools is a fully managed cloud service that hosts virtual machines (VMs) or containers to power CI/CD pipeline agents for platforms like Azure DevOps.
 - [terraform-az-modules/app-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/app-service/azurerm): About This terraform module is designed to create Azure Databricks resources. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it . NET, . NET Core, Java, Ruby, Node
 - [terraform-az-modules/service-principle/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-principle/azurerm): Terraform module for service-principle
 - [terraform-az-modules/static-web-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/static-web-app/azurerm): Terraform module for static-web-app
@@ -177,8 +177,8 @@ Generated 2026-11-19T03:10:08Z.
 - [terraform-hc-modules/labels/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/labels/hcloud): Terraform module for generating consistent naming and labeling for Hetzner Cloud resources
 - [terraform-hc-modules/certificate/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/certificate/hcloud): Terraform module for Hetzner Cloud SSL/TLS certificates (2 submodules)
 - [terraform-hc-modules/dns/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/dns/hcloud): Terraform module for Hetzner DNS zones and records (3 submodules)
-- [terraform-hc-modules/storage-box/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud): Terraform module for Hetzner Storage Box (3 submodules)
 - [terraform-hc-modules/ip/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/ip/hcloud): Terraform module for Hetzner Cloud IP management (Primary IP, Floating IP, rDNS) (3 submodules)
+- [terraform-hc-modules/storage-box/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/storage-box/hcloud): Terraform module for Hetzner Storage Box (3 submodules)
 - [terraform-hc-modules/object-storage/hcloud](https://registry.terraform.io/modules/terraform-hc-modules/object-storage/hcloud): Terraform module for Hetzner Object Storage buckets (S3 compatible) using the MinIO provider
 
 ## Cloudflare
