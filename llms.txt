@@ -4,7 +4,7 @@
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-20T03:10:02Z.
+Generated 2026-11-21T03:10:08Z.
 
 ## Catalog
 
@@ -23,8 +23,8 @@ Generated 2026-11-20T03:10:02Z.
 - [clouddrove/vpc/aws](https://registry.terraform.io/modules/clouddrove/vpc/aws): Terraform module to create VPC resource on AWS.
 - [clouddrove/elasticache/aws](https://registry.terraform.io/modules/clouddrove/elasticache/aws): Terraform module to create Elasticache Cluster and replica for Redis and Memcache.
 - [clouddrove/security-group/aws](https://registry.terraform.io/modules/clouddrove/security-group/aws): This terraform module creates set of Security Group and Security Group Rules resources in various combinations.
-- [clouddrove/ses/aws](https://registry.terraform.io/modules/clouddrove/ses/aws): Terraform module to create an SES Identity with SES IAM user on AWS.
 - [clouddrove/s3/aws](https://registry.terraform.io/modules/clouddrove/s3/aws): Terraform module to create default S3 bucket with logging and encryption type specific features.
+- [clouddrove/ses/aws](https://registry.terraform.io/modules/clouddrove/ses/aws): Terraform module to create an SES Identity with SES IAM user on AWS.
 - [clouddrove/cloudwatch-alarms/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-alarms/aws): Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 - [clouddrove/ec2/aws](https://registry.terraform.io/modules/clouddrove/ec2/aws): Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 - [clouddrove/sns/aws](https://registry.terraform.io/modules/clouddrove/sns/aws): Terraform module is used to setup SNS service to manage notifications on application.
@@ -77,8 +77,8 @@ Generated 2026-11-20T03:10:02Z.
 - [clouddrove/amplify/aws](https://registry.terraform.io/modules/clouddrove/amplify/aws): Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks.
 - [clouddrove/workspace/aws](https://registry.terraform.io/modules/clouddrove/workspace/aws): Terraform module to create workspace resources on AWS for manage betterly.
 - [clouddrove/lifecycle-manager/aws](https://registry.terraform.io/modules/clouddrove/lifecycle-manager/aws): This terraform module is used to Provide a Data Lifecycle Manager (DLM) lifecycle policy for managing snapshots.
-- [clouddrove/ecs/aws](https://registry.terraform.io/modules/clouddrove/ecs/aws): Terraform module to create ECS on AWS. (4 submodules)
 - [clouddrove/bastion/aws](https://registry.terraform.io/modules/clouddrove/bastion/aws): Terraform module for an SSM-only AWS bastion: no SSH key, no public IP, no inbound rules. Composed from published CloudDrove modules.
+- [clouddrove/ecs/aws](https://registry.terraform.io/modules/clouddrove/ecs/aws): Terraform module to create ECS on AWS. (4 submodules)
 - [clouddrove/msk/aws](https://registry.terraform.io/modules/clouddrove/msk/aws): Terraform module to create kafka resource on AWS. AWS MSK (Managed Streaming for Apache Kafka) is a fully managed service that simplifies the deployment, management, and operation of Apache Kafka clusters. Apache Kafka is an open-source distributed streaming platform used for building real-time streaming data p
 - [clouddrove/control-tower/aws](https://registry.terraform.io/modules/clouddrove/control-tower/aws): Terraform module to create Control tower baseline resources on AWS.
 - [clouddrove/eks-lb-controller/aws](https://registry.terraform.io/modules/clouddrove/eks-lb-controller/aws): Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
@@ -118,8 +118,8 @@ Generated 2026-11-20T03:10:02Z.
 - [terraform-az-modules/vpn/azurerm](https://registry.terraform.io/modules/terraform-az-modules/vpn/azurerm): This terraform module is designed to create Azure VPN resources. Azure VPN Gateway is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet. You can also use VPN Gateway to send encrypted traffic between Azure virtual networks .
 - [terraform-az-modules/redis-cache/azurerm](https://registry.terraform.io/modules/terraform-az-modules/redis-cache/azurerm): This Terraform module is used to create Azure Redis cache resource on AZURE.  Azure Cache for Redis is a fully managed, in-memory data store based on the Redis open-source software.
 - [terraform-az-modules/waf/azurerm](https://registry.terraform.io/modules/terraform-az-modules/waf/azurerm): This Terraform module creates Azure Web Application Firewall (WAF) resources. WAF protects web applications from threats like SQL injection and XSS. It integrates with Azure Application Gateway or Front Door for real-time threat detection, automated updates, and high availability.
-- [terraform-az-modules/private-dns-resolver/azurerm](https://registry.terraform.io/modules/terraform-az-modules/private-dns-resolver/azurerm): This terraform module is designed to create Azure private dns resolver resources.
 - [terraform-az-modules/communication-service/azurerm](https://registry.terraform.io/modules/terraform-az-modules/communication-service/azurerm): About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
+- [terraform-az-modules/private-dns-resolver/azurerm](https://registry.terraform.io/modules/terraform-az-modules/private-dns-resolver/azurerm): This terraform module is designed to create Azure private dns resolver resources.
 - [terraform-az-modules/sentinel/azurerm](https://registry.terraform.io/modules/terraform-az-modules/sentinel/azurerm): This Terraform module is used to create azure sentinel resource on AZURE.  Microsoft Sentinel (formerly Azure Sentinel) is a cloud-native, AI-driven SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution.
 - [terraform-az-modules/service-bus/azurerm](https://registry.terraform.io/modules/terraform-az-modules/service-bus/azurerm): This terraform module is designed to create Azure Service Bus resources. Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace).
 - [terraform-az-modules/load-balancer/azurerm](https://registry.terraform.io/modules/terraform-az-modules/load-balancer/azurerm): This terraform module is designed to create Azure network load balancer resources.  Azure Load Balancer is a high-performance, low-latency Layer 4 (TCP/UDP) traffic management service that distributes incoming traffic across backend VM instances to ensure high availability and scalability.
