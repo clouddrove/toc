@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 99 submodules, 259 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-21T03:10:08Z.
+Generated 2026-11-22T03:10:01Z.
 
 ## Usage
 
@@ -1138,7 +1138,7 @@ Provides a DigitalOcean Droplet resource. This can be used to create, modify, an
 Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure.
 
 - source: `terraform-do-modules/kubernetes/digitalocean`
-- version: `1.1.10`
+- version: `1.1.11`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-kubernetes
 
 ### terraform-do-modules/container-registry/digitalocean
