@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 99 submodules, 259 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-23T03:11:43Z.
+Generated 2026-11-24T03:10:20Z.
 
 ## Usage
 
@@ -225,14 +225,6 @@ This terraform module is used to create ALB on AWS.
 - version: `2.0.1`
 - repository: https://github.com/clouddrove/terraform-aws-alb
 
-### clouddrove/cross-account-role/aws
-
-This terraform module is used to create an IAM Role to access another AWS account inventory.
-
-- source: `clouddrove/cross-account-role/aws`
-- version: `0.15.1`
-- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
-
 ### clouddrove/sqs/aws
 
 Terraform module to create SQS resource on AWS for managing queue.
@@ -240,6 +232,14 @@ Terraform module to create SQS resource on AWS for managing queue.
 - source: `clouddrove/sqs/aws`
 - version: `1.3.1`
 - repository: https://github.com/clouddrove/terraform-aws-sqs
+
+### clouddrove/cross-account-role/aws
+
+This terraform module is used to create an IAM Role to access another AWS account inventory.
+
+- source: `clouddrove/cross-account-role/aws`
+- version: `0.15.1`
+- repository: https://github.com/clouddrove/terraform-aws-cross-account-role
 
 ### clouddrove/waf/aws
 
@@ -1025,14 +1025,6 @@ Terraform module for logic-app
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
 
-### terraform-az-modules/bastion/azurerm
-
-Terraform module for bastion
-
-- source: `terraform-az-modules/bastion/azurerm`
-- version: `1.1.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-bastion
-
 ### terraform-az-modules/virtual-wan/azurerm
 
 Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
@@ -1040,6 +1032,14 @@ Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sit
 - source: `terraform-az-modules/virtual-wan/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan
+
+### terraform-az-modules/bastion/azurerm
+
+Terraform module for bastion
+
+- source: `terraform-az-modules/bastion/azurerm`
+- version: `1.1.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-bastion
 
 ### terraform-az-modules/api-management/azurerm
 
@@ -1122,7 +1122,7 @@ Terraform module to create spaces resource on Digital Ocean. DigitalOcean Spaces
 Terraform module to create DATABASE resources. DigitalOcean's Managed Databases are a fully managed, high performance database cluster service. Using managed databases is a powerful alternative to installing, configuring, maintaining, and securing databases by hand.
 
 - source: `terraform-do-modules/database/digitalocean`
-- version: `1.0.8`
+- version: `1.0.9`
 - repository: https://github.com/terraform-do-modules/terraform-digitalocean-database
 
 ### terraform-do-modules/droplet/digitalocean
