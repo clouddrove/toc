@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 99 submodules, 259 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-24T03:10:20Z.
+Generated 2026-11-25T03:10:28Z.
 
 ## Usage
 
@@ -865,14 +865,6 @@ This Terraform module creates Azure Web Application Firewall (WAF) resources. WA
 - version: `3.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-waf
 
-### terraform-az-modules/communication-service/azurerm
-
-About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
-
-- source: `terraform-az-modules/communication-service/azurerm`
-- version: `2.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
-
 ### terraform-az-modules/private-dns-resolver/azurerm
 
 This terraform module is designed to create Azure private dns resolver resources.
@@ -880,6 +872,14 @@ This terraform module is designed to create Azure private dns resolver resources
 - source: `terraform-az-modules/private-dns-resolver/azurerm`
 - version: `1.0.4`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-private-dns-resolver
+
+### terraform-az-modules/communication-service/azurerm
+
+About Terraform module to create data factory resource on AZURE. Azure Data Factory is a cloud-based data integration service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/communication-service/azurerm`
+- version: `2.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-communication-service
 
 ### terraform-az-modules/sentinel/azurerm
 
@@ -1001,6 +1001,14 @@ This Terraform module is used to create firewall resource on AZURE. AZURE Firewa
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
 
+### terraform-az-modules/virtual-wan/azurerm
+
+Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
+
+- source: `terraform-az-modules/virtual-wan/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan
+
 ### terraform-az-modules/functions-app/azurerm
 
 This Terraform module is used to create firewall resource on AZURE.  Azure Functions is a serverless, event-driven compute service that enables running code without managing infrastructure. A Function App acts as a container for one or more individual functions, allowing them to be managed, deployed, and scaled together.
@@ -1024,14 +1032,6 @@ Terraform module for logic-app
 - source: `terraform-az-modules/logic-app/azurerm`
 - version: `2.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-logic-app
-
-### terraform-az-modules/virtual-wan/azurerm
-
-Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
-
-- source: `terraform-az-modules/virtual-wan/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan
 
 ### terraform-az-modules/bastion/azurerm
 
