@@ -2,7 +2,7 @@
 
 > Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 99 submodules, 259 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-25T03:10:28Z.
+Generated 2026-11-26T03:10:11Z.
 
 ## Usage
 
@@ -809,14 +809,6 @@ Terraform module to create virtual machine resource on AZURE. Azure Virtual Mach
 - version: `1.4.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-machine
 
-### terraform-az-modules/application-insights/azurerm
-
-This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
-
-- source: `terraform-az-modules/application-insights/azurerm`
-- version: `1.1.0`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
-
 ### terraform-az-modules/cognitive/azurerm
 
 This terraform module is designed to create Azure Cognitive services.  Azure Cognitive Services (now often branded under Azure AI Foundry tools) are pre-built, cloud-based AI APIs that allow developers to integrate intelligence—such as vision, speech, language, and decision-making—into applications .
@@ -824,6 +816,14 @@ This terraform module is designed to create Azure Cognitive services.  Azure Cog
 - source: `terraform-az-modules/cognitive/azurerm`
 - version: `5.0.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-cognitive
+
+### terraform-az-modules/application-insights/azurerm
+
+This Terraform module is used to create Azure Application Insights resource on AZURE. Azure Application Insights is a feature of Azure Monitor that provides application performance monitoring (APM) for live web applications.
+
+- source: `terraform-az-modules/application-insights/azurerm`
+- version: `1.1.0`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-application-insights
 
 ### terraform-az-modules/application-gateway/azurerm
 
@@ -993,14 +993,6 @@ This Terraform module is used to create Azure eventhub  resource on AZURE. Azure
 - version: `3.1.0`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-eventhub
 
-### terraform-az-modules/firewall/azurerm
-
-This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
-
-- source: `terraform-az-modules/firewall/azurerm`
-- version: `1.0.1`
-- repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
-
 ### terraform-az-modules/virtual-wan/azurerm
 
 Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sites and hub connections.
@@ -1008,6 +1000,14 @@ Terraform module to create and manage Azure Virtual WAN, hubs, gateways, VPN sit
 - source: `terraform-az-modules/virtual-wan/azurerm`
 - version: `1.0.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-virtual-wan
+
+### terraform-az-modules/firewall/azurerm
+
+This Terraform module is used to create firewall resource on AZURE. AZURE Firewall is a managed network security service provided by Microsoft Azure.
+
+- source: `terraform-az-modules/firewall/azurerm`
+- version: `1.0.1`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-firewall
 
 ### terraform-az-modules/functions-app/azurerm
 
