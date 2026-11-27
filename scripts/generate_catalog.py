@@ -335,6 +335,7 @@ def render_llms_txt(cat: dict) -> str:
         "- [Full catalog with every submodule](https://github.com/clouddrove/toc/blob/master/MODULES.md): human readable tables",
         "- [Machine readable catalog](https://github.com/clouddrove/toc/blob/master/catalog.json): complete JSON",
         "- [Expanded index](https://github.com/clouddrove/toc/blob/master/llms-full.txt): every module and submodule inline",
+        "- [CloudDrove open-source Terraform modules and DevOps tools](https://clouddrove.com/open-source): the modules by cloud on clouddrove.com",
         "",
     ]
     for c in cat["clouds"]:
@@ -528,7 +529,8 @@ def render_readme(cat: dict) -> str:
         "## About us",
         "",
         "At [CloudDrove](https://clouddrove.com), we build reliable, secure and cost efficient "
-        "cloud native solutions. Join our "
+        "cloud native solutions. See [CloudDrove's open-source Terraform modules and DevOps tools]"
+        "(https://clouddrove.com/open-source). Join our "
         "[Slack community](https://www.launchpass.com/devops-talks).",
     ]
     return "\n".join(out)
