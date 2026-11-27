@@ -1,8 +1,8 @@
 # CloudDrove Terraform Modules (full index)
 
-> Every addressable Terraform module and submodule CloudDrove maintains: 160 modules and 99 submodules, 259 total. Each line is a usable Terraform `source` value.
+> Every addressable Terraform module and submodule CloudDrove maintains: 162 modules and 99 submodules, 261 total. Each line is a usable Terraform `source` value.
 
-Generated 2026-11-26T03:10:11Z.
+Generated 2026-11-27T03:10:27Z.
 
 ## Usage
 
@@ -161,14 +161,6 @@ Terraform module will be created Autoscaling, Workers, EKS.
 - version: `1.4.8`
 - repository: https://github.com/clouddrove/terraform-aws-eks
 
-### clouddrove/route53/aws
-
-Terraform module to create Route53 resource on AWS for zone and record set.
-
-- source: `clouddrove/route53/aws`
-- version: `1.0.4`
-- repository: https://github.com/clouddrove/terraform-aws-route53
-
 ### clouddrove/cloudwatch-event-rule/aws
 
 Terraform module to create cloudwatch event rule on AWS.
@@ -176,6 +168,14 @@ Terraform module to create cloudwatch event rule on AWS.
 - source: `clouddrove/cloudwatch-event-rule/aws`
 - version: `1.0.3`
 - repository: https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule
+
+### clouddrove/route53/aws
+
+Terraform module to create Route53 resource on AWS for zone and record set.
+
+- source: `clouddrove/route53/aws`
+- version: `1.0.4`
+- repository: https://github.com/clouddrove/terraform-aws-route53
 
 ### clouddrove/elasticsearch/aws
 
@@ -1041,6 +1041,14 @@ Terraform module for bastion
 - version: `1.1.1`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-bastion
 
+### terraform-az-modules/alerting/azurerm
+
+Terraform module for alerting
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-alerting.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-alerting
+
 ### terraform-az-modules/api-management/azurerm
 
 Terraform module for api-management
@@ -1056,6 +1064,14 @@ Terraform module for automation-account
 - source: `git::https://github.com/terraform-az-modules/terraform-azurerm-automation-account.git` (not yet on the Terraform Registry)
 - version: `unreleased`
 - repository: https://github.com/terraform-az-modules/terraform-azurerm-automation-account
+
+### terraform-az-modules/azure-relay/azurerm
+
+Terraform module for azure-relay
+
+- source: `git::https://github.com/terraform-az-modules/terraform-azurerm-azure-relay.git` (not yet on the Terraform Registry)
+- version: `unreleased`
+- repository: https://github.com/terraform-az-modules/terraform-azurerm-azure-relay
 
 ### terraform-az-modules/diagnostic-settings/azurerm
 

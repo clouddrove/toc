@@ -1,10 +1,10 @@
 # CloudDrove Terraform Modules
 
-> 160 open source Terraform modules and 99 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
+> 162 open source Terraform modules and 99 submodules maintained by CloudDrove across 6 clouds (AWS, Azure, Google Cloud, DigitalOcean, Hetzner Cloud, Cloudflare). All are published on the Terraform Registry and usable by anyone.
 
 Modules are addressed as `<namespace>/<name>/<provider>`. Submodules use the double slash form `<namespace>/<name>/<provider>//modules/<submodule>`.
 
-Generated 2026-11-26T03:10:11Z.
+Generated 2026-11-27T03:10:27Z.
 
 ## Catalog
 
@@ -32,8 +32,8 @@ Generated 2026-11-26T03:10:11Z.
 - [clouddrove/lambda/aws](https://registry.terraform.io/modules/clouddrove/lambda/aws): Terraform module to create Lambda resource on AWS for create lambda function.
 - [clouddrove/ecr/aws](https://registry.terraform.io/modules/clouddrove/ecr/aws): This terraform module is used to create ECR on AWS.
 - [clouddrove/eks/aws](https://registry.terraform.io/modules/clouddrove/eks/aws): Terraform module will be created Autoscaling, Workers, EKS.
-- [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
 - [clouddrove/cloudwatch-event-rule/aws](https://registry.terraform.io/modules/clouddrove/cloudwatch-event-rule/aws): Terraform module to create cloudwatch event rule on AWS.
+- [clouddrove/route53/aws](https://registry.terraform.io/modules/clouddrove/route53/aws): Terraform module to create Route53 resource on AWS for zone and record set.
 - [clouddrove/elasticsearch/aws](https://registry.terraform.io/modules/clouddrove/elasticsearch/aws): Terraform module to create an Elasticsearch resource on AWS.
 - [clouddrove/keypair/aws](https://registry.terraform.io/modules/clouddrove/keypair/aws): Terraform module for generating or importing an SSH public key file into AWS.
 - [clouddrove/secrets-manager/aws](https://registry.terraform.io/modules/clouddrove/secrets-manager/aws): Terraform module to create Secret Manager resource on AWS for manage our secret variables.
@@ -140,8 +140,10 @@ Generated 2026-11-26T03:10:11Z.
 - [terraform-az-modules/cosmos-db/azurerm](https://registry.terraform.io/modules/terraform-az-modules/cosmos-db/azurerm): This terraform module is designed to create Azure cosmos db resources. Azure Cosmos DB is a fully managed, globally distributed NoSQL database service designed for modern app development, offering turnkey multi-region replication, high availability, and single-digit millisecond latency.
 - [terraform-az-modules/logic-app/azurerm](https://registry.terraform.io/modules/terraform-az-modules/logic-app/azurerm): Terraform module for logic-app
 - [terraform-az-modules/bastion/azurerm](https://registry.terraform.io/modules/terraform-az-modules/bastion/azurerm): Terraform module for bastion
+- [terraform-azurerm-alerting](https://github.com/terraform-az-modules/terraform-azurerm-alerting): Terraform module for alerting [not yet on the Terraform Registry]
 - [terraform-azurerm-api-management](https://github.com/terraform-az-modules/terraform-azurerm-api-management): Terraform module for api-management [not yet on the Terraform Registry]
 - [terraform-azurerm-automation-account](https://github.com/terraform-az-modules/terraform-azurerm-automation-account): Terraform module for automation-account [not yet on the Terraform Registry]
+- [terraform-azurerm-azure-relay](https://github.com/terraform-az-modules/terraform-azurerm-azure-relay): Terraform module for azure-relay [not yet on the Terraform Registry]
 - [terraform-azurerm-diagnostic-settings](https://github.com/terraform-az-modules/terraform-azurerm-diagnostic-settings): Terraform module for diagnostic-settings [not yet on the Terraform Registry]
 
 ## Google Cloud
